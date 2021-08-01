@@ -1,29 +1,29 @@
-# Een Mooi Programma
+# Ett vackert program
 
-Processing is een programmeertaal ontwikkeld voor kunstenaars
-en erg geschikt om games en mooie dingen mee te maken.
+Processing är ett programmeringsspråk som utvecklats för artister
+och mycket lämplig för att göra spel och vackra saker.
 
-In deze les gaan we leren 
+I den här lektionen lär vi oss
 
- * hoe we Processing opstarten
- * hoe je code naar Processing kopieert
- * hoe je het programma start
+ * hur vi börjar bearbeta
+ * hur man kopierar kod till Processing
+ * hur man startar programmet
 
-Zo ziet het programma eruit:
+Så här ser programmet ut:
 
-![EenMooiProgramma](EenMooiProgramma.png)
-
-\pagebreak
-
-## Een mooi programma: intro
-
-Processing begint met een leeg programma zonder code:
-
-![Processing zonder code](Processing.png)
+![Ett vackert program](ett_vackert_program.png)
 
 \pagebreak
 
-Dit is de programmeercode die we gaan gebruiken:
+## Ett trevligt program: intro
+
+Behandlingen börjar med ett tomt program utan kod:
+
+![Processing utan kod](processing_utan_kod.png)
+
+\pagebreak
+
+Detta är programmeringskoden som vi kommer att använda:
 
 ```c++
 void setup()
@@ -40,23 +40,20 @@ void draw()
 }
 ```
 
-Wat de code precies doet, leggen we later uit.
-Voor nu is het genoeg te weten dat het iets moois doet. 
+Vi kommer att förklara exakt vad koden gör senare.
+För nu är det tillräckligt att veta att det gör något vackert.
 
-![Processing met code](ProcessingMetCode.png)
+![Processing med kod](processing_med_kod.png)
 
 \pagebreak
 
-## Een mooi programma: eindopdracht
+## Ett trevligt program: slutuppgift
 
- * Start Processing
- * Run deze code, door op de 'Run' knop te klikken
+ * Börja bearbeta
+ * Kör den här koden genom att klicka på knappen "Run"
 
-![De Run knop](ProcessingRun.png)
+![Run knappen](processing_run.png)
 
-![Sunglasses](EmojiSunglasses.png) | Gelukt? Laat dit zien aan een volwassene voor een sticker!
+![Sunglasses](EmojiSunglasses.png) | Framgång? Visa detta för en vuxen för ett klistermärke!
 :-------------:|:----------------------------------------: 
 
-## Links
-
- * Een Mooi Programma: [YouTube](https://www.youtube.com/watch?v=TW6fIxI-Pl4), [mp4](http://www.richelbilderbeek.nl/een_mooi_programma.mp4)
