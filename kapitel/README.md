@@ -19,9 +19,9 @@ Hfd|Omschrijving
 ---|---------------------------------------------------------------
 .  |**Boek 1**
 1  |[Ett vackert program](./ett_vackert_program/README.md)
-2  |[Bal naar rechts](./BalNaarRechts/README.md)
-3  |[`width` en `height`](./WidthHeight/README.md)
-4  |[`point` en `random`](./PointRandom/README.md)
+2  |[Bollen till höger](./bollen_till_hoeger/README.md)
+3  |[`width` och `height`](./width_och_height/README.md)
+4  |[`point` och `random`](./PointRandom/README.md)
 .  |**Boek 2**
 5  |[`line` en `stroke`](./LineStroke/README.md)
 6  |[Bal die eeuwig rechts gaat](./BalEeuwigNaarRechts/README.md)
