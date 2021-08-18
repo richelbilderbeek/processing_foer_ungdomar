@@ -112,7 +112,7 @@ void draw()
 
 ## Boll till höger: uppgift 3
 
-! [Boll till höger: uppgift 3](boll_till_hoeger_3.png)
+![Boll till höger: uppgift 3](boll_till_hoeger_3.png)
 
 Bollen rör sig nu till höger med en pixelhastighet i taget.
 Låt bollen gå till höger dubbelt så snabbt
@@ -140,7 +140,7 @@ void draw()
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-----------------:|:-----------------------------:
-`x = x + 1;`| 'Kära dator, gör 'x' till en högre.'
+`x = x + 1;`| 'Kära dator, gör `x` till en högre.'
 `x += 1;`   | 'Kära dator, gör `x` en högre.'
 `x++;`      | 'Kära dator, gör `x` en högre.'
 `++x;`      | 'Kära dator, gör `x` en högre.'
@@ -183,7 +183,8 @@ void draw()
 
 ## Boll till höger: uppgift 5
 
-Haha, den här lektionen kallas 'Boll till höger', men vi ska också göra en boll till vänster!
+Haha, den här lektionen kallas 'Boll till höger', 
+men vi ska också göra en boll till vänster!
 
 ![Boll till höger: uppgift 5](boll_till_hoeger_5.png)
 
@@ -225,25 +226,25 @@ På den första raden använder vi en variabel:
 float x = 50;
 ```
 
-I klartext är detta: "Kära dator, kom ihåg talet" x "med ett initialvärde på femtio.".
+I klartext är detta: "Kära dator, kom ihåg talet `x` med ett initialvärde på `50`.".
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-------------------:|:--------------------------------:
-`float x = 50;` | 'Kära dator, kom ihåg talet' x 'med ett initialvärde på femtio.'
+`float x = 50;` | 'Kära dator, kom ihåg talet `x` med ett initialvärde på `50`.'
 
 En variabel är ett datorminne med ett namn.
 Datorn kan använda det namnet för att avgöra var i minnet den ska leta.
 
-! [Datornas minne] (BalNaarRechtsGeheugen.jpg)
+![Datornas minne](boll_till_hoeger_minne.jpg)
   
 Variabler som tillhör dig (och nästan varje människa) är: namn, ålder,
-födelsedatum, adress, telefonnummer, e -postadress och mycket mer.
+födelsedatum, adress, telefonnummer, epostadress och mycket mer.
 Om någon frågar dig i din ålder vet du vilket nummer du ska säga.
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-------------------:|:--------------------------------:
 `pengar` | 'Kära dator, berätta hur mycket pengar jag har på banken.'
-`1000000` |
+`1000000` | 'Jättebra!'
 
 \pagebreak
 
@@ -271,13 +272,14 @@ Semikolon (`;`) anger slutet på en mening (som punkten i en svensk text).
 
 ## Boll till höger: uppgift 6
 
-Haha, den här lektionen kallas "Boll till höger", men vi kommer också att få en boll att röra sig nedåt!
+Haha, den här lektionen kallas "Boll till höger", 
+men vi kommer också att få en boll att röra sig nedåt!
 
 ![Boll till höger: uppgift 6](boll_till_hoeger_6.png)
 
- * Ändra namnet på variabeln 'x' till 'y'
+ * Ändra namnet på variabeln `x` till `y`
  * Starta en boll högst upp på skärmen
- * Bollen måste vara 150 pixlar till höger
+ * Bollen måste vara `150` pixlar till höger
  * Bollen måste gå ner i en rak linje. Tips: bollen är nu 50 pixlar nere
 
 \pagebreak
