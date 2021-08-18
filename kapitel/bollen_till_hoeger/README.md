@@ -106,7 +106,7 @@ void draw()
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :----------------------:|:--------------------------------------:
-`ellips (x, 50,40,30);` | 'Kära dator, rita en oval' x 'pixlar till höger, 50 pixlar nedåt, vilket är 40 pixlar brett och 30 pixlar högt.'
+`ellips (x, 50,40,30);` | 'Kära dator, rita en oval `x` pixlar till höger, `50` pixlar nedåt, vilket är `40` pixlar brett och `30` pixlar högt.'
 
 \pagebreak
 
