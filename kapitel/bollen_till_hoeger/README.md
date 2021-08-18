@@ -1,17 +1,17 @@
-# Bal naar rechts
+# Boll till höger
 
-In deze les gaan we een bal naar rechts laten bewegen.
+I den här lektionen ska vi göra en boll till höger.
 
-Ook leren in deze les wat een variabele is.
-Je kunt bijna niet programmeren zonder variabelen.
+Lär dig också i denna lektion vad en variabel är.
+Du kan knappt programmera utan variabler.
 
 ![Marble Madness](MarbleMadness.png)
 
 \pagebreak
   
-## Bal naar rechts: intro
+## Boll till höger: intro
 
-Type de volgende code over:
+Ange följande kod:
 
 ```c++
 float x = 60;
@@ -28,29 +28,30 @@ void draw()
 }
 ```
 
-Druk dan op 'Run' (zie figuur `Druk op 'Run'`). 
+Tryck sedan på 'Run'.
 
-Als er rode letters komen, heb je een typefout gemaakt. Kijk goed en verbeter de typefouten.
+Om det finns röda bokstäver har du gjort ett stavfel. 
+Titta noga och rätta stavfel.
 
-Als alles goed gaat, zie je een bal die naar rechts beweegt (zie figuur `Bal naar rechts: intro`).
+Om allt går bra ser du en boll som rör sig till höger (se figur `Boll till höger: intro`).
 
-![Bal naar rechts: intro](BalNaarRechts_Intro.png)
-
-\pagebreak
-
-## Bal naar rechts: opdracht 1
-
-![Bal naar rechts: opdracht 1](BalNaarRechts_1.png)
-
-Het scherm is nu 250 pixels breed. Maak deze nu 300 pixels breed. 
-
-Verander de code en druk op 'Run'.
+![Boll till höger: intro](boll_till_hoeger_intro.png)
 
 \pagebreak
 
-## Bal naar rechts: oplossing 1
+## Boll till höger: uppgift 1
 
-Er zit een `250` in de code. Deze naar `300` veranderen is genoeg:
+![Boll till höger: uppgift 1](boll_till_hoeger_1.png)
+
+Skärmen är nu 250 pixlar bred. Gör den nu 300 pixlar bred.
+
+Ändra koden och tryck på "Run".
+
+\pagebreak
+
+## Boll till höger: lösning 1
+
+Det finns en "250" i koden. Det räcker med att ändra detta till 300:
 
 ```c++
 float x = 60;
@@ -67,26 +68,26 @@ void draw()
 }
 ```
 
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
-`size(300, 200);`|'Lieve computer, maak een venster van 300 pixels breed en 200 pixels hoog.'
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:-----------------:|:-----------------------------:
+`size(300, 200);`  | 'Kära dator, skapa ett fönster 300 pixlar brett och 200 pixlar högt.'
 
 \pagebreak
 
-## Bal naar rechts: opdracht 2
+## Boll till höger: uppgift 2
 
-![Bal naar rechts: opdracht 2](BalNaarRechts_2.png)
+![Boll till höger: uppgift 2](boll_till_hoeger_2.png)
 
-De bal is nu ei-vorming: hij is nu 40 pixels breed en 30 pixels hoog. 
-Maak de bal nu rond: 40 pixels breed en 40 pixels hoog.
+Bollen är nu äggformad: den är nu 40 pixlar bred och 30 pixlar hög.
+Gör nu bollen rund: 40 pixlar bred och 40 pixlar hög.
 
 \pagebreak
 
-## Bal naar rechts: oplossing 2
+## Boll till höger: lösning 2
 
-`ellipse(x, 50, 40, 30);` tekent de bal. 
-De `40, 30` zorgt ervoor dat de bal eiv-ormig is. 
-Door dit `40, 40` te maken, wordt de bal rond.
+`ellips (x, 50, 40, 30);` drar bollen.
+`40, 30` gör bollen äggformad.
+Att göra denna till `40, 40` gör bollen rund.
 
 ```c++
 float x = 60;
@@ -103,24 +104,24 @@ void draw()
 }
 ```
 
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
-`ellipse(x,50,40,30);`|'Lieve computer, teken een ovaal `x` pixels naar rechts, 50 pixels omlaag, die 40 pixels wijd en 30 pixels hoog is.'
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:----------------------:|:--------------------------------------:
+`ellips (x, 50,40,30);` | 'Kära dator, rita en oval' x 'pixlar till höger, 50 pixlar nedåt, vilket är 40 pixlar brett och 30 pixlar högt.'
 
 \pagebreak
 
-## Bal naar rechts: opdracht 3
+## Boll till höger: uppgift 3
 
-![Bal naar rechts: opdracht 3](BalNaarRechts_3.png)
+! [Boll till höger: uppgift 3](boll_till_hoeger_3.png)
 
-De bal gaat nu met een snelheid van 1 pixel per keer naar rechts. 
-Laat de bal twee keer zo snel naar rechts gaan
+Bollen rör sig nu till höger med en pixelhastighet i taget.
+Låt bollen gå till höger dubbelt så snabbt
 
 \pagebreak
 
-## Bal naar rechts: oplossing 3
+## Boll till höger: lösning 3
 
-`x = x + 1;` beweegt de bal. Verander dit naar `x = x + 2;`. De code wordt dan:
+`x = x + 1;` flyttar bollen. Ändra detta till `x = x + 2;`. Koden blir då:
 
 ```c++
 float x = 60;
@@ -137,27 +138,27 @@ void draw()
 }
 ```
 
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
-`x = x + 1;`|'Lieve computer, maak `x` een hoger.'
-`x += 1;`|'Lieve computer, maak `x` een hoger.'
-`x++;`|'Lieve computer, maak `x` een hoger.'
-`++x;`|'Lieve computer, maak `x` een hoger.'
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:-----------------:|:-----------------------------:
+`x = x + 1;`| 'Kära dator, gör 'x' till en högre.'
+`x += 1;`   | 'Kära dator, gör `x` en högre.'
+`x++;`      | 'Kära dator, gör `x` en högre.'
+`++x;`      | 'Kära dator, gör `x` en högre.'
 
 \pagebreak
 
-## Bal naar rechts: opdracht 4
+## Boll till höger: uppgift 4
 
-![Bal naar rechts: opdracht 4](BalNaarRechts_4.png)
+![Boll till höger: uppgift 4](boll_till_hoeger_4.png)
 
-In het begin zit het midden van de bal 60 pixels naar rechts. 
-Kun je de cirkel ook 0 pixels naar rechts laten beginnen?
+I början är bollens mitt 60 pixlar till höger.
+Kan du också få cirkeln att börja 0 pixlar till höger?
 
 \pagebreak
 
-## Bal naar rechts: oplossing 4
+## Boll till höger: lösning 4
 
-`float x = 60;` bepaalt dit. Verander dit naar `float x = 0;`. De code wordt dan:
+`float x = 60;` bestämmer detta. Ändra detta till `float x = 0;`. Koden blir då:
 
 ```c++
 float x = 0;
@@ -174,27 +175,26 @@ void draw()
 }
 ```
 
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
-`void setup() { }`|'Lieve computer, doe wat tussen accolades staat een keer.'
-
-
-\pagebreak
-
-## Bal naar rechts: opdracht 5
-
-Haha, deze les heet 'Bal naar rechts', toch gaan we ook een bal naar links laten bewegen!
-
-![Bal naar rechts: opdracht 5](BalNaarRechts_5.png)
-
-Laat de bal nu aan de rechterkant van het scherm beginnen en naar links gaan.
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:------------------:|:--------------------------------:
+`void setup () {}` | 'Kära dator, gör vad som helst inom lockiga parenteser.'
 
 \pagebreak
 
-## Bal naar rechts: oplossing 5
+## Boll till höger: uppgift 5
 
-Om de bal aan de rechtkant te krijgen moet je `float x = 500;` gebruiken (of een ander hoog getal).
-Om de bal naar links te laten bewegen, moet je `x = x - 1;` gebruiken. De code wordt dan:
+Haha, den här lektionen kallas 'Boll till höger', men vi ska också göra en boll till vänster!
+
+![Boll till höger: uppgift 5](boll_till_hoeger_5.png)
+
+Låt nu bollen börja på höger sida av skärmen och flytta till vänster.
+
+\pagebreak
+
+## Boll till höger: lösning 5
+
+För att få bollen till höger måste du använda `float x = 500;` (eller något annat högt tal).
+För att få bollen att gå åt vänster måste du använda `x = x - 1;`. Koden blir då:
 
 ```c++
 float x = 200;
@@ -211,78 +211,78 @@ void draw()
 }
 ```
 
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
-`void draw() { }`|'Lieve computer, doe de hele tijd wat tussen accolades staat.'
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:------------------:|:--------------------------------:
+`void draw () {}` | 'Kära dator, gör vad som helst inom lockiga parenteser hela tiden.'
 
 \pagebreak
 
-## Bal naar rechts: wat is een variabele?
+## Boll till höger: vad är en variabel?
 
-In de eerste regel gebruiken we een variabele:
+På den första raden använder vi en variabel:
 
 ```c++
 float x = 50;
 ```
 
-In mensentaal is dit: 'Lieve computer, onthoud het getal `x` met een beginwaarde van vijftig.'.
+I klartext är detta: "Kära dator, kom ihåg talet" x "med ett initialvärde på femtio.".
 
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
-`float x = 50;`|'Lieve computer, onthoud het getal `x` met een beginwaarde van vijftig.'
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:-------------------:|:--------------------------------:
+`float x = 50;` | 'Kära dator, kom ihåg talet' x 'med ett initialvärde på femtio.'
 
-Een variabele is een stukje computergeheugen met een naam. 
-De computer kan aan die naam bepalen waar in het geheugen hij moet kijken.
+En variabel är ett datorminne med ett namn.
+Datorn kan använda det namnet för att avgöra var i minnet den ska leta.
 
-![Het geheugen van een computer](BalNaarRechtsGeheugen.jpg)
+! [Datornas minne] (BalNaarRechtsGeheugen.jpg)
   
-Variabelen die bij jou (en bijna elk mens) horen, zijn: naam, leeftijd, 
-geboortedatum, adres, telefoonnummer, emailadres, en nog veel meer. 
-Als iemand je je leeftijd vraagt, dan weet je welk getal je moet zeggen.
+Variabler som tillhör dig (och nästan varje människa) är: namn, ålder,
+födelsedatum, adress, telefonnummer, e -postadress och mycket mer.
+Om någon frågar dig i din ålder vet du vilket nummer du ska säga.
 
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
-`geld`|'Lieve computer, zeg hoeveel geld ik op de bank heb.'
-`1000000`|
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:-------------------:|:--------------------------------:
+`pengar` | 'Kära dator, berätta hur mycket pengar jag har på banken.'
+`1000000` |
 
 \pagebreak
 
-Terug naar de eerste regel van onze code:
+Tillbaka till den första raden i vår kod:
 
 ```c++
 float x = 50;
 ```
 
-Het woord `x` is de naam van een variable. In dit geval van hoe ver de cirkel naar rechts staat.
-Het woord `float` betekent dat 'x' een (komma)getal is.
-Het symbool `=` betekent 'wordt vanaf nu'.
-Het getal `50` is de beginwaarde.
-De puntkomma (`;`) geeft het einde van een zin aan (zoals de punt in een Nederlandse tekst).
+Ordet `x` är namnet på en variabel. I det här fallet hur långt cirkeln är till höger.
+Ordet `float` betyder att `x` är ett (komma) tal.
+Symbolen `=` betyder 'kommer att vara från och med nu'.
+Talet `50` är det initiala värdet.
+Semikolon (`;`) anger slutet på en mening (som punkten i en svensk text).
 
-![Uitleg van `float x = 50;`](BalNaarRechtsVariabele.png)
+![Förklaring av `float x = 50;`](boll_till_hoeger_variabel.png)
 
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
-`float`|'Een komma getal'
-`=`|'is vanaf nu'
-`;`|'.'
-
-\pagebreak
-
-## Bal naar rechts: opdracht 6
-
-Haha, deze les heet 'Bal naar rechts', toch gaan we ook een bal naar onder laten bewegen!
-
-![Bal naar rechts: opdracht 6](BalNaarRechts_6.png)
-
- * Verander de naam van de variabele `x` in `y`
- * Laat een bal aan de bovenkant van het scherm beginnen
- * De bal moet 150 pixels naar rechts komen te staan
- * De bal moet in een rechte lijn naar onder gaan. Tip: de bal staat nu op 50 pixels omlaag
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:-------------------:|:--------------------------------:
+`float` | 'Ett kommatal'
+`=`     | 'är från och med nu'
+`;`     | '.'
 
 \pagebreak
 
-## Bal naar rechts: oplossing 6
+## Boll till höger: uppgift 6
+
+Haha, den här lektionen kallas "Boll till höger", men vi kommer också att få en boll att röra sig nedåt!
+
+![Boll till höger: uppgift 6](boll_till_hoeger_6.png)
+
+ * Ändra namnet på variabeln 'x' till 'y'
+ * Starta en boll högst upp på skärmen
+ * Bollen måste vara 150 pixlar till höger
+ * Bollen måste gå ner i en rak linje. Tips: bollen är nu 50 pixlar nere
+
+\pagebreak
+
+## Boll till höger: lösning 6
 
 ```c++
 float y = 0;
@@ -301,19 +301,19 @@ void draw()
 
 \pagebreak
 
-## Bal naar rechts: opdracht 7
+## Boll till höger: uppgift 7
 
-![Bal naar rechts: opdracht 7](BalNaarRechts_7.png)
+! [Boll till höger: uppgift 7](boll_till_hoeger_7.png)
 
-Nu gaan we de bal sneller en omhoog laten bewegen
+Nu ska vi få bollen att röra sig snabbare och uppåt
 
- * Laat een bal aan de onderkant van het scherm beginnen
- * De bal moet in een rechte lijn naar boven gaan
- * De bal moet twee keer zo snel gaan
+ * Starta en boll längst ner på skärmen
+ * Bollen måste gå upp i en rak linje
+ * Bollen måste gå dubbelt så snabbt
 
 \pagebreak
 
-## Bal naar rechts: oplossing 7
+## Boll till höger: lösning 7
 
 ```c++
 float y = 200;
@@ -332,16 +332,11 @@ void draw()
 
 \pagebreak
 
-## Bal naar rechts: eindopdracht
+## Boll till höger: slutuppgift
 
-![Bal naar rechts: eindopdracht](BalNaarRechts_Eindopdracht.png)
+![Boll till höger: slutuppgift](boll_till_hoeger_slutuppgift.png)
 
- * de bal moet schuin naar rechts-omlaag gaan
- * de bal moet groter worden in de breedte en hoogte
- * zie ook figuur `Eindopdracht 'Bal naar rechts'`
+ * bollen måste gå diagonalt till höger-ner
+ * bollen måste öka i bredd och höjd
+ * se även figur `slutuppgift 'Boll till höger'`
 
-## Bal naar rechts: links (naar websites)
-
- * Eerste gedeelte: [YouTube](https://www.youtube.com/watch?v=fZDsZgqxBM0) [mp4](http://www.richelbilderbeek.nl/bal_naar_rechts_1.mp4)
- * Wat is een variabele: [YouTube](https://youtu.be/3cXH3LrBGrA), [mp4](http://www.richelbilderbeek.nl/bal_naar_rechts_variabele.mp4)
- * Tweede gedeelte: [YouTube](https://youtu.be/KxtQ00ugBvw), [mp4](http://www.richelbilderbeek.nl/bal_naar_rechts_2.mp4)
