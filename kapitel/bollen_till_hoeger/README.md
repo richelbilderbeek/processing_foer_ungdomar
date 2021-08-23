@@ -303,7 +303,7 @@ void draw()
 
 ## Boll till höger: uppgift 7
 
-! [Boll till höger: uppgift 7](boll_till_hoeger_7.png)
+![Boll till höger: uppgift 7](boll_till_hoeger_7.png)
 
 Nu ska vi få bollen att röra sig snabbare och uppåt
 
