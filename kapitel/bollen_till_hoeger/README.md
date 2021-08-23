@@ -177,7 +177,7 @@ void draw()
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :------------------:|:--------------------------------:
-`void setup () {}` | 'Kära dator, gör vad som helst inom lockiga parenteser.'
+`void setup () {}` | 'Kära dator, gör vad som helst inom lockiga parenteser .'
 
 \pagebreak
 
@@ -226,16 +226,14 @@ På den första raden använder vi en variabel:
 float x = 50;
 ```
 
-I klartext är detta: "Kära dator, kom ihåg talet `x` med ett initialvärde på `50`.".
+I klartext är detta: "Kära dator, kom ihåg talet `x` med ett börjanvärde på `50`.".
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-------------------:|:--------------------------------:
-`float x = 50;` | 'Kära dator, kom ihåg talet `x` med ett initialvärde på `50`.'
+`float x = 50;` | 'Kära dator, kom ihåg talet `x` med ett börjanvärde på `50`.'
 
 En variabel är ett datorminne med ett namn.
 Datorn kan använda det namnet för att avgöra var i minnet den ska leta.
-
-![Datornas minne](boll_till_hoeger_minne.jpg)
   
 Variabler som tillhör dig (och nästan varje människa) är: namn, ålder,
 födelsedatum, adress, telefonnummer, epostadress och mycket mer.
@@ -264,9 +262,9 @@ Semikolon (`;`) anger slutet på en mening (som punkten i en svensk text).
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-------------------:|:--------------------------------:
-`float` | 'Ett kommatal'
-`=`     | 'är från och med nu'
-`;`     | '.'
+`float` | 'ett kommatal'
+`=`     | 'ska bli nu'
+`;`     | 'sluten av meningen'
 
 \pagebreak
 
