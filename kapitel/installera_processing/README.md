@@ -1,5 +1,7 @@
 # Installera Processing
 
+ * Video: [YouTube](https://youtu.be/ypGIai7NOi8) [ladda ner (.ogv)](https://richelbilderbeek.nl/installera_processing.ogv)
+
 Här är de stegs för att installera Processing:
 
   1. I webbläsare, söker på 'Download Processing'
@@ -15,6 +17,7 @@ Här är de stegs för att installera Processing:
   11. Bonus: gör an fillänk och flytt länken på skrivbord
 
 Undra här finns det samma stegs med mer detaljer.
+
 
 ## 1. I webbläsare, söker på 'Download Processing'
 
