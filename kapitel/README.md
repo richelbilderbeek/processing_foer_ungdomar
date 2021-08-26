@@ -1,17 +1,10 @@
-# Lessen
+# Kapitel
 
-Dit zijn de Processing lessen
-
-## Programmeren
-
+Ditta är alla kapitel av Processing lektionen.
 
 ## Processing
 
- * Processing installeren [YouTube](https://youtu.be/iUIJjxgKBk8) [ogv](http://richelbilderbeek.nl/processing_installeren.ogv)
- * [Processing opstarten op cursus laptop](./ProcessingOpstartenOpCursusLaptop/README.md)
- * [Processing installeren op Linux](./ProcessingInstallerenOpLinux/README.md)
- * [Processing installeren op Windows](./ProcessingInstallerenOpWindows/README.md)
- * [Opslaan en laden](./OpslaanEnLaden/README.md)
+ * [Installera Processing](installera_processing/README.md)
 
 ### Lektionskort 1: Graphics
 
