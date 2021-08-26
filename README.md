@@ -2,8 +2,9 @@
 
 Kurs 'Processing för unga tonåringar'.
 
- * [kapitel](kapitel/README.md): ensama kapitel
- * [vängliga frågor](faq.md): vängliga frågor
+ * [Installera Processing](kapitel/installera_processing/README.md)
+ * [Kapitel](kapitel/README.md): ensama kapitel
+ * [Vängliga frågor](faq.md): vängliga frågor
 
 ## Licens
 
