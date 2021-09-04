@@ -133,7 +133,7 @@ void draw()
 ![`width` och `height`: kommando 4](width_och_height_4.png)
 
 Skapa en andra cirkel centrerad i det övre högra hörnet.
-Använd "bredd" och/eller "höjd".
+Använd `width` och/eller `height`.
 
 \pagebreak
 
@@ -184,4 +184,5 @@ void draw()
  * Gör fönstret 300 pixlar brett och 200 pixlar högt
  * Gör en fjärde cirkel centrerad i nedre högra hörnet
  * Gör en femte cirkel som är i mitten och är dubbelt så liten
+ * Använd `width` och/eller `height` (ingen `100`, `150`,`200` eller `300`!)
 
