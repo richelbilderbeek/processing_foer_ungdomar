@@ -39,8 +39,8 @@ void draw()
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-----:|:--------------------------------------------:
-`punkt (150, 100);` | 'Kära dator, rita en prick på pixeln som är tvåhundra pixlar till höger och hundra femtio pixlar nedåt'
-`punkt (150, 100);` | 'Kära dator, rita en prick på koordinat' (150, 100) ''
+`point(150, 100);` | 'Kära dator, rita en prick på pixeln som är tvåhundra pixlar till höger och hundra femtio pixlar nedåt'
+`point(150, 100);` | 'Kära dator, rita en prick på koordinat' (150, 100) ''
 
 ## `point` och `random`: lösning 1
 
@@ -72,7 +72,7 @@ void draw()
 ## `point` och `random`: uppgift 3
 
 Den första pixeln är exakt i mitten. Med andra ord, halva bredden på fönstret och
-på halva skärmens höjd. Ändra 'punkt (150,100);' till något med 'bredd' och 'höjd'.
+på halva skärmens höjd. Ändra `point(150,100);' till något med 'bredd' och 'höjd'.
 
 ## `point` och `random`: lösning 3
 
@@ -100,7 +100,7 @@ Den andra pixeln är
   * på halva fönstret
   * på en fjärdedel av skärmens höjd
 
-Ändra 'punkt (150, 50);' till något med 'bredd' och 'höjd'.
+Ändra `point(150, 50);' till något med 'bredd' och 'höjd'.
 
 ## `point` och `random`: lösning 4
 
@@ -148,8 +148,8 @@ void draw()
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-----------------:|:----------------------------- :
-`punkt (0,0);` | 'Kära dator, rita en prick i det övre vänstra hörnet'
-`punkt (0,0);` | 'Kära dator, rita en prick på koordinat' (0, 0) ''
+`point(0,0);` | 'Kära dator, rita en prick i det övre vänstra hörnet'
+`point(0,0);` | 'Kära dator, rita en prick på koordinat' (0, 0) ''
 
 \pagebreak
 
@@ -158,7 +158,7 @@ void draw()
 ![`point` och `random`: uppgift 6](point_och_random_6.png)
 
 Rita en ny pixel, längst upp till höger på skärmen.
-Använd `bredd - 1 'som det första talet inom parentes för` punkt`.
+Använd `bredd - 1 'som det första talet inom parentes för `point`.
 
 ## `point` och `random`: lösning 6
 
