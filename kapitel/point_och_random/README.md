@@ -2,7 +2,7 @@
 
 I den här lektionen lär vi oss
 
- * vilka pixlar är
+ * vad pixlar är
  * hur pixlarna sitter på en skärm
  * hur man ritar prickar
  * hur man gör slumpmässiga saker
@@ -39,8 +39,8 @@ void draw()
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-----:|:--------------------------------------------:
-`point(150, 100);` | 'Kära dator, rita en prick på pixeln som är tvåhundra pixlar till höger och hundra femtio pixlar nedåt'
-`point(150, 100);` | 'Kära dator, rita en prick på koordinat' (150, 100) ''
+`point(150, 100);` | 'Kära dator, rita en prick på pixeln som är `150` pixlar till höger och `100` pixlar nedåt'
+`point(150, 100);` | 'Kära dator, rita en prick på koordinat `(150, 100)`'
 
 ## `point` och `random`: lösning 1
 
@@ -72,7 +72,7 @@ void draw()
 ## `point` och `random`: uppgift 3
 
 Den första pixeln är exakt i mitten. Med andra ord, halva bredden på fönstret och
-på halva skärmens höjd. Ändra `point(150,100);' till något med 'bredd' och 'höjd'.
+på halva skärmens höjd. Ändra `point(150,100);` till något med `width` och `height`.
 
 ## `point` och `random`: lösning 3
 
@@ -91,7 +91,7 @@ void draw()
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-----------------:|:----------------------------- :
-`width / 2` | 'Dear computer, ange här bredden på fönstret, dividerat med två'
+`width / 2` | 'Kära dator, ange här bredden på fönstret, dividerat med två'
 
 ## `point` och `random`: uppgift 4
 
@@ -100,7 +100,7 @@ Den andra pixeln är
   * på halva fönstret
   * på en fjärdedel av skärmens höjd
 
-Ändra `point(150, 50);' till något med 'bredd' och 'höjd'.
+Ändra `point(150, 50);` till något med `width` och `height`.
 
 ## `point` och `random`: lösning 4
 
@@ -119,7 +119,7 @@ void draw()
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-----------------:|:----------------------------- :
-`höjd / 4` | 'Kära dator, ange här fönstrets höjd, dividerat med fyra'
+`höjd / 4` | 'Kära dator, ange här fönstrets höjd, dividerat med `4`'
 
 
 ## `point` och `random`: uppgift 5
@@ -149,7 +149,7 @@ void draw()
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-----------------:|:----------------------------- :
 `point(0,0);` | 'Kära dator, rita en prick i det övre vänstra hörnet'
-`point(0,0);` | 'Kära dator, rita en prick på koordinat' (0, 0) ''
+`point(0,0);` | 'Kära dator, rita en prick på koordinat `(0, 0)`'
 
 \pagebreak
 
@@ -158,7 +158,7 @@ void draw()
 ![`point` och `random`: uppgift 6](point_och_random_6.png)
 
 Rita en ny pixel, längst upp till höger på skärmen.
-Använd `bredd - 1 'som det första talet inom parentes för `point`.
+Använd `width - 1 'som det första talet inom parentes för `point`.
 
 ## `point` och `random`: lösning 6
 
@@ -181,7 +181,8 @@ void draw()
 
 ![`point` och `random`: uppgift 7](point_och_random_7.png)
 
-Rita två pixlar i de nedre två hörnen. Använd 'bredd - 1' och 'höjd - 1' på rätt ställen.
+Rita två pixlar i de nedre två hörnen. 
+Använd `width - 1` och `height - 1` på rätt ställen.
 
 \pagebreak
 
@@ -232,7 +233,7 @@ Du ser att prickar dras på slumpmässiga platser, men alltid på samma höjd.
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-----------------:|:----------------------------- :
-`random (300)` | 'Kära dator, välj ett slumpmässigt tal från noll till tre hundra'
+`random(300)` | 'Kära dator, välj ett slumpmässigt tal från noll till `300`'
 
 ## `point` och `random`: uppgift 9
 
@@ -250,7 +251,7 @@ void draw()
 }
 ```
 
-## `point` och `random`: final command
+## `point` och `random`: slutuppgift
 
 ![Slutuppgift](point_och_random_slutuppgift.png)
 
