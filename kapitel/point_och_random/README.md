@@ -25,17 +25,17 @@ Du kan se det bra med gamla spel: de har färre pixlar:
 
 Kör följande kod:
 
-`` c ++
-void setup ()
+```c++
+void setup()
 {
-  storlek (300, 200);
+  size(300, 200);
 }
 
-void draw ()
+void draw()
 {
-  punkt (150, 100);
+  point(150, 100);
 }
-''
+```
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 : -----: |: ---------------------------------- ------- ---:
@@ -46,7 +46,7 @@ void draw ()
 
 !['punkt' och 'slumpmässig': lösning 1](point_och_random_1.png)
 
-\sidbrytning
+\pagebreak
 
 ## `point` och `random`: uppgift 2
 
@@ -56,18 +56,18 @@ Rita en andra prick mellan den första och den övre delen av fönstret.
 
 ## `point` och `random`: lösning 2
 
-`` c ++
-void setup ()
+```c++
+void setup()
 {
-  storlek (300, 200);
+  size(300, 200);
 }
 
-void draw ()
+void draw()
 {
-  punkt (150, 100);
-  punkt (150, 50);
+  point(150, 100);
+  point(150, 50);
 }
-''
+```
 
 ## `point` och `random`: uppgift 3
 
@@ -76,18 +76,18 @@ på halva skärmens höjd. Ändra 'punkt (150,100);' till något med 'bredd' och
 
 ## `point` och `random`: lösning 3
 
-`` c ++
-void setup ()
+```c++
+void setup()
 {
-  storlek (300, 200);
+  size(300, 200);
 }
 
-void draw ()
+void draw()
 {
-  punkt (bredd / 2, höjd / 2);
-  punkt (150, 50);
+  point(width / 2, height / 2);
+  point(150, 50);
 }
-''
+```
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 : -----------------: |: ---------------------- ------- :
@@ -104,18 +104,18 @@ Den andra pixeln är
 
 ## `point` och `random`: lösning 4
 
-`` c ++
-void setup ()
+```c++
+void setup()
 {
-  storlek (300, 200);
+  size(300, 200);
 }
 
-void draw ()
+void draw()
 {
-  punkt (bredd / 2, höjd / 2);
-  punkt (bredd / 2, höjd / 4);
+  point(width / 2, height / 2);
+  point(width / 2, height / 4);
 }
-''
+```
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 : -----------------: |: ---------------------- ------- :
@@ -128,30 +128,30 @@ void draw ()
 
 Rita en ny pixel i skärmens övre vänstra hörn.
 
-\sidbrytning
+\pagebreak
 
 ## `point` och `random`: lösning 5
 
-`` c ++
-void setup ()
+```c++
+void setup()
 {
-  storlek (300, 200);
+  size(300, 200);
 }
 
-void draw ()
+void draw()
 {
-  punkt (bredd / 2, höjd / 2);
-  punkt (bredd / 2, höjd / 4);
-  punkt (0, 0);
+  point(width / 2, height / 2);
+  point(width / 2, height / 4);
+  point(0, 0);
 }
-''
+```
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 : -----------------: |: ---------------------- ------- :
 `punkt (0,0);` | 'Kära dator, rita en prick i det övre vänstra hörnet'
 `punkt (0,0);` | 'Kära dator, rita en prick på koordinat' (0, 0) ''
 
-\sidbrytning
+\pagebreak
 
 ## `point` och `random`: uppgift 6
 
@@ -162,20 +162,20 @@ Använd `bredd - 1 'som det första talet inom parentes för` punkt`.
 
 ## `point` och `random`: lösning 6
 
-`` c ++
-void setup ()
+```c++
+void setup()
 {
-  storlek (300, 200);
+  size(300, 200);
 }
 
-void draw ()
+void draw()
 {
-  punkt (bredd / 2, höjd / 2);
-  punkt (bredd / 2, höjd / 4);
-  punkt (0, 0);
-  punkt (bredd - 1, 0);
+  point(width / 2, height / 2);
+  point(width / 2, height / 4);
+  point(0, 0);
+  point(width - 1, 0);
 }
-''
+``` 
 
 ## `point` och `random`: uppgift 7
 
@@ -183,46 +183,46 @@ void draw ()
 
 Rita två pixlar i de nedre två hörnen. Använd 'bredd - 1' och 'höjd - 1' på rätt ställen.
 
-\sidbrytning
+\pagebreak
 
 ## `point` och `random`: lösning 7
 
-`` c ++
-void setup ()
+```c++
+void setup()
 {
-  storlek (300, 200);
+  size(300, 200);
 }
 
-void draw ()
+void draw()
 {
-  punkt (bredd / 2, höjd / 2);
-  punkt (bredd / 2, höjd / 4);
-  punkt (0, 0);
-  punkt (bredd - 1, 0);
-  punkt (0, höjd - 1);
-  punkt (bredd - 1, höjd - 1);
+  point(width / 2, height / 2);
+  point(width / 2, height / 4);
+  point(0, 0);
+  point(width - 1, 0);
+  point(0, height - 1);
+  point(width - 1, height - 1);
 }
-''
+```
 
 ## `point` och `random`: uppgift 8
 
 Kör den här koden:
 
-`` c ++
-void setup ()
+```c++
+void setup()
 {
-  storlek (300, 200);
+  size(300, 200);
 }
 
-void draw ()
+void draw()
 {
-  punkt (slumpmässig (300), 100);
+  point(random(300), 100);
 }
-''
+```
 
 Vad ser du?
 
-\sidbrytning
+\pagebreak
 
 ## `point` och `random`: lösning 8
 
@@ -234,33 +234,21 @@ Du ser att prickar dras på slumpmässiga platser, men alltid på samma höjd.
 : -----------------: |: ---------------------- ------- :
 `random (300)` | 'Kära dator, välj ett slumpmässigt tal från noll till tre hundra'
 
-
-
-Translation types
-Text translation
-Source text
-674 / 5000
-Translation results
 ## `point` och `random`: uppgift 9
 
 !['punkt' och 'slumpmässig': uppgift 9](point_och_random_9.png)
 
-Gör fönstret 400 pixlar brett och 100 pixlar högt. Istället för 'slumpmässig (300)', använd något med 'slumpmässig' och 'bredd'.
-Håll raden med punkter på hälften av skärmens höjd.
-
-## `point` och `random`: lösning 9
-
-`` c ++
-void setup ()
+```c++
+void setup()
 {
-   storlek (400, 100);
+  size(400, 100);
 }
 
-void draw ()
+void draw()
 {
-   punkt (slumpmässig (bredd), höjd / 2);
+  point(random(width), height / 2);
 }
-''
+```
 
 ## `point` och` random ': final command
 
