@@ -1,269 +1,270 @@
-# `point` en `random`
+# `point` och `random`
 
-In deze les gaan we leren 
+I den här lektionen lär vi oss
 
- * wat pixels zijn
- * hoe de pixels op een beeldscherm zitten
- * hoe je puntjes tekent
- * hoe je willekeurige dingen doet
+ * vilka pixlar är
+ * hur pixlarna sitter på en skärm
+ * hur man ritar prickar
+ * hur man gör slumpmässiga saker
 
-![Eindopdracht](PointEindopdracht.png)
+![Slutuppgift](PointFinal -uppgift.png)
 
+## `point` och` random ': intro
 
-## `point` en `random`: intro
+Pixlar är rutorna som utgör din skärm.
 
-Pixels zijn de vierkantjes waaruit je beeldscherm is opgebouwd.
+![Solglasögon](EmojiSunglasses.png) | Pixel = en ruta på skärmen
+: -----------------: |: ---------------------- ------- :
 
-![Sunglasses](EmojiSunglasses.png) | Pixel = een vierkantje op je beeldscherm
-:-------------:|:----------------------------------------: 
-
-Hoe meer pixels je scherm heeft, hoe scherper het beeld eruit ziet.
-Dat zie je goed bij oude games: die hebben minder pixels:
+Ju fler pixlar skärmen har desto skarpare ser bilden ut.
+Du kan se det bra med gamla spel: de har färre pixlar:
 
 ![Super Mario Bros 1](NES_Super_Mario_Bros.png)
 
-## `point` en `random`: opdracht 1
+## `point` och `random`: uppgift 1
 
-Run de volgende code:
+Kör följande kod:
 
-```c++
-void setup()
+`` c ++
+void setup ()
 {
-  size(300, 200);
+  storlek (300, 200);
 }
 
-void draw()
+void draw ()
 {
-  point(150, 100);
+  punkt (150, 100);
 }
-```
+''
 
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:----------------:|:----------------------------------------: 
-`point(150, 100);`|'Lieve computer, teken een puntje op de pixel die tweehonderd pixels naar rechts en honderdvijftig pixels omlaag is'
-`point(150, 100);`|'Lieve computer, teken een puntje op coordinaat `(150, 100)`'
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+: -----: |: ---------------------------------- ------- ---:
+`punkt (150, 100);` | 'Kära dator, rita en prick på pixeln som är tvåhundra pixlar till höger och hundra femtio pixlar nedåt'
+`punkt (150, 100);` | 'Kära dator, rita en prick på koordinat' (150, 100) ''
 
-## `point` en `random`: oplossing 1
+## `point` och `random`: lösning 1
 
-![`point` en `random`: oplossing 1](Point_1.png)
+!['punkt' och 'slumpmässig': lösning 1](point_och_random_1.png)
 
-\pagebreak
+\sidbrytning
 
-## `point` en `random`: opdracht 2
+## `point` och `random`: uppgift 2
 
-![`point` en `random`: opdracht 2](Point_2.png)
+!['punkt' och 'slumpmässig': uppgift 2](point_och_random_2.png)
 
-Teken een tweede puntje tussen de eerste en de bovenkant van het venster.
+Rita en andra prick mellan den första och den övre delen av fönstret.
 
-## `point` en `random`: oplossing 2
+## `point` och `random`: lösning 2
 
-```c++
-void setup()
+`` c ++
+void setup ()
 {
-  size(300, 200);
-}
-
-void draw()
-{
-  point(150, 100);
-  point(150, 50);
-}
-```
-
-## `point` en `random`: opdracht 3
-
-De eerste pixel zit precies in het midden. Oftewel op de helft van de breedte van het venster en
-op de helft van de hoogte van het scherm. Verander `point(150,100);` naar iets met `width` en `height`.
-
-## `point` en `random`: oplossing 3
-
-```c++
-void setup()
-{
-  size(300, 200);
+  storlek (300, 200);
 }
 
-void draw()
+void draw ()
 {
-  point(width / 2, height / 2);
-  point(150, 50);
+  punkt (150, 100);
+  punkt (150, 50);
 }
-```
+''
 
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
-`width / 2`|'Lieve computer, vul hier de breedte van het venster in, gedeeld door twee'
+## `point` och `random`: uppgift 3
 
-## `point` en `random`: opdracht 4
+Den första pixeln är exakt i mitten. Med andra ord, halva bredden på fönstret och
+på halva skärmens höjd. Ändra 'punkt (150,100);' till något med 'bredd' och 'höjd'.
 
-De tweede pixel zit 
+## `point` och `random`: lösning 3
 
-  * op de helft van de breedte van het venster
-  * op een kwart van de hoogte van het scherm
-
-Verander `point(150, 50);` naar iets met `width` en `height`.
-
-## `point` en `random`: oplossing 4
-
-```c++
-void setup()
+`` c ++
+void setup ()
 {
-  size(300, 200);
+  storlek (300, 200);
 }
 
-void draw()
+void draw ()
 {
-  point(width / 2, height / 2);
-  point(width / 2, height / 4);
+  punkt (bredd / 2, höjd / 2);
+  punkt (150, 50);
 }
-```
+''
 
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
-`height / 4`|'Lieve computer, vul hier de hoogte van het venster in, gedeeld door vier'
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+: -----------------: |: ---------------------- ------- :
+`width / 2` | 'Dear computer, ange här bredden på fönstret, dividerat med två'
 
+## `point` och `random`: uppgift 4
 
-## `point` en `random`: opdracht 5
+Den andra pixeln är
 
-![`point` en `random`: opdracht 5](Point_5.png)
+  * på halva fönstret
+  * på en fjärdedel av skärmens höjd
 
-Teken een nieuwe pixel, in de linkerbovenhoek van het scherm. 
+Ändra 'punkt (150, 50);' till något med 'bredd' och 'höjd'.
 
-\pagebreak
+## `point` och `random`: lösning 4
 
-## `point` en `random`: oplossing 5
-
-```c++
-void setup()
+`` c ++
+void setup ()
 {
-  size(300, 200);
-}
-
-void draw()
-{
-  point(width / 2, height / 2);
-  point(width / 2, height / 4);
-  point(0, 0);
-}
-```
-
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
-`point(0,0);`|'Lieve computer, teken een puntje in de linkerbovenhoek'
-`point(0,0);`|'Lieve computer, teken een puntje op coordinaat `(0, 0)`'
-
-\pagebreak
-
-## `point` en `random`: opdracht 6
-
-![`point` en `random`: opdracht 6](Point_6.png)
-
-Teken een nieuwe pixel, in de rechtbovenhoek van het scherm. 
-Gebruik `width - 1` als eerste getal binnen de ronde haakjes van `point`.
-
-## `point` en `random`: oplossing 6
-
-```c++
-void setup()
-{
-  size(300, 200);
+  storlek (300, 200);
 }
 
-void draw()
+void draw ()
 {
-  point(width / 2, height / 2);
-  point(width / 2, height / 4);
-  point(0, 0);
-  point(width - 1, 0);
+  punkt (bredd / 2, höjd / 2);
+  punkt (bredd / 2, höjd / 4);
 }
-``` 
+''
 
-## `point` en `random`: opdracht 7
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+: -----------------: |: ---------------------- ------- :
+`höjd / 4` | 'Kära dator, ange här fönstrets höjd, dividerat med fyra'
 
-![`point` en `random`: opdracht 7](Point_7.png)
 
-Teken twee pixels erbij, in de onderste twee hoeken. Gebruik `width - 1` en `height - 1` op de juiste plekken.
+## `point` och `random`: uppgift 5
 
-\pagebreak
+!['punkt' och 'slumpmässig': uppgift 5](point_och_random_5.png)
 
-## `point` en `random`: oplossing 7
+Rita en ny pixel i skärmens övre vänstra hörn.
 
-```c++
-void setup()
+\sidbrytning
+
+## `point` och `random`: lösning 5
+
+`` c ++
+void setup ()
 {
-  size(300, 200);
-}
-
-void draw()
-{
-  point(width / 2, height / 2);
-  point(width / 2, height / 4);
-  point(0, 0);
-  point(width - 1, 0);
-  point(0, height - 1);
-  point(width - 1, height - 1);
-}
-```
-
-## `point` en `random`: opdracht 8
-
-Run deze code:
-
-```c++
-void setup()
-{
-  size(300, 200);
+  storlek (300, 200);
 }
 
-void draw()
+void draw ()
 {
-  point(random(300), 100);
+  punkt (bredd / 2, höjd / 2);
+  punkt (bredd / 2, höjd / 4);
+  punkt (0, 0);
 }
-```
+''
 
-Wat zie je?
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+: -----------------: |: ---------------------- ------- :
+`punkt (0,0);` | 'Kära dator, rita en prick i det övre vänstra hörnet'
+`punkt (0,0);` | 'Kära dator, rita en prick på koordinat' (0, 0) ''
 
-\pagebreak
+\sidbrytning
 
-## `point` en `random`: oplossing 8
+## `point` och `random`: uppgift 6
 
-![`point` en `random`: oplossing 8](Point_8.png)
+!['punkt' och 'slumpmässig': uppgift 6](point_och_random_6.png)
 
-Je ziet dat er puntjes op willekeurige plekken worden getekend, maar wel altijd op dezelfde hoogte.
+Rita en ny pixel, längst upp till höger på skärmen.
+Använd `bredd - 1 'som det första talet inom parentes för` punkt`.
 
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
-`random(300)`|'Lieve computer, kies een willekeurig getal van nul tot driehonderd'
+## `point` och `random`: lösning 6
 
-## `point` en `random`: opdracht 9
-
-![`point` en `random`: opdracht 9](Point_9.png)
-
-Maak het venster 400 pixels breed en 100 pixels hoog. Gebruik in plaats van `random(300)` iets met `random` en `width`.
-Zorg dat de lijn van puntjes op de halve hoogte van het scherm blijft.
-
-## `point` en `random`: oplossing 9
-
-```c++
-void setup()
+`` c ++
+void setup ()
 {
-  size(400, 100);
+  storlek (300, 200);
 }
 
-void draw()
+void draw ()
 {
-  point(random(width), height / 2);
+  punkt (bredd / 2, höjd / 2);
+  punkt (bredd / 2, höjd / 4);
+  punkt (0, 0);
+  punkt (bredd - 1, 0);
 }
-```
+''
 
-## `point` en `random`: eindopdracht
+## `point` och `random`: uppgift 7
 
-![Eindopdracht](PointEindopdracht.png)
+!['punkt' och 'slumpmässig': uppgift 7](point_och_random_7.png)
 
-Laat de computer willekeurig puntjes tekenen in het hele venster.
+Rita två pixlar i de nedre två hörnen. Använd 'bredd - 1' och 'höjd - 1' på rätt ställen.
 
-## Links
+\sidbrytning
 
- * [YouTube](https://youtu.be/5CUNBJWJdpA) 
- * [mp4](http://www.richelbilderbeek.nl/point_en_random.mp4)
+## `point` och `random`: lösning 7
+
+`` c ++
+void setup ()
+{
+  storlek (300, 200);
+}
+
+void draw ()
+{
+  punkt (bredd / 2, höjd / 2);
+  punkt (bredd / 2, höjd / 4);
+  punkt (0, 0);
+  punkt (bredd - 1, 0);
+  punkt (0, höjd - 1);
+  punkt (bredd - 1, höjd - 1);
+}
+''
+
+## `point` och `random`: uppgift 8
+
+Kör den här koden:
+
+`` c ++
+void setup ()
+{
+  storlek (300, 200);
+}
+
+void draw ()
+{
+  punkt (slumpmässig (300), 100);
+}
+''
+
+Vad ser du?
+
+\sidbrytning
+
+## `point` och `random`: lösning 8
+
+!['punkt' och 'slumpmässig': lösning 8](point_och_random_8.png)
+
+Du ser att prickar dras på slumpmässiga platser, men alltid på samma höjd.
+
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+: -----------------: |: ---------------------- ------- :
+`random (300)` | 'Kära dator, välj ett slumpmässigt tal från noll till tre hundra'
+
+
+
+Translation types
+Text translation
+Source text
+674 / 5000
+Translation results
+## `point` och `random`: uppgift 9
+
+!['punkt' och 'slumpmässig': uppgift 9](point_och_random_9.png)
+
+Gör fönstret 400 pixlar brett och 100 pixlar högt. Istället för 'slumpmässig (300)', använd något med 'slumpmässig' och 'bredd'.
+Håll raden med punkter på hälften av skärmens höjd.
+
+## `point` och `random`: lösning 9
+
+`` c ++
+void setup ()
+{
+   storlek (400, 100);
+}
+
+void draw ()
+{
+   punkt (slumpmässig (bredd), höjd / 2);
+}
+''
+
+## `point` och` random ': final command
+
+![Slutuppgift](PointFinal -uppgift.png)
+
+Låt datorn rita prickar slumpmässigt genom fönstret.
 
