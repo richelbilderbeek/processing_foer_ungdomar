@@ -20,8 +20,8 @@ void draw()
 
 ![Dator](EmojiComputer.png)| ![Smiley](EmojiSmiley.png)
 :---------------------:|:-----------------------------:
-`size(800, 400);`      | 'Kära dator, gör ett fönster 800 pixlar brett och 400 pixlar högt.'
-`ellips (60,50,40,30);`| 'Kära dator, rita en oval "60" pixlar till höger, 50 pixlar nedåt, som är 40 pixlar breda och 30 pixlar höga'
+`size(800, 400);`      | 'Kära dator, gör ett fönster `800` pixlar brett och `400` pixlar högt.'
+`ellips (60,50,40,30);`| 'Kära dator, rita en oval `60` pixlar till höger, `50` pixlar nedåt, som är `40` pixlar breda och `30` pixlar höga'
 
 Skriv in koden ovan och kör den.
 
@@ -50,7 +50,7 @@ void draw()
 ## `width` och `height`
 
 
-'bredd' och 'höjd' är inbyggda i bearbetning,
+`width` och `height` är inbyggda i bearbetning,
 så att ditt program fortfarande fungerar när du ändrar storlek på skärmen.
 
 Nu fungerar våra program bara för en skärm av en viss storlek.
@@ -66,7 +66,7 @@ Om vi ​​vet skärmens bredd och höjd vet vi också vilka siffror som ska va
 ![Vad du vill säga](width_och_height.png)
 
 Bearbetningen känner till skärmens bredd och höjd:
-Skärmens bredd kallas 'bredd' och höjden kallas 'höjd'
+Skärmens bredd kallas `width` och höjden kallas `height`
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-----------------:|:-----------------------------:
@@ -83,10 +83,10 @@ Dessa siffror bestäms när du använder storlek för att definiera storleken p�
 
 Skapa ett program som ritar en oval som fyller skärmen:
 
- * Ändra den första '64' till 'width / 2'
- * Ändra den andra '64' till 'height / 2'
- * Ändra den första `128` till` width`.
- * Ändra den andra `128` till` height`.
+ * Ändra den första `64` till `width / 2`
+ * Ändra den andra `64` till `height / 2`
+ * Ändra den första `128` till `width`
+ * Ändra den andra `128` till `height`
 
 ![Dator](EmojiComputer.png)| ![Smiley](EmojiSmiley.png)
 :-----------------:|:-----------------------------:
