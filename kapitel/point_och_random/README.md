@@ -90,7 +90,7 @@ void draw()
 ```
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-----------------:|:----------------------------- :
+:-----------------:|:-----------------------------:
 `width / 2` | 'Kära dator, ange här bredden på fönstret, dividerat med två'
 
 ## `point` och `random`: uppgift 4
@@ -118,7 +118,7 @@ void draw()
 ```
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-----------------:|:----------------------------- :
+:-----------------:|:-----------------------------:
 `höjd / 4` | 'Kära dator, ange här fönstrets höjd, dividerat med `4`'
 
 
@@ -147,7 +147,7 @@ void draw()
 ```
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-----------------:|:----------------------------- :
+:-----------------:|:-----------------------------:
 `point(0,0);` | 'Kära dator, rita en prick i det övre vänstra hörnet'
 `point(0,0);` | 'Kära dator, rita en prick på koordinat `(0, 0)`'
 
@@ -232,7 +232,7 @@ Vad ser du?
 Du ser att prickar dras på slumpmässiga platser, men alltid på samma höjd.
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-----------------:|:----------------------------- :
+:-----------------:|:-----------------------------:
 `random(300)` | 'Kära dator, välj ett slumpmässigt tal från noll till `300`'
 
 ## `point` och `random`: uppgift 9
