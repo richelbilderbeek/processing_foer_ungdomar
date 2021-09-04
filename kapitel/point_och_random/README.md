@@ -9,7 +9,7 @@ I den här lektionen lär vi oss
 
 ![Slutuppgift](point_och_random_slutuppgift.png)
 
-## `point` och` random ': intro
+## `point` och `random`: intro
 
 Pixlar är rutorna som utgör din skärm.
 
@@ -250,7 +250,7 @@ void draw()
 }
 ```
 
-## `point` och` random ': final command
+## `point` och `random`: final command
 
 ![Slutuppgift](point_och_random_slutuppgift.png)
 
