@@ -7,7 +7,7 @@ I den här lektionen lär vi oss
  * hur man ritar prickar
  * hur man gör slumpmässiga saker
 
-![Slutuppgift](PointFinal -uppgift.png)
+![Slutuppgift](point_och_random_slutuppgift.png)
 
 ## `point` och` random ': intro
 
@@ -44,13 +44,13 @@ void draw()
 
 ## `point` och `random`: lösning 1
 
-!['punkt' och 'slumpmässig': lösning 1](point_och_random_1.png)
+![`point` och `random`: lösning 1](point_och_random_1.png)
 
 \pagebreak
 
 ## `point` och `random`: uppgift 2
 
-!['punkt' och 'slumpmässig': uppgift 2](point_och_random_2.png)
+![`point` och `random`: uppgift 2](point_och_random_2.png)
 
 Rita en andra prick mellan den första och den övre delen av fönstret.
 
@@ -124,7 +124,7 @@ void draw()
 
 ## `point` och `random`: uppgift 5
 
-!['punkt' och 'slumpmässig': uppgift 5](point_och_random_5.png)
+![`point` och `random`: uppgift 5](point_och_random_5.png)
 
 Rita en ny pixel i skärmens övre vänstra hörn.
 
@@ -155,7 +155,7 @@ void draw()
 
 ## `point` och `random`: uppgift 6
 
-!['punkt' och 'slumpmässig': uppgift 6](point_och_random_6.png)
+![`point` och `random`: uppgift 6](point_och_random_6.png)
 
 Rita en ny pixel, längst upp till höger på skärmen.
 Använd `bredd - 1 'som det första talet inom parentes för` punkt`.
@@ -179,7 +179,7 @@ void draw()
 
 ## `point` och `random`: uppgift 7
 
-!['punkt' och 'slumpmässig': uppgift 7](point_och_random_7.png)
+![`point` och `random`: uppgift 7](point_och_random_7.png)
 
 Rita två pixlar i de nedre två hörnen. Använd 'bredd - 1' och 'höjd - 1' på rätt ställen.
 
@@ -226,7 +226,7 @@ Vad ser du?
 
 ## `point` och `random`: lösning 8
 
-!['punkt' och 'slumpmässig': lösning 8](point_och_random_8.png)
+![`point` och `random`: lösning 8](point_och_random_8.png)
 
 Du ser att prickar dras på slumpmässiga platser, men alltid på samma höjd.
 
@@ -236,7 +236,7 @@ Du ser att prickar dras på slumpmässiga platser, men alltid på samma höjd.
 
 ## `point` och `random`: uppgift 9
 
-!['punkt' och 'slumpmässig': uppgift 9](point_och_random_9.png)
+![`point` och `random`: uppgift 9](point_och_random_9.png)
 
 ```c++
 void setup()
@@ -252,7 +252,7 @@ void draw()
 
 ## `point` och` random ': final command
 
-![Slutuppgift](PointFinal -uppgift.png)
+![Slutuppgift](point_och_random_slutuppgift.png)
 
 Låt datorn rita prickar slumpmässigt genom fönstret.
 
