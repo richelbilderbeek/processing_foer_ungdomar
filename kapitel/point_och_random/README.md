@@ -91,7 +91,7 @@ void draw()
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-----------------:|:-----------------------------:
-`width / 2` | 'Kära dator, ange här bredden på fönstret, dividerat med två'
+`width / 2` | 'Kära dator, ange här bredden på fönstret, dividerat med `2`'
 
 ## `point` och `random`: uppgift 4
 
