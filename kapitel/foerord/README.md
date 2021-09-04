@@ -18,7 +18,7 @@ originalversionen på denna webbplats:
 Detta häfte kommer alltid att förbli gratis, fri och öppet.
 
 Det är fortfarande en lite slarvig bok.
-Det finns stafvel och la*youten ä*r in`te all`tid v_ack_er.
+Det finns stafvel och la*youten ä*r in`te all`t**id vack**er.
 Eftersom den här boken finns på en webbplats 
 kan alla som tycker att den här boken är för slarvig göra den mindre slarvig.
 
