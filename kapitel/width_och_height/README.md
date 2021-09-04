@@ -2,7 +2,7 @@
 
 I den här lektionen lär du dig hur användbara 'bredd' och 'höjd' är
 
-! [Gameboy har en skärm på 160 x 144 pixlar] (Gameboy.jpg)
+![Gameboy har en skärm på 160 x 144 pixlar](Gameboy.jpg)
 
 ## `width` en `height`: intro
 
@@ -18,22 +18,22 @@ void draw()
 }
 ```
 
-! [Dator] (EmojiComputer.png) | ! [Smiley] (EmojiSmiley.png)
-: ----------: |: -------------- ---------------:
-`storlek (800, 400);` | 'Kära dator, gör ett fönster 800 pixlar brett och 400 pixlar högt.'
-`ellips (60,50,40,30);` | 'Dear computer, draw a oval' 60 'pixels to the right, 50 pixels down, which is 40 pixels wide and 30 pixels high.'
+![Dator](EmojiComputer.png)| ![Smiley](EmojiSmiley.png)
+:---------------------:|:-----------------------------:
+`size(800, 400);`      | 'Kära dator, gör ett fönster 800 pixlar brett och 400 pixlar högt.'
+`ellips (60,50,40,30);`| 'Kära dator, rita en oval "60" pixlar till höger, 50 pixlar nedåt, som är 40 pixlar breda och 30 pixlar höga'
 
 Skriv in koden ovan och kör den.
 
-! [`bredd` och` höjd`: intro] (WidthHeight_Intro.png)
+![`width` och `height`: intro](width_och_height_intro.png)
 
-## `bredd` och` höjd`: kommando 1
+## `width` och `height`: kommando 1
 
-! [`bredd` och` höjd`: kommando 1] (WidthHeight_1.png)
+![`width` och `height`: kommando 1](width_och_height_1.png)
 
 Gör nu fönstret 128 x 128 pixlar litet.
 
-## `bredd` och` höjd`: lösning
+## `width` och `height`: lösning
 
 ```c++
 void setup() 
@@ -47,7 +47,7 @@ void draw()
 }
 ```
 
-## `bredd` och` höjd`
+## `width` och `height`
 
 
 'bredd' och 'höjd' är inbyggda i bearbetning,
@@ -58,42 +58,41 @@ Varje gång du väljer en ny storlek måste du skriva in mycket kod igen!
 
 Om vi ​​vet skärmens bredd och höjd vet vi också vilka siffror som ska vara i ellips:
 
- * ovalens x -koordinat är halva bredden
- * y -koordinaten för ovalen är halva höjden
+ * ovalens x-koordinat är halva bredden
+ * y-koordinaten för ovalen är halva höjden
  * ovalens bredd är skärmens bredd
  * höjden på ovalen är skärmens höjd
 
-! [Vad du vill säga] (WidthHeight.png)
+![Vad du vill säga](width_och_height.png)
 
 Bearbetningen känner till skärmens bredd och höjd:
 Skärmens bredd kallas 'bredd' och höjden kallas 'höjd'
 
-! [Dator] (EmojiComputer.png) | ! [Smiley] (EmojiSmiley.png)
-: -----------------: |: ---------------------- ------- :
-`width` | 'Dear computer, ange här hur många pixlar fönstret är brett.'
-`höjd` | 'Kära dator, ange här hur många pixlar fönstret är högt.'
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:-----------------:|:-----------------------------:
+`width` | 'Kära dator, ange här hur många pixlar fönstret är brett.'
+`height`| 'Kära dator, ange här hur många pixlar fönstret är högt.'
 
 Dessa siffror bestäms när du använder storlek för att definiera storleken på din skärm.
 
 \pagebreak
 
-## `bredd` och` höjd`: kommando 2
+## `width` och `height`: kommando 2
 
-! [`bredd` och` höjd`: kommando 2] (WidthHeight_2.png)
+![`width` och `height`: kommando 2](width_och_height_2.png)
 
 Skapa ett program som ritar en oval som fyller skärmen:
 
- * Ändra den första '64' till 'bredd / 2'
- * Ändra den andra '64' till 'höjd / 2'
- * Ändra den första `128` till` bredd`.
- * Ändra den andra `128` till` höjd`.
+ * Ändra den första '64' till 'width / 2'
+ * Ändra den andra '64' till 'height / 2'
+ * Ändra den första `128` till` width`.
+ * Ändra den andra `128` till` height`.
 
-! [Dator] (EmojiComputer.png) | ! [Smiley] (EmojiSmiley.png)
-: -----------------: |: ---------------------- ------- :
+![Dator](EmojiComputer.png)| ![Smiley](EmojiSmiley.png)
+:-----------------:|:-----------------------------:
 `/` | 'dividerat med', en delningsrad som du har med bråk, `:`
 
-## `bredd` och` höjd`: lösning 2
-
+## `width` och `height`: lösning 2
 
 ```c++
 void setup() 
@@ -107,15 +106,15 @@ void draw()
 }
 ```
 
-## `bredd` och` höjd`: kommando 3
+## `width` och `height`: kommando 3
 
-! [`bredd` och` höjd`: kommando 3] (WidthHeight_3.png)
+![`width` och `height`: kommando 3](width_och_height_3.png)
 
 Ställ in cirkelns mitt för att koordinera `(0, 0)`.
 
 \pagebreak
 
-## `bredd` och` höjd`: lösning 3
+## `width` och `height`: lösning 3
 
 ```c++
 void setup() 
@@ -129,16 +128,16 @@ void draw()
 }
 ```
 
-## `bredd` och` höjd`: kommando 4
+## `width` och `height`: kommando 4
 
-! [`bredd` och` höjd`: kommando 4] (WidthHeight_4.png)
+![`width` och `height`: kommando 4](width_och_height_4.png)
 
 Skapa en andra cirkel centrerad i det övre högra hörnet.
 Använd "bredd" och/eller "höjd".
 
 \pagebreak
 
-## `bredd` och` höjd`: lösning 4
+## `width` och `height`: lösning 4
 
 ```c++
 void setup() 
@@ -153,14 +152,14 @@ void draw()
 }
 ```
 
-## `bredd` och` höjd`: kommando 5
+## `width` och `height`: kommando 5
 
-![`width` en `height`: opdracht 5](WidthHeight_5.png)
+![`width` en `height`: opdracht 5](width_och_height_5.png)
 
 Gör en tredje cirkel centrerad i nedre vänstra hörnet.
-Använd "bredd" och/eller "höjd".
+Använd `width` och/eller `height`.
 
-## `bredd` och` höjd`: lösning 5
+## `width` och `height`: lösning 5
 
 ```c++
 void setup() 
@@ -178,15 +177,11 @@ void draw()
 
 \pagebreak
 
-## `bredd` och` höjd`: sista kommandot
+## `width` och `height`: sista kommandot
 
-! [`bredd` och` höjd`: slutuppgift] (WidthHeight_End -uppgift.png)
+![`width` och `height`: slutuppgift](width_och_height_slutuppgift.png)
 
  * Gör fönstret 300 pixlar brett och 200 pixlar högt
  * Gör en fjärde cirkel centrerad i nedre högra hörnet
  * Gör en femte cirkel som är i mitten och är dubbelt så liten
-
-## `bredd` och` höjd`: vänster
-
- * `bredd` och` höjd`: [YouTube] (https://youtu.be/pbj0fUn0qVQ), [mp4] (http://www.richelbilderbeek.nl/width_en_height.mp4) 
 
