@@ -8,7 +8,7 @@ Ditta är alla kapitel av Processing lektionen.
 
 ### Lektionskort 1: Graphics
 
-Hfd|Omschrijving
+Kap|Beskrivning
 ---|---------------------------------------------------------------
 .  |**Bok 1**
 1  |[Ett vackert program](./ett_vackert_program/README.md)
@@ -33,7 +33,7 @@ Hfd|Omschrijving
 
 ### Lektionskort 2: Games 1
 
-Hfd|Omschrijving
+Kap|Beskrivning
 ---|---------------------------------------------------------------
 .  | **Bok 5**
 17 |[Tangentbord 1: Qix](./Toetsenbord1/README.md)
@@ -60,7 +60,7 @@ Hfd|Omschrijving
 
 :construction:
 
-Hfd|Omschrijving
+Kap|Beskrivning
 ---|---------------------------------------------------------------
 .  | **Boek 9**
 34 |[Functies les 1: Tekening](./FunctiesTekening/README.md)
@@ -73,9 +73,9 @@ Hfd|Omschrijving
 31 |[Muis les 3: Knoppen](./MuisKnoppen/README.md)
 32 |[Muis les 4: Scrollen](./MuisScroll/README.md)
 
-### Ongesorteerd
+### Osorterade
 
-Hfd|Omschrijving
+Kap|Beskrivning
 ---|------------------------------------------------------------
  ? |[Scrollen: Zelda](./Scrollen/README.md)
  ? |[Rotate: Contra 3](./Rotate/README.md)
