@@ -8,7 +8,7 @@ Ditta är alla kapitel av Processing lektionen.
 
 ### Lektionskort 1: Graphics
 
-Kap|Beskrivning
+Kpt|Beskrivning
 ---|---------------------------------------------------------------
 .  |**Bok 1**
 1  |[Ett vackert program](./ett_vackert_program/README.md)
@@ -22,7 +22,7 @@ Kap|Beskrivning
 .  |**Bok 3**
 8  |[Bollen som studsar horisontellt](./bollen_som_studsar_horisontellt/README.md)
 9  |[`ellipse` och `background`](./ellipse_och_background/README.md)
-10 |[Bollen som studsar diagonellt](./bollen_som_studsar_diagonellt/README.md)
+10 |[Bollen som studsar diagonallt](./bollen_som_studsar_diagonallt/README.md)
 11 |[Text](./text/README.md)
 .  |**Bok 4**
 12 |[`fullScreen`](./fullScreen/README.md)
@@ -33,7 +33,7 @@ Kap|Beskrivning
 
 ### Lektionskort 2: Games 1
 
-Kap|Beskrivning
+Kpt|Beskrivning
 ---|---------------------------------------------------------------
 .  | **Bok 5**
 17 |[Tangentbord 1: Qix](./Toetsenbord1/README.md)
@@ -60,7 +60,7 @@ Kap|Beskrivning
 
 :construction:
 
-Kap|Beskrivning
+Kpt|Beskrivning
 ---|---------------------------------------------------------------
 .  | **Boek 9**
 34 |[Functies les 1: Tekening](./FunctiesTekening/README.md)
@@ -75,7 +75,7 @@ Kap|Beskrivning
 
 ### Osorterade
 
-Kap|Beskrivning
+Kpt|Beskrivning
 ---|------------------------------------------------------------
  ? |[Scrollen: Zelda](./Scrollen/README.md)
  ? |[Rotate: Contra 3](./Rotate/README.md)

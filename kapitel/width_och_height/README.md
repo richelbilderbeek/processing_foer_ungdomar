@@ -1,6 +1,6 @@
 # `width` och `height`
 
-I den här lektionen lär du dig hur användbara 'bredd' och 'höjd' är
+I den här lektionen lär du dig användar `width` och `height`.
 
 ![Gameboy har en skärm på 160 x 144 pixlar](Gameboy.jpg)
 
