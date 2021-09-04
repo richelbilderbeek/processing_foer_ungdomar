@@ -10,47 +10,47 @@ Ditta är alla kapitel av Processing lektionen.
 
 Hfd|Omschrijving
 ---|---------------------------------------------------------------
-.  |**Boek 1**
+.  |**Bok 1**
 1  |[Ett vackert program](./ett_vackert_program/README.md)
 2  |[Bollen till höger](./bollen_till_hoeger/README.md)
 3  |[`width` och `height`](./width_och_height/README.md)
-4  |[`point` och `random`](./PointRandom/README.md)
-.  |**Boek 2**
-5  |[`line` en `stroke`](./LineStroke/README.md)
-6  |[Bal die eeuwig rechts gaat](./BalEeuwigNaarRechts/README.md)
-7  |[`rect` en `fill`](./RectFill/README.md)
-.  |**Boek 3**
-8  |[Bal die horizontaal stuitert](./BalDieHorizontaalStuitert/README.md)
-9  |[`ellipse` en `background`](./EllipseBackground/README.md)
-10 |[Bal die schuin stuitert](./BalDieSchuinStuitert/README.md)
-11 |[Tekst](./Text/README.md)
-.  |**Boek 4**
-12 |[`fullScreen`](./FullScreen/README.md)
+4  |[`point` och `random`](./point_och_random/README.md)
+.  |**Bok 2**
+5  |[`line` och `stroke`](./line_och_stroke/README.md)
+6  |[Bollen som går åt höger i evighet](./bollen_som_gaar_hoeger_foer_evigheten/README.md)
+7  |[`rect` och `fill`](./rect_och_fill/README.md)
+.  |**Bok 3**
+8  |[Bollen som studsar horisontellt](./bollen_som_studsar_horisontellt/README.md)
+9  |[`ellipse` och `background`](./ellipse_och_background/README.md)
+10 |[Bollen som studsar diagonellt](./bollen_som_studsar_diagonellt/README.md)
+11 |[Text](./text/README.md)
+.  |**Bok 4**
+12 |[`fullScreen`](./fullScreen/README.md)
 13 |[`PImage`](./PImage/README.md)
-14 |[Zwaartekracht](./Zwaartekracht/README.md)
-15 |[Arrays les 1](./Arrays1/README.md)
-16 |[Arrays les 2](./Arrays2/README.md)
+14 |[Tyngdkraft](./tyngdkraft/README.md)
+15 |[Arrays lektion 1](./arrays_1/README.md)
+16 |[Arrays lektion 2](./arrays_2/README.md)
 
-### Leskaart 2: Games 1
+### Lektionskort 2: Games 1
 
 Hfd|Omschrijving
 ---|---------------------------------------------------------------
-.  | **Boek 5**
-17 |[Toetsenbord 1: Qix](./Toetsenbord1/README.md)
-18 |[Toetsenbord 2: Tron](./Toetsenbord2/README.md)
-19 |[Toetsenbord 3: Terminator II](./Toetsenbord3/README.md)
-20 |[Toetsenbord 4: Paratrooper](./Toetsenbord4/README.md)
-.  | **Boek 6**
-21 |[3D 1: bal bewegen](./3D1/README.md)
-22 |[3D 2: bal besturen](./3D2/README.md)
-23 |[3D 3: bal en kubus](./3D3/README.md)
+.  | **Bok 5**
+17 |[Tangentbord 1: Qix](./Toetsenbord1/README.md)
+18 |[Tangentbord 2: Tron](./Toetsenbord2/README.md)
+19 |[Tangentbord 3: Terminator II](./Toetsenbord3/README.md)
+20 |[Tangentbord 4: Paratrooper](./Toetsenbord4/README.md)
+.  | **Bok 6**
+21 |[3D 1: röra bol](./3D1/README.md)
+22 |[3D 2: köra bol](./3D2/README.md)
+23 |[3D 3: bol och kub](./3D3/README.md)
 24 |[3D 4: belichting](./3D4/README.md)
-.  | **Boek 7**
+.  | **Bok 7**
 25 |[Sinus en cosinus 1: grafiek](./SinusEnCosinus1/README.md)
 26 |[Sinus en cosinus 2: tekenen](./SinusEnCosinus2/README.md)
 27 |[Sinus en cosinus 3: planeten](./SinusEnCosinus3/README.md)
 28 |[Sinus en cosinus 4: schieten](./SinusEnCosinus4/README.md)
-.  | **Boek 8**
+.  | **Bok 8**
 29 |[Muis binnen vierkant](./MuisBinnenVierkant/README.md) 
 30 |[Muis binnen cirkel](./MuisBinnenCirkel/README.md) 
 31 |[Cirkels botsen](./CirkelsBotsen/README.md)

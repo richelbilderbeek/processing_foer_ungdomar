@@ -14,3 +14,6 @@ Kurs 'Processing för unga tonåringar'.
 (C) Richèl Bilderbeek
 ```
 
+## Länker
+
+ * [Samma kurs, men på nederlandsk](https://github.com/richelbilderbeek/processing_voor_jonge_tieners)
