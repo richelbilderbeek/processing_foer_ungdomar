@@ -14,7 +14,7 @@ I den här lektionen lär vi oss
 Pixlar är rutorna som utgör din skärm.
 
 ![Solglasögon](EmojiSunglasses.png) | Pixel = en ruta på skärmen
-: -----------------: |: ---------------------- ------- :
+:-----------------:|:-----------------------------:
 
 Ju fler pixlar skärmen har desto skarpare ser bilden ut.
 Du kan se det bra med gamla spel: de har färre pixlar:
@@ -38,7 +38,7 @@ void draw()
 ```
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-: -----: |: ---------------------------------- ------- ---:
+:-----:|:--------------------------------------------:
 `punkt (150, 100);` | 'Kära dator, rita en prick på pixeln som är tvåhundra pixlar till höger och hundra femtio pixlar nedåt'
 `punkt (150, 100);` | 'Kära dator, rita en prick på koordinat' (150, 100) ''
 
@@ -90,7 +90,7 @@ void draw()
 ```
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-: -----------------: |: ---------------------- ------- :
+:-----------------:|:----------------------------- :
 `width / 2` | 'Dear computer, ange här bredden på fönstret, dividerat med två'
 
 ## `point` och `random`: uppgift 4
@@ -118,7 +118,7 @@ void draw()
 ```
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-: -----------------: |: ---------------------- ------- :
+:-----------------:|:----------------------------- :
 `höjd / 4` | 'Kära dator, ange här fönstrets höjd, dividerat med fyra'
 
 
@@ -147,7 +147,7 @@ void draw()
 ```
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-: -----------------: |: ---------------------- ------- :
+:-----------------:|:----------------------------- :
 `punkt (0,0);` | 'Kära dator, rita en prick i det övre vänstra hörnet'
 `punkt (0,0);` | 'Kära dator, rita en prick på koordinat' (0, 0) ''
 
@@ -231,7 +231,7 @@ Vad ser du?
 Du ser att prickar dras på slumpmässiga platser, men alltid på samma höjd.
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-: -----------------: |: ---------------------- ------- :
+:-----------------:|:----------------------------- :
 `random (300)` | 'Kära dator, välj ett slumpmässigt tal från noll till tre hundra'
 
 ## `point` och `random`: uppgift 9
