@@ -1,8 +1,8 @@
-# `width` en `height`
+# `width` och `height`
 
-In deze les leer je hoe handig `width` en `height zijn`
+I den här lektionen lär du dig hur användbara 'bredd' och 'höjd' är
 
-![De Gameboy heeft een scherm van 160 bij 144 pixels](Gameboy.jpg)
+! [Gameboy har en skärm på 160 x 144 pixlar] (Gameboy.jpg)
 
 ## `width` en `height`: intro
 
@@ -18,22 +18,22 @@ void draw()
 }
 ```
 
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:---------------------:|:----------------------------------------: 
-`size(800, 400);`|'Lieve computer, maak een venster van 800 pixels wijd en 400 pixels hoog.'
-`ellipse(60,50,40,30);`|'Lieve computer, teken een ovaal `60` pixels naar rechts, 50 pixels omlaag, die 40 pixels wijd en 30 pixels hoog is.'
+! [Dator] (EmojiComputer.png) | ! [Smiley] (EmojiSmiley.png)
+: ----------: |: -------------- ---------------:
+`storlek (800, 400);` | 'Kära dator, gör ett fönster 800 pixlar brett och 400 pixlar högt.'
+`ellips (60,50,40,30);` | 'Dear computer, draw a oval' 60 'pixels to the right, 50 pixels down, which is 40 pixels wide and 30 pixels high.'
 
-Type bovenstaande code over en run deze.
+Skriv in koden ovan och kör den.
 
-![`width` en `height`: intro](WidthHeight_Intro.png)
+! [`bredd` och` höjd`: intro] (WidthHeight_Intro.png)
 
-## `width` en `height`: opdracht 1
+## `bredd` och` höjd`: kommando 1
 
-![`width` en `height`: opdracht 1](WidthHeight_1.png)
+! [`bredd` och` höjd`: kommando 1] (WidthHeight_1.png)
 
-Maak het venster nu 128 bij 128 pixels klein.
+Gör nu fönstret 128 x 128 pixlar litet.
 
-## `width` en `height`: oplossing
+## `bredd` och` höjd`: lösning
 
 ```c++
 void setup() 
@@ -47,52 +47,52 @@ void draw()
 }
 ```
 
-## `width` en `height`
+## `bredd` och` höjd`
 
 
-`width` en `height` zijn ingebouwd in Processing, 
-zodat je programma nog werkt als je de grootte van je scherm aanpast.
+'bredd' och 'höjd' är inbyggda i bearbetning,
+så att ditt program fortfarande fungerar när du ändrar storlek på skärmen.
 
-Nu werken onze programma's alleen voor een scherm van een bepaalde grootte. 
-Dan moet je elke keer als je een nieuwe grootte kiest, een heleboel code opnieuw typen!
+Nu fungerar våra program bara för en skärm av en viss storlek.
+Varje gång du väljer en ny storlek måste du skriva in mycket kod igen!
 
-Als we de breedte en hoogte van het scherm weten, weten we ook welke getallen in `ellipse` moeten:
+Om vi ​​vet skärmens bredd och höjd vet vi också vilka siffror som ska vara i ellips:
 
- * de x coordinaat van de ovaal is de helft van de breedte 
- * de y coordinaat van de ovaal is de helft van de hoogte
- * de breedte van de ovaal is de breedte van het scherm
- * de hoogte van de ovaal is de hoogte van het scherm
+ * ovalens x -koordinat är halva bredden
+ * y -koordinaten för ovalen är halva höjden
+ * ovalens bredd är skärmens bredd
+ * höjden på ovalen är skärmens höjd
 
-![Wat je wilt zeggen](WidthHeight.png)
+! [Vad du vill säga] (WidthHeight.png)
 
-Processing weet de breedte en hoogte van het scherm:
-De breedte van het scherm heet `width` en de hoogte heet `height`
+Bearbetningen känner till skärmens bredd och höjd:
+Skärmens bredd kallas 'bredd' och höjden kallas 'höjd'
 
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
-`width`|'Lieve computer, vul hier in hoeveel pixels het venster breed is.'
-`height`|'Lieve computer, vul hier in hoeveel pixels het venster hoog is.'
+! [Dator] (EmojiComputer.png) | ! [Smiley] (EmojiSmiley.png)
+: -----------------: |: ---------------------- ------- :
+`width` | 'Dear computer, ange här hur många pixlar fönstret är brett.'
+`höjd` | 'Kära dator, ange här hur många pixlar fönstret är högt.'
 
-Deze getallen worden bepaald zodra je size gebruikt om de grootte van je scherm te defineren.
+Dessa siffror bestäms när du använder storlek för att definiera storleken på din skärm.
 
 \pagebreak
 
-## `width` en `height`: opdracht 2
+## `bredd` och` höjd`: kommando 2
 
-![`width` en `height`: opdracht 2](WidthHeight_2.png)
+! [`bredd` och` höjd`: kommando 2] (WidthHeight_2.png)
 
-Maak een programma wat een ovaal tekent die het scherm opvult:
+Skapa ett program som ritar en oval som fyller skärmen:
 
- * Verander de eerste `64` in `width / 2`
- * Verander de tweede `64` in `height / 2`
- * Verander de eerste `128` in `width`.
- * Verander de tweede `128` in `height`.
+ * Ändra den första '64' till 'bredd / 2'
+ * Ändra den andra '64' till 'höjd / 2'
+ * Ändra den första `128` till` bredd`.
+ * Ändra den andra `128` till` höjd`.
 
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
-`/`|'gedeeld door', een deelstreep zoals je ook bij breuken hebt, `:`
+! [Dator] (EmojiComputer.png) | ! [Smiley] (EmojiSmiley.png)
+: -----------------: |: ---------------------- ------- :
+`/` | 'dividerat med', en delningsrad som du har med bråk, `:`
 
-## `width` en `height`: oplossing 2
+## `bredd` och` höjd`: lösning 2
 
 
 ```c++
@@ -107,15 +107,15 @@ void draw()
 }
 ```
 
-## `width` en `height`: opdracht 3
+## `bredd` och` höjd`: kommando 3
 
-![`width` en `height`: opdracht 3](WidthHeight_3.png)
+! [`bredd` och` höjd`: kommando 3] (WidthHeight_3.png)
 
-Zet het middelpunt van de cirkel op coordinaat `(0, 0)`.
+Ställ in cirkelns mitt för att koordinera `(0, 0)`.
 
 \pagebreak
 
-## `width` en `height`: oplossing 3
+## `bredd` och` höjd`: lösning 3
 
 ```c++
 void setup() 
@@ -129,16 +129,16 @@ void draw()
 }
 ```
 
-## `width` en `height`: opdracht 4
+## `bredd` och` höjd`: kommando 4
 
-![`width` en `height`: opdracht 4](WidthHeight_4.png)
+! [`bredd` och` höjd`: kommando 4] (WidthHeight_4.png)
 
-Maak een tweede cirkel die als middelpunt de rechterbovenhoek heeft.
-Gebruik `width` en/of `height`.
+Skapa en andra cirkel centrerad i det övre högra hörnet.
+Använd "bredd" och/eller "höjd".
 
 \pagebreak
 
-## `width` en `height`: oplossing 4
+## `bredd` och` höjd`: lösning 4
 
 ```c++
 void setup() 
@@ -153,14 +153,14 @@ void draw()
 }
 ```
 
-## `width` en `height`: opdracht 5
+## `bredd` och` höjd`: kommando 5
 
 ![`width` en `height`: opdracht 5](WidthHeight_5.png)
 
-Maak een derde cirkel die als middelpunt de linkeronderhoek heeft.
-Gebruik `width` en/of `height`.
+Gör en tredje cirkel centrerad i nedre vänstra hörnet.
+Använd "bredd" och/eller "höjd".
 
-## `width` en `height`: oplossing 5
+## `bredd` och` höjd`: lösning 5
 
 ```c++
 void setup() 
@@ -178,14 +178,15 @@ void draw()
 
 \pagebreak
 
-## `width` en `height`: eindopdracht
+## `bredd` och` höjd`: sista kommandot
 
-![`width` en `height`: eindopdracht](WidthHeight_Eindopdracht.png)
+! [`bredd` och` höjd`: slutuppgift] (WidthHeight_End -uppgift.png)
 
- * Maak het venster 300 pixels breed en 200 pixels hoog
- * Maak een vierde cirkel die als middelpunt de rechteronderhoek heeft
- * Maak een vijfde cirkel die in het midden staat en twee keer zo klein is
+ * Gör fönstret 300 pixlar brett och 200 pixlar högt
+ * Gör en fjärde cirkel centrerad i nedre högra hörnet
+ * Gör en femte cirkel som är i mitten och är dubbelt så liten
 
-## `width` en `height`: links
+## `bredd` och` höjd`: vänster
 
- * `width` en `height`: [YouTube](https://youtu.be/pbj0fUn0qVQ), [mp4](http://www.richelbilderbeek.nl/width_en_height.mp4)
+ * `bredd` och` höjd`: [YouTube] (https://youtu.be/pbj0fUn0qVQ), [mp4] (http://www.richelbilderbeek.nl/width_en_height.mp4) 
+
