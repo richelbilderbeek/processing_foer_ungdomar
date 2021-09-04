@@ -27,9 +27,9 @@ Skriv in koden ovan och kör den.
 
 ![`width` och `height`: intro](width_och_height_intro.png)
 
-## `width` och `height`: kommando 1
+## `width` och `height`: uppgift 1
 
-![`width` och `height`: kommando 1](width_och_height_1.png)
+![`width` och `height`: uppgift 1](width_och_height_1.png)
 
 Gör nu fönstret 128 x 128 pixlar litet.
 
@@ -77,9 +77,9 @@ Dessa siffror bestäms när du använder storlek för att definiera storleken p�
 
 \pagebreak
 
-## `width` och `height`: kommando 2
+## `width` och `height`: uppgift 2
 
-![`width` och `height`: kommando 2](width_och_height_2.png)
+![`width` och `height`: uppgift 2](width_och_height_2.png)
 
 Skapa ett program som ritar en oval som fyller skärmen:
 
@@ -106,9 +106,9 @@ void draw()
 }
 ```
 
-## `width` och `height`: kommando 3
+## `width` och `height`: uppgift 3
 
-![`width` och `height`: kommando 3](width_och_height_3.png)
+![`width` och `height`: uppgift 3](width_och_height_3.png)
 
 Ställ in cirkelns mitt för att koordinera `(0, 0)`.
 
@@ -128,9 +128,9 @@ void draw()
 }
 ```
 
-## `width` och `height`: kommando 4
+## `width` och `height`: uppgift 4
 
-![`width` och `height`: kommando 4](width_och_height_4.png)
+![`width` och `height`: uppgift 4](width_och_height_4.png)
 
 Skapa en andra cirkel centrerad i det övre högra hörnet.
 Använd `width` och/eller `height`.
@@ -152,7 +152,7 @@ void draw()
 }
 ```
 
-## `width` och `height`: kommando 5
+## `width` och `height`: uppgift 5
 
 ![`width` en `height`: opdracht 5](width_och_height_5.png)
 
