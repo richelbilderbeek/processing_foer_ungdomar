@@ -35,6 +35,6 @@ cd ../../boecker
 pdfunite bok_framsida_1.pdf bok_1_utan_framsida.pdf bok_1.pdf
 
 # Make booklet
-bookletimposer -a bok_1.pdf -o bokis_1.pdf
+bookletimposer -a bok_1.pdf -o haefte_1.pdf
 
 rm bok_1_utan_framsida.pdf

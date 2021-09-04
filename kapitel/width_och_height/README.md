@@ -56,7 +56,7 @@ så att ditt program fortfarande fungerar när du ändrar storlek på skärmen.
 Nu fungerar våra program bara för en skärm av en viss storlek.
 Varje gång du väljer en ny storlek måste du skriva in mycket kod igen!
 
-Om vi ​​vet skärmens bredd och höjd vet vi också vilka siffror som ska vara i ellips:
+Om vi vet skärmens bredd och höjd vet vi också vilka siffror som ska vara i ellips:
 
  * ovalens x-koordinat är halva bredden
  * y-koordinaten för ovalen är halva höjden
