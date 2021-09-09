@@ -16,6 +16,8 @@ Pixlar är rutorna som utgör din skärm.
 ![Solglasögon](EmojiSunglasses.png) | Pixel = en ruta på skärmen
 :-----------------:|:-----------------------------:
 
+\pagebreak
+
 Ju fler pixlar skärmen har desto skarpare ser bilden ut.
 Du kan se det bra med gamla spel: de har färre pixlar:
 
@@ -42,17 +44,20 @@ void draw()
 `point(150, 100);` | 'Kära dator, rita en prick på pixeln som är `150` pixlar till höger och `100` pixlar nedåt'
 `point(150, 100);` | 'Kära dator, rita en prick på koordinat `(150, 100)`'
 
+\pagebreak
+
 ## `point` och `random`: lösning 1
 
 ![`point` och `random`: lösning 1](point_och_random_1.png)
 
-\pagebreak
 
 ## `point` och `random`: uppgift 2
 
 ![`point` och `random`: uppgift 2](point_och_random_2.png)
 
 Rita en andra prick mellan den första och den övre delen av fönstret.
+
+\pagebreak
 
 ## `point` och `random`: lösning 2
 
@@ -73,6 +78,8 @@ void draw()
 
 Den första pixeln är exakt i mitten. Med andra ord, halva bredden på fönstret och
 på halva skärmens höjd. Ändra `point(150,100);` till något med `width` och `height`.
+
+\pagebreak
 
 ## `point` och `random`: lösning 3
 
@@ -102,6 +109,8 @@ Den andra pixeln är
 
 Ändra `point(150, 50);` till något med `width` och `height`.
 
+\pagebreak
+
 ## `point` och `random`: lösning 4
 
 ```c++
@@ -119,8 +128,7 @@ void draw()
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-----------------:|:-----------------------------:
-`höjd / 4` | 'Kära dator, ange här fönstrets höjd, dividerat med `4`'
-
+`height / 4` | 'Kära dator, ange här fönstrets höjd, dividerat med `4`'
 
 ## `point` och `random`: uppgift 5
 
@@ -151,7 +159,6 @@ void draw()
 `point(0,0);` | 'Kära dator, rita en prick i det övre vänstra hörnet'
 `point(0,0);` | 'Kära dator, rita en prick på koordinat `(0, 0)`'
 
-\pagebreak
 
 ## `point` och `random`: uppgift 6
 
@@ -159,6 +166,8 @@ void draw()
 
 Rita en ny pixel, längst upp till höger på skärmen.
 Använd `width - 1 'som det första talet inom parentes för `point`.
+
+\pagebreak
 
 ## `point` och `random`: lösning 6
 
@@ -234,22 +243,6 @@ Du ser att prickar dras på slumpmässiga platser, men alltid på samma höjd.
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-----------------:|:-----------------------------:
 `random(300)` | 'Kära dator, välj ett slumpmässigt tal från noll till `300`'
-
-## `point` och `random`: uppgift 9
-
-![`point` och `random`: uppgift 9](point_och_random_9.png)
-
-```c++
-void setup()
-{
-  size(400, 100);
-}
-
-void draw()
-{
-  point(random(width), height / 2);
-}
-```
 
 ## `point` och `random`: slutuppgift
 

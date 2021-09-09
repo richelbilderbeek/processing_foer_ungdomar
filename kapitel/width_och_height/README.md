@@ -2,7 +2,9 @@
 
 I den här lektionen lär du dig användar `width` och `height`.
 
-![Gameboy har en skärm på 160 x 144 pixlar](Gameboy.jpg)
+![Gameboy har en skärm på 160 x 144 pixlar](Gameboy_50.jpg)
+
+\pagebreak
 
 ## `width` en `height`: intro
 
@@ -33,7 +35,9 @@ Skriv in koden ovan och kör den.
 
 Gör nu fönstret 128 x 128 pixlar litet.
 
-## `width` och `height`: lösning
+\pagebreak
+
+## `width` och `height`: lösning 1
 
 ```c++
 void setup() 
@@ -91,6 +95,8 @@ Skapa ett program som ritar en oval som fyller skärmen:
 ![Dator](EmojiComputer.png)| ![Smiley](EmojiSmiley.png)
 :-----------------:|:-----------------------------:
 `/` | 'dividerat med', en delningsrad som du har med bråk, `:`
+
+\pagebreak
 
 ## `width` och `height`: lösning 2
 
@@ -159,6 +165,8 @@ void draw()
 Gör en tredje cirkel centrerad i nedre vänstra hörnet.
 Använd `width` och/eller `height`.
 
+\pagebreak
+
 ## `width` och `height`: lösning 5
 
 ```c++
@@ -174,8 +182,6 @@ void draw()
   ellipse(0, height, width, height);  
 }
 ```
-
-\pagebreak
 
 ## `width` och `height`: sista kommandot
 
