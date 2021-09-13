@@ -17,3 +17,7 @@ Kurs 'Processing för unga tonåringar'.
 ## Länker
 
  * [Samma kurs, men på nederlandsk](https://github.com/richelbilderbeek/processing_voor_jonge_tieners)
+
+## Contributors
+
+ * Sofia Bryntse

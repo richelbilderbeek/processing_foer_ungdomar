@@ -1,25 +1,26 @@
 # `point` och `random`
 
-I den här lektionen lär vi oss
+Under den här lektionen lär vi oss
 
  * vad pixlar är
  * hur pixlarna sitter på en skärm
- * hur man ritar prickar
+ * hur man ritar punkter
  * hur man gör slumpmässiga saker
 
 ![Slutuppgift](point_och_random_slutuppgift.png)
 
 ## `point` och `random`: intro
 
-Pixlar är rutorna som utgör din skärm.
+Din skärm har många rutor som består av pixlar.
 
 ![Solglasögon](EmojiSunglasses.png) | Pixel = en ruta på skärmen
 :-----------------:|:-----------------------------:
 
 \pagebreak
 
-Ju fler pixlar skärmen har desto skarpare ser bilden ut.
-Du kan se det bra med gamla spel: de har färre pixlar:
+Ju fler pixlar skärmen har desto skarpare blir bilderna.
+Du kan se det på gamla/retro datorspel: 
+de har färre pirxlar vilket gör bilderna kantigare.
 
 ![Super Mario Bros 1](NES_Super_Mario_Bros.png)
 
@@ -41,8 +42,8 @@ void draw()
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-----:|:--------------------------------------------:
-`point(150, 100);` | 'Kära dator, rita en prick på pixeln som är `150` pixlar till höger och `100` pixlar nedåt'
-`point(150, 100);` | 'Kära dator, rita en prick på koordinat `(150, 100)`'
+`point(150, 100);` | 'Kära dator, rita ut en punkt i fönstret på platsen `150` pixlar till höger och `100` pixlar nedåt'
+`point(150, 100);` | 'Kära dator, rita ut en punkt på koordinat `(150, 100)`'
 
 \pagebreak
 
@@ -55,7 +56,7 @@ void draw()
 
 ![`point` och `random`: uppgift 2](point_och_random_2.png)
 
-Rita en andra prick mellan den första och den övre delen av fönstret.
+Rita ut en till punkt mellan den första punkten och ovansidan av fönstret.
 
 \pagebreak
 
@@ -76,8 +77,9 @@ void draw()
 
 ## `point` och `random`: uppgift 3
 
-Den första pixeln är exakt i mitten. Med andra ord, halva bredden på fönstret och
-på halva skärmens höjd. Ändra `point(150,100);` till något med `width` och `height`.
+Den första punkten är exakt i mitten. 
+Med andra ord, på halva bredden och på halva höjden av fönstret. 
+Ändra `point(150,100);` till något med `width` och `height`.
 
 \pagebreak
 
@@ -98,14 +100,14 @@ void draw()
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-----------------:|:-----------------------------:
-`width / 2` | 'Kära dator, ange här bredden på fönstret, dividerat med `2`'
+`width / 2` | 'Kära dator, ange här bredden på fönstret, delat med `2`'
 
 ## `point` och `random`: uppgift 4
 
-Den andra pixeln är
+Den andra pixeln är utritad
 
-  * på halva fönstret
-  * på en fjärdedel av skärmens höjd
+ * på halva fönstrets bredd
+ * på en fjärdedel av fönstrets höjd
 
 Ändra `point(150, 50);` till något med `width` och `height`.
 
@@ -128,13 +130,13 @@ void draw()
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-----------------:|:-----------------------------:
-`height / 4` | 'Kära dator, ange här fönstrets höjd, dividerat med `4`'
+`height / 4` | 'Kära dator, ange här fönstrets höjd, delat med `4`'
 
 ## `point` och `random`: uppgift 5
 
 ![`point` och `random`: uppgift 5](point_och_random_5.png)
 
-Rita en ny pixel i skärmens övre vänstra hörn.
+Rita ut en ny pixel i fönstrets övre vänstra hörn.
 
 \pagebreak
 
@@ -156,16 +158,16 @@ void draw()
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-----------------:|:-----------------------------:
-`point(0,0);` | 'Kära dator, rita en prick i det övre vänstra hörnet'
-`point(0,0);` | 'Kära dator, rita en prick på koordinat `(0, 0)`'
+`point(0,0);` | 'Kära dator, rita ut en punkt i det övre vänstra hörnet'
+`point(0,0);` | 'Kära dator, rita ut en punkt på koordinat `(0, 0)`'
 
 
 ## `point` och `random`: uppgift 6
 
 ![`point` och `random`: uppgift 6](point_och_random_6.png)
 
-Rita en ny pixel, längst upp till höger på skärmen.
-Använd `width - 1 'som det första talet inom parentes för `point`.
+Rita ut en ny pixel, längst upp till höger på fönstret.
+Använd `width - 1` som det första talet inom parentesarna för `point`.
 
 \pagebreak
 
@@ -238,7 +240,7 @@ Vad ser du?
 
 ![`point` och `random`: lösning 8](point_och_random_8.png)
 
-Du ser att prickar dras på slumpmässiga platser, men alltid på samma höjd.
+Du ser att punkter ritas ut på slumpmässiga platser, men alltid på samma höjd.
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-----------------:|:-----------------------------:
@@ -248,5 +250,5 @@ Du ser att prickar dras på slumpmässiga platser, men alltid på samma höjd.
 
 ![Slutuppgift](point_och_random_slutuppgift.png)
 
-Låt datorn rita prickar slumpmässigt genom fönstret.
+Låt datorn rita ut punkter slumpmässigt över hela fönstret.
 

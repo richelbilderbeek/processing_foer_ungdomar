@@ -1,11 +1,10 @@
 # Ett vackert program
 
-Processing är ett programmeringsspråk som utvecklats för artister
+Processing är ett programmeringsspråk som utvecklats för designers
 och mycket lämplig för att göra spel och vackra saker.
 
-I den här lektionen lär vi oss
+Under den här lektionen lär vi oss
 
- * hur vi börjar bearbeta
  * hur man kopierar kod till Processing
  * hur man startar programmet
 
@@ -17,7 +16,7 @@ Så här ser programmet ut:
 
 ## Ett trevligt program: intro
 
-Behandlingen börjar med ett tomt program utan kod:
+När du öppnar programmet ser du ett tomt program utan kod:
 
 ![Processing utan kod](processing_utan_kod.png)
 
@@ -41,7 +40,7 @@ void draw()
 ```
 
 Vi kommer att förklara exakt vad koden gör senare.
-För nu är det tillräckligt att veta att det gör något vackert.
+Just nu är det tillräckligt att veta att den gör något vackert.
 
 ![Processing med kod](processing_med_kod.png)
 
@@ -49,11 +48,11 @@ För nu är det tillräckligt att veta att det gör något vackert.
 
 ## Ett trevligt program: slutuppgift
 
- * Börja bearbeta
+ * Skriv av koden, precis som den ser ut, i programmet
  * Kör den här koden genom att klicka på knappen "Run"
 
 ![Run knappen](processing_run.png)
 
-![Sunglasses](EmojiSunglasses.png) | Framgång? Visa detta för en vuxen för ett klistermärke!
+![Sunglasses](EmojiSunglasses.png) | Gick det bra? Visa det för en vuxen så får du ett klistermärke!
 :-------------:|:----------------------------------------: 
 

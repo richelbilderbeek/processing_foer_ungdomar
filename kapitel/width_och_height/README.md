@@ -1,6 +1,6 @@
 # `width` och `height`
 
-I den här lektionen lär du dig användar `width` och `height`.
+Under den här lektionen lär du dig använda `width` och `height`.
 
 ![Gameboy har en skärm på 160 x 144 pixlar](Gameboy_50.jpg)
 
@@ -23,7 +23,7 @@ void draw()
 ![Dator](EmojiComputer.png)| ![Smiley](EmojiSmiley.png)
 :---------------------:|:-----------------------------:
 `size(800, 400);`      | 'Kära dator, gör ett fönster `800` pixlar brett och `400` pixlar högt.'
-`ellips (60,50,40,30);`| 'Kära dator, rita en oval `60` pixlar till höger, `50` pixlar nedåt, som är `40` pixlar breda och `30` pixlar höga'
+`ellips(60,50,40,30);` | 'Kära dator, rita ut en oval `60` pixlar till höger, `50` pixlar nedåt, som är `40` pixlar bred och `30` pixlar hög'
 
 Skriv in koden ovan och kör den.
 
@@ -33,7 +33,7 @@ Skriv in koden ovan och kör den.
 
 ![`width` och `height`: uppgift 1](width_och_height_1.png)
 
-Gör nu fönstret 128 x 128 pixlar litet.
+Gör nu fönstret `128` pixlar brett och `128` pixlar högt.
 
 \pagebreak
 
@@ -54,30 +54,34 @@ void draw()
 ## `width` och `height`
 
 
-`width` och `height` är inbyggda i bearbetning,
-så att ditt program fortfarande fungerar när du ändrar storlek på skärmen.
+`width` och `height` är inbyggda i Processing,
+`width` betyder fönsterbredd
+och `height` betyder fönsterhöjd.
+`width` och `height` är viktiga,
+så att ditt program fortfarande ser bra ut när du ändrar storlek på skärmen.
 
-Nu fungerar våra program bara för en skärm av en viss storlek.
-Varje gång du väljer en ny storlek måste du skriva in mycket kod igen!
+Nu funkar våra program bara för ett fönster av en viss storlek.
+Varje gång du väljer en ny fönsterstorlek måste du skriva in mycket kod igen!
 
-Om vi vet skärmens bredd och höjd vet vi också vilka siffror som ska vara i ellips:
+Om vi vet fönstrets bredd och höjd vet vi också hur bred och hög vår oval måste bli:
 
- * ovalens x-koordinat är halva bredden
- * y-koordinaten för ovalen är halva höjden
- * ovalens bredd är skärmens bredd
- * höjden på ovalen är skärmens höjd
+ * ovalens x-koordinat (hur många pixlar till höger) är halva bredden
+ * ovalens y-koordinat (hur många pixlar nedåt) är halva höjden
+ * ovalens bredd är fönstrets bredd
+ * ovalens höjd är fönstrets höjd
 
 ![Vad du vill säga](width_och_height.png)
 
-Bearbetningen känner till skärmens bredd och höjd:
-Skärmens bredd kallas `width` och höjden kallas `height`
+Processing känner till fönstrets bredd och höjd:
+Fönstrets bredd kallas `width` och höjden kallas `height`
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-----------------:|:-----------------------------:
-`width` | 'Kära dator, ange här hur många pixlar fönstret är brett.'
-`height`| 'Kära dator, ange här hur många pixlar fönstret är högt.'
+`width` | 'Kära dator, ange här hur många pixlar brett fönstret är.'
+`height`| 'Kära dator, ange här hur många pixlar högt är fönstret.'
 
-Dessa siffror bestäms när du använder storlek för att definiera storleken på din skärm.
+Dessa ord använder du om du vill veta 
+storleken på ditt fönster.
 
 \pagebreak
 
@@ -85,7 +89,7 @@ Dessa siffror bestäms när du använder storlek för att definiera storleken p�
 
 ![`width` och `height`: uppgift 2](width_och_height_2.png)
 
-Skapa ett program som ritar en oval som fyller skärmen:
+Skapa ett program som ritar en oval som fyller hela fönstret:
 
  * Ändra den första `64` till `width / 2`
  * Ändra den andra `64` till `height / 2`
@@ -94,7 +98,7 @@ Skapa ett program som ritar en oval som fyller skärmen:
 
 ![Dator](EmojiComputer.png)| ![Smiley](EmojiSmiley.png)
 :-----------------:|:-----------------------------:
-`/` | 'dividerat med', en delningsrad som du har med bråk, `:`
+`/` | 'delat med'
 
 \pagebreak
 
@@ -116,7 +120,7 @@ void draw()
 
 ![`width` och `height`: uppgift 3](width_och_height_3.png)
 
-Ställ in cirkelns mitt för att koordinera `(0, 0)`.
+Rita ut cirkelns mitt på platsen (koordinat) `(0, 0)` i fönstret.
 
 \pagebreak
 
@@ -138,7 +142,7 @@ void draw()
 
 ![`width` och `height`: uppgift 4](width_och_height_4.png)
 
-Skapa en andra cirkel centrerad i det övre högra hörnet.
+Skapa en till cirkel vars mittpunkt ligger i det övre högra hörnet.
 Använd `width` och/eller `height`.
 
 \pagebreak
@@ -160,9 +164,9 @@ void draw()
 
 ## `width` och `height`: uppgift 5
 
-![`width` en `height`: opdracht 5](width_och_height_5.png)
+![`width` en `height`: uppgift 5](width_och_height_5.png)
 
-Gör en tredje cirkel centrerad i nedre vänstra hörnet.
+Rita ut en tredje cirkel vars mittpunkt ligger i nedre vänstra hörnet.
 Använd `width` och/eller `height`.
 
 \pagebreak
@@ -183,12 +187,12 @@ void draw()
 }
 ```
 
-## `width` och `height`: sista kommandot
+## `width` och `height`: slutuppgift
 
 ![`width` och `height`: slutuppgift](width_och_height_slutuppgift.png)
 
  * Gör fönstret 300 pixlar brett och 200 pixlar högt
- * Gör en fjärde cirkel centrerad i nedre högra hörnet
- * Gör en femte cirkel som är i mitten och är dubbelt så liten
+ * Gör en fjärde cirkel vars mittpunkt ligger i nedre högra hörnet
+ * Gör en femte cirkel vars mittpunkt ligger i mitten och är hälften så stor
  * Använd `width` och/eller `height` (ingen `100`, `150`,`200` eller `300`!)
 
