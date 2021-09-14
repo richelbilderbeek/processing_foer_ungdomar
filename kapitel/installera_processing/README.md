@@ -10,11 +10,12 @@ Här är de stegs för att installera Processing:
   4. Ladda ner filen på din dator
   5. Spara filen i din favoritfolder, till exempel 'Mina dokument'
   6. Vänta till filen är nedladdat
-  7. Packa upp filen
-  8. Dubbelklicka mapp
-  9. Dubbelklicka andra mapp
-  10. Klicka på Processing
-  11. Bonus: gör an fillänk och flytt länken på skrivbord
+  7. Går till mappen var Processing är nedladdat
+  8. Packa upp filen
+  9. Dubbelklicka mapp
+  10. Dubbelklicka andra mapp
+  11. Klicka på Processing
+  12. Bonus: gör an fillänk och flytt länken på skrivbord
 
 Undra här finns det samma stegs med mer detaljer.
 
@@ -81,21 +82,21 @@ En mapp ska bill gjört som börjar med 'processing-'.
 
 Dubbelklicka mapp som börjar med 'processing-'.
 
-![](installera_processing_10.png)
+![](installera_processing_9.png)
 
 ## 10. Dubbelklicka andra mapp
 
 Här finns det en andra map som börjat också med 'processing-'.
 Dubbelklicka den också.
 
-![](installera_processing_11.png)
+![](installera_processing_10.png)
 
 ## 11. Klicka på Processing
 
 Nu ser du många filer som är alla notvändig för Processing.
 Klick pa 'Processing' för att startat Processing.
 
-![](installera_processing_12.png)
+![](installera_processing_11.png)
 
 ## 12. Windows bonus: gör an fillänk och flytt länken på skrivbord
 
