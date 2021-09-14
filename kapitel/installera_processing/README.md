@@ -10,11 +10,12 @@ Här är stegen för att installera Processing:
   4. Ladda ner filen till din dator
   5. Spara filen i din favoritmapp, till exempel 'Mina dokument'
   6. Vänta tills filen är nedladdad
-  7. Packa upp filen
-  8. Högerklicka på zip-filen
-  9. Välj 'Extrahera alla'
-  10. Klicka på Processing
-  11. Bonus: gör en genväg till filen och lägg den på skrivbordet
+  7. Går till mappen var Processing är nedladdat
+  8. Packa upp filen
+  9. Högerklicka på zip-filen
+  10. Välj 'Extrahera alla'
+  11. Klicka på Processing
+  12. Bonus: gör en genväg till filen och lägg den på skrivbordet
 
 Här under kan du läsa en mer detaljerad beskrivning av stegen ovan.
 
@@ -60,7 +61,14 @@ Det tar lite tid innan filen har laddats ner. Vänta tills klockan är klar. :-)
 
 ![](installera_processing_6.png)
 
-## 7. Packa upp filen
+## 7. Går till mappen var Processing är nedladdat
+
+Går till mappen var Processing är nedladdat.
+Det är ofta en map namet 'Downloads'.
+
+![](installera_processing_7.png)
+
+## 8. Packa upp filen
 
 Den nedladdade filen är en zip-fil. 
 En zip-fil är en samling av flera filer.
@@ -68,33 +76,30 @@ För att kunna använda Processing, måsta du packa upp filen (att starta
 Processing här funkar inte).
 Zip-filen har ett namn som börjar med 'processing-'.
 
-![](installera_processing_7.png)
+![](installera_processing_8.png)
 
-## 8. Högerklicka på zip-filen
+## 9. Högerklicka på zip-filen
 
 Högerklicka på zip-filen som börjar med 'processing-'.
 
-![](installera_processing_8.png)
+![](installera_processing_9.png)
 
-## 9. Välj 'Extrahera alla'
+## 10. Välj 'Extrahera alla'
 
 Välj 'Extrahera alla', eller 'Extract here' som det står på bilden.
 Om du får upp en ruta där du ska välja vilken mapp du ska extrahera filerna i, bläddra till 'Mina dokument' eller mappen du har valt att lägga programmet i.
 
-![](installera_processing_9.png)
+![](installera_processing_10.png)
 
-## 10. Dubbelklicka på Processing
+## 11. Dubbelklicka på Processing
 
 Dubbelklicka på mappen som börjar med 'processing-'. Nu ser du flera mappar och filer som alla är nödvändiga för Processing.
 Dubbelklicka på den fil som bara heter 'Processing' för att starta programmet.
 
-![](installera_processing_10.png)
+![](installera_processing_11.png)
 
-## 11. Windows-bonus: gör en genväg till programmet från Skrivbordet
+## 12. Windows-bonus: gör en genväg till programmet från Skrivbordet
 
 I Windows kan man göra något som kallas för genväg till ett program.
 Om du högerklickar på filen Processing och väljer 'Skapa genväg' så skapas en till fil som heter 'processing - genväg'.
 Den filen har en liten pil på sin ikon. Dra den filen och släpp på Skrivbordet, så det är lätt att starta Processing!
-
-![](installera_processing_11.png)
-
