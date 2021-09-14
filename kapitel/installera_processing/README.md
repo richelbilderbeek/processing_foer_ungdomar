@@ -60,14 +60,14 @@ Det tar en tid före filen är nedladdat. Klockan vänta :-)
 
 ![](installera_processing_6.png)
 
-## 6. Går till mappen var Processing är nedladdat
+## 7. Går till mappen var Processing är nedladdat
 
 Går till mappen var Processing är nedladdat.
 Det är ofta en map namet 'Downloads'.
 
 ![](installera_processing_7.png)
 
-## 7. Packa upp filen
+## 8. Packa upp filen
 
 Nedladdad filen är en zip fil. 
 En zip fil är en sammling av flera filer.
@@ -77,30 +77,28 @@ En mapp ska bill gjört som börjar med 'processing-'.
 
 ![](installera_processing_8.png)
 
-## 8. Dubbelklicka mapp
+## 9. Dubbelklicka mapp
 
 Dubbelklicka mapp som börjar med 'processing-'.
 
 ![](installera_processing_10.png)
 
-## 9. Dubbelklicka andra mapp
+## 10. Dubbelklicka andra mapp
 
 Här finns det en andra map som börjat också med 'processing-'.
 Dubbelklicka den också.
 
 ![](installera_processing_11.png)
 
-## 10. Klicka på Processing
+## 11. Klicka på Processing
 
 Nu ser du många filer som är alla notvändig för Processing.
 Klick pa 'Processing' för att startat Processing.
 
 ![](installera_processing_12.png)
 
-## 11. Windows bonus: gör an fillänk och flytt länken på skrivbord
+## 12. Windows bonus: gör an fillänk och flytt länken på skrivbord
 
 På Windows, det är möjligt at gör an fillänk.
 Flytt fillänk på skrivbord, så det är lätt at startar Processing!
-
-
 
