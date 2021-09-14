@@ -81,19 +81,20 @@ Dubbelklicka mapp som börjar med 'processing-'.
 Här finns det en andra map som börjat också med 'processing-'.
 Dubbelklicka den också.
 
-![](installera_processing_9.png)
+![](installera_processing_10.png)
 
 ## 10. Klicka på Processing
 
 Nu ser du många filer som är alla notvändig för Processing.
 Klick pa 'Processing' för att startat Processing.
 
-![](installera_processing_10.png)
+![](installera_processing_11.png)
 
 ## 11. Windows bonus: gör an fillänk och flytt länken på skrivbord
 
 På Windows, det är möjligt at gör an fillänk.
 Flytt fillänk på skrivbord, så det är lätt at startar Processing!
 
-![](installera_processing_11.png)
+![](installera_processing_12.png)
+
 
