@@ -27,7 +27,7 @@ void draw()
 `rad (0, 100, 300, 200);` | 'Kära dator, dra en linje från `(0, 100)` till `(300, 200)`.'
 
 ![Solglasögon](EmojiSunglasses.png) | `(100, 200)` är pixeln som sitter 100 pixlar till vänster och 200 pixlar under skärmens övre vänstra hörn
-:-----------------:|:----------------------------- :
+:-----------------:|:-----------------------------:
 
 \pagebreak
 
