@@ -61,7 +61,7 @@ ställ in `x` som till `100`. `if` är engelska för 'om'.
 
 ## Bollen går rätt för alltid: kommando 1
 
-![Uppgift 1](BalEeeuwigNaarRechts1.png)
+![Uppgift 1](flytta_bollen_till_hoeger_i_evighet_1.png)
 
 Sätt `if` mellan programmets kod. 
 Sätt `if` i slutet av `draw`, före den avslutande måsvingen (`}`).
@@ -233,7 +233,7 @@ Vi fick en boll att flytta åt höger och vänster av koordinaten `x`
 att förändra. Bollen kan också gå ner och upp genom y -koordinaten
 att förändra.
 
-![Uppgift 5](BalEeeuwigNaarRechts5.png)
+![Uppgift 5](flytta_bollen_till_hoeger_i_evighet_5.png)
 
 Skriv ett program där en boll går ner för alltid:
 
