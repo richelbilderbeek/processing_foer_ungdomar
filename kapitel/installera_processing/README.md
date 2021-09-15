@@ -103,4 +103,3 @@ Dubbelklicka på den fil som bara heter 'Processing' för att starta programmet.
 I Windows kan man göra något som kallas för genväg till ett program.
 Om du högerklickar på filen Processing och väljer 'Skapa genväg' så skapas en till fil som heter 'processing - genväg'.
 Den filen har en liten pil på sin ikon. Dra den filen och släpp på Skrivbordet, så det är lätt att starta Processing!
-
