@@ -26,7 +26,7 @@ void draw()
 :-----:|:--------------------------------------------:
 `rad (0, 100, 300, 200);` | 'Kära dator, dra en linje från `(0, 100)` till `(300, 200)`.'
 
-![Solglasögon](EmojiSunglasses.png) | `(100, 200)` är pixeln som sitter 100 pixlar till vänster och 200 pixlar under skärmens övre vänstra hörn
+![Solglasögon](EmojiSunglasses.png) | `(100, 200)` är pixeln som sitter `100` pixlar till vänster och `200` pixlar under fönstrets vänstra hörn
 :-----------------:|:-----------------------------:
 
 \pagebreak
@@ -41,7 +41,8 @@ void draw()
 
 ![Uppgift 2](line_och_stroke_2.png)
 
-Låt inte linjen gå till nedre högra hörnet, utan till det övre högra hörnet.
+Ändra linjen så att den går till det övre högra hörnet,
+i ställe åt till den nedre högra hörnet.
 
 \pagebreak
 
@@ -63,7 +64,9 @@ void draw()
 
 ## `line` och `stroke`: uppgift 3
 
-Låt inte linjen börja vänster i mitten, utan börja längst ner till vänster
+
+Ändra linjen så att den börjar längst ner till vänster,
+i ställe åt vänster i mitten.
 
 ![Uppgift 3](line_och_stroke_3.png)
 
@@ -87,7 +90,8 @@ void draw()
 
 ## `line` och `stroke`: uppgift 4
 
-Låt linjen gå från nedre vänster till överst till höger, men använd nu "bredd" och "höjd"
+Låt linjen gå från nedre vänster till överst till höger, 
+men använd nu `width` och `height` istället.
 
 ![Uppgift 4](line_och_stroke_4.png)
 
@@ -113,9 +117,8 @@ void draw()
 
 ![Uppgift 5](line_och_stroke_5.png)
 
-Starta linjen till vänster i valfri höjd. Du gör detta med "slumpmässigt"
-
-\pagebreak
+Starta linjen till vänster på en slumpmässig höjd. 
+Du gör detta med `random`.
 
 \pagebreak
 
@@ -139,7 +142,7 @@ void draw()
 
 ![Uppgift 6](line_och_stroke_6.png)
 
-Låt linjen nu också sluta till höger i godtycklig höjd.
+Låt linjen nu också sluta till höger på en slumpmässig höjd.
 
 \pagebreak
 
@@ -163,7 +166,7 @@ void draw()
 
 ![Uppgift 7](line_och_stroke_7.png)
 
-Innan `line` sätt linjen` slag (255, 0, 0); `
+Före meningen med `line`, skriv linjen `stroke(255, 0, 0);`.
 
 \pagebreak
 
@@ -184,8 +187,8 @@ void draw()
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-----:|:--------------------------------------------:
-`stroke (255, 0, 0);` | 'Kära dator, gör linjerna röda.'
-`stroke (255, 0, 0);` | 'Kära dator, gör linjerna helt röda, utan grönt och utan blått.'
+`stroke (255, 0, 0);` | 'Kära dator, färga linjerna röda.'
+`stroke (255, 0, 0);` | 'Kära dator, färga linjerna fullt röda, utan grönt och utan blått.'
 
 \pagebreak
 
@@ -225,8 +228,7 @@ void draw()
 
 ![Uppgift 9](line_och_stroke_9.png)
 
-Låt nu det röda värdet bli valfritt tal från 0 till 256.
-
+Låt nu det rödvärdet bli en slumpmässig tal från 0 till 256.
 
 \pagebreak
 
@@ -251,6 +253,6 @@ void draw()
 
 ![Slutuppgift `line` och `stroke`](line_och_stroke_slutuppgift.png)
 
-Låt nu raderna börja och sluta på slumpmässiga platser. Linjefärgen måste
-var också slumpmässig.
+Låt nu linjer börja och sluta på slumpmässiga platser. 
+Linjefärgen måste var också slumpmässig.
 
