@@ -1,8 +1,8 @@
-# `rect` en` fill`
+# `rect` en `fill`
 
 Används ofta i spel.
 
-Här ser du en av de beroemdste spelen någonsin:
+Här ser du en av de berömdaste spel någonsin:
 
 ![Tetris](Tetris.png)
 
@@ -11,7 +11,7 @@ maar de `rect` funktion fungerar lättelijker.
 
 \pagebreak
 
-## `rect` en` fill`: uppgift 1
+## `rect` en `fill`: uppgift 1
 
 Kör denna kod
 
@@ -36,29 +36,29 @@ void draw()
 
 \pagebreak
 
-## `rect` en` fill`: lösning 1
+## `rect` en `fill`: lösning 1
 
-! [Oplossing 1] (RectFill1.png)
+![Oplossing 1](RectFill1.png)
 
 \pagebreak
 
-## `rect` en` fill`: uppgift 2
+## `rect` en `fill`: uppgift 2
 
-Lägg till följande extra regel toe, na `ellipse (x, height / 2, 100, 100);`:
+Lägg till följande extra regel toe, efter `ellipse (x, height / 2, 100, 100);`:
 
 ```c++
   rect(x, height / 2, 100, 100);
 ```
 
-! [Dator] (EmojiComputer.png) | ! [Smiley] (EmojiSmiley.png)
-: ------------------------: |: ---------------------- -----------------------------:
-`rect (100, 200, 300, 400)` | 'Lieve computer, teken een rechthoek met' (100, 200) `as linkerbovenhoek, 300 pixels breed en 400 pixels hoog is. '
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:------------------------:|:---------------------------------------------------:
+`rect (100, 200, 300, 400)` | 'Lieve computer, teken een rechthoek met' (100, 200) 'som linkerbovenhoek, 300 pixlar föder upp och 400 pixlar hög är. '
 
 \pagebreak
 
-## `rect` en` fill`: lösning 2
+## `rect` en `fill`: lösning 2
 
-! [Oplossing 2] (RectFill2.png)
+![Oplossing 2](RectFill2.png)
 
 ```c++
 float x = -50;
@@ -82,15 +82,15 @@ void draw()
 
 \pagebreak
 
-## `rect` en` fill`: uppgift 3
+## `rect` en `fill`: uppgift 3
 
-! [Uppdrag 3] (RectFill3.png)
+![Uppdrag 3](RectFill3.png)
 
 Teken de rechthoek nu over de ovaal. Doe dit door van de `x` en` y` coordinaat 50 af te halen.
 
 \pagebreak
 
-## `rect` en` fill`: lösning 3
+## `rect` en `fill`: lösning 3
 
 ```c++
 float x = -50;
@@ -114,18 +114,18 @@ void draw()
 
 \pagebreak
 
-## `rect` en` fill`: uppgift 4
+## `rect` en `fill`: uppgift 4
 
-! [Uppdrag 4] (RectFill4.png)
+![Uppdrag 4](RectFill4.png)
 
-Haal de onzichttbare ovaal weg and make the linekleur geel. Hur du gör det,
+Haal de onzichttbare ovaal weg och gör linekleuren. Hur du gör det,
 kun je see in figuur `Kleurencirkel`.
 
-! [Kleurencirkel] (AdditiveColor3.png)
+![Kleurencirkel](AdditiveColor3.png)
 
 \pagebreak
 
-## `rect` en` fill`: lösning 4
+## `rect` en `fill`: lösning 4
 
 ```c++
 float x = -50;
@@ -149,7 +149,7 @@ void draw()
 
 \pagebreak
 
-## `rect` en` fill`: uppgift 5
+## `rect` en `fill`: uppgift 5
 
 Lägg till följande regel toe na `stroke (255, 255, 0);`:
 
@@ -159,9 +159,9 @@ fill(x, 0, 255);
 
 \pagebreak
 
-## `rect` en` fill`: lösning 5
+## `rect` en `fill`: lösning 5
 
-! [Uppdrag 5] (RectFill5.png)
+![Uppdrag 5](RectFill5.png)
 
 ```c++
 float x = -50;
@@ -184,21 +184,21 @@ void draw()
 }
 ```
 
-! [Dator] (EmojiComputer.png) | ! [Smiley] (EmojiSmiley.png)
-: ----------------: |: ------------------------------ ----------:
-`fill (0, 128, 255);` | 'Lieve computer, make the invulkleur without rood, halvol green and vol blauw.'
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:----------------:|:----------------------------------------:
+`fyllning (0, 128, 255);` | 'Lieve computer, gör invulkleur utan rood, halvolgrön och vol blauw.'
 
 \pagebreak
 
-## `rect` en` fill`: uppgift 6
+## `rect` en `fill`: uppgift 6
 
 Gör en ny variabel till, `grön` med en börjanvärde av nul.
-`groen` används som den andra getal van` fill` (plats av de nul).
+`green` används som den andra getal van` fill` (plats av de nul).
 Varje gång blir `grön` två hoger.
 
 \pagebreak
 
-### `rect` en` fill`: lösning 6
+### `rect` en `fill`: lösning 6
 
 ```c++
 float x = -50;
@@ -225,16 +225,16 @@ void draw()
  
 \pagebreak
 
-## `rect` en` fill`: uppgift 7
+## `rect` en `fill`: uppgift 7
 
-! [Uppdrag 7] (RectFill7.png)
+![Uppdrag 7](RectFill7.png)
 
 De variabla `gröna` kan inte bli högre än` 255`. Gör en `om` erbij,
 att som `grön` mer är dan 255, att den gröna sedan nul blir
 
 \pagebreak
 
-## `rect` en` fill`: lösning 7
+## `rect` en `fill`: lösning 7
 
 ```c++
 float x = -50;
@@ -265,15 +265,15 @@ void draw()
 
 \pagebreak
 
-## `rect` en` fill`: uppgift 8
+## `rect` en `fill`: uppgift 8
 
-! [Uppdrag 8] (RectFill8.png)
+![Uppdrag 8](RectFill8.png)
 
 Skapa en blå färg av en uppvärmning som kommer från och med 256.
 
 \pagebreak
 
-## `rect` en` fill`: lösning 8
+## `rect` en `fill`: lösning 8
 
 ```c++
 float x = -50;
@@ -304,9 +304,9 @@ void draw()
 
 \pagebreak
 
-## `rect` en` fill`: eindopdracht
+## `rect` en `fill`: eindopdracht
 
-! [Eindopdracht `rect` en` fill`] (RectFillEindopdracht.png)
+![Eindopdracht `rect` en `fill`](RectFillEindopdracht.png)
 
 Skapa en rad kläder som kan användas i alla kategorier (från svart till röd, grön och blå är från).
 Laat de invulkleur går från svart till grönt, där green steeds 3 blir.
