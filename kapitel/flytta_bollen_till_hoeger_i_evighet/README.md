@@ -1,9 +1,9 @@
 # Flytta bollen till höger i evighet
 
-I den här lektionen ska vi få en boll att gå till höger för alltid.
+I den här lektionen ska vi få en boll som flytta till höger i evighet.
 
-I den här lektionen lär vi oss vad ett 'om' -uttalande är.
-Du kan (nästan) inte programmera utan 'if' -uttalanden.
+I den här lektionen lär vi oss vad ett `if`-uttalande är.
+Du kan (nästan) inte programmera utan `if`-uttalanden.
 
 ![På boskanska kan du också gå rätt för alltid](Bosconian.jpg)
 
@@ -50,7 +50,7 @@ Tecknet `>` betyder 'större än'.
 Mer exakt säger du: "Kära dator, **om** `x` är mer än `200`, 
 ställ in `x` som till `100`. `if` är engelska för 'om'.
 
-![Ett `om`](BallEternalToRightIf.png)
+![Ett `om`](flytta_bollen_till_hoeger_i_evigheten_if.png)
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-----------------:|:-----------------------------:
@@ -59,7 +59,7 @@ ställ in `x` som till `100`. `if` är engelska för 'om'.
 
 \pagebreak
 
-## Bollen går rätt för alltid: kommando 1
+## Bollen går rätt för alltid: uppgift 1
 
 ![Uppgift 1](flytta_bollen_till_hoeger_i_evighet_1.png)
 
@@ -93,9 +93,9 @@ void draw()
 
 \pagebreak
 
-## Bollen går rätt för alltid: kommando 2
+## Bollen går rätt för alltid: uppgift 2
 
-![Uppgift 2](BalEeuwigNaarRechts2.png)
+![Uppgift 2](flytta_bollen_till_hoeger_i_evigheten_2.png)
 
 Se till att ovalen hoppar hela vägen till vänster på skärmen
 
@@ -127,9 +127,9 @@ void draw()
 
 \pagebreak
 
-## Bollen går rätt för alltid: kommando 3
+## Bollen går rätt för alltid: uppgift 3
 
-![Uppgift 3](BalEeuwigNaarRechts3.png)
+![Uppgift 3](flytta_bollen_till_hoeger_i_evigheten_3.png)
 
 Se till att ovalen rör sig hela vägen till höger 
 innan den hoppar till vänster på skärmen
@@ -161,7 +161,7 @@ void draw()
 
 \pagebreak
 
-## Bollen går rätt för alltid: kommando 4
+## Bollen går rätt för alltid: uppgift 4
 
 Lurad! 
 Även om lektionen heter 'Bollen som går till höger för alltid', 
@@ -227,7 +227,7 @@ void draw()
 
 \pagebreak
 
-## Bollen går rätt för alltid: kommando 5
+## Bollen går rätt för alltid: uppgift 5
 
 Vi fick en boll att flytta åt höger och vänster av koordinaten `x`
 att förändra. Bollen kan också gå ner och upp genom y -koordinaten
@@ -267,7 +267,7 @@ void draw()
 
 \pagebreak
 
-## Bollen går rätt för alltid: kommando 6
+## Bollen går rätt för alltid: uppgift 6
 
 Oj, nu när vi har skapat en variabel `x` eller ett `y`, låt oss göra båda!
 
