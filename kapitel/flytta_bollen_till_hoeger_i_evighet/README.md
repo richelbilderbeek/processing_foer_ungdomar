@@ -185,7 +185,7 @@ ställ sedan in `x` till femhundra'.
 :-----------------:|:-----------------------------:
 `om (x <100) {}` | 'Kära dator, om' x 'är mindre än 100, gör det som finns inom lockiga parenteser.'
 
-![Uppgift 4](BalEeeuwigToRechts4.png)
+![Uppgift 4](flytta_bollen_till_hoeger_i_evigheten_4.png)
 
 Gör en boll som går åt vänster för alltid:
 
@@ -277,7 +277,7 @@ När vi slår ihop kod gäller följande regler:
  * allt som finns inom `setup`-funktionen måste förbli inom `setup`-funktionen
  * allt som finns i funktionen `draw` måste hålla sig inom funktionen `draw`
 
-![Uppgift 6](BalEeeuwigToRechts6.png)
+![Uppgift 6](flytta_bollen_till_hoeger_i_evigheten_6.png)
 
  * Slå ihop koden för "Ball going right forever" med "Ball going down forever"
  * Ändra koden så att bollen går nere
