@@ -1,6 +1,6 @@
-# Processing för unga tonåringar
+# Processing för tonåringar
 
-Kurs 'Processing för unga tonåringar'.
+Kurs 'Processing för tonåringar'.
 
  * [Installera Processing](kapitel/installera_processing/README.md)
  * [Kapitel](kapitel/README.md): ensama kapitel
