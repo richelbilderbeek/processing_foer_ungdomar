@@ -68,7 +68,7 @@ Sätt `if` i slutet av `draw`, före den avslutande måsvingen (`}`).
 
 \pagebreak
 
-## Boll som går till höger för alltid: lösning 1
+## Flytta bollen till höger i evighet: lösning 1
 
 Koden blir då:
 
@@ -101,7 +101,7 @@ Se till att ovalen hoppar hela vägen till vänster på skärmen
 
 \pagebreak
 
-## Boll som går till höger för alltid: lösning 2
+## Flytta bollen till höger i evighet: lösning 2
 
  * Ändra `float x = 50` till `float x = 0` eller `float x = -50`: båda är bra.
  * Ändra `x = 100` till `x = 0` eller `x = -50`: båda är bra.
@@ -195,7 +195,7 @@ Gör en boll som går åt vänster för alltid:
 
 \pagebreak
 
-## Boll som går till höger för alltid: lösning 4
+## Flytta bollen till höger i evighet: lösning 4
 
 Detta är en evig boll som går till vänster:
 
@@ -284,7 +284,7 @@ När vi slår ihop kod gäller följande regler:
 
 \pagebreak
 
-## Boll som går till höger för alltid: lösning 6
+## Flytta bollen till höger i evighet: lösning 6
 
 ```c++
 float x = -50;
@@ -313,9 +313,9 @@ void draw()
 
 \pagebreak
 
-## Boll som går till höger för alltid: slutuppdrag
+## Flytta bollen till höger i evighet: slutuppgift
 
-![Avsluta uppdraget `Ball Eternal To the Right`](flytta_bollen_till_hoeger_i_evigheten_End Assignment.png)
+![slutuppgift 'Flytta bollen till höger i evighet'](flytta_bollen_till_hoeger_i_evigheten_slutuppgift.png)
 
 Låt nu bollen gå snett till botten till vänster för alltid.
 
