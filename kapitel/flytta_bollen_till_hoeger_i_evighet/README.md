@@ -1,19 +1,19 @@
-# Bal die eeuwig naar rechts gaat
+# Boll som går rätt för alltid
 
-In deze les gaan we een bal eeuwig naar rechts laten gaan.
+I den här lektionen ska vi få en boll att gå till höger för alltid.
 
-We leren in deze les wat `if`-statement is.
-Je kunt (bijna) niet programmeren zonder `if`-statements.
+I den här lektionen lär vi oss vad ett 'om' -uttalande är.
+Du kan (nästan) inte programmera utan 'if' -uttalanden.
 
-![In Bosconian kun je ook eeuwig naar rechts gaan](Bosconian.jpg)
+! [På boskanska kan du också gå rätt för alltid] (Bosconian.jpg)
 
 \pagebreak
 
-## Bal die eeuwig naar rechts gaat: intro
+## Boll som går rätt för alltid: intro
 
-![Verkleurende bal naar rechts](BalEeuwigNaarRechtsIntro.png)
+! [Missfärga bollen till höger] (BallEeuwigNaarRechtsIntro.png)
 
-Dit is een bal die naar rechts gaat:
+Detta är en boll som går till höger:
 
 ```c++
 float x = 50;
@@ -30,14 +30,14 @@ void draw()
 }
 ```
 
-Nadeel: de bal komt nooit meer terug in het scherm.
+Nackdel: bollen återvänder aldrig till skärmen.
 
 \pagebreak
 
-We willen kunnen zeggen: 'Lieve computer, *als* de bal te ver naar rechts is, 
-dan teleporteer je de bal naar rechts'. `if` is Engels voor 'als'.
+Vi vill kunna säga, "Kära dator, **om** bollen är för långt till höger,
+sedan teleporterar du bollen till höger '. 'if' är engelska för 'om'.
 
-Zo zou dit kunnen:
+Så det här kan vara:
 
 ```c++
 if (x > 200)
@@ -46,28 +46,28 @@ if (x > 200)
 }
 ```
 
-Het tekentje `>` betekent 'groter dan'. Preciezer zeg je: 'Lieve computer, *als* x meer is dan 200, zet x dat op 100'. `if` is Engels voor 'als'.
+Tecknet '>' betyder 'större än'. Mer exakt säger du: "Kära dator, * om * x är mer än 200, ställ in x som till 100". 'if' är engelska för 'if'.
 
-![Een `if`](BalEeuwigNaarRechtsIf.png)
+! [Ett `om`] (BallEternalToRightIf.png)
 
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
-`if (x > 200) { }`|'Lieve computer, als `x` groter is dan 200, doe dan wat tussen accolades staat.'
-`x = 100;`|'Lieve computer, stop het getal `100` in `x`.'
-
-\pagebreak
-
-## Bal die eeuwig naar rechts gaat: opdracht 1
-
-![Opdracht 1](BalEeuwigNaarRechts1.png)
-
-Zet de `if` tussen de code van het programma. Zet de `if` aan het eind van `draw`, voor de accolade sluiten (`}`).
+! [Dator] (EmojiComputer.png) | ! [Smiley] (EmojiSmiley.png)
+: -----------------: |: ---------------------- ------- :
+`om (x> 200) {}` | 'Kära dator, om' x 'är större än 200, gör det som finns inom lockiga parenteser.'
+`x = 100;` | 'Kära dator, sätt siffran' 100 'i' x '.'
 
 \pagebreak
 
-## Bal die eeuwig naar rechts gaat: oplossing 1
+## Bollen går rätt för alltid: kommando 1
 
-De code wordt dan:
+! [Uppgift 1] (BalEeeuwigNaarRechts1.png)
+
+Sätt 'if' mellan programmets kod. Sätt 'if' i slutet av 'draw', före den avslutande locket ('}').
+
+\pagebreak
+
+## Boll som går till höger för alltid: lösning 1
+
+Koden blir då:
 
 ```c++
 float x = 50;
@@ -90,18 +90,18 @@ void draw()
 
 \pagebreak
 
-## Bal die eeuwig naar rechts gaat: opdracht 2
+## Bollen går rätt för alltid: kommando 2
 
-![Opdracht 2](BalEeuwigNaarRechts2.png)
+! [Uppgift 2] (BalEeuwigNaarRechts2.png)
 
-Zorg ervoor dat de ovaal helemaal naar de linkerkant van het scherm springt
+Se till att ovalen hoppar hela vägen till vänster på skärmen
 
 \pagebreak
 
-## Bal die eeuwig naar rechts gaat: oplossing 2
+## Boll som går till höger för alltid: lösning 2
 
- * Verander `float x = 50` naar `float x = 0` of `float x = -50`: allebei is goed.
- * Verander `x = 100` naar `x = 0` of `x = -50`: allebei is goed.
+ * Ändra 'float x = 50' till 'float x = 0' eller 'float x = -50': båda är bra.
+ * Ändra 'x = 100' till 'x = 0' eller 'x = -50': båda är bra.
 
 ```c++
 float x = 50;
@@ -124,17 +124,17 @@ void draw()
 
 \pagebreak
 
-## Bal die eeuwig naar rechts gaat: opdracht 3
+## Bollen går rätt för alltid: kommando 3
 
-![Opdracht 3](BalEeuwigNaarRechts3.png)
+! [Uppgift 3] (BalEeuwigNaarRechts3.png)
 
-Zorg ervoor dat de ovaal helemaal naar rechts beweegt, voordat deze naar de linkerkant van het scherm springt
+Se till att ovalen rör sig hela vägen till höger innan den hoppar till vänster på skärmen
 
 \pagebreak
 
-## Bal die eeuwig naar rechts gaat: oplossing 3
+## Boll som går rätt för alltid: lösning 3
 
-Verander `if (x > 200)` naar `if (x > 650)`.
+Ändra `om (x> 200)` till `om (x> 650)`.
 
 ```c++
 float x = -50;
@@ -157,14 +157,14 @@ void draw()
 
 \pagebreak
 
-## Bal die eeuwig naar rechts gaat: opdracht 4
+## Bollen går rätt för alltid: kommando 4
 
-Gefopt! Ook al het de les 'Bal die eeuwig naar rechts gaat', we gaan toch de bal ook andere
-kanten op laten gaan.
+lurad! Även om lektionen "Bollen som går till höger för alltid", går vi fortfarande bollen annan
+låt det gå åt sidan.
 
-We gaan nu een bal programmeren die eeuwig naar links gaat.
+Vi ska nu programmera en boll som rör sig till vänster för alltid.
 
-Wat je nu moet weten is het `if` statement om te zeggen wanneer de `x` te klein is:
+Det du behöver veta nu är 'if' -uttalandet för att säga när' x 'är för litet:
 
 ```c++
 if (x < 100)
@@ -173,26 +173,26 @@ if (x < 100)
 }
 ```
 
-Hiermee zeg je: 'Lieve computer, als `x` kleiner (`<`, hier kun je een `k` van maken) is dan honderd,
-zet dan `x` op vijfhonderd.
+Med detta säger du: 'Kära dator, om' x 'är mindre (' <', du kan göra detta till ett' k ') än hundra,
+ställ sedan in 'x' till femhundra.
 
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
-`if (x < 100) { }`|'Lieve computer, als `x` kleiner is dan 100, doe dan wat tussen accolades staat.'
+! [Dator] (EmojiComputer.png) | ! [Smiley] (EmojiSmiley.png)
+: -----------------: |: ---------------------- ------- :
+`om (x <100) {}` | 'Kära dator, om' x 'är mindre än 100, gör det som finns inom lockiga parenteser.'
 
-![Opdracht 4](BalEeuwigNaarRechts4.png)
+! [Uppgift 4] (BalEeeuwigToRechts4.png)
 
-Maak een bal die eeuwig naar links gaat:
+Gör en boll som går åt vänster för alltid:
 
- * De bal begint buiten het beeld
- * De bal gaat helemaal het beeld uit
- * Als de bal net uit het beeld uit, komt 'ie meteen de andere kant weer binnen
+ * Bollen startar utanför ramen
+ * Bollen går helt ur bilden
+ * Om bollen bara kommer ur bilden kommer den omedelbart tillbaka på andra sidan
 
 \pagebreak
 
-## Bal die eeuwig naar rechts gaat: oplossing 4
+## Boll som går till höger för alltid: lösning 4
 
-Dit is een eeuwig naar links gaande bal:
+Detta är en evig boll som går till vänster:
 
 ```c++
 float x = 650;
@@ -213,33 +213,33 @@ void draw()
 }
 ```
 
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
-`x = x - 1`|'Lieve computer, maak `x` een lager.'
-`x -= 1`|'Lieve computer, maak `x` een lager.'
-`x--`|'Lieve computer, maak `x` een lager.'
-`--x`|'Lieve computer, maak `x` een lager.'
+! [Dator] (EmojiComputer.png) | ! [Smiley] (EmojiSmiley.png)
+: -----------------: |: ---------------------- ------- :
+`x = x - 1` | 'Kära dator, gör` x` till en lägre.'
+`x -= 1` | 'Kära dator, gör` x` till en lägre.'
+`x-` | 'Kära dator, gör `x` till en lägre.'
+`--x` | 'Kära dator, gör` x` till en lägre.'
 
 \pagebreak
 
-## Bal die eeuwig naar rechts gaat: opdracht 5
+## Bollen går rätt för alltid: kommando 5
 
-We hebben een bal naar rechts en naar links laten bewegen door de `x` coordinaat
-te veranderen. De bal kan ook naar omlaag en omhoog gaan door de `y` coordinaat
-te veranderen.
+Vi fick en boll att flytta åt höger och vänster av koordinaten `x`
+att förändra. Bollen kan också gå ner och upp genom y -koordinaten
+att förändra.
 
-![Opdracht 5](BalEeuwigNaarRechts5.png)
+! [Uppgift 5] (BalEeeuwigNaarRechts5.png)
 
-Schrijf een programma waarin een bal eeuwig omlaag gaat:
+Skriv ett program där en boll går ner för alltid:
 
- * maak het scherm 300 pixels breed en 200 pixels hoog
- * gebruik een variable met naam `y`
- * vervang de code `ellipse(x, 50, 100, 100)` door `elllipse(50, y, 100, 100)`
- * als de bal omlaag uit het scherm gaat, moet de bal weer bovenin komen
+ * gör skärmen 300 pixlar bred och 200 pixlar hög
+ * använd en variabel som heter 'y'
+ * ersätt koden `ellips (x, 50, 100, 100)` med `elllipse (50, y, 100, 100)`
+ * om bollen går ner från skärmen måste bollen komma upp igen
 
 \pagebreak
 
-## Bal die eeuwig naar rechts gaat: oplossing 5
+## Boll som går rätt för alltid: lösning 5
 
 ```c++
 float y = -50;
@@ -262,24 +262,24 @@ void draw()
 
 \pagebreak
 
-## Bal die eeuwig naar rechts gaat: opdracht 6
+## Bollen går rätt för alltid: kommando 6
 
-Hoppa, nu we een variabele `x` of een `y` hebben gemaakt, gaan we beiden doen!
+Oj, nu när vi har skapat en variabel 'x' eller ett 'y', låt oss göra båda!
 
-Als we code samenvoegen, gelden de volgende regels:
+När vi slår ihop kod gäller följande regler:
 
- * alles wat boven de `setup` functie staat, moet daar blijven
- * alles wat binnen de `setup` functie staat, moet binnen de `setup` functie blijven
- * alles wat binnen de `draw` functie staat, moet binnen de `draw` functie blijven
+ * allt ovanför `setup` -funktionen ska stanna där
+ * allt som finns inom "setup" -funktionen måste förbli inom "setup" -funktionen
+ * allt som finns i funktionen `` draw '' måste hålla sig inom funktionen `` draw ''
 
-![Opdracht 6](BalEeuwigNaarRechts6.png)
+! [Uppgift 6] (BalEeeuwigToRechts6.png)
 
- * Voeg de code van 'Bal die eeuwig naar rechts gaat' samen met 'Bal die eeuwig omlaag gaat'
- * Verander de code zo dat de bal schuin gaat
+ * Slå ihop koden för "Ball going right forever" med "Ball going down forever"
+ * Ändra koden så att bollen går snett
 
 \pagebreak
 
-## Bal die eeuwig naar rechts gaat: oplossing 6
+## Boll som går till höger för alltid: lösning 6
 
 ```c++
 float x = -50;
@@ -308,12 +308,10 @@ void draw()
 
 \pagebreak
 
-## Bal die eeuwig naar rechts gaat: eindopdracht
+## Boll som går till höger för alltid: slutuppdrag
 
-![Eindopdracht `Bal Eeuwig Naar Rechts`](BalEeuwigNaarRechtsEindopdracht.png)
+! [Avsluta uppdraget `Ball Eternal To the Right`] (BallEeuwigNaarRechtsEnd Assignment.png)
 
-Laat de bal nu eeuwig schuin naar linksonder gaan.
+Låt nu bollen gå snett till botten till vänster för alltid.
 
-## Bal die eeuwig naar rechts gaat: links
 
- * Bal die eeuwig naar rechts gaat: [YouTube](https://youtu.be/k-7Ji0_HcAc), [mp4](http://www.richelbilderbeek.nl/bal_eeuwig_naar_rechts.mp4)
