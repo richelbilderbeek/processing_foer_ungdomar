@@ -1,14 +1,14 @@
-# `line` en `stroke`
+# `linje` och` stroke '
 
-![Moria, een van de allereerste games met kleur](LineStrokeMoria.png)
+! [Moria, ett av de allra första spelen med färg] (LineStrokeMoria.png)
 
-In deze les gaan we leren hoe je gekleurde lijnen tekent.
+I den här lektionen kommer vi att lära oss att rita färgade linjer.
 
 \pagebreak
 
-## `line` en `stroke`: opdracht 1
+## `rad` och` stroke ': kommando 1
 
-Run deze code:
+Kör den här koden:
 
 ```c++
 void setup()
@@ -22,32 +22,32 @@ void draw()
 }
 ```
 
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:----------------:|:----------------------------------------: 
-`line(0, 100, 300, 200);`|'Lieve computer, teken een lijn van `(0, 100)` naar `(300, 200)`.'
+! [Dator] (EmojiComputer.png) | ! [Smiley] (EmojiSmiley.png)
+: -----: |: ---------------------------------- ------- ---:
+`rad (0, 100, 300, 200);` | 'Kära dator, dra en linje från `(0, 100)` till `(300, 200)`.'
 
-![Sunglasses](EmojiSunglasses.png) | `(100, 200)` is de pixel die 100 pixels naar links en 200 pixels onder de linkerbovenhoek van het scherm zit 
-:-------------:|:----------------------------------------: 
-
-\pagebreak
-
-## `line` en `stroke`: oplossing 1
-
-![Oplossing 1](LineStroke1Uitleg.png)
+! [Solglasögon] (EmojiSunglasses.png) | `(100, 200)` är pixeln som sitter 100 pixlar till vänster och 200 pixlar under skärmens övre vänstra hörn
+: -----------------: |: ---------------------- ------- :
 
 \pagebreak
 
-## `line` en `stroke`: opdracht 2
+## `line` och` stroke ': lösning 1
 
-![Opdracht 2](LineStroke2.png)
+! [Lösning 1] (LineStroke1Explanation.png)
 
-Laat de lijn niet naar de rechteronderhoek, maar naar de rechterbovenhoek gaan.
+\pagebreak
+
+## `rad` och` stroke ': kommando 2
+
+! [Kommando 2] (LineStroke2.png)
+
+Låt inte linjen gå till nedre högra hörnet, utan till det övre högra hörnet.
 
 \pagebreak
 
 \pagebreak
 
-## `line` en `stroke`: oplossing 2
+## `line` och` stroke ': lösning 2
 
 ```c++
 void setup()
@@ -63,15 +63,15 @@ void draw()
 
 \pagebreak
 
-## `line` en `stroke`: opdracht 3
+## `rad` och` stroke ': kommando 3
 
-Laat de lijn niet links in het midden, maar linksonder beginnen
+Låt inte linjen börja vänster i mitten, utan börja längst ner till vänster
 
-![Opdracht 3](LineStroke3.png)
+! [Kommando 3] (LineStroke3.png)
 
 \pagebreak
 
-## `line` en `stroke`: oplossing 3
+## `line` och` stroke ': lösning 3
 
 ```c++
 void setup()
@@ -87,15 +87,15 @@ void draw()
 
 \pagebreak
 
-## `line` en `stroke`: opdracht 4
+## `rad` och` stroke ': kommando 4
 
-Laat de lijn van linksonder naar rechtsboven gaan, maar gebruik nu `width` en `height`
+Låt linjen gå från nedre vänster till överst till höger, men använd nu "bredd" och "höjd"
 
-![Opdracht 4](LineStroke4.png)
+! [Kommando 4] (LineStroke4.png)
 
 \pagebreak
 
-## Oplossing 4
+## `rad` och` stroke ': lösning 4
 
 ```c++
 void setup()
@@ -111,17 +111,17 @@ void draw()
 
 \pagebreak
 
-## `line` en `stroke`: opdracht 5
+## `rad` och` stroke ': kommando 5
 
-![Opdracht 5](LineStroke5.png)
+! [Kommando 5] (LineStroke5.png)
 
-Laat de lijn links op een willekeurige hoogte beginnen. Dit doe je met `random`
-
-\pagebreak
+Starta linjen till vänster i valfri höjd. Du gör detta med "slumpmässigt"
 
 \pagebreak
 
-## Oplossing 5
+\pagebreak
+
+## `rad` och` stroke ': lösning 5
 
 ```c++
 void setup()
@@ -137,15 +137,15 @@ void draw()
 
 \pagebreak
 
-## `line` en `stroke`: opdracht 6
+## `rad` och` stroke ': kommando 6
 
-![Opdracht 6](LineStroke6.png)
+! [Kommando 6] (LineStroke6.png)
 
-Laat de lijn nu ook rechts op een willekeurige hoogte eindigen.
+Låt linjen nu också sluta till höger i godtycklig höjd.
 
 \pagebreak
 
-## `line` en `stroke`: oplossing 6
+## `line` och` stroke ': lösning 6
 
 ```c++
 void setup()
@@ -161,15 +161,15 @@ void draw()
 
 \pagebreak
 
-## `line` en `stroke`: opdracht 7
+## `rad` och` stroke ': kommando 7
 
-![Opdracht 7](LineStroke7.png)
+! [Kommando 7] (LineStroke7.png)
 
-Zet voor `line` de regel `stroke(255, 0, 0);`
+Innan `rad` sätt linjen` slag (255, 0, 0); `
 
 \pagebreak
 
-## `line` en `stroke`: oplossing 7
+## `line` och` stroke ': lösning 7
 
 ```c++
 void setup()
@@ -184,24 +184,24 @@ void draw()
 }
 ```
 
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:----------------:|:----------------------------------------: 
-`stroke(255, 0, 0);`|'Lieve computer, geef de lijnen de kleur rood.'
-`stroke(255, 0, 0);`|'Lieve computer, geef de lijnen de kleur vol rood, zonder groen en zonder blauw.'
+! [Dator] (EmojiComputer.png) | ! [Smiley] (EmojiSmiley.png)
+: -----: |: ---------------------------------- ------- ---:
+`stroke (255, 0, 0);` | 'Kära dator, gör linjerna röda.'
+`stroke (255, 0, 0);` | 'Kära dator, gör linjerna helt röda, utan grönt och utan blått.'
 
 \pagebreak
 
-## `line` en `stroke`: opdracht 8
+## `rad` och` stroke ': kommando 8
 
-![Opdracht 8](LineStroke8.png)
+! [Kommando 8] (LineStroke8.png)
 
-Maak de lijnen nu cyaan. Kijk naar figuur `Kleurencirkel` hoe je die maakt
+Gör linjerna cyan nu. Titta på figuren 'Färgcirkel' hur du gör det
 
-![Kleurencirkel](AdditiveColor3.png)
+! [Färgcirkel] (AdditiveColor3.png)
 
 \pagebreak
 
-## `line` en `stroke`: oplossing 8
+## `line` och` stroke ': lösning 8
 
 ```c++
 void setup()
@@ -216,23 +216,23 @@ void draw()
 }
 ```
 
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:----------------:|:----------------------------------------: 
-`stroke(0, 255, 255);`|'Lieve computer, geef de lijnen de kleur cyaan.'
-`stroke(0, 255, 255);`|'Lieve computer, geef de lijnen de kleur zonder rood, vol groen en vol blauw.'
+! [Dator] (EmojiComputer.png) | ! [Smiley] (EmojiSmiley.png)
+: -----: |: ---------------------------------- ------- ---:
+`stroke (0, 255, 255);` | 'Kära dator, färga linjerna cyan.'
+`stroke (0, 255, 255);` | 'Kära dator, färga linjerna utan rött, fullt grönt och helt blått.'
 
 \pagebreak
 
-## `line` en `stroke`: opdracht 9
+## `rad` och` stroke ': kommando 9
 
-![Opdracht 9](LineStroke9.png)
+! [Kommando 9] (LineStroke9.png)
 
-Laat nu de roodwaarde een willeukeurig getal van 0 tot 256 worden.
+Låt nu det röda värdet bli valfritt tal från 0 till 256.
 
 
 \pagebreak
 
-## `line` en `stroke`: oplossing 9
+## `line` och` stroke ': lösning 9
 
 ```c++
 void setup()
@@ -249,13 +249,10 @@ void draw()
 
 \pagebreak
 
-## `line` en `stroke`: eindopdracht
+## `line` och` stroke ': sista kommandot
 
-![Eindopdracht `line` en `stroke`](LineStrokeEindopdracht.png)
+! [Slutkommando `rad` och` stroke '] (LineStrokeFinal command.png)
 
-Laat de lijnen nu op willekeurige plekken beginnen en eindigen. De lijnkleur moet
-ook willekeurig zijn.
+Låt nu raderna börja och sluta på slumpmässiga platser. Linjefärgen måste
+var också slumpmässig.
 
-## `line` en `stroke`: links
-
- * `line` en `stroke`: [YouTube](https://youtu.be/94cuhGWpdjw), [mp4](http://www.richelbilderbeek.nl/line_en_stroke.mp4)
