@@ -1,3 +1,8 @@
+---
+documentclass: extarticle
+fontsize: 14pt
+---
+
 # Förord
 
 Detta är en bok om Processing för tonåringar.

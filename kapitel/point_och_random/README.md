@@ -24,6 +24,8 @@ de har färre pirxlar vilket gör bilderna kantigare.
 
 ![Super Mario Bros 1](NES_Super_Mario_Bros.png)
 
+\pagebreak
+
 ## `point` och `random`: uppgift 1
 
 Kör följande kod:

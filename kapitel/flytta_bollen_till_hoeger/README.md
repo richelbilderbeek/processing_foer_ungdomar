@@ -39,6 +39,10 @@ Om allt går bra ser du en boll som rör sig till höger (se figur `Flytta bolle
 
 \pagebreak
 
+\pagebreak
+
+\pagebreak
+
 ## Flytta bollen till höger: uppgift 1
 
 ![Flytta bollen till höger: uppgift 1](boll_till_hoeger_1.png)
@@ -71,6 +75,8 @@ void draw()
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-----------------:|:-----------------------------:
 `size(300, 200);`  | 'Kära dator, skapa ett fönster som är 300 pixlar brett och 200 pixlar högt.'
+
+\pagebreak
 
 \pagebreak
 
