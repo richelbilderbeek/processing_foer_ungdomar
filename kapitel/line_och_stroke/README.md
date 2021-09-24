@@ -117,7 +117,7 @@ void draw()
 
 ![Uppgift 5](line_och_stroke_5.png)
 
-Starta linjen till vänster på en slumpmässig höjd. 
+Låt nu linjen starta i vänstra kanten på en slumpmässig höjd. 
 Du gör detta med `random`.
 
 \pagebreak
@@ -142,7 +142,7 @@ void draw()
 
 ![Uppgift 6](line_och_stroke_6.png)
 
-Låt linjen nu också sluta till höger på en slumpmässig höjd.
+Låt linjen nu också sluta på en slumpmässig höjd i högra kanten.
 
 \pagebreak
 
@@ -166,7 +166,7 @@ void draw()
 
 ![Uppgift 7](line_och_stroke_7.png)
 
-Före meningen med `line`, skriv linjen `stroke(255, 0, 0);`.
+Precis ovanför meningen med `line`, skriv nu texten `stroke(255, 0, 0);`.
 
 \pagebreak
 
@@ -188,7 +188,7 @@ void draw()
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-----:|:--------------------------------------------:
 `stroke (255, 0, 0);` | 'Kära dator, färga linjerna röda.'
-`stroke (255, 0, 0);` | 'Kära dator, färga linjerna fullt röda, utan grönt och utan blått.'
+`stroke (255, 0, 0);` | 'Kära dator, färga linjerna helt röda, utan grönt och utan blått.'
 
 \pagebreak
 
@@ -196,7 +196,7 @@ void draw()
 
 ![Uppgift 8](line_och_stroke_8.png)
 
-Gör linjerna cyan nu. Titta på figuren 'Färgcirkel' hur du gör det
+Gör linjerna cyan (ljusblå) nu. Titta på figuren 'Färgcirkel' hur du gör det
 
 ![Färgcirkel](AdditiveColor3.png)
 
@@ -220,7 +220,7 @@ void draw()
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-----:|:--------------------------------------------:
 `stroke (0, 255, 255);` | 'Kära dator, färga linjerna cyan.'
-`stroke (0, 255, 255);` | 'Kära dator, färga linjerna utan rött, fullt grönt och helt blått.'
+`stroke (0, 255, 255);` | 'Kära dator, färga linjerna utan rött, helt gröna och helt blåa.'
 
 \pagebreak
 
@@ -228,7 +228,7 @@ void draw()
 
 ![Uppgift 9](line_och_stroke_9.png)
 
-Låt nu det rödvärdet bli en slumpmässig tal från 0 till 256.
+Sätt nu det röda värdet till ett slumpmässigt tal mellan 0 och 256.
 
 \pagebreak
 
@@ -254,5 +254,5 @@ void draw()
 ![Slutuppgift `line` och `stroke`](line_och_stroke_slutuppgift.png)
 
 Låt nu linjer börja och sluta på slumpmässiga platser. 
-Linjefärgen måste var också slumpmässig.
+Linjefärgen måste också vara slumpmässig.
 
