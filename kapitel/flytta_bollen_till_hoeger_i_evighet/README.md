@@ -278,8 +278,8 @@ När vi slår ihop kod gäller följande regler:
 
 ![Uppgift 6](flytta_bollen_till_hoeger_i_evigheten_6.png)
 
- * Slå ihop koden för "Låt bollen åka åt höger i all evighet" med "Låt bollen åka åt neråt i all evighet"
- * Ändra koden så att bollen åker neråt
+ * Slå ihop koden för "Låt bollen åka åt höger i all evighet" med "Låt bollen åka neråt i all evighet"
+ * Ändra koden så att bollen också åker neråt
 
 \pagebreak
 
