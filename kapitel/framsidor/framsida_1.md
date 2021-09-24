@@ -3,6 +3,6 @@
 `#`|Beskriving
 ---|---
 1|Ett vackert program
-2|Bollen till höger
+2|Låt bollen åka åt höger
 3|`width` och `height`
 4|`point` och `random`
