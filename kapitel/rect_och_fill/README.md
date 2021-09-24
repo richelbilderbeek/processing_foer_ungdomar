@@ -6,14 +6,14 @@ Här ser du en av de berömdaste spel någonsin:
 
 ![Tetris](Tetris.png)
 
-Du kan en fyrkantig text med fyra linjer,
-maar de `rect` funktion fungerar lättelijker.
+Du kan göra en fyrkant med fyra linjer,
+men `rect` funkar lättare.
 
 \pagebreak
 
 ## `rect` en `fill`: uppgift 1
 
-Kör denna kod
+Kör denna kod.
 
 ```c++
 float x = -50;
@@ -38,13 +38,13 @@ void draw()
 
 ## `rect` en `fill`: lösning 1
 
-![Oplossing 1](RectFill1.png)
+![lösning 1](RectFill1.png)
 
 \pagebreak
 
 ## `rect` en `fill`: uppgift 2
 
-Lägg till följande extra regel toe, efter `ellipse (x, height / 2, 100, 100);`:
+Lägg till följanderegel, efter `ellipse(x, height / 2, 100, 100);`:
 
 ```c++
   rect(x, height / 2, 100, 100);
@@ -52,13 +52,13 @@ Lägg till följande extra regel toe, efter `ellipse (x, height / 2, 100, 100);`
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :------------------------:|:---------------------------------------------------:
-`rect (100, 200, 300, 400)` | 'Lieve computer, teken een rechthoek met' (100, 200) 'som linkerbovenhoek, 300 pixlar föder upp och 400 pixlar hög är. '
+`rect (100, 200, 300, 400)` | 'Kära dator, rita ut en fyrkant med vänster-uppe-hörn på `(100, 200)`, 300 pixlar bredd upp och 400 pixlar högt.'
 
 \pagebreak
 
 ## `rect` en `fill`: lösning 2
 
-![Oplossing 2](RectFill2.png)
+![lösning 2](RectFill2.png)
 
 ```c++
 float x = -50;
@@ -86,7 +86,8 @@ void draw()
 
 ![Uppdrag 3](RectFill3.png)
 
-Teken de rechthoek nu over de ovaal. Doe dit door van de `x` en` y` coordinaat 50 af te halen.
+Rita upp fyrkanten över bollen.
+Göra det på att mindre 50 av båda `x` och `y` coordinaterna.
 
 \pagebreak
 
@@ -118,10 +119,11 @@ void draw()
 
 ![Uppdrag 4](RectFill4.png)
 
-Haal de onzichttbare ovaal weg och gör linekleuren. Hur du gör det,
-kun je see in figuur `Kleurencirkel`.
+Ta bort nu den osyndbaren bollen.
+På detta plats, använder `stroke` igen, men nu med färgen gul.
+Kolla på färgenbollen nere:
 
-![Kleurencirkel](AdditiveColor3.png)
+![Färgenbollen](AdditiveColor3.png)
 
 \pagebreak
 
@@ -151,7 +153,7 @@ void draw()
 
 ## `rect` en `fill`: uppgift 5
 
-Lägg till följande regel toe na `stroke (255, 255, 0);`:
+Lägg till följande meningen efter `stroke (255, 255, 0);`:
 
 ```c++
 fill(x, 0, 255);
@@ -186,15 +188,16 @@ void draw()
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :----------------:|:----------------------------------------:
-`fyllning (0, 128, 255);` | 'Lieve computer, gör invulkleur utan rood, halvolgrön och vol blauw.'
+`fill(0, 128, 255);` | 'Kära dator, gör fylfärg utan rood, halvgrön och helt blå.'
 
 \pagebreak
 
 ## `rect` en `fill`: uppgift 6
 
-Gör en ny variabel till, `grön` med en börjanvärde av nul.
-`green` används som den andra getal van` fill` (plats av de nul).
-Varje gång blir `grön` två hoger.
+Gör en ny variabel som heter `groen` (datorn älskar inte ord met `ö`).
+`groen` skulla ha en startvärde av nul.
+`groen` används som den andra tal i `fill` (som är platsen efter `0`).
+Varje gång blir `groen` två hoger.
 
 \pagebreak
 
@@ -229,8 +232,8 @@ void draw()
 
 ![Uppdrag 7](RectFill7.png)
 
-De variabla `gröna` kan inte bli högre än` 255`. Gör en `om` erbij,
-att som `grön` mer är dan 255, att den gröna sedan nul blir
+De variabla `groen` kan inte bli högre än `255`. Gör en ny `if`-sats,
+för att om `groen` är mer än 255, `groen` ska bli nul.
 
 \pagebreak
 
@@ -269,7 +272,8 @@ void draw()
 
 ![Uppdrag 8](RectFill8.png)
 
-Skapa en blå färg av en uppvärmning som kommer från och med 256.
+Fylfärge skulla nu bli en blåvärde
+som är en slumpmässig tal mellan 0 och 256.
 
 \pagebreak
 
@@ -304,9 +308,10 @@ void draw()
 
 \pagebreak
 
-## `rect` en `fill`: eindopdracht
+## `rect` en `fill`: slutuppgift
 
-![Eindopdracht `rect` en `fill`](RectFillEindopdracht.png)
+![Slutuppgift `rect` en `fill`](RectFillEindopdracht.png)
 
-Skapa en rad kläder som kan användas i alla kategorier (från svart till röd, grön och blå är från).
+Skapa en rad kläder som kan användas i alla kategorier 
+(från svart till röd, grön och blå är från).
 Laat de invulkleur går från svart till grönt, där green steeds 3 blir.
