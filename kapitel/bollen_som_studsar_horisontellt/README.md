@@ -1,14 +1,14 @@
-# Boll som studsar snett
+# Boll som studsar
 
-I den här lektionen ska vi studsa en boll i vinkel.
+Under den här lektionen ska vi studsa en boll i vinkel.
 
 \pagebreak
 
-## Boll studsar i vinkel: Kommando 1
+## Boll studsar i vinkel: uppgift 1
 
 ```c++
 float x = 150;
-float snelheid_naar_rechts = 1;
+float hastighet_till_hoeger = 1;
 
 void setup()
 {
@@ -18,28 +18,28 @@ void setup()
 void draw()
 {
   ellipse(x, 100, 50, 50);
-  x = x + snelheid_naar_rechts;
+  x = x + hastighet_till_hoeger;
   if (x > 275)
   {
-    snelheid_naar_rechts = -snelheid_naar_rechts;
+    hastighet_till_hoeger = -hastighet_till_hoeger;
   }
   if (x < 25)
   {
-    snelheid_naar_rechts = -snelheid_naar_rechts;
+    hastighet_till_hoeger = -hastighet_till_hoeger;
   }
 }
 ```
 
-! [Boll som studsar snett: kommando 1] (BalDieSchuinStuitert1.png)
+![Boll som studsar snett: kommando 1](BalDieSchuinStuitert1.png)
 
  * Skriv den här koden
- * Skapa en ny variabel som heter `y '.
+ * Skapa en ny variabel som heter `y`.
  * Rita ovalen på koordinat `(x, y)`.
  * Se till att koden fortsätter att göra samma sak
 
-! [Dator] (EmojiComputer.png) | ! [Smiley] (EmojiSmiley.png)
-: -----------------: |: ---------------------- ------- :
-`float y = 50;` | '' Kära dator, kom ihåg talet 'y' med ett initialvärde på femtio. '
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:-----------------:|:-----------------------------:
+`float y = 50;` | 'Kära dator, kom ihåg talet `y` med ett startvärde av `50`.'
 
 \pagebreak
 
@@ -48,7 +48,7 @@ void draw()
 ```c++
 float x = 150;
 float y = 100;
-float snelheid_naar_rechts = 1;
+float hastighet_till_hoeger = 1;
 
 void setup()
 {
@@ -58,26 +58,26 @@ void setup()
 void draw()
 {
   ellipse(x, y, 50, 50);
-  x = x + snelheid_naar_rechts;
+  x = x + hastighet_till_hoeger;
   if (x > 275)
   {
-    snelheid_naar_rechts = -snelheid_naar_rechts;
+    hastighet_till_hoeger = -hastighet_till_hoeger;
   }
   if (x < 25)
   {
-    snelheid_naar_rechts = -snelheid_naar_rechts;
+    hastighet_till_hoeger = -hastighet_till_hoeger;
   }
 }
 ```
 
 \pagebreak
 
-## Boll studsar i vinkel: Kommando 2
+## Boll studsar i vinkel: uppgift 2
 
-! [Boll som studsar snett: kommando 2] (BalDieSchuinStuitert2.png)
+![Boll som studsar snett: kommando 2](BalDieSchuinStuitert2.png)
 
-Skapa en ny variabel som heter 'speed_down'.
-Ge det initialvärdet för '1'. Bollen behöver inte röra sig än.
+Skapa en ny variabel som heter `hastighet_till_nere`.
+Ge det initialvärdet för `1`. Bollen behöver inte röra sig än.
 
 \pagebreak
 
@@ -86,8 +86,8 @@ Ge det initialvärdet för '1'. Bollen behöver inte röra sig än.
 ```c++
 float x = 150;
 float y = 100;
-float snelheid_naar_rechts = 1;
-float snelheid_omlaag = 1;
+float hastighet_till_hoeger = 1;
+float hastighet_till_nere = 1;
 
 void setup()
 {
@@ -97,23 +97,23 @@ void setup()
 void draw()
 {
   ellipse(x, y, 50, 50);
-  x = x + snelheid_naar_rechts;
+  x = x + hastighet_till_hoeger;
   if (x > 275)
   {
-    snelheid_naar_rechts = -snelheid_naar_rechts;
+    hastighet_till_hoeger = -hastighet_till_hoeger;
   }
   if (x < 25)
   {
-    snelheid_naar_rechts = -snelheid_naar_rechts;
+    hastighet_till_hoeger = -hastighet_till_hoeger;
   }
 }
 ```
 
 \pagebreak
 
-## Boll studsar i vinkel: Kommando 3
+## Boll studsar i vinkel: uppgift 3
 
-! [Boll som studsar snett: kommando 3] (BalDieSchuinStuitert3.png)
+![Boll som studsar snett: kommando 3](BalDieSchuinStuitert3.png)
 
 Låt nu bollen röra sig nedåt också. Han behöver inte studsa ännu.
 
@@ -124,8 +124,8 @@ Låt nu bollen röra sig nedåt också. Han behöver inte studsa ännu.
 ```c++
 float x = 150;
 float y = 100;
-float snelheid_naar_rechts = 1;
-float snelheid_omlaag = 1;
+float hastighet_till_hoeger = 1;
+float hastighet_till_nere = 1;
 
 void setup()
 {
@@ -135,24 +135,24 @@ void setup()
 void draw()
 {
   ellipse(x, y, 50, 50);
-  x = x + snelheid_naar_rechts;
-  y = y + snelheid_omlaag;
+  x = x + hastighet_till_hoeger;
+  y = y + hastighet_till_nere;
   if (x > 275)
   {
-    snelheid_naar_rechts = -snelheid_naar_rechts;
+    hastighet_till_hoeger = -hastighet_till_hoeger;
   }
   if (x < 25)
   {
-    snelheid_naar_rechts = -snelheid_naar_rechts;
+    hastighet_till_hoeger = -hastighet_till_hoeger;
   }
 }
 ```
 
 \pagebreak
 
-## Boll studsar i vinkel: Kommando 4
+## Boll studsar i vinkel: uppgift 4
 
-! [Boll som studsar snett: kommando 4] (BalDieSchuinStuitert4.png)
+![Boll som studsar snett: kommando 4](BalDieSchuinStuitert4.png)
 
 Låt nu bollen studsa upp när bollen träffar botten av skärmen.
 
@@ -163,8 +163,8 @@ Låt nu bollen studsa upp när bollen träffar botten av skärmen.
 ```c++
 float x = 150;
 float y = 100;
-float snelheid_naar_rechts = 1;
-float snelheid_omlaag = 1;
+float hastighet_till_hoeger = 1;
+float hastighet_till_nere = 1;
 
 void setup()
 {
@@ -174,19 +174,19 @@ void setup()
 void draw()
 {
   ellipse(x, y, 50, 50);
-  x = x + snelheid_naar_rechts;
-  y = y + snelheid_omlaag;
+  x = x + hastighet_till_hoeger;
+  y = y + hastighet_till_nere;
   if (x > 275)
   {
-    snelheid_naar_rechts = -snelheid_naar_rechts;
+    hastighet_till_hoeger = -hastighet_till_hoeger;
   }
   if (x < 25)
   {
-    snelheid_naar_rechts = -snelheid_naar_rechts;
+    hastighet_till_hoeger = -hastighet_till_hoeger;
   }
   if (y > 175)
   {
-    snelheid_omlaag = -snelheid_omlaag;
+    hastighet_till_nere = -hastighet_till_nere;
   }
 }
 ```
@@ -195,6 +195,6 @@ void draw()
 
 ## Boll studsar snett: slutuppgift
 
-! [Boll som studsar snett: Avsluta kommando] (BallDieSlantBouncetEnd Command.png)
+![Boll som studsar snett: Avsluta kommando](BallDieSlantBouncetEnd Command.png)
 
 Låt nu bollen studsa också när den träffar toppen.
