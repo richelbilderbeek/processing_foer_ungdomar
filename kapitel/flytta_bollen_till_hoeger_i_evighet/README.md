@@ -54,7 +54,7 @@ sätt `x` till `100`. `if` är engelska för 'om'.
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-----------------:|:-----------------------------:
-`if(x> 200) {}` | 'Kära dator, om `x` är större än `200`, gör det som står inom måsvingarna.'
+`if(x > 200) {}` | 'Kära dator, om `x` är större än `200`, gör det som står inom måsvingarna.'
 `x = 100;` | 'Kära dator, låt `x` vara `100`.'
 
 \pagebreak
@@ -183,7 +183,7 @@ sätt `x` till femhundra istället'.
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-----------------:|:-----------------------------:
-`om (x <100) {}` | 'Kära dator, om' x 'är mindre än 100, gör det som står innanför måsvingarna.'
+`if (x < 100) {}` | 'Kära dator, om' x 'är mindre än 100, gör det som står innanför måsvingarna.'
 
 ![Uppgift 4](flytta_bollen_till_hoeger_i_evigheten_4.png)
 
