@@ -1,6 +1,4 @@
-# `rect` en `fill`
-
-Används ofta i spel.
+# `rect` och `fill`
 
 Här ser du en av de berömdaste spel någonsin:
 
