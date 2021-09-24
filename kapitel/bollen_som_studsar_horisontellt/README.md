@@ -1,10 +1,10 @@
-# Bal die schuin stuitert
+# Boll som studsar snett
 
-In deze les gaan we een bal schuin laten stuiteren.
+I den här lektionen ska vi studsa en boll i vinkel.
 
 \pagebreak
 
-## Bal die schuin stuitert: opdracht 1
+## Boll studsar i vinkel: Kommando 1
 
 ```c++
 float x = 150;
@@ -30,20 +30,20 @@ void draw()
 }
 ```
 
-![Bal die schuin stuitert: opdracht 1](BalDieSchuinStuitert1.png)
+! [Boll som studsar snett: kommando 1] (BalDieSchuinStuitert1.png)
 
- * Type deze code over 
- * Maak een nieuwe variable aan met de naam `y`.
- * Teken de ovaal op coordinaat `(x, y)`.
- * Zorg dat de code hetzelfde blijft doen
+ * Skriv den här koden
+ * Skapa en ny variabel som heter `y '.
+ * Rita ovalen på koordinat `(x, y)`.
+ * Se till att koden fortsätter att göra samma sak
 
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
-`float y = 50;`|'Lieve computer, onthoud het getal `y` met een beginwaarde van vijftig.'
+! [Dator] (EmojiComputer.png) | ! [Smiley] (EmojiSmiley.png)
+: -----------------: |: ---------------------- ------- :
+`float y = 50;` | '' Kära dator, kom ihåg talet 'y' med ett initialvärde på femtio. '
 
 \pagebreak
 
-## Bal die schuin stuitert: oplossing 1
+## Boll studsar diagonalt: lösning 1
 
 ```c++
 float x = 150;
@@ -72,16 +72,16 @@ void draw()
 
 \pagebreak
 
-## Bal die schuin stuitert: opdracht 2
+## Boll studsar i vinkel: Kommando 2
 
-![Bal die schuin stuitert: opdracht 2](BalDieSchuinStuitert2.png)
+! [Boll som studsar snett: kommando 2] (BalDieSchuinStuitert2.png)
 
-Maak een nieuwe variable aan met de naam `snelheid_omlaag`. 
-Geef deze de beginwaarde van `1`. De bal hoeft nog niet te bewegen.
+Skapa en ny variabel som heter 'speed_down'.
+Ge det initialvärdet för '1'. Bollen behöver inte röra sig än.
 
 \pagebreak
 
-## Bal die schuin stuitert: oplossing 2
+## Boll studsar diagonalt: lösning 2
 
 ```c++
 float x = 150;
@@ -111,15 +111,15 @@ void draw()
 
 \pagebreak
 
-## Bal die schuin stuitert: opdracht 3
+## Boll studsar i vinkel: Kommando 3
 
-![Bal die schuin stuitert: opdracht 3](BalDieSchuinStuitert3.png)
+! [Boll som studsar snett: kommando 3] (BalDieSchuinStuitert3.png)
 
-Laat de bal nu ook naar onder bewegen. Hij hoeft nog niet te stuiteren.
+Låt nu bollen röra sig nedåt också. Han behöver inte studsa ännu.
 
 \pagebreak
 
-## Bal die schuin stuitert: oplossing 3
+## Boll studsar diagonalt: lösning 3
 
 ```c++
 float x = 150;
@@ -150,15 +150,15 @@ void draw()
 
 \pagebreak
 
-## Bal die schuin stuitert: opdracht 4
+## Boll studsar i vinkel: Kommando 4
 
-![Bal die schuin stuitert: opdracht 4](BalDieSchuinStuitert4.png)
+! [Boll som studsar snett: kommando 4] (BalDieSchuinStuitert4.png)
 
-Laat de bal nu omhoog stuiteren als de bal de onderkant van het scherm raakt.
+Låt nu bollen studsa upp när bollen träffar botten av skärmen.
 
 \pagebreak
 
-## Bal die schuin stuitert: oplossing 4
+## Boll studsar diagonalt: lösning 4
 
 ```c++
 float x = 150;
@@ -193,8 +193,8 @@ void draw()
 
 \pagebreak
 
-## Bal die schuin stuitert: eindopdracht
+## Boll studsar snett: slutuppgift
 
-![Bal die schuin stuitert: eindopdracht](BalDieSchuinStuitertEindopdracht.png)
+! [Boll som studsar snett: Avsluta kommando] (BallDieSlantBouncetEnd Command.png)
 
-Laat nu de bal ook stuiteren als deze de bovenkant raakt.
+Låt nu bollen studsa också när den träffar toppen.
