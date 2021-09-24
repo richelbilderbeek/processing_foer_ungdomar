@@ -30,7 +30,7 @@ pandoc README.md -o bok.pdf --toc --toc-depth=1 --highlight-style=tango -V geome
 cp bok.pdf ../../boecker/bok_2_utan_framsida.pdf
 
 cd ../../boecker
-pdfunite bok_framsida_1.pdf bok_2_utan_framsida.pdf bok_2.pdf
+pdfunite bok_framsida_2.pdf bok_2_utan_framsida.pdf bok_2.pdf
 
 # Make booklet
 bookletimposer -a bok_2.pdf -o haefte_2.pdf

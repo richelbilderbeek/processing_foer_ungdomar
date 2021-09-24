@@ -185,6 +185,8 @@ sätt `x` till femhundra istället'.
 :-----------------:|:-----------------------------:
 `if (x < 100) {}` | 'Kära dator, om' x 'är mindre än 100, gör det som står innanför måsvingarna.'
 
+\pagebreak
+
 ![Uppgift 4](flytta_bollen_till_hoeger_i_evigheten_4.png)
 
 Gör en boll som åker åt vänster i all evighet:
