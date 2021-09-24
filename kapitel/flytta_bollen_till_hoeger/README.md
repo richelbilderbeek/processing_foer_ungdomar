@@ -33,9 +33,9 @@ Tryck sedan på 'Run'.
 Om det finns röda bokstäver har du stavat fel någonstans. 
 Titta noga på koden och rätta dina stavfel.
 
-Om allt går bra ser du en boll som rör sig till höger (se figur `Flytta bollen till höger: intro`).
+Om allt går bra ser du en boll som rör sig till höger (se figur `Låt bollen åka åt höger: intro`).
 
-![Flytta bollen till höger: intro](boll_till_hoeger_intro.png)
+![Låt bollen åka åt höger: intro](boll_till_hoeger_intro.png)
 
 \pagebreak
 
@@ -45,9 +45,9 @@ Om allt går bra ser du en boll som rör sig till höger (se figur `Flytta bolle
 
 ## Låt bollen åka åt höger: uppgift 1
 
-![Flytta bollen till höger: uppgift 1](boll_till_hoeger_1.png)
+![Låt bollen åka åt höger: uppgift 1](boll_till_hoeger_1.png)
 
-Skärmen är nu `250` pixlar bred. Nu ska du göra den `300` pixlar bred.
+Fönstret är nu `250` pixlar brett. Nu ska du göra det `300` pixlar brett.
 
 Ändra koden och tryck på "Run".
 
@@ -82,7 +82,7 @@ void draw()
 
 ## Låt bollen åka åt höger: uppgift 2
 
-![Flytta bollen till höger: uppgift 2](boll_till_hoeger_2.png)
+![Låt bollen åka åt höger: uppgift 2](boll_till_hoeger_2.png)
 
 Bollen är nu äggformad: den är `40` pixlar bred och `30` pixlar hög.
 Nu ska du göra bollen rund: `40` pixlar bred och `40` pixlar hög.
@@ -118,7 +118,7 @@ void draw()
 
 ## Låt bollen åka åt höger: uppgift 3
 
-![Flytta bollen till höger: uppgift 3](boll_till_hoeger_3.png)
+![Låt bollen åka åt höger: uppgift 3](boll_till_hoeger_3.png)
 
 Bollen rör sig nu åt höger med en hastighet på `1` pixel i taget.
 Låt bollen röra sig till höger dubbelt så snabbt
@@ -156,7 +156,7 @@ void draw()
 
 ## Låt bollen åka åt höger: uppgift 4
 
-![Flytta bollen till höger: uppgift 4](boll_till_hoeger_4.png)
+![Låt bollen åka åt höger: uppgift 4](boll_till_hoeger_4.png)
 
 I början är bollens mitt `60` pixlar till höger.
 Kan du få cirkeln att ritas ut `0` pixlar till höger?
@@ -249,7 +249,7 @@ Datorn kan använda det namnet för att avgöra var i minnet den ska leta.
   
 Variabler som tillhör dig (och nästan varje människa) är: namn, ålder,
 födelsedatum, adress, telefonnummer, epostadress och mycket mer.
-Om någon frågar dig i din ålder vet du vilket nummer du ska svara.
+Om någon frågar dig om din ålder vet du vilket nummer du ska svara.
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-------------------:|:--------------------------------:
@@ -277,7 +277,7 @@ Semikolon (`;`) anger slutet på en mening (som punkten i en svensk text).
 :-------------------:|:--------------------------------:
 `float` | 'ett tal'
 `=`     | 'ska nu vara'
-`;`     | 'sluten av meningen'
+`;`     | 'slutet av meningen'
 
 \pagebreak
 
@@ -350,6 +350,6 @@ void draw()
 ![Låt bollen åka åt höger: slutuppgift](boll_till_hoeger_slutuppgift.png)
 
  * bollen måste åka diagonalt åt höger och neråt samtidigt
- * bollen måste bli större, det vill säga öka bredd och höjd
+ * bollen måste bli större, det vill säga öka i bredd och höjd
  * se även figur `slutuppgift 'Låt bollen åka åt höger'`
 
