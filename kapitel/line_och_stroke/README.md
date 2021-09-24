@@ -2,7 +2,7 @@
 
 ![Moria, ett av de allra första spelen med färg](line_och_stroke_moria.png)
 
-I den här lektionen kommer vi att lära oss att rita färgade linjer.
+Under den här lektionen kommer vi att lära oss att rita färgade linjer.
 
 \pagebreak
 
@@ -24,9 +24,9 @@ void draw()
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-----:|:--------------------------------------------:
-`rad (0, 100, 300, 200);` | 'Kära dator, dra en linje från `(0, 100)` till `(300, 200)`.'
+`line(0, 100, 300, 200);` | 'Kära dator, rita ut en linje från `(0, 100)` till `(300, 200)`.'
 
-![Solglasögon](EmojiSunglasses.png) | `(100, 200)` är pixeln som sitter `100` pixlar till vänster och `200` pixlar under fönstrets vänstra hörn
+![Solglasögon](EmojiSunglasses.png) | `(100, 200)` är pixeln som är `100` pixlar till höger om och `200` pixlar under fönstrets övre vänstra hörn
 :-----------------:|:-----------------------------:
 
 \pagebreak
@@ -42,7 +42,7 @@ void draw()
 ![Uppgift 2](line_och_stroke_2.png)
 
 Ändra linjen så att den går till det övre högra hörnet,
-i ställe åt till den nedre högra hörnet.
+istället för till den nedre högra hörnet.
 
 \pagebreak
 
@@ -65,8 +65,8 @@ void draw()
 ## `line` och `stroke`: uppgift 3
 
 
-Ändra linjen så att den börjar längst ner till vänster,
-i ställe åt vänster i mitten.
+Ändra linjen så att den börjar längst ner till vänster
+istället för i mitten på vänster sida.
 
 ![Uppgift 3](line_och_stroke_3.png)
 
