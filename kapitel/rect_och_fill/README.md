@@ -153,7 +153,7 @@ void draw()
 
 ## `rect` en `fill`: uppgift 5
 
-Lägg till följande meningen efter `stroke (255, 255, 0);`:
+Lägg till följande meningen efter `stroke(255, 255, 0);`:
 
 ```c++
 fill(x, 0, 255);
@@ -272,7 +272,7 @@ void draw()
 
 ![Uppdrag 8](RectFill8.png)
 
-Fylfärge skulla nu bli en blåvärde
+Fylfärge skulla nu ha en blåvärde
 som är en slumpmässig tal mellan 0 och 256.
 
 \pagebreak
@@ -312,6 +312,8 @@ void draw()
 
 ![Slutuppgift `rect` en `fill`](RectFillEindopdracht.png)
 
-Skapa en rad kläder som kan användas i alla kategorier 
-(från svart till röd, grön och blå är från).
-Laat de invulkleur går från svart till grönt, där green steeds 3 blir.
+Nu ska du ändra båda linjefärg och fylfärg.
+Linjefärg ska bli röt, men rötvärde är slumpmässig mellen 0 och 256.
+Fyllfarg ska blu grönt, och växnar från 0 till 256 i stegor av 3.
+Om gröntvärd är större som 256, måsta den bli 0 igen.
+
