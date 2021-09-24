@@ -167,7 +167,7 @@ Lurad!
 Även om lektionen heter 'Låt bollen åka åt höger i all evighet', 
 så ska nu bollen byta håll.
 
-Vi ska nu programmera en boll som åker åt vänster för alltid.
+Vi ska nu programmera en boll som åker åt vänster i all evighet.
 
 Det du behöver titta på nu är `if`-uttalandet för att kunna avgöra när `x` är för litet:
 
@@ -191,7 +191,7 @@ Gör en boll som åker åt vänster i all evighet:
 
  * Bollen startar utanför fönstret
  * Bollen åker helt utanför fönstret
- * Om bollen åker utanför fönstret kommer den omedelbart tillbaka på andra sidan
+ * Om bollen åker utanför fönstret ska den omedelbart börja om igen på andra sidan
 
 \pagebreak
 
@@ -268,7 +268,7 @@ void draw()
 
 ## Låt bollen åka åt höger i all evighet: uppgift 6
 
-Oj, nu när vi har skapat en variabel `x` och en variabel `y`, låt oss göra båda!
+Oj, nu när vi har skapat en variabel `x` och en variabel `y`, låt oss använda båda samtidigt!
 
 När vi slår ihop kod gäller följande regler:
 
@@ -278,8 +278,8 @@ När vi slår ihop kod gäller följande regler:
 
 ![Uppgift 6](flytta_bollen_till_hoeger_i_evigheten_6.png)
 
- * Slå ihop koden för "Låt bollen åka åt höger i all evighet" med "Låt bollen åka åt neråt i all evighet"
- * Ändra koden så att bollen åker neråt
+ * Slå ihop koden för "Låt bollen åka åt höger i all evighet" med "Låt bollen åka neråt i all evighet"
+ * Ändra koden så att bollen också åker neråt
 
 \pagebreak
 

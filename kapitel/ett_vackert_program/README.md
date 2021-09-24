@@ -1,7 +1,7 @@
 # Ett vackert program
 
-Processing är ett programmeringsspråk som utvecklats för designers
-och mycket lämplig för att göra spel och vackra saker.
+Processing är ett programmeringsspråk som har utvecklats för designers
+och är mycket lämpligt för att göra spel och vackra saker.
 
 Under den här lektionen lär vi oss
 
@@ -40,7 +40,7 @@ void draw()
 ```
 
 Vi kommer att förklara exakt vad koden gör senare.
-Just nu är det tillräckligt att veta att den gör något vackert.
+Just nu räcker det att veta att den gör något vackert.
 
 ![Processing med kod](processing_med_kod.png)
 
