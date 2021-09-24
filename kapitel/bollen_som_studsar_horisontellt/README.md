@@ -4,7 +4,7 @@ Under den här lektionen ska vi studsa en boll i en vinkel.
 
 \pagebreak
 
-## Boll studsar i vinkel: uppgift 1
+## Boll som studsar: uppgift 1
 
 ```c++
 float x = 150;
@@ -43,7 +43,7 @@ void draw()
 
 \pagebreak
 
-## Boll studsar diagonalt: lösning 1
+## Boll som studsar: lösning 1
 
 ```c++
 float x = 150;
@@ -72,7 +72,7 @@ void draw()
 
 \pagebreak
 
-## Boll studsar i vinkel: uppgift 2
+## Boll som studsar: uppgift 2
 
 ![Boll som studsar snett: kommando 2](bollen_som_studsar_horisontellt_2.png)
 
@@ -81,7 +81,7 @@ Ge det initialvärdet för `1`. Bollen behöver inte röra sig än.
 
 \pagebreak
 
-## Boll studsar diagonalt: lösning 2
+## Boll som studsar: lösning 2
 
 ```c++
 float x = 150;
@@ -111,7 +111,7 @@ void draw()
 
 \pagebreak
 
-## Boll studsar i vinkel: uppgift 3
+## Boll som studsar: uppgift 3
 
 ![Boll som studsar snett: kommando 3](bollen_som_studsar_horisontellt_3.png)
 
@@ -119,7 +119,7 @@ Låt nu bollen röra sig nedåt också. Han behöver inte studsa ännu.
 
 \pagebreak
 
-## Boll studsar diagonalt: lösning 3
+## Boll som studsar: lösning 3
 
 ```c++
 float x = 150;
@@ -150,7 +150,7 @@ void draw()
 
 \pagebreak
 
-## Boll studsar i vinkel: uppgift 4
+## Boll som studsar: uppgift 4
 
 ![Boll som studsar snett: kommando 4](bollen_som_studsar_horisontellt_4.png)
 
@@ -158,7 +158,7 @@ Låt nu bollen studsa upp när bollen träffar botten av skärmen.
 
 \pagebreak
 
-## Boll studsar diagonalt: lösning 4
+## Boll som studsar: lösning 4
 
 ```c++
 float x = 150;
@@ -193,7 +193,7 @@ void draw()
 
 \pagebreak
 
-## Boll studsar snett: slutuppgift
+## Boll som studsar: slutuppgift
 
 ![Boll som studsar snett: Avsluta kommando](bollen_som_studsar_horisontellt_slutuppgift.png)
 
