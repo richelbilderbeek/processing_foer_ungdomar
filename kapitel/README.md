@@ -17,7 +17,7 @@ Kpt|Beskrivning
 4  |[`point` och `random`](./point_och_random/README.md)
 .  |**Bok 2**
 5  |[`line` och `stroke`](./line_och_stroke/README.md)
-6  |[Flytta bollen till höger i evighet](./flytta_bollen_till_hoeger_i_evigheten/README.md)
+6  |[Flytta bollen till höger i evighet](./flytta_bollen_till_hoeger_i_evighet/README.md)
 7  |[`rect` och `fill`](./rect_och_fill/README.md)
 .  |**Bok 3**
 8  |[Bollen som studsar horisontellt](./bollen_som_studsar_horisontellt/README.md)
