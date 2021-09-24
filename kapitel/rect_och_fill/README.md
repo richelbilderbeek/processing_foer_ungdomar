@@ -1,6 +1,7 @@
 # `rect` och `fill`
 
-Här ser du en av de berömdaste spel någonsin:
+Här ser du en av de berömdaste spel någonsin,
+som är gört med enkelt fyrkanter och fylfärger:
 
 ![Tetris](Tetris.png)
 
