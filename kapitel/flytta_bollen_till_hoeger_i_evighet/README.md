@@ -93,15 +93,15 @@ void draw()
 
 \pagebreak
 
-## Bollen går rätt för alltid: uppgift 2
+## Låt bollen åka åt höger i all evighet: uppgift 2
 
 ![Uppgift 2](flytta_bollen_till_hoeger_i_evigheten_2.png)
 
-Se till att ovalen hoppar hela vägen till vänster på skärmen
+Se till att bollen startar allra längst till vänster i fönstret
 
 \pagebreak
 
-## Flytta bollen till höger i evighet: lösning 2
+## Låt bollen åka åt höger i all evighet: lösning 2
 
  * Ändra `float x = 50` till `float x = 0` eller `float x = -50`: båda är bra.
  * Ändra `x = 100` till `x = 0` eller `x = -50`: båda är bra.
@@ -127,16 +127,16 @@ void draw()
 
 \pagebreak
 
-## Bollen går rätt för alltid: uppgift 3
+## Låt bollen åka åt höger i all evighet: uppgift 3
 
 ![Uppgift 3](flytta_bollen_till_hoeger_i_evigheten_3.png)
 
-Se till att ovalen rör sig hela vägen till höger 
-innan den hoppar till vänster på skärmen
+Se till att bollen åker hela vägen till höger 
+innan den hoppar till vänster sida av fönstret
 
 \pagebreak
 
-## Flytta bollen till höger i evighet: lösning 3
+## Låt bollen åka åt höger i all evighet: lösning 3
 
 Ändra `if (x > 200)` till `if (x > 650)`.
 
@@ -161,15 +161,15 @@ void draw()
 
 \pagebreak
 
-## Bollen går rätt för alltid: uppgift 4
+## Låt bollen åka åt höger i all evighet: uppgift 4
 
 Lurad! 
-Även om lektionen heter 'Bollen som går till höger för alltid', 
-går vi fortfarande bollen annan låt det gå åt sidan.
+Även om lektionen heter 'Låt bollen åka åt höger i all evighet', 
+så ska nu bollen byta håll.
 
-Vi ska nu programmera en boll som rör sig till vänster för alltid.
+Vi ska nu programmera en boll som åker åt vänster för alltid.
 
-Det du behöver veta nu är `if`-uttalandet för att säga när `x` är för litet:
+Det du behöver titta på nu är `if`-uttalandet för att kunna avgöra när `x` är för litet:
 
 ```c++
 if (x < 100)
@@ -178,26 +178,26 @@ if (x < 100)
 }
 ```
 
-Med detta säger du: 'Kära dator, om `x` är mindre (`<`) än hundra,
-ställ sedan in `x` till femhundra'.
+Med detta säger du: 'Kära dator, om `x` är mindre än (`<`) hundra,
+sätt `x` till femhundra istället'.
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-----------------:|:-----------------------------:
-`om (x <100) {}` | 'Kära dator, om' x 'är mindre än 100, gör det som finns inom lockiga parenteser.'
+`om (x <100) {}` | 'Kära dator, om' x 'är mindre än 100, gör det som står innanför måsvingarna.'
 
 ![Uppgift 4](flytta_bollen_till_hoeger_i_evigheten_4.png)
 
-Gör en boll som går åt vänster för alltid:
+Gör en boll som åker åt vänster i all evighet:
 
- * Bollen startar utanför ramen
- * Bollen går helt ur bilden
- * Om bollen bara kommer ur bilden kommer den omedelbart tillbaka på andra sidan
+ * Bollen startar utanför fönstret
+ * Bollen åker helt utanför fönstret
+ * Om bollen åker utanför fönstret kommer den omedelbart tillbaka på andra sidan
 
 \pagebreak
 
-## Flytta bollen till höger i evighet: lösning 4
+## Låt bollen åka åt höger i all evighet: lösning 4
 
-Detta är en evig boll som går till vänster:
+Detta är en evighetsboll som åker åt vänster:
 
 ```c++
 float x = 650;
@@ -220,31 +220,30 @@ void draw()
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-----------------:|:-----------------------------:
-`x = x - 1` | 'Kära dator, gör `x` till en lägre.'
-`x -= 1` | 'Kära dator, gör `x` till en lägre.'
-`x-` | 'Kära dator, gör `x` till en lägre.'
-`--x` | 'Kära dator, gör` x` till en lägre.'
+`x = x - 1` | 'Kära dator, minska `x` med ett.'
+`x -= 1` | 'Kära dator, minska `x` med ett.'
+`x-` | 'Kära dator, minska `x` med ett.'
+`--x` | 'Kära dator, minska `x` med ett.'
 
 \pagebreak
 
-## Bollen går rätt för alltid: uppgift 5
+## Låt bollen åka åt höger i all evighet: uppgift 5
 
-Vi fick en boll att flytta åt höger och vänster av koordinaten `x`
-att förändra. Bollen kan också gå ner och upp genom y -koordinaten
-att förändra.
+Vi fick en boll att åka åt höger och åt vänster när vi ändrade koordinaten `x`. 
+Bollen kan också åka neråt och uppåt om vi ändrar y-koordinaten.
 
 ![Uppgift 5](flytta_bollen_till_hoeger_i_evigheten_5.png)
 
-Skriv ett program där en boll går ner för alltid:
+Skriv ett program där en boll åker neråt i all evighet:
 
  * gör skärmen 300 pixlar bred och 200 pixlar hög
  * använd en variabel som heter 'y'
- * ersätt koden `ellips (x, 50, 100, 100)` med `elllipse (50, y, 100, 100)`
- * om bollen går ner från skärmen måste bollen komma upp igen
+ * ersätt koden `ellips (x, 50, 100, 100)` med `ellipse (50, y, 100, 100)`
+ * om bollen åker neråt och utanför fönstret så måste bollen börja om uppifrån igen
 
 \pagebreak
 
-## Flytta bollen till höger i evighet: lösning 5
+## Låt bollen åka åt höger i all evighet: lösning 5
 
 ```c++
 float y = -50;
@@ -267,24 +266,24 @@ void draw()
 
 \pagebreak
 
-## Bollen går rätt för alltid: uppgift 6
+## Låt bollen åka åt höger i all evighet: uppgift 6
 
-Oj, nu när vi har skapat en variabel `x` eller ett `y`, låt oss göra båda!
+Oj, nu när vi har skapat en variabel `x` och en variabel `y`, låt oss göra båda!
 
 När vi slår ihop kod gäller följande regler:
 
- * allt ovanför `setup` -funktionen ska stanna där
- * allt som finns inom `setup`-funktionen måste förbli inom `setup`-funktionen
- * allt som finns i funktionen `draw` måste hålla sig inom funktionen `draw`
+ * allt som finns ovanför `setup` -funktionen ska vara kvar där
+ * allt som finns inuti `setup`-funktionen måste vara kvar inuti `setup`-funktionen
+ * allt som finns inuti funktionen `draw` måste vara kvar inuti funktionen `draw`
 
 ![Uppgift 6](flytta_bollen_till_hoeger_i_evigheten_6.png)
 
- * Slå ihop koden för "Ball going right forever" med "Ball going down forever"
- * Ändra koden så att bollen går nere
+ * Slå ihop koden för "Låt bollen åka åt höger i all evighet" med "Låt bollen åka åt neråt i all evighet"
+ * Ändra koden så att bollen åker neråt
 
 \pagebreak
 
-## Flytta bollen till höger i evighet: lösning 6
+## Låt bollen åka åt höger i all evighet: lösning 6
 
 ```c++
 float x = -50;
@@ -313,10 +312,10 @@ void draw()
 
 \pagebreak
 
-## Flytta bollen till höger i evighet: slutuppgift
+## Låt bollen åka åt höger i all evighet: slutuppgift
 
-![slutuppgift 'Flytta bollen till höger i evighet'](flytta_bollen_till_hoeger_i_evigheten_slutuppgift.png)
+![slutuppgift 'Låt bollen åka åt höger i all evighet'](flytta_bollen_till_hoeger_i_evigheten_slutuppgift.png)
 
-Låt nu bollen gå snett till botten till vänster för alltid.
+Låt nu bollen åka snett neråt vänster i all evighet.
 
 
