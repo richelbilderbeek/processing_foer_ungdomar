@@ -1,6 +1,6 @@
-# Flytta bollen till höger
+# Låt bollen åka åt höger
 
-Under den här lektionen ska vi flytta en boll till höger.
+Under den här lektionen ska vi låta en boll åka åt höger.
 
 Du kommer också att lära dig vad en variabel är.
 Man kan knappt programmera utan variabler.
@@ -9,7 +9,7 @@ Man kan knappt programmera utan variabler.
 
 \pagebreak
   
-## Flytta bollen till höger: intro
+## Låt bollen åka åt höger: intro
 
 Skriv följande kod:
 
@@ -43,7 +43,7 @@ Om allt går bra ser du en boll som rör sig till höger (se figur `Flytta bolle
 
 \pagebreak
 
-## Flytta bollen till höger: uppgift 1
+## Låt bollen åka åt höger: uppgift 1
 
 ![Flytta bollen till höger: uppgift 1](boll_till_hoeger_1.png)
 
@@ -53,7 +53,7 @@ Skärmen är nu `250` pixlar bred. Nu ska du göra den `300` pixlar bred.
 
 \pagebreak
 
-## Flytta bollen till höger: lösning 1
+## Låt bollen åka åt höger: lösning 1
 
 Det står `250` i koden på ett ställe. Bara ändra detta till `300`:
 
@@ -80,7 +80,7 @@ void draw()
 
 \pagebreak
 
-## Flytta bollen till höger: uppgift 2
+## Låt bollen åka åt höger: uppgift 2
 
 ![Flytta bollen till höger: uppgift 2](boll_till_hoeger_2.png)
 
@@ -89,7 +89,7 @@ Nu ska du göra bollen rund: `40` pixlar bred och `40` pixlar hög.
 
 \pagebreak
 
-## Flytta bollen till höger: lösning 2
+## Låt bollen åka åt höger: lösning 2
 
 `ellips (x, 50, 40, 30);` ritar ut bollen.
 `40, 30` gör bollen äggformad.
@@ -116,7 +116,7 @@ void draw()
 
 \pagebreak
 
-## Flytta bollen till höger: uppgift 3
+## Låt bollen åka åt höger: uppgift 3
 
 ![Flytta bollen till höger: uppgift 3](boll_till_hoeger_3.png)
 
@@ -125,7 +125,7 @@ Låt bollen röra sig till höger dubbelt så snabbt
 
 \pagebreak
 
-## Flytta bollen till höger: lösning 3
+## Låt bollen åka åt höger: lösning 3
 
 `x = x + 1;` flyttar bollen 1 pixel. Ändra detta till `x = x + 2;`. 
 Koden blir då:
@@ -154,7 +154,7 @@ void draw()
 
 \pagebreak
 
-## Flytta bollen till höger: uppgift 4
+## Låt bollen åka åt höger: uppgift 4
 
 ![Flytta bollen till höger: uppgift 4](boll_till_hoeger_4.png)
 
@@ -163,7 +163,7 @@ Kan du få cirkeln att ritas ut `0` pixlar till höger?
 
 \pagebreak
 
-## Flytta bollen till höger: lösning 4
+## Låt bollen åka åt höger: lösning 4
 
 `float x = 60;` bestämmer mitten på bollen. 
 Ändra detta till `float x = 0;`. 
@@ -190,20 +190,20 @@ void draw()
 
 \pagebreak
 
-## Flytta bollen till höger: uppgift 5
+## Låt bollen åka åt höger: uppgift 5
 
-Haha, den här lektionen kallas 'Flytta bollen till höger', 
-men nu ska vi också göra en boll till vänster!
+Haha, den här lektionen kallas 'Låt bollen åka åt höger', 
+men nu ska vi också göra en boll som åker åt vänster!
 
-![Flytta bollen till höger: uppgift 5](boll_till_hoeger_5.png)
+![Låt bollen åka åt höger: uppgift 5](boll_till_hoeger_5.png)
 
-Låt nu bollen börja på höger sida av skärmen och flytta till vänster.
+Låt nu bollen börja på höger sida av fönstret och åka åt vänster.
 
 \pagebreak
 
-## Flytta bollen till höger: lösning 5
+## Låt bollen åka åt höger: lösning 5
 
-För att få bollen till höger måste du använda `float x = 500;` 
+För att få bollen att starta på höger sida måste du använda `float x = 500;` 
 (eller något annat högt tal).
 För att få bollen att åka åt vänster måste du använda `x = x - 1;`. 
 Koden blir då:
@@ -229,7 +229,7 @@ void draw()
 
 \pagebreak
 
-## Flytta bollen till höger: vad är en variabel?
+## Låt bollen åka åt höger: vad är en variabel?
 
 På den första raden använder vi en variabel:
 
@@ -281,12 +281,12 @@ Semikolon (`;`) anger slutet på en mening (som punkten i en svensk text).
 
 \pagebreak
 
-## Flytta bollen till höger: uppgift 6
+## Låt bollen åka åt höger: uppgift 6
 
-Haha, den här lektionen kallas "Flytta bollen till höger", 
-men vi kommer också att få en boll att röra sig nedåt!
+Haha, den här lektionen kallas "Låt bollen åka åt höger", 
+men vi kommer också att få en boll att åka nedåt!
 
-![Flytta bollen till höger: uppgift 6](boll_till_hoeger_6.png)
+![Låt bollen åka åt höger: uppgift 6](boll_till_hoeger_6.png)
 
  * Ändra namnet på variabeln `x` till `y`
  * Rita ut en boll högst upp på skärmen
@@ -295,7 +295,7 @@ men vi kommer också att få en boll att röra sig nedåt!
 
 \pagebreak
 
-## Flytta bollen till höger: lösning 6
+## Låt bollen åka åt höger: lösning 6
 
 ```c++
 float y = 0;
@@ -314,19 +314,19 @@ void draw()
 
 \pagebreak
 
-## Flytta bollen till höger: uppgift 7
+## Låt bollen åka åt höger: uppgift 7
 
-![Flytta bollen till höger: uppgift 7](boll_till_hoeger_7.png)
+![Låt bollen åka åt höger: uppgift 7](boll_till_hoeger_7.png)
 
 Nu ska vi få bollen att röra sig snabbare och uppåt
 
  * Rita ut en boll längst ner på skärmen
- * Bollen måste åka uppat i en rak linje
+ * Bollen måste åka uppåt i en rak linje
  * Bollen måste åka dubbelt så snabbt
 
 \pagebreak
 
-## Flytta bollen till höger: lösning 7
+## Låt bollen åka åt höger: lösning 7
 
 ```c++
 float y = 200;
@@ -345,11 +345,11 @@ void draw()
 
 \pagebreak
 
-## Flytta bollen till höger: slutuppgift
+## Låt bollen åka åt höger: slutuppgift
 
-![Flytta bollen till höger: slutuppgift](boll_till_hoeger_slutuppgift.png)
+![Låt bollen åka åt höger: slutuppgift](boll_till_hoeger_slutuppgift.png)
 
  * bollen måste åka diagonalt åt höger och neråt samtidigt
  * bollen måste bli större, det vill säga öka bredd och höjd
- * se även figur `slutuppgift 'Flytta bollen till höger'`
+ * se även figur `slutuppgift 'Låt bollen åka åt höger'`
 
