@@ -50,7 +50,7 @@ Lägg till följanderegel, efter `ellipse(x, height / 2, 100, 100);`:
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :------------------------:|:---------------------------------------------------:
-`rect (100, 200, 300, 400)` | 'Kära dator, rita ut en fyrkant med vänster-uppe-hörn på `(100, 200)`, 300 pixlar bredd upp och 400 pixlar högt.'
+`rect (100, 200, 300, 400)` | 'Kära dator, rita ut en fyrkant med vänster-uppe-hörn på `(100, 200)`, `300` pixlar bredd upp och `400` pixlar högt.'
 
 \pagebreak
 
@@ -231,7 +231,7 @@ void draw()
 ![Uppdrag 7](RectFill7.png)
 
 De variabla `groen` kan inte bli högre än `255`. Gör en ny `if`-sats,
-för att om `groen` är mer än 255, `groen` ska bli nul.
+för att om `groen` är mer än `255`, `groen` ska bli `0`.
 
 \pagebreak
 
@@ -271,7 +271,7 @@ void draw()
 ![Uppdrag 8](RectFill8.png)
 
 Fylfärge skulla nu ha en blåvärde
-som är en slumpmässig tal mellan 0 och 256.
+som är en slumpmässig tal mellan `0` och `256`.
 
 \pagebreak
 
@@ -311,7 +311,7 @@ void draw()
 ![Slutuppgift `rect` en `fill`](RectFillEindopdracht.png)
 
 Nu ska du ändra båda linjefärg och fylfärg.
-Linjefärg ska bli röt, men rötvärde är slumpmässig mellen 0 och 256.
-Fyllfarg ska blu grönt, och växnar från 0 till 256 i stegor av 3.
-Om gröntvärd är större som 256, måsta den bli 0 igen.
+Linjefärg ska bli röt, men rötvärde är slumpmässig mellen `0` och `256`.
+Fyllfarg ska blu grönt, och växnar från `0` till `256` i stegor av `3`.
+Om gröntvärd är större som `256`, måsta den bli `0` igen.
 
