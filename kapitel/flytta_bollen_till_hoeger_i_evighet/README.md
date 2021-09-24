@@ -1,19 +1,19 @@
-# Flytta bollen till höger i evighet
+# Låt bollen åka åt höger i all evighet
 
-I den här lektionen ska vi få en boll som flytta till höger i evighet.
+Under den här lektionen ska vi få en boll att åka åt höger i all evighet.
 
-I den här lektionen lär vi oss vad ett `if`-uttalande är.
-Du kan (nästan) inte programmera utan `if`-uttalanden.
+Under den här lektionen lär vi oss också vad en `if`-sats är.
+Du kan (nästan) inte programmera utan `if`-satser.
 
-![På boskanska kan du också gå rätt för alltid](Bosconian.jpg)
+![På bosconianska kan du också åka åt höger i all evighet](Bosconian.jpg)
 
 \pagebreak
 
-## Flytta bollen till höger i evighet: intro
+## Låt bollen åka åt höger i all evighet: intro
 
-![Missfärga bollen till höger](flytta_bollen_till_hoeger_i_evigheten_intro.png)
+![Låt bollen åka höger](flytta_bollen_till_hoeger_i_evigheten_intro.png)
 
-Detta är en boll som går till höger:
+Detta är en boll som åker åt höger:
 
 ```c++
 float x = 50;
@@ -30,14 +30,14 @@ void draw()
 }
 ```
 
-Nackdel: bollen återvänder aldrig till skärmen.
+Nackdel: bollen återvänder aldrig till fönstret.
 
 \pagebreak
 
-Vi vill kunna säga, "Kära dator, **om** bollen är för långt till höger,
-sedan teleporterar du bollen till höger '. `if` är engelska för 'om'.
+Vi vill kunna säga, "Kära dator, **om** bollen är för långt bort åt höger,
+ska du teleportera bollen till vänster'. `if` är engelska för 'om'.
 
-Så det här kan vara:
+Så det här kan bli:
 
 ```c++
 if (x > 200)
@@ -47,28 +47,28 @@ if (x > 200)
 ```
 
 Tecknet `>` betyder 'större än'. 
-Mer exakt säger du: "Kära dator, **om** `x` är mer än `200`, 
-ställ in `x` som till `100`. `if` är engelska för 'om'.
+Mer exakt blir det: "Kära dator, **om** `x` är större än `200`, 
+sätt `x` till `100`. `if` är engelska för 'om'.
 
 ![Ett `om`](flytta_bollen_till_hoeger_i_evigheten_if.png)
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-----------------:|:-----------------------------:
-`om (x> 200) {}` | 'Kära dator, om `x` är större än `200`, gör det som finns inom måsvingarna.'
-`x = 100;` | 'Kära dator, sätt siffran `100` i `x`.'
+`if(x> 200) {}` | 'Kära dator, om `x` är större än `200`, gör det som står inom måsvingarna.'
+`x = 100;` | 'Kära dator, låt `x` vara `100`.'
 
 \pagebreak
 
-## Bollen går rätt för alltid: uppgift 1
+## Låt bollen åka åt höger i all evighet: uppgift 1
 
 ![Uppgift 1](flytta_bollen_till_hoeger_i_evigheten_1.png)
 
-Sätt `if` mellan programmets kod. 
-Sätt `if` i slutet av `draw`, före den avslutande måsvingen (`}`).
+Skriv `if` inuti programmets kod. 
+Skriv `if` i slutet av `draw`, före den avslutande måsvingen (`}`).
 
 \pagebreak
 
-## Flytta bollen till höger i evighet: lösning 1
+## Låt bollen åka åt höger i all evighet: lösning 1
 
 Koden blir då:
 
