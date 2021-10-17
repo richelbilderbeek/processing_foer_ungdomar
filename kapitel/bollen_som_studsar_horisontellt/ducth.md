@@ -1,12 +1,12 @@
-# Bollen som studsar horisontellt
+# Bal die horizontaal stuitert
 
-![Slutuppgift `Bal Die Horizontaal Stuitert`](bollen_som_studsar_horisontellt_slutuppgift.png)
+![Eindopdracht `Bal Die Horizontaal Stuitert`](BalDieHorizontaalStuitertEindopdracht.png)
 
 In deze les gaan we een bal horizontaal laten stuiteren.
 
 \pagebreak
 
-## Bollen som studsar horisontellt: opdracht 1
+## Bal die horizontaal stuitert: opdracht 1
 
 ```c++
 float x = 300;
@@ -32,7 +32,7 @@ Type deze code over. Zet de waarde van `snelheid` op `1`. Wat zie je?
 
 \pagebreak
 
-## Bollen som studsar horisontellt: oplossing 1
+## Bal die horizontaal stuitert: oplossing 1
 
 Je ziet dat de bal rustig naar rechts beweegt. Als de bal
 rechts het beeld uit gaat, komt deze vanaf links weer in het beeldscherm.
@@ -57,17 +57,17 @@ void draw()
 }
 ```
 
-![Bollen som studsar horisontellt: oplossing 1](bollen_som_studsar_horisontellt_1.png)
+![Bal die horizontaal stuitert: oplossing 1](BalDieHorizontaalStuitert1.png)
 
 \pagebreak
 
-## Bollen som studsar horisontellt: opdracht 2
+## Bal die horizontaal stuitert: opdracht 2
 
 Zet de waarde van `snelheid` op `0`. Wat zie je?
 
 \pagebreak
 
-## Bollen som studsar horisontellt: oplossing 2
+## Bal die horizontaal stuitert: oplossing 2
 
 De bal staat nu stil
 
@@ -91,11 +91,11 @@ void draw()
 }
 ```
 
-![Bollen som studsar horisontellt: oplossing 2](bollen_som_studsar_horisontellt_2.png)
+![Bal die horizontaal stuitert: oplossing 2](BalDieHorizontaalStuitert2.png)
 
 \pagebreak
 
-## Bollen som studsar horisontellt: opdracht 3
+## Bal die horizontaal stuitert: opdracht 3
 
 Zet de waarde van `snelheid` op `-1`. Wat zie je?
 
@@ -104,7 +104,7 @@ Zet de waarde van `snelheid` op `-1`. Wat zie je?
 
 \pagebreak
 
-## Bollen som studsar horisontellt: oplossing 3
+## Bal die horizontaal stuitert: oplossing 3
 
 De bal gaat nu naar links en komt niet meer in beeld.
 
@@ -128,20 +128,20 @@ void draw()
 }
 ```
 
-![Bollen som studsar horisontellt: oplossing 3](bollen_som_studsar_horisontellt_3.png)
+![Bal die horizontaal stuitert: oplossing 3](BalDieHorizontaalStuitert3.png)
 
 \pagebreak
 
-## Bollen som studsar horisontellt: opdracht 4
+## Bal die horizontaal stuitert: opdracht 4
 
-![Bollen som studsar horisontellt: opdracht 4](bollen_som_studsar_horisontellt_4.png)
+![Bal die horizontaal stuitert: opdracht 4](BalDieHorizontaalStuitert4.png)
 
 Zorg dat als de bal links uit beeld gaat, deze weer rechts verschijnt.
 Doe dit door een tweede `if` te maken
 
 \pagebreak
 
-## Bollen som studsar horisontellt: oplossing 4
+## Bal die horizontaal stuitert: oplossing 4
 
 ```c++
 float x = 300;
@@ -169,7 +169,7 @@ void draw()
 
 \pagebreak
 
-## Bollen som studsar horisontellt: opdracht 5
+## Bal die horizontaal stuitert: opdracht 5
 
 Denk na: wat moet er met de `snelheid` gebeuren om de bal te laten stuiteren (van links naar rechst)? 
 
@@ -177,31 +177,31 @@ Als je durft: probeer dit zonder verder te lezen!
 
 \pagebreak
 
-## Bollen som studsar horisontellt: oplossing 5
+## Bal die horizontaal stuitert: oplossing 5
 
 Als tegen de linkerkant komt, moet de bal de bal naar rechts gaan. Als tegen de rechterkant komt, moet de bal de bal naar links gaan.
 
 ![Smiley](EmojiSmiley.png)|Als de bal ...|dan moet deze ...
 :---:|:------:|:------:
-![Bal aan linkerkant](bollen_som_studsar_horisontellt_LinksKlein.png)|aan de linkerkant komt|naar rechts gaan
-![Bal aan rechterkant](bollen_som_studsar_horisontellt_RechtsKlein.png)|aan de rechtkant komt|naar links gaan
+![Bal aan linkerkant](BalDieHorizontaalStuitertLinksKlein.png)|aan de linkerkant komt|naar rechts gaan
+![Bal aan rechterkant](BalDieHorizontaalStuitertRechtsKlein.png)|aan de rechtkant komt|naar links gaan
 
 ![Computer](EmojiComputer.png)|`if (...)` | `{ }`
 :---:|:------:|:------:
-![Bal aan linkerkant](bollen_som_studsar_horisontellt_LinksKlein.png)|`x < 50`|`snelheid = 1;`
-![Bal aan rechterkant](bollen_som_studsar_horisontellt_RechtsKlein.png)|`x > 550`|`snelheid = -1;`
+![Bal aan linkerkant](BalDieHorizontaalStuitertLinksKlein.png)|`x < 50`|`snelheid = 1;`
+![Bal aan rechterkant](BalDieHorizontaalStuitertRechtsKlein.png)|`x > 550`|`snelheid = -1;`
 
 \pagebreak
 
-## Bollen som studsar horisontellt: opdracht 6
+## Bal die horizontaal stuitert: opdracht 6
 
-![Opdracht 6](bollen_som_studsar_horisontellt_6.png)
+![Opdracht 6](BalDieHorizontaalStuitert6.png)
 
 Laat de bal nu van links naar rechts stuiteren
 
 \pagebreak
 
-## Bollen som studsar horisontellt: oplossing 6
+## Bal die horizontaal stuitert: oplossing 6
 
 ```c++
 float x = 300;
@@ -229,15 +229,15 @@ void draw()
 
 \pagebreak
 
-## Bollen som studsar horisontellt: opdracht 7
+## Bal die horizontaal stuitert: opdracht 7
 
-![Opdracht 7](bollen_som_studsar_horisontellt_7.png)
+![Opdracht 7](BalDieHorizontaalStuitert7.png)
 
 Laat de bal nu met een snelheid van 2 pixels per keer bewegen.
 
 \pagebreak
 
-## Bollen som studsar horisontellt: oplossing 7
+## Bal die horizontaal stuitert: oplossing 7
 
 ```c++
 float x = 300;
@@ -265,7 +265,7 @@ void draw()
 
 \pagebreak
 
-## Bollen som studsar horisontellt: opdracht 8
+## Bal die horizontaal stuitert: opdracht 8
 
 Verander in de code:
 
@@ -283,9 +283,9 @@ van|naar
 
 \pagebreak
 
-## Bollen som studsar horisontellt: oplossing 8
+## Bal die horizontaal stuitert: oplossing 8
 
-![Opdracht 8](bollen_som_studsar_horisontellt_8.png)
+![Opdracht 8](BalDieHorizontaalStuitert8.png)
 
 ```c++
 float x = 300;
@@ -313,8 +313,8 @@ void draw()
 
 \pagebreak
 
-## Bollen som studsar horisontellt: eindopdracht
+## Bal die horizontaal stuitert: eindopdracht
 
-![Bollen som studsar horisontellt: eindopdracht](bollen_som_studsar_horisontellt_slutuppgift.png)
+![Bal die horizontaal stuitert: eindopdracht](BalDieHorizontaalStuitertEindopdracht.png)
 
 Laat de bal nu omhoog en omlaag stuiteren.
