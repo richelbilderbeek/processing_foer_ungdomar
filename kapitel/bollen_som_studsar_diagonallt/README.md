@@ -1,6 +1,6 @@
-# Boll som studsar diagonallt
+# Boll som studsar snett
 
-Under den här lektionen ska vi studsa en boll i en vinkel.
+Under den här lektionen ska vi studsa en boll snett diagonalt.
 
 \pagebreak
 
@@ -30,11 +30,11 @@ void draw()
 }
 ```
 
-![Boll som studsar snett: kommando 1](bollen_som_studsar_diagonallt_1.png)
+![Boll som studsar snett: kommando 1](bollen_som_studsar_diagonalt_1.png)
 
  * Skriv den här koden
  * Skapa en ny variabel som heter `y`.
- * Rita upp ovalen på koordinat `(x, y)`.
+ * Rita ut ovalen på koordinaten `(x, y)`.
  * Se till att koden fortsätter att göra samma sak
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
@@ -74,9 +74,9 @@ void draw()
 
 ## Boll som studsar: uppgift 2
 
-![Boll som studsar snett: kommando 2](bollen_som_studsar_diagonallt_2.png)
+![Boll som studsar snett: kommando 2](bollen_som_studsar_diagonalt_2.png)
 
-Skapa en ny variabel som heter `hastighet_till_nere`.
+Skapa en ny variabel som heter `hastighet_nerat`.
 Ge det initialvärdet för `1`. Bollen behöver inte röra sig än.
 
 \pagebreak
@@ -87,7 +87,7 @@ Ge det initialvärdet för `1`. Bollen behöver inte röra sig än.
 float x = 150;
 float y = 100;
 float hastighet_till_hoger = 1;
-float hastighet_till_nere = 1;
+float hastighet_nerat = 1;
 
 void setup()
 {
@@ -113,9 +113,9 @@ void draw()
 
 ## Boll som studsar: uppgift 3
 
-![Boll som studsar snett: kommando 3](bollen_som_studsar_diagonallt_3.png)
+![Boll som studsar snett: kommando 3](bollen_som_studsar_diagonalt_3.png)
 
-Låt nu bollen röra sig nedåt också. Han behöver inte studsa ännu.
+Låt nu bollen röra sig nedåt också. Den behöver inte studsa ännu.
 
 \pagebreak
 
@@ -136,7 +136,7 @@ void draw()
 {
   ellipse(x, y, 50, 50);
   x = x + hastighet_till_hoger;
-  y = y + hastighet_till_nere;
+  y = y + hastighet_nerat;
   if (x > 275)
   {
     hastighet_till_hoger = -hastighet_till_hoger;
@@ -152,9 +152,9 @@ void draw()
 
 ## Boll som studsar: uppgift 4
 
-![Boll som studsar snett: kommando 4](bollen_som_studsar_diagonallt_4.png)
+![Boll som studsar snett: kommando 4](bollen_som_studsar_diagonalt_4.png)
 
-Låt nu bollen studsa upp när bollen träffar botten av skärmen.
+Låt nu bollen studsa upp när den når till botten av fönstret.
 
 \pagebreak
 
@@ -164,7 +164,7 @@ Låt nu bollen studsa upp när bollen träffar botten av skärmen.
 float x = 150;
 float y = 100;
 float hastighet_till_hoger = 1;
-float hastighet_till_nere = 1;
+float hastighet_nerat = 1;
 
 void setup()
 {
@@ -175,7 +175,7 @@ void draw()
 {
   ellipse(x, y, 50, 50);
   x = x + hastighet_till_hoger;
-  y = y + hastighet_till_nere;
+  y = y + hastighet_nerat;
   if (x > 275)
   {
     hastighet_till_hoger = -hastighet_till_hoger;
@@ -186,7 +186,7 @@ void draw()
   }
   if (y > 175)
   {
-    hastighet_till_nere = -hastighet_till_nere;
+    hastighet_nerat = -hastighet_nerat;
   }
 }
 ```
@@ -195,6 +195,6 @@ void draw()
 
 ## Boll som studsar: slutuppgift
 
-![Boll som studsar snett: Avsluta kommando](bollen_som_studsar_diagonallt_slutuppgift.png)
+![Boll som studsar snett: Avslutningskommando](bollen_som_studsar_diagonalt_slutuppgift.png)
 
-Låt nu bollen studsa också när den träffar toppen.
+Låt nu bollen studsa neråt också när den når toppen av fönstret.
