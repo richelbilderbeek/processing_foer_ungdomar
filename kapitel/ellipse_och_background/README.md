@@ -1,233 +1,233 @@
-# `ellipse` en `background`
+# `ellips` och` bakgrund`
 
-In deze les gaan we leren hoe je ovalen tekent.
+I den här lektionen kommer vi att lära oss hur man ritar ovaler.
 
-Hier zie je een beroemde game, Bubble Bobble,
-dat veel met cirkels werkt:
+Här kan du se ett känt spel, Bubble Bobble,
+som fungerar mycket med cirklar:
 
 ![Bubble Bobble](BubbleBobble.png)
 
 \pagebreak
 
-## `ellipse` en `background`: opdracht 1
+## `ellips` och` bakgrund`: kommando 1
 
-Run deze code
+Kör den här koden
 
-```c++
-float x = -50;
-float snelheid = 1;
+`` c ++
+flyta x = -50;
+flottörhastighet = 1;
 
-void setup()
+void setup ()
 {
-  size(400, 100);
+  storlek (400, 100);
 }
 
-void draw()
+void draw ()
 {
-  stroke(x, x, x);
-  fill(x, x, x);
-  ellipse(x, height / 2, 50, 50);
-  x = x + snelheid;
-  if (x > width + 50)
+  stroke (x, x, x);
+  fyll (x, x, x);
+  ellips (x, höjd / 2, 50, 50);
+  x = x + hastighet;
+  om (x> bredd + 50)
   {
     x = -50;
   }
 }
-```
+''
 
 \pagebreak
 
-## `ellipse` en `background`: oplossing 1
+## `ellips` och` bakgrund`: lösning 1
 
-![Oplossing 1](EllipseBackground1.png)
-
-\pagebreak
-
-## `ellipse` en `background`: opdracht 2
-
-![Opdracht 2](EllipseBackground2.png)
-
-Verander het derde en vierde getal van `ellipse` (de `100`s), 
-zodat de ovaal twee keer zo hoog wordt.
+![Lösning 1](EllipseBackground1.png)
 
 \pagebreak
 
-## `ellipse` en `background`: oplossing 2
+## `ellips` och` bakgrund`: kommando 2
 
-```c++
-float x = -50;
-float snelheid = 1;
+![Kommando 2](EllipseBackground2.png)
 
-void setup()
+Ändra det tredje och fjärde numret för ellipsen (100 -talet),
+så att ovalen blir dubbelt så hög.
+
+\pagebreak
+
+## `ellips` och` bakgrund`: lösning 2
+
+`` c ++
+flyta x = -50;
+flottörhastighet = 1;
+
+void setup ()
 {
-  size(400, 100);
+  storlek (400, 100);
 }
 
-void draw()
+void draw ()
 {
-  stroke(x, x, x);
-  fill(x, x, x);
-  ellipse(x, height / 2, 50, 100);
-  x = x + snelheid;
-  if (x > width + 50)
+  stroke (x, x, x);
+  fyll (x, x, x);
+  ellips (x, höjd / 2, 50, 100);
+  x = x + hastighet;
+  om (x> bredd + 50)
   {
     x = -50;
   }
 }
-```
+''
 
 \pagebreak
 
-## `ellipse` en `background`: opdracht 3
+## `ellips` och` bakgrund`: kommando 3
 
-![Opdracht 3](EllipseBackground3.png)
+![Kommando 3](EllipseBackground3.png)
 
-Voeg als eerste regel van `draw` toe: 
+Lägg till som den första raden i 'draw':
 
-```c++
-background(255, 0, 0);
-```
+`` c ++
+bakgrund (255, 0, 0);
+''
 
 \pagebreak
 
-## `ellipse` en `background`: oplossing 3
+## `ellips` och` bakgrund`: lösning 3
 
-```c++
-float x = -50;
-float snelheid = 1;
+`` c ++
+flyta x = -50;
+flottörhastighet = 1;
 
-void setup()
+void setup ()
 {
-  size(400, 100);
+  storlek (400, 100);
 }
 
-void draw()
+void draw ()
 {
-  background(255, 0, 0);
-  stroke(x, x, x);
-  fill(x, x, x);
-  ellipse(x, height / 2, 50, 100);
-  x = x + snelheid;
-  if (x > width + 50)
+  bakgrund (255, 0, 0);
+  stroke (x, x, x);
+  fyll (x, x, x);
+  ellips (x, höjd / 2, 50, 100);
+  x = x + hastighet;
+  om (x> bredd + 50)
   {
     x = -50;
   }
 }
-```
+''
 
 \pagebreak
 
-## `ellipse` en `background`: opdracht 4
+## `ellips` och` bakgrund`: kommando 4
 
-![Oplossing 4](EllipseBackground4.png)
+![Lösning 4](EllipseBackground4.png)
 
-Maak de achtergrond nu magenta.
-Maak de rand van de cirkel zwart
+Gör nu bakgrunden magenta.
+Gör kanten på cirkeln svart
 
 \pagebreak
 
-## `ellipse` en `background`: oplossing 4
+## `ellips` och` bakgrund`: lösning 4
 
-```
-float x = -50;
-float snelheid = 1;
+''
+flyta x = -50;
+flottörhastighet = 1;
 
-void setup()
+void setup ()
 {
-  size(400, 100);
+  storlek (400, 100);
 }
 
-void draw()
+void draw ()
 {
-  background(255, 0, 255);
-  stroke(0, 0, 0);
-  fill(x, x, x);
-  ellipse(x, height / 2, 50, 100);
-  x = x + snelheid;
-  if (x > width + 50)
+  bakgrund (255, 0, 255);
+  stroke (0, 0, 0);
+  fyll (x, x, x);
+  ellips (x, höjd / 2, 50, 100);
+  x = x + hastighet;
+  om (x> bredd + 50)
   {
     x = -50;
   }
 }
-```
+''
 
 \pagebreak
 
-## `ellipse` en `background`: opdracht 5
+## `ellips` och` bakgrund`: kommando 5
 
-Zet de regel met `background` nu na `size` (binnen `setup`).
+Lägg nu raden med 'bakgrund' efter 'storlek' (inom 'inställning').
 
 \pagebreak
 
-## `ellipse` en `background`: oplossing 5
+## `ellips` och` bakgrund`: lösning 5
 
-![Oplossing 5](EllipseBackground5.png)
+![Lösning 5](EllipseBackground5.png)
 
-```c++
-float x = -50;
-float snelheid = 1;
+`` c ++
+flyta x = -50;
+flottörhastighet = 1;
 
-void setup()
+void setup ()
 {
-  size(400, 100);
-  background(255, 0, 255);
+  storlek (400, 100);
+  bakgrund (255, 0, 255);
 }
 
-void draw()
+void draw ()
 {
-  stroke(0, 0, 0);
-  fill(x, x, x);
-  ellipse(x, height / 2, 50, 100);
-  x = x + snelheid;
-  if (x > width + 50)
+  stroke (0, 0, 0);
+  fyll (x, x, x);
+  ellips (x, höjd / 2, 50, 100);
+  x = x + hastighet;
+  om (x> bredd + 50)
   {
     x = -50;
   }
 }
-```
+''
 
 \pagebreak
 
-## `ellipse` en `background`: opdracht 6
+## `ellips` och` bakgrund`: kommando 6
 
-![Opdracht 6](EllipseBackground6.png)
+![Kommando 6](EllipseBackground6.png)
 
-Maak de lijnkleur van de ovaal een willekeurige kleur: de rood, groen en
-blauw waarde moeten alledrie willekeurig zijn.
+Gör linjefärgen på ovalen valfri färg: den röda, gröna och
+blått värde måste alla vara slumpmässigt.
 
 \pagebreak
 
-## `ellipse` en `background`: oplossing 6
+## `ellips` och` bakgrund`: lösning 6
 
-```c++
-float x = -50;
-float snelheid = 1;
+`` c ++
+flyta x = -50;
+flottörhastighet = 1;
 
-void setup()
+void setup ()
 {
-  size(400, 100);
-  background(255, 0, 255);
+  storlek (400, 100);
+  bakgrund (255, 0, 255);
 }
 
-void draw()
+void draw ()
 {
-  stroke(random(256), random(256), random(256));
-  fill(x, x, x);
-  ellipse(x, height / 2, 50, 100);
-  x = x + snelheid;
-  if (x > width + 50)
+  stroke (random (256), random (256), random (256));
+  fyll (x, x, x);
+  ellips (x, höjd / 2, 50, 100);
+  x = x + hastighet;
+  om (x> bredd + 50)
   {
     x = -50;
   }
 }
-```
+''
 
 \pagebreak
 
-## `ellipse` en `background`: eindopdracht
+## `ellips` och` bakgrund`: sista kommandot
 
-![Eindopracht `ellipse` en `background`](EllipseBackgroundEindopdracht.png)
+![Avsluta uppdraget `ellips 'och` bakgrund`](EllipseBackgroundEnd -uppgift.png)
 
-Maak de ovaal rond, even hoog als het scherm, magenta, en met een rode rand. 
-De achtergrond moet oranje zijn (oranje is vol rood, halfvol groen en geen blauw).
-Er mag geen sliert komen van oude ovalen.
+Gör den ovala rundan, samma höjd som skärmen, magenta och med en röd kant.
+Bakgrunden ska vara orange (orange är helröd, halvfull grön och ingen blå).
+Det ska inte finnas någon sträng från gamla ovaler.
