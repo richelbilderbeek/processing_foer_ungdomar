@@ -226,7 +226,7 @@ void draw()
 
 ## `ellipse` och `background`: sista uppgiftt
 
-![Avsluta uppdraget `ellips 'och `background`](ellipse_och_background_End -uppgift.png)
+![Avsluta uppdraget `ellips 'och `background`](ellipse_och_background_uppgift.png)
 
 Gör den ovala rundan, samma höjd som skärmen, magenta och med en röd kant.
 Bakgrunden ska vara orange (orange är helröd, halvfull grön och ingen blå).
