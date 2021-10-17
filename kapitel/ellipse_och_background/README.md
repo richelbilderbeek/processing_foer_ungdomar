@@ -13,27 +13,27 @@ som fungerar mycket med cirklar:
 
 Kör den här koden
 
-`` c ++
-flyta x = -50;
-flottörhastighet = 1;
+```c++
+float x = -50;
+float snelheid = 1;
 
-void setup ()
+void setup()
 {
-  storlek (400, 100);
+  size(400, 100);
 }
 
-void draw ()
+void draw()
 {
-  stroke (x, x, x);
-  fyll (x, x, x);
-  ellips (x, höjd / 2, 50, 50);
-  x = x + hastighet;
-  om (x> bredd + 50)
+  stroke(x, x, x);
+  fill(x, x, x);
+  ellipse(x, height / 2, 50, 50);
+  x = x + snelheid;
+  if (x > width + 50)
   {
     x = -50;
   }
 }
-''
+```
 
 \pagebreak
 
@@ -54,27 +54,27 @@ så att ovalen blir dubbelt så hög.
 
 ## `ellips` och` bakgrund`: lösning 2
 
-`` c ++
-flyta x = -50;
-flottörhastighet = 1;
+```c++
+float x = -50;
+float snelheid = 1;
 
-void setup ()
+void setup()
 {
-  storlek (400, 100);
+  size(400, 100);
 }
 
-void draw ()
+void draw()
 {
-  stroke (x, x, x);
-  fyll (x, x, x);
-  ellips (x, höjd / 2, 50, 100);
-  x = x + hastighet;
-  om (x> bredd + 50)
+  stroke(x, x, x);
+  fill(x, x, x);
+  ellipse(x, height / 2, 50, 100);
+  x = x + snelheid;
+  if (x > width + 50)
   {
     x = -50;
   }
 }
-''
+```
 
 \pagebreak
 
@@ -84,36 +84,36 @@ void draw ()
 
 Lägg till som den första raden i 'draw':
 
-`` c ++
-bakgrund (255, 0, 0);
-''
+```c++
+background(255, 0, 0);
+```
 
 \pagebreak
 
 ## `ellips` och` bakgrund`: lösning 3
 
-`` c ++
-flyta x = -50;
-flottörhastighet = 1;
+```c++
+float x = -50;
+float snelheid = 1;
 
-void setup ()
+void setup()
 {
-  storlek (400, 100);
+  size(400, 100);
 }
 
-void draw ()
+void draw()
 {
-  bakgrund (255, 0, 0);
-  stroke (x, x, x);
-  fyll (x, x, x);
-  ellips (x, höjd / 2, 50, 100);
-  x = x + hastighet;
-  om (x> bredd + 50)
+  background(255, 0, 0);
+  stroke(x, x, x);
+  fill(x, x, x);
+  ellipse(x, height / 2, 50, 100);
+  x = x + snelheid;
+  if (x > width + 50)
   {
     x = -50;
   }
 }
-''
+```
 
 \pagebreak
 
@@ -128,28 +128,28 @@ Gör kanten på cirkeln svart
 
 ## `ellips` och` bakgrund`: lösning 4
 
-''
-flyta x = -50;
-flottörhastighet = 1;
+```
+float x = -50;
+float snelheid = 1;
 
-void setup ()
+void setup()
 {
-  storlek (400, 100);
+  size(400, 100);
 }
 
-void draw ()
+void draw()
 {
-  bakgrund (255, 0, 255);
-  stroke (0, 0, 0);
-  fyll (x, x, x);
-  ellips (x, höjd / 2, 50, 100);
-  x = x + hastighet;
-  om (x> bredd + 50)
+  background(255, 0, 255);
+  stroke(0, 0, 0);
+  fill(x, x, x);
+  ellipse(x, height / 2, 50, 100);
+  x = x + snelheid;
+  if (x > width + 50)
   {
     x = -50;
   }
 }
-''
+```
 
 \pagebreak
 
@@ -163,28 +163,28 @@ Lägg nu raden med 'bakgrund' efter 'storlek' (inom 'inställning').
 
 ![Lösning 5](EllipseBackground5.png)
 
-`` c ++
-flyta x = -50;
-flottörhastighet = 1;
+```c++
+float x = -50;
+float snelheid = 1;
 
-void setup ()
+void setup()
 {
-  storlek (400, 100);
-  bakgrund (255, 0, 255);
+  size(400, 100);
+  background(255, 0, 255);
 }
 
-void draw ()
+void draw()
 {
-  stroke (0, 0, 0);
-  fyll (x, x, x);
-  ellips (x, höjd / 2, 50, 100);
-  x = x + hastighet;
-  om (x> bredd + 50)
+  stroke(0, 0, 0);
+  fill(x, x, x);
+  ellipse(x, height / 2, 50, 100);
+  x = x + snelheid;
+  if (x > width + 50)
   {
     x = -50;
   }
 }
-''
+```
 
 \pagebreak
 
@@ -199,28 +199,28 @@ blått värde måste alla vara slumpmässigt.
 
 ## `ellips` och` bakgrund`: lösning 6
 
-`` c ++
-flyta x = -50;
-flottörhastighet = 1;
+```c++
+float x = -50;
+float snelheid = 1;
 
-void setup ()
+void setup()
 {
-  storlek (400, 100);
-  bakgrund (255, 0, 255);
+  size(400, 100);
+  background(255, 0, 255);
 }
 
-void draw ()
+void draw()
 {
-  stroke (random (256), random (256), random (256));
-  fyll (x, x, x);
-  ellips (x, höjd / 2, 50, 100);
-  x = x + hastighet;
-  om (x> bredd + 50)
+  stroke(random(256), random(256), random(256));
+  fill(x, x, x);
+  ellipse(x, height / 2, 50, 100);
+  x = x + snelheid;
+  if (x > width + 50)
   {
     x = -50;
   }
 }
-''
+```
 
 \pagebreak
 
