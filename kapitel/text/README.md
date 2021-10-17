@@ -1,6 +1,6 @@
 # `text`
 
-Text används ofta, även i spel, till exempel för en poäng.
+Text används ofta, även i spel, till exempel för att visa poäng.
 
 Här kan du se 'Zork, the underground empire', ett av de mest kända
 textäventyr någonsin:
@@ -16,7 +16,7 @@ Kör den här koden:
 ```c++
 float x = 150;
 float y = 100;
-float hastighet_till_hoeger = 1;
+float hastighet_till_hoger = 1;
 
 void setup()
 {
@@ -29,14 +29,14 @@ void draw()
   stroke(128, 0, 0);
   fill(255, 0, 0);
   ellipse(x, y, 50, 50);
-  x = x + hastighet_till_hoeger;
+  x = x + hastighet_till_hoger;
   if (x > 275)
   {
-    hastighet_till_hoeger = -hastighet_till_hoeger;
+    hastighet_till_hoger = -hastighet_till_hoger;
   }
   if (x < 25)
   {
-    hastighet_till_hoeger = -hastighet_till_hoeger;
+    hastighet_till_hoger = -hastighet_till_hoger;
   }
 }
 ```
@@ -66,7 +66,7 @@ text(x, 10, 20);
 ```c++
 float x = 150;
 float y = 100;
-float hastighet_till_hoeger = 1;
+float hastighet_till_hoger = 1;
 
 void setup()
 {
@@ -80,14 +80,14 @@ void draw()
   fill(255, 0, 0);
   ellipse(x, y, 50, 50);
   text(x, 10, 20);
-  x = x + hastighet_till_hoeger;
+  x = x + hastighet_till_hoger;
   if (x > 275)
   {
-    hastighet_till_hoeger = -hastighet_till_hoeger;
+    hastighet_till_hoger = -hastighet_till_hoger;
   }
   if (x < 25)
   {
-    hastighet_till_hoeger = -hastighet_till_hoeger;
+    hastighet_till_hoger = -hastighet_till_hoger;
   }
 }
 ```
@@ -103,7 +103,7 @@ void draw()
 
 ![`text`: uppgift 3](text_3.png)
 
-Programmet visar nu `x`. Visa nu också `y`-koordinaten på skärmen nedan.
+Programmet visar nu `x`-koordinaten i fönstret. Visa nu också `y`-koordinaten.
 
 \pagebreak
 
@@ -112,7 +112,7 @@ Programmet visar nu `x`. Visa nu också `y`-koordinaten på skärmen nedan.
 ```c++
 float x = 150;
 float y = 100;
-float hastighet_till_hoeger = 1;
+float hastighet_till_hoger = 1;
 
 void setup()
 {
@@ -127,14 +127,14 @@ void draw()
   ellipse(x, y, 50, 50);
   text(x, 10, 20);
   text(y, 10, 40);
-  x = x + hastighet_till_hoeger;
+  x = x + hastighet_till_hoger;
   if (x > 275)
   {
-    hastighet_till_hoeger = -hastighet_till_hoeger;
+    hastighet_till_hoger = -hastighet_till_hoger;
   }
   if (x < 25)
   {
-    hastighet_till_hoeger = -hastighet_till_hoeger;
+    hastighet_till_hoger = -hastighet_till_hoger;
   }
 }
 ```
@@ -146,7 +146,7 @@ void draw()
 ![`text`: uppgift 4](text_4.png)
 
 Med `fill` kan du bestämma färgen på din text.
-Efter den första texten, ställ in fyllningen till grön.
+Ändra texten på den andra raden till grön.
 
 \pagebreak
 
@@ -155,7 +155,7 @@ Efter den första texten, ställ in fyllningen till grön.
 ```c++
 float x = 150;
 float y = 100;
-float hastighet_till_hoeger = 1;
+float hastighet_till_hoger = 1;
 
 void setup()
 {
@@ -171,14 +171,14 @@ void draw()
   text(x, 10, 20);
   fill(0, 255, 0);
   text(y, 10, 40);
-  x = x + hastighet_till_hoeger;
+  x = x + hastighet_till_hoger;
   if (x > 275)
   {
-    hastighet_till_hoeger = -hastighet_till_hoeger;
+    hastighet_till_hoger = -hastighet_till_hoger;
   }
   if (x < 25)
   {
-    hastighet_till_hoeger = -hastighet_till_hoeger;
+    hastighet_till_hoger = -hastighet_till_hoger;
   }
 }
 ```
@@ -189,9 +189,9 @@ void draw()
 
 ![`text`: uppgift 5](text_5.png)
 
-Sätt texten "PONG" högst upp och mitt på skärmen.
-Texten ska vara en slumpmässig färg.
-Använd `width` för att bestämma mitten.
+Skriv ut texten "PONG" med stora bokstäver mitt på skärmen.
+Texten ska ha en slumpmässig färg.
+Använd `width` för att bestämma vart mitten på texten ska hamna.
 
 \pagebreak
 
@@ -200,7 +200,7 @@ Använd `width` för att bestämma mitten.
 ```c++
 float x = 150;
 float y = 100;
-float hastighet_till_hoeger = 1;
+float hastighet_till_hoger = 1;
 
 void setup()
 {
@@ -218,14 +218,14 @@ void draw()
   text(y, 10, 40);
   fill(random(255), random(255), random(255));
   text("PONG", width / 2, height / 2);
-  x = x + hastighet_till_hoeger;
+  x = x + hastighet_till_hoger;
   if (x > 275)
   {
-    hastighet_till_hoeger = -hastighet_till_hoeger;
+    hastighet_till_hoger = -hastighet_till_hoger;
   }
   if (x < 25)
   {
-    hastighet_till_hoeger = -hastighet_till_hoeger;
+    hastighet_till_hoger = -hastighet_till_hoger;
   }
 }
 ```
@@ -236,10 +236,10 @@ void draw()
 
 ![`text`: uppgift 6](text_6.png)
 
-Lägg till en variabel: `studsingar`,
-som minne hur ofta bollen har studsit.
-`studsingar` har ett initialvärde på noll.
-Sätt detta värde på skärmen, i vitt. Ex
+Lägg till en variabel: `studsar`,
+som räknar hur många gånger bollen har studsat.
+`studsar` har ett startvärde på noll.
+Skriv ut detta värde i fönstret med blå text. Ex
 
 \pagebreak
 
@@ -248,8 +248,8 @@ Sätt detta värde på skärmen, i vitt. Ex
 ```c++
 float x = 150;
 float y = 100;
-float hastighet_till_hoeger = 1;
-float studsingar = 0;
+float hastighet_till_hoger = 1;
+float studsar = 0;
 
 void setup()
 {
@@ -266,17 +266,17 @@ void draw()
   fill(0, 255, 0);
   text(y, 10, 40);
   fill(0, 0, 255);
-  text(studsingar, 10, 60);
+  text(studsar, 10, 60);
   fill(random(255), random(255), random(255));
   text("PONG", width / 2, height / 2);
-  x = x + hastighet_till_hoeger;
+  x = x + hastighet_till_hoger;
   if (x > 275)
   {
-    hastighet_till_hoeger = -hastighet_till_hoeger;
+    hastighet_till_hoger = -hastighet_till_hoger;
   }
   if (x < 25)
   {
-    hastighet_till_hoeger = -hastighet_till_hoeger;
+    hastighet_till_hoger = -hastighet_till_hoger;
   }
 }
 ```
@@ -287,7 +287,7 @@ void draw()
 
 ![`text`: uppgift 7](text_7.png)
 
-Gör `studsingar` högre när bollen träffar höger vägg.
+Öka värdet på `studsar` med ett när bollen träffar höger sida.
 
 \pagebreak
 
@@ -296,8 +296,8 @@ Gör `studsingar` högre när bollen träffar höger vägg.
 ```c++
 float x = 150;
 float y = 100;
-float hastighet_till_hoeger = 1;
-float studsingar = 0;
+float hastighet_till_hoger = 1;
+float studsar = 0;
 
 void setup()
 {
@@ -314,30 +314,30 @@ void draw()
   fill(0, 255, 0);
   text(y, 10, 40);
   fill(0, 0, 255);
-  text(studsingar, 10, 60);
+  text(studsar, 10, 60);
   fill(random(255), random(255), random(255));
   text("PONG", width / 2, height / 2);
-  x = x + hastighet_till_hoeger;
+  x = x + hastighet_till_hoger;
   if (x > 275)
   {
-    hastighet_till_hoeger = -hastighet_till_hoeger;
-    studsingar = studsingar + 1;
+    hastighet_till_hoger = -hastighet_till_hoger;
+    studsar = studsar + 1;
   }
   if (x < 25)
   {
-    hastighet_till_hoeger = -hastighet_till_hoeger;
+    hastighet_till_hoger = -hastighet_till_hoger;
   }
 }
 ```
 
 \pagebreak
 
-## `text`: sista uppgiftt
+## `text`: sista uppgift
 
-![`text`: sista uppgiftt](text_slutuppgift.png)
+![`text`: sista uppgift](text_slutuppgift.png)
 
-Längst upp till vänster lägger du texten: 'Studsingar:' i vitt.
-Sätt värdet på `studsingar` i vitt under det.
-Radera resten av texten.
-Antalet kollisioner bör också öka om du kolliderar till vänster.
+Skriv ut texten: 'Studsar:' längst upp till vänster i fönstret, med vit text.
+Skriv ut värdet på `studsar` i vitt under det.
+Ta bort resten av texten.
+Antalet studsar ska också öka om ovalen studsar mot vänster sida av fönstret.
 
