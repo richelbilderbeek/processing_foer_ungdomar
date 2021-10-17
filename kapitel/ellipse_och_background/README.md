@@ -1,9 +1,9 @@
 # `ellipse` och `background`
 
-I den här lektionen kommer vi att lära oss hur man ritar ovaler.
+Under den här lektionen kommer vi att lära oss hur man ritar ovaler, dvs ellipser.
 
 Här kan du se ett känt spel, Bubble Bobble,
-som fungerar mycket med cirklar:
+som använder mycket ovaler:
 
 ![Bubble Bobble](BubbleBobble.png)
 
@@ -47,7 +47,7 @@ void draw()
 
 ![Kommando 2](ellipse_och_background_2.png)
 
-Ändra det tredje och fjärde numret för ellipsen (100 -talet),
+Ändra det fjärde talet för ellipsen (50-talet),
 så att ovalen blir dubbelt så hög.
 
 \pagebreak
@@ -82,7 +82,7 @@ void draw()
 
 ![Kommando 3](ellipse_och_background_3.png)
 
-Lägg till som den första raden i `draw`:
+Lägg till nedanstående rad som första rad i funktionen `draw`:
 
 ```c++
 background(255, 0, 0);
@@ -121,8 +121,8 @@ void draw()
 
 ![Lösning 4](ellipse_och_background_4.png)
 
-Gör nu bakgrunden magenta.
-Gör kanten på cirkeln svart
+Gör nu bakgrunden magentafärgad (rosa).
+Gör kanten på cirkeln svart.
 
 \pagebreak
 
@@ -192,8 +192,8 @@ void draw()
 
 ![Kommando 6](ellipse_och_background_6.png)
 
-Gör linjefärgen på ovalen valfri färg: den röda, gröna och
-blått värde måste alla vara slumpmässigt.
+Gör så att linjefärgen på ovalen får slumpmässiga färger: alltså att värdet på det röda, gröna och
+blåa ändrar sig slumpmässigt.
 
 \pagebreak
 
@@ -226,8 +226,8 @@ void draw()
 
 ## `ellipse` och `background`: sista uppgiftt
 
-![Avsluta uppdraget `ellips 'och `background`](ellipse_och_background_uppgift.png)
+![Avsluta uppdraget `ellips` och `background`](ellipse_och_background_uppgift.png)
 
-Gör den ovala rundan, samma höjd som skärmen, magenta och med en röd kant.
-Bakgrunden ska vara orange (orange är helröd, halvfull grön och ingen blå).
-Det ska inte finnas någon sträng från gamla ovaler.
+Gör nu ovalen helt rund, med samma höjd som fönstret, magentafärgad och med en röd kant.
+Bakgrunden ska vara orange (orange är helt rött, halvt grönt och inget blått).
+Och det får inte finnas några utritade spår efter gamla ovaler.
