@@ -22,7 +22,7 @@ Kpt|Beskrivning
 .  |**Bok 3**
 8  |[Bollen som studsar horisontellt](./bollen_som_studsar_horisontellt/README.md)
 9  |[`ellipse` och `background`](./ellipse_och_background/README.md)
-10 |[Bollen som studsar diagonallt](./bollen_som_studsar_diagonallt/README.md)
+10 |[Bollen som studsar snett](./bollen_som_studsar_snett/README.md)
 11 |[Text](./text/README.md)
 .  |**Bok 4**
 12 |[`fullScreen`](./fullScreen/README.md)
