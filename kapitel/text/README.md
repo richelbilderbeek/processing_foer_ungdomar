@@ -90,7 +90,7 @@ void draw()
     hastighet_till_hoeger = -hastighet_till_hoeger;
   }
 }
-''
+```
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-----------------:|:-----------------------------:
