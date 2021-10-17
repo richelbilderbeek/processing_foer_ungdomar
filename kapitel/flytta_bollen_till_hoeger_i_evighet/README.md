@@ -5,7 +5,7 @@ Under den här lektionen ska vi få en boll att åka åt höger i all evighet.
 Under den här lektionen lär vi oss också vad en `if`-sats är.
 Du kan (nästan) inte programmera utan `if`-satser.
 
-![På bosconianska kan du också åka åt höger i all evighet](Bosconian.jpg)
+![På Bosconian kan du också åka åt höger i all evighet](Bosconian.jpg)
 
 \pagebreak
 
