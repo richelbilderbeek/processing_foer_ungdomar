@@ -171,7 +171,7 @@ void draw()
 
 ## Bollen som studsar horisontellt: uppgift 5
 
-Tänk: Vad måste göras med `hastighet` för att få bollen att studsa (från vänster till höger)?
+Tänk efter nu, vad måste göras med `hastighet` för att få bollen att studsa (från vänster till höger)?
 
 Om du vågar, prova detta utan att läsa mer!
 
