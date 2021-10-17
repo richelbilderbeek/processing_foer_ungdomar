@@ -10,7 +10,7 @@ I den här lektionen ska vi studsa en boll horisontellt.
 
 ```c++
 float x = 300;
-float snelheid = 2;
+float hastighet = 2;
 
 void setup()
 {
@@ -20,7 +20,7 @@ void setup()
 void draw()
 {
   ellipse(x,50,100,100);
-  x = x + snelheid;
+  x = x + hastighet;
   if (x > 650)
   {
     x = -50;
@@ -28,7 +28,7 @@ void draw()
 }
 ```
 
-Ange den här koden. Ställ in värdet på 'hastighet' till `1`. Vad ser du?
+Ange den här koden. Ställ in värdet på `hastighet` till `1`. Vad ser du?
 
 \pagebreak
 
@@ -39,7 +39,7 @@ går ut ur bilden till höger, den visas igen på skärmen från vänster.
 
 ```c++
 float x = 300;
-float snelheid = 1;
+float hastighet = 1;
 
 void setup()
 {
@@ -49,7 +49,7 @@ void setup()
 void draw()
 {
   ellipse(x,50,100,100);
-  x = x + snelheid;
+  x = x + hastighet;
   if (x > 650)
   {
     x = -50;
@@ -57,13 +57,13 @@ void draw()
 }
 ```
 
-![Bollen som studsar horisontellt: solution 1](bulbs_sum_studsar_horisontellt_1.png)
+![Bollen som studsar horisontellt: lösning 1](bollen_sum_studsar_horisontellt_1.png)
 
 \pagebreak
 
 ## Bollen som studsar horisontellt: uppgift 2
 
-Ställ in värdet på 'hastighet' till '0'. Vad ser du?
+Ställ in värdet på `hastighet` till `0`. Vad ser du?
 
 \pagebreak
 
@@ -73,7 +73,7 @@ Bollen står nu stilla
 
 ```c++
 float x = 300;
-float snelheid = 0;
+float hastighet = 0;
 
 void setup()
 {
@@ -83,7 +83,7 @@ void setup()
 void draw()
 {
   ellipse(x,50,100,100);
-  x = x + snelheid;
+  x = x + hastighet;
   if (x > 650)
   {
     x = -50;
@@ -91,15 +91,15 @@ void draw()
 }
 ```
 
-![Bollen som studsar horisontellt: solution 2](bulbs_sum_studsar_horisontellt_2.png)
+![Bollen som studsar horisontellt: lösning 2](bollen_sum_studsar_horisontellt_2.png)
 
 \pagebreak
 
 ## Bollen som studsar horisontellt: uppgift 3
 
-Ställ in värdet på 'hastighet' till '-1'. Vad ser du?
+Ställ in värdet på `hastighet` till `-1`. Vad ser du?
 
-![Solglasögon](EmojiSunglasses.png) | Talet '-1' uttalas som 'minus ett'. Det är nummer ett lägre än noll.
+![Sunglasses](EmojiSunglasses.png) | Talet `-1` uttalas som 'minus ett'. Det är nummer ett lägre än noll.
 :-----------------:|:-----------------------------:
 
 \pagebreak
@@ -110,7 +110,7 @@ Bollen rör sig nu till vänster och syns inte längre.
 
 ```c++
 float x = 300;
-float snelheid = -1;
+float hastighet = -1;
 
 void setup()
 {
@@ -120,7 +120,7 @@ void setup()
 void draw()
 {
   ellipse(x,50,100,100);
-  x = x + snelheid;
+  x = x + hastighet;
   if (x > 650)
   {
     x = -50;
@@ -128,16 +128,16 @@ void draw()
 }
 ```
 
-![Bollen som studsar horisontellt: solution 3](bulbs_sum_studsar_horisontellt_3.png)
+![Bollen som studsar horisontellt: lösning 3](bollen_sum_studsar_horisontellt_3.png)
 
 \pagebreak
 
 ## Bollen som studsar horisontellt: uppgift 4
 
-![Bollen som studsar horisontellt: command 4](bulbs_sum_studsar_horisontellt_4.png)
+![Bollen som studsar horisontellt: command 4](bollen_sum_studsar_horisontellt_4.png)
 
 Se till att om bollen går ut ur bilden till vänster, återkommer den till höger.
-Gör detta genom att göra ett andra 'if'
+Gör detta genom att göra ett andra `if`
 
 \pagebreak
 
@@ -145,7 +145,7 @@ Gör detta genom att göra ett andra 'if'
 
 ```c++
 float x = 300;
-float snelheid = -1;
+float hastighet = -1;
 
 void setup()
 {
@@ -155,7 +155,7 @@ void setup()
 void draw()
 {
   ellipse(x,50,100,100);
-  x = x + snelheid;
+  x = x + hastighet;
   if (x > 650)
   {
     x = -50;
@@ -171,7 +171,7 @@ void draw()
 
 ## Bollen som studsar horisontellt: uppgift 5
 
-Tänk: vad måste hända med `hastigheten 'för att få bollen att studsa (vänster till höger)?
+Tänk: vad måste hända med `hastigheten` för att få bollen att studsa (vänster till höger)?
 
 Om du vågar, prova detta utan att läsa mer!
 
@@ -183,13 +183,13 @@ Om den träffar vänster sida ska bollen få bollen att gå åt höger. Om den k
 
 ![Smiley](EmojiSmiley.png) | Om bollen ... | då måste den ...
 :---:|:------:|:------:
-![Boll till vänster](bollen_som_studsar_horisontellt_LinksKlein.png) | kommer till vänster | går till höger
-![Boll på höger sida](bollen_som_studsar_horisontellt_RechtsKlein.png) | kommer till höger | går till vänster
+![Boll till vänster](bollen_som_studsar_horisontellt_vaenster_smaa.png) | kommer till vänster | går till höger
+![Boll på höger sida](bollen_som_studsar_horisontellt_hoeger_smaa.png) | kommer till höger | går till vänster
 
-![Dator](EmojiComputer.png) | `om (...)` | `{}`
+![Dator](EmojiComputer.png) | `if(...)` | `{}`
 :---:|:------:|:------:
-![Boll till vänster](bollen_sum_studsar_horisontellt_LinksKlein.png) | `x <50` |` speed = 1; `
-![Boll på höger sida](bollen_sum_studsar_horisontellt_RechtsKlein.png) | `x> 550` |` speed = -1; `
+![Boll till vänster](bollen_sum_studsar_horisontellt_vaenster_smaa.png)| `x < 50`  |`hastighet =  1;`
+![Boll på höger sida](bollen_sum_studsar_horisontellt_hoeger_smaa.png) | `x > 550` |`hastighet = -1;`
 
 \pagebreak
 
@@ -205,7 +205,7 @@ Låt nu bollen studsa från vänster till höger
 
 ```c++
 float x = 300;
-float snelheid = 1;
+float hastighet = 1;
 
 void setup()
 {
@@ -215,14 +215,14 @@ void setup()
 void draw()
 {
   ellipse(x,50,100,100);
-  x = x + snelheid;
+  x = x + hastighet;
   if (x > 550)
   {
-    snelheid = -1;
+    hastighet = -1;
   }
   if (x < 50)
   {
-    snelheid = 1;
+    hastighet = 1;
   }
 }
 ```
@@ -241,7 +241,7 @@ Låt nu bollen röra sig med en hastighet av 2 pixlar åt gången.
 
 ```c++
 float x = 300;
-float snelheid = 2;
+float hastighet = 2;
 
 void setup()
 {
@@ -251,14 +251,14 @@ void setup()
 void draw()
 {
   ellipse(x, 50, 100, 100);
-  x = x + snelheid;
+  x = x + hastighet;
   if (x > 550)
   {
-    snelheid = -2;
+    hastighet = -2;
   }
   if (x < 50)
   {
-    snelheid = 2;
+    hastighet = 2;
   }
 }
 ```
@@ -269,26 +269,26 @@ void draw()
 
 Ändring av koden:
 
-från | till
---- | ---
-`hastighet = 2;` | `hastighet = -hastighet;`
+från              | till
+------------------|----------------------------
+`hastighet = 2;`  | `hastighet = -hastighet;`
 `hastighet = -2;` | `hastighet = -hastighet;`
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-----------------:|:-----------------------------:
 `hastighet = -hastighet;` | 'Kära dator, ändra (minus eller plus) tecken på hastighet'
 
-![Solglasögon](EmojiSunglasses.png) | Talet '-1' har ett minustecken 
+![Sunglasses](EmojiSunglasses.png) | Talet '-1' har ett minustecken 
 
 \pagebreak
 
 ## Lökar summa studsar horisontellt: lösning 8
 
-! [Kommando 8] (bollen_sum_studsar_horisontellt_8.png)
+![Kommando 8](bollen_sum_studsar_horisontellt_8.png)
 
 ```c++
 float x = 300;
-float snelheid = 2;
+float hastighet = 2;
 
 void setup()
 {
@@ -298,22 +298,23 @@ void setup()
 void draw()
 {
   ellipse(x, 50, 100, 100);
-  x = x + snelheid;
+  x = x + hastighet;
   if (x > 550)
   {
-    snelheid = -snelheid;
+    hastighet = -hastighet;
   }
   if (x < 50)
   {
-    snelheid = -snelheid;
+    hastighet = -hastighet;
   }
 }
 ```
 
 \pagebreak
 
-## Bulb sum studsar horisontellt: slutuppgift
+## Bollen sum studsar horisontellt: slutuppgift
 
-! [bulbs sum studsar horisontellt: final task] (bulbs_sum_studsar_horisontellt_slutuppgift.png)
+![bollen sum studsar horisontellt: slutuppgift](bollen_sum_studsar_horisontellt_slutuppgift.png)
 
 Låt nu bollen studsa upp och ner.
+
