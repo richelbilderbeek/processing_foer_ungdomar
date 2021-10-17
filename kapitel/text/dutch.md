@@ -1,17 +1,17 @@
 # `text`
 
-Tekst wordt veel gebruikt, ook in games, voor bijvoorbeeld een score.
+Text används ofta, även i spel, till exempel för en poäng.
 
-Hier zie je 'Zork, the underground empire`, een van de beroemdste
-tekstavonturen ooit:
+Här kan du se 'Zork, det underjordiska imperiet', ett av de mest kända
+textäventyr någonsin:
 
 ![Zork](ZorkKleiner.png)
 
 \pagebreak
  
-## `text`: opdracht 1
+## `text`: kommando 1
 
-Run deze code:
+Kör den här koden:
 
 ```c++
 float x = 150;
@@ -43,15 +43,15 @@ void draw()
 
 \pagebreak
 
-## `text`: oplossing 1
+## `text`: lösning 1
 
-![`text`: oplossing 1](Text1.png)
+![`text`: lösning 1](Text1.png)
 
 \pagebreak
 
-## Opdracht 2
+## Övning 2
 
-Voeg na `ellipse` de volgende regel toe:
+Efter 'ellips' lägg till följande rad:
 
 ```c++
 text(x, 10, 20);
@@ -59,9 +59,9 @@ text(x, 10, 20);
 
 \pagebreak
 
-## `text`: oplossing 2
+## `text`: lösning 2
 
-![`text`: oplossing 2](Text2.png)
+![`text`: lösning 2](Text2.png)
 
 ```c++
 float x = 150;
@@ -90,24 +90,24 @@ void draw()
     snelheid_naar_rechts = -snelheid_naar_rechts;
   }
 }
-```
+''
 
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
-`text(100, 200, 300);`|'Lieve computer, zet de tekst `100` op het scherm met als linkerbovenhoek `(200, 300)`
-`text("Hallo", 100, 200);`|'Lieve computer, zet de tekst `Hallo` op het scherm met als linkerbovenhoek `(100, 200)`
-
-\pagebreak
-
-## `text`: opdracht 3
-
-![`text`: opdracht 3](Text3.png)
-
-Het programma laat nu de `x` zien. Laat eronder nu ook de `y` coordinaat op het scherm zien.
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+: -----------------: |: ---------------------- ------- :
+`text (100, 200, 300);` | 'Kära dator, lägg texten' 100 'på skärmen med det övre vänstra hörnet `(200, 300)`
+`text (" Hej ", 100, 200);` | 'Kära dator, lägg texten' Hej 'på skärmen med det övre vänstra hörnet `(100, 200)`
 
 \pagebreak
 
-## `text`: oplossing 3
+## `text`: kommando 3
+
+![`text`: kommando 3](Text3.png)
+
+Programmet visar nu 'x'. Visa nu också y -koordinaten på skärmen nedan.
+
+\pagebreak
+
+## `text`: lösning 3
 
 ```c++
 float x = 150;
@@ -141,16 +141,16 @@ void draw()
 
 \pagebreak
 
-## `text`: opdracht 4
+## `text`: kommando 4
 
-![`text`: opdracht 4](Text4.png)
+![`text`: kommando 4](Text4.png)
 
-Met `fill` kun je de kleur van je tekst bepalen. 
-Na de eerste `text`, zet de fill op groen.
+Med "fyllning" kan du bestämma färgen på din text.
+Efter den första texten, ställ in fyllningen till grön.
 
 \pagebreak
 
-## `text`: oplossing 4
+## `text`: lösning 4
 
 ```c++
 float x = 150;
@@ -185,17 +185,17 @@ void draw()
 
 \pagebreak
 
-## `text`: opdracht 5
+## `text`: kommando 5
 
-![`text`: opdracht 5](Text5.png)
+![`text`: kommando 5](Text5.png)
 
-Zet de tekst `PONG` bovenin en midden op het scherm.
-De tekst moet een willekeurige kleur krijgen.
-Gebruik `width` om het midden te bepalen.
+Sätt texten "PONG" högst upp och mitt på skärmen.
+Texten ska vara en slumpmässig färg.
+Använd "bredd" för att bestämma mitten.
 
 \pagebreak
 
-## `text`: oplossing 5
+## `text`: lösning 5
 
 ```c++
 float x = 150;
@@ -232,17 +232,17 @@ void draw()
 
 \pagebreak
 
-## `text`: opdracht 6
+## `text`: kommando 6
 
-![`text`: opdracht 6](Text6.png)
+![`text`: kommando 6](Text6.png)
 
-Maak een variabele erbij: `aantal_botsingen`.
-`aantal_botsingen` heeft als beginwaarde nul.
-Zet deze waarde op het scherm, in het wit.ex
+Lägg till en variabel: `number_collisions`.
+`number_collisions` har ett initialvärde på noll.
+Sätt detta värde på skärmen, i vitt. Ex
 
 \pagebreak
 
-## `text`: oplossing 6
+## `text`: lösning 6
 
 ```c++
 float x = 150;
@@ -282,15 +282,15 @@ void draw()
 
 \pagebreak
 
-## `text`: opdracht 7
+## `text`: kommando 7
 
-![`text`: opdracht 7](Text7.png)
+![`text`: kommando 7](Text7.png)
 
-Maak `botsingen` hoger als de bal teken de rechter muur komt.
+Gör "kollisioner" högre när bollen träffar höger vägg.
 
 \pagebreak
 
-## `text`: oplossing 7
+## `text`: lösning 7
 
 ```c++
 float x = 150;
@@ -331,11 +331,12 @@ void draw()
 
 \pagebreak
 
-## `text`: eindopdracht
+## `text`: sista kommandot
 
-![`text`: eindopdracht](TextEindopdracht.png)
+![`text`: sista kommandot](TextEnd command.png)
 
-Zet linksboven de tekst: `aantal botsingen:` in het wit.
-Zet daaronder de waarde van `botsingen` in het wit.
-Haal de rest van de tekst weg.
-Het aantal botsingen moet ook hoger worden als je links botst.
+Längst upp till vänster lägger du texten: 'antal kollisioner:' i vitt.
+Sätt värdet på 'kollisioner' i vitt under det.
+Radera resten av texten.
+Antalet kollisioner bör också öka om du kolliderar till vänster.
+

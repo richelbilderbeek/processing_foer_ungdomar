@@ -13,33 +13,33 @@ textäventyr någonsin:
 
 Kör den här koden:
 
-`` c ++
-flyta x = 150;
-flyta y = 100;
-float speed_to_right = 1;
+```c++
+float x = 150;
+float y = 100;
+float snelheid_naar_rechts = 1;
 
-void setup ()
+void setup()
 {
-  storlek (300, 200);
+  size(300, 200);
 }
 
-void draw ()
+void draw()
 {
-  bakgrund (0, 0, 0);
-  stroke (128, 0, 0);
-  fyllning (255, 0, 0);
-  ellips (x, y, 50, 50);
-  x = x + speed_to_right;
-  om (x> 275)
+  background(0, 0, 0);
+  stroke(128, 0, 0);
+  fill(255, 0, 0);
+  ellipse(x, y, 50, 50);
+  x = x + snelheid_naar_rechts;
+  if (x > 275)
   {
-    speed_to_right = -speed_to_right;
+    snelheid_naar_rechts = -snelheid_naar_rechts;
   }
-  om (x <25)
+  if (x < 25)
   {
-    speed_to_right = -speed_to_right;
+    snelheid_naar_rechts = -snelheid_naar_rechts;
   }
 }
-''
+```
 
 \pagebreak
 
@@ -53,9 +53,9 @@ void draw ()
 
 Efter 'ellips' lägg till följande rad:
 
-`` c ++
-text (x, 10, 20);
-''
+```c++
+text(x, 10, 20);
+```
 
 \pagebreak
 
@@ -63,31 +63,31 @@ text (x, 10, 20);
 
 ![`text`: lösning 2](Text2.png)
 
-`` c ++
-flyta x = 150;
-flyta y = 100;
-float speed_to_right = 1;
+```c++
+float x = 150;
+float y = 100;
+float snelheid_naar_rechts = 1;
 
-void setup ()
+void setup()
 {
-  storlek (300, 200);
+  size(300, 200);
 }
 
-void draw ()
+void draw()
 {
-  bakgrund (0, 0, 0);
-  stroke (128, 0, 0);
-  fyllning (255, 0, 0);
-  ellips (x, y, 50, 50);
-  text (x, 10, 20);
-  x = x + speed_to_right;
-  om (x> 275)
+  background(0, 0, 0);
+  stroke(128, 0, 0);
+  fill(255, 0, 0);
+  ellipse(x, y, 50, 50);
+  text(x, 10, 20);
+  x = x + snelheid_naar_rechts;
+  if (x > 275)
   {
-    speed_to_right = -speed_to_right;
+    snelheid_naar_rechts = -snelheid_naar_rechts;
   }
-  om (x <25)
+  if (x < 25)
   {
-    speed_to_right = -speed_to_right;
+    snelheid_naar_rechts = -snelheid_naar_rechts;
   }
 }
 ''
@@ -109,35 +109,35 @@ Programmet visar nu 'x'. Visa nu också y -koordinaten på skärmen nedan.
 
 ## `text`: lösning 3
 
-`` c ++
-flyta x = 150;
-flyta y = 100;
-float speed_to_right = 1;
+```c++
+float x = 150;
+float y = 100;
+float snelheid_naar_rechts = 1;
 
-void setup ()
+void setup()
 {
-  storlek (300, 200);
+  size(300, 200);
 }
 
-void draw ()
+void draw()
 {
-  bakgrund (0, 0, 0);
-  stroke (128, 0, 0);
-  fyllning (255, 0, 0);
-  ellips (x, y, 50, 50);
-  text (x, 10, 20);
-  text (y, 10, 40);
-  x = x + speed_to_right;
-  om (x> 275)
+  background(0, 0, 0);
+  stroke(128, 0, 0);
+  fill(255, 0, 0);
+  ellipse(x, y, 50, 50);
+  text(x, 10, 20);
+  text(y, 10, 40);
+  x = x + snelheid_naar_rechts;
+  if (x > 275)
   {
-    speed_to_right = -speed_to_right;
+    snelheid_naar_rechts = -snelheid_naar_rechts;
   }
-  om (x <25)
+  if (x < 25)
   {
-    speed_to_right = -speed_to_right;
+    snelheid_naar_rechts = -snelheid_naar_rechts;
   }
 }
-''
+```
 
 \pagebreak
 
@@ -152,36 +152,36 @@ Efter den första texten, ställ in fyllningen till grön.
 
 ## `text`: lösning 4
 
-`` c ++
-flyta x = 150;
-flyta y = 100;
-float speed_to_right = 1;
+```c++
+float x = 150;
+float y = 100;
+float snelheid_naar_rechts = 1;
 
-void setup ()
+void setup()
 {
-  storlek (300, 200);
+  size(300, 200);
 }
 
-void draw ()
+void draw()
 {
-  bakgrund (0, 0, 0);
-  stroke (128, 0, 0);
-  fyllning (255, 0, 0);
-  ellips (x, y, 50, 50);
-  text (x, 10, 20);
-  fyllning (0, 255, 0);
-  text (y, 10, 40);
-  x = x + speed_to_right;
-  om (x> 275)
+  background(0, 0, 0);
+  stroke(128, 0, 0);
+  fill(255, 0, 0);
+  ellipse(x, y, 50, 50);
+  text(x, 10, 20);
+  fill(0, 255, 0);
+  text(y, 10, 40);
+  x = x + snelheid_naar_rechts;
+  if (x > 275)
   {
-    speed_to_right = -speed_to_right;
+    snelheid_naar_rechts = -snelheid_naar_rechts;
   }
-  om (x <25)
+  if (x < 25)
   {
-    speed_to_right = -speed_to_right;
+    snelheid_naar_rechts = -snelheid_naar_rechts;
   }
 }
-''
+```
 
 \pagebreak
 
@@ -197,38 +197,38 @@ Använd "bredd" för att bestämma mitten.
 
 ## `text`: lösning 5
 
-`` c ++
-flyta x = 150;
-flyta y = 100;
-float speed_to_right = 1;
+```c++
+float x = 150;
+float y = 100;
+float snelheid_naar_rechts = 1;
 
-void setup ()
+void setup()
 {
-  storlek (300, 200);
+  size(300, 200);
 }
 
-void draw ()
+void draw()
 {
-  bakgrund (0, 0, 0);
-  stroke (128, 0, 0);
-  fyllning (255, 0, 0);
-  ellips (x, y, 50, 50);
-  text (x, 10, 20);
-  fyllning (0, 255, 0);
-  text (y, 10, 40);
-  fill (random (255), random (255), random (255));
-  text ("PONG", bredd / 2, höjd / 2);
-  x = x + speed_to_right;
-  om (x> 275)
+  background(0, 0, 0);
+  stroke(128, 0, 0);
+  fill(255, 0, 0);
+  ellipse(x, y, 50, 50);
+  text(x, 10, 20);
+  fill(0, 255, 0);
+  text(y, 10, 40);
+  fill(random(255), random(255), random(255));
+  text("PONG", width / 2, height / 2);
+  x = x + snelheid_naar_rechts;
+  if (x > 275)
   {
-    speed_to_right = -speed_to_right;
+    snelheid_naar_rechts = -snelheid_naar_rechts;
   }
-  om (x <25)
+  if (x < 25)
   {
-    speed_to_right = -speed_to_right;
+    snelheid_naar_rechts = -snelheid_naar_rechts;
   }
 }
-''
+```
 
 \pagebreak
 
@@ -244,41 +244,41 @@ Sätt detta värde på skärmen, i vitt. Ex
 
 ## `text`: lösning 6
 
-`` c ++
-flyta x = 150;
-flyta y = 100;
-float speed_to_right = 1;
-flottörkollisioner = 0;
+```c++
+float x = 150;
+float y = 100;
+float snelheid_naar_rechts = 1;
+float botsingen = 0;
 
-void setup ()
+void setup()
 {
-  storlek (300, 200);
+  size(300, 200);
 }
 
-void draw ()
+void draw()
 {
-  bakgrund (0, 0, 0);
-  stroke (128, 0, 0);
-  fyllning (255, 0, 0);
-  ellips (x, y, 50, 50);
-  text (x, 10, 20);
-  fyllning (0, 255, 0);
-  text (y, 10, 40);
-  fyllning (0, 0, 255);
-  text (kollisioner, 10, 60);
-  fill (random (255), random (255), random (255));
-  text ("PONG", bredd / 2, höjd / 2);
-  x = x + speed_to_right;
-  om (x> 275)
+  background(0, 0, 0);
+  stroke(128, 0, 0);
+  fill(255, 0, 0);
+  ellipse(x, y, 50, 50);
+  text(x, 10, 20);
+  fill(0, 255, 0);
+  text(y, 10, 40);
+  fill(0, 0, 255);
+  text(botsingen, 10, 60);
+  fill(random(255), random(255), random(255));
+  text("PONG", width / 2, height / 2);
+  x = x + snelheid_naar_rechts;
+  if (x > 275)
   {
-    speed_to_right = -speed_to_right;
+    snelheid_naar_rechts = -snelheid_naar_rechts;
   }
-  om (x <25)
+  if (x < 25)
   {
-    speed_to_right = -speed_to_right;
+    snelheid_naar_rechts = -snelheid_naar_rechts;
   }
 }
-''
+```
 
 \pagebreak
 
@@ -292,42 +292,42 @@ Gör "kollisioner" högre när bollen träffar höger vägg.
 
 ## `text`: lösning 7
 
-`` c ++
-flyta x = 150;
-flyta y = 100;
-float speed_to_right = 1;
-flottörkollisioner = 0;
+```c++
+float x = 150;
+float y = 100;
+float snelheid_naar_rechts = 1;
+float botsingen = 0;
 
-void setup ()
+void setup()
 {
-  storlek (300, 200);
+  size(300, 200);
 }
 
-void draw ()
+void draw()
 {
-  bakgrund (0, 0, 0);
-  stroke (128, 0, 0);
-  fyllning (255, 0, 0);
-  ellips (x, y, 50, 50);
-  text (x, 10, 20);
-  fyllning (0, 255, 0);
-  text (y, 10, 40);
-  fyllning (0, 0, 255);
-  text (kollisioner, 10, 60);
-  fill (random (255), random (255), random (255));
-  text ("PONG", bredd / 2, höjd / 2);
-  x = x + speed_to_right;
-  om (x> 275)
+  background(0, 0, 0);
+  stroke(128, 0, 0);
+  fill(255, 0, 0);
+  ellipse(x, y, 50, 50);
+  text(x, 10, 20);
+  fill(0, 255, 0);
+  text(y, 10, 40);
+  fill(0, 0, 255);
+  text(botsingen, 10, 60);
+  fill(random(255), random(255), random(255));
+  text("PONG", width / 2, height / 2);
+  x = x + snelheid_naar_rechts;
+  if (x > 275)
   {
-    speed_to_right = -speed_to_right;
-    kollisioner = kollisioner + 1;
+    snelheid_naar_rechts = -snelheid_naar_rechts;
+    botsingen = botsingen + 1;
   }
-  om (x <25)
+  if (x < 25)
   {
-    speed_to_right = -speed_to_right;
+    snelheid_naar_rechts = -snelheid_naar_rechts;
   }
 }
-''
+```
 
 \pagebreak
 
