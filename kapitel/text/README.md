@@ -3,7 +3,7 @@
 Text används ofta, även i spel, till exempel för att visa poäng.
 
 Här kan du se 'Zork, the underground empire', ett av de mest kända
-textäventyr någonsin:
+textäventyren någonsin:
 
 ![Zork](ZorkKleiner.png)
 
@@ -239,7 +239,7 @@ void draw()
 Lägg till en variabel: `studsar`,
 som räknar hur många gånger bollen har studsat.
 `studsar` har ett startvärde på noll.
-Skriv ut detta värde i fönstret med blå text. Ex
+Skriv ut detta värde i fönstret med blå text. 
 
 \pagebreak
 
