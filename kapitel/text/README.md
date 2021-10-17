@@ -334,7 +334,7 @@ void draw()
 
 ## `text`: sista uppgiftt
 
-![`text`: sista uppgiftt](text_End command.png)
+![`text`: sista uppgiftt](text_slutuppgift.png)
 
 Längst upp till vänster lägger du texten: 'Studsingar:' i vitt.
 Sätt värdet på `studsingar` i vitt under det.
