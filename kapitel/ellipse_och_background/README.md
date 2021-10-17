@@ -230,4 +230,4 @@ void draw()
 
 Gör nu ovalen helt rund, med samma höjd som fönstret, magentafärgad och med en röd kant.
 Bakgrunden ska vara orange (orange är helt rött, halvt grönt och inget blått).
-Och det får inte finnas några utritade spår efter gamla ovaler.
+Och det får inte finnas några utritade spår efter gamla ovaler, bara den nya ska synas.
