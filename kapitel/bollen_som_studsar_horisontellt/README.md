@@ -34,7 +34,7 @@ Skriv in den här koden. Sätt värdet på `hastighet` till `1`. Vad ser du?
 
 ## Bollen som studsar horisontellt: lösning 1
 
-Du kan se att bollen rör sig långsamt till höger. Om bollen
+Du kan se att bollen rör sig långsamt åt höger. Om bollen
 åker ut ur fönstret till höger, ska den dyka upp igen på fönstrets vänstra sida.
 
 ```c++
@@ -63,13 +63,13 @@ void draw()
 
 ## Bollen som studsar horisontellt: uppgift 2
 
-Ställ in värdet på `hastighet` till `0`. Vad ser du?
+Sätt värdet på `hastighet` till `0`. Vad ser du?
 
 \pagebreak
 
 ## Bollen som studsar horisontellt: lösning 2
 
-Bollen är nu stilla
+Bollen är nu stilla.
 
 ```c++
 float x = 300;
@@ -136,8 +136,8 @@ void draw()
 
 ![Bollen som studsar horisontellt: command 4](bollen_som_studsar_horisontellt_4.png)
 
-Se till att om bollen åker ut ur fönstret till vänster, så återkommer den till höger.
-Gör detta genom att göra ett andra `if`
+Se till att om bollen åker ut ur fönstret till vänster, så återkommer den på höger sida.
+Gör detta genom att göra en till `if`-sats.
 
 \pagebreak
 
@@ -179,7 +179,7 @@ Om du vågar, prova detta utan att läsa mer!
 
 ## Bollen som studsar horisontellt: lösning 5
 
-Om den träffar vänster sida ska bollen få bollen att åka åt höger. Om den träffar höger sida måste bollen åka åt vänster.
+Om den träffar vänster sida ska bollen åka åt höger. Om den träffar höger sida måste bollen åka åt vänster.
 
 ![Smiley](EmojiSmiley.png) | Om bollen ... | då måste den ...
 :---:|:------:|:------:
