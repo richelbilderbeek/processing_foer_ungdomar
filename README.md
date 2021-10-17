@@ -16,7 +16,7 @@ Kurs 'Processing för tonåringar'.
 
 ## Länkar
 
- * [Samma kurs, men på nederlandsk](https://github.com/richelbilderbeek/processing_voor_jonge_tieners)
+ * [Samma kurs, men på nederländska](https://github.com/richelbilderbeek/processing_voor_jonge_tieners)
 
 ## Contributors
 
