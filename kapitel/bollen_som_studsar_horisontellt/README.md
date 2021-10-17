@@ -1,6 +1,6 @@
 # Bollen som studsar horisontellt
 
-![Slutuppgift `Bollen som studsar horisontellt`](bollen_som_studsar_horisontellt_slutuppgift.png)
+![Bollen som studsar horisontellt: lösning 2](bollen_som_studsar_horisontellt_2.png)
 
 I den här lektionen ska vi studsa en boll horisontellt.
 
