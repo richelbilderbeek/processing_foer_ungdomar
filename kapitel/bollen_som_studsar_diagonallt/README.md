@@ -30,7 +30,7 @@ void draw()
 }
 ```
 
-![Boll som studsar snett: kommando 1](bollen_som_studsar_diagonalt_1.png)
+![Boll som studsar snett: kommando 1](bollen_som_studsar_snett_1.png)
 
  * Skriv den här koden
  * Skapa en ny variabel som heter `y`.
@@ -74,7 +74,7 @@ void draw()
 
 ## Boll som studsar: uppgift 2
 
-![Boll som studsar snett: kommando 2](bollen_som_studsar_diagonalt_2.png)
+![Boll som studsar snett: kommando 2](bollen_som_studsar_snett_2.png)
 
 Skapa en ny variabel som heter `hastighet_nerat`.
 Ge det initialvärdet för `1`. Bollen behöver inte röra sig än.
@@ -113,7 +113,7 @@ void draw()
 
 ## Boll som studsar: uppgift 3
 
-![Boll som studsar snett: kommando 3](bollen_som_studsar_diagonalt_3.png)
+![Boll som studsar snett: kommando 3](bollen_som_studsar_snett_3.png)
 
 Låt nu bollen röra sig nedåt också. Den behöver inte studsa ännu.
 
@@ -152,7 +152,7 @@ void draw()
 
 ## Boll som studsar: uppgift 4
 
-![Boll som studsar snett: kommando 4](bollen_som_studsar_diagonalt_4.png)
+![Boll som studsar snett: kommando 4](bollen_som_studsar_snett_4.png)
 
 Låt nu bollen studsa upp när den når till botten av fönstret.
 
@@ -195,6 +195,6 @@ void draw()
 
 ## Boll som studsar: slutuppgift
 
-![Boll som studsar snett: Avslutningskommando](bollen_som_studsar_diagonalt_slutuppgift.png)
+![Boll som studsar snett: Avslutningskommando](bollen_som_studsar_snett_slutuppgift.png)
 
 Låt nu bollen studsa neråt också när den når toppen av fönstret.
