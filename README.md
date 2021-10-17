@@ -3,8 +3,8 @@
 Kurs 'Processing för tonåringar'.
 
  * [Installera Processing](kapitel/installera_processing/README.md)
- * [Kapitel](kapitel/README.md): ensama kapitel
- * [Vängliga frågor](faq.md): vängliga frågor
+ * [Kapitel](kapitel/README.md): fristående kapitel
+ * [Vanliga frågor](faq.md): vanliga frågor
 
 ## Licens
 
@@ -16,7 +16,7 @@ Kurs 'Processing för tonåringar'.
 
 ## Länkar
 
- * [Samma kurs, men på nederlandsk](https://github.com/richelbilderbeek/processing_voor_jonge_tieners)
+ * [Samma kurs, men på nederländska](https://github.com/richelbilderbeek/processing_voor_jonge_tieners)
 
 ## Contributors
 
