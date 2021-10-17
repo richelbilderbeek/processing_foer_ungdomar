@@ -3,7 +3,7 @@
 Kurs 'Processing för tonåringar'.
 
  * [Installera Processing](kapitel/installera_processing/README.md)
- * [Kapitel](kapitel/README.md): ensama kapitel
+ * [Kapitel](kapitel/README.md): fristående kapitel
  * [Vanliga frågor](faq.md): vanliga frågor
 
 ## Licens
