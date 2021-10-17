@@ -1,14 +1,14 @@
-# Bal die schuin stuitert
+# Boll som studsar diagonallt
 
-In deze les gaan we een bal schuin laten stuiteren.
+Under den här lektionen ska vi studsa en boll i en vinkel.
 
 \pagebreak
 
-## Bal die schuin stuitert: opdracht 1
+## Boll som studsar: uppgift 1
 
 ```c++
 float x = 150;
-float snelheid_naar_rechts = 1;
+float hastighet_till_hoger = 1;
 
 void setup()
 {
@@ -18,37 +18,37 @@ void setup()
 void draw()
 {
   ellipse(x, 100, 50, 50);
-  x = x + snelheid_naar_rechts;
+  x = x + hastighet_till_hoger;
   if (x > 275)
   {
-    snelheid_naar_rechts = -snelheid_naar_rechts;
+    hastighet_till_hoger = -hastighet_till_hoger;
   }
   if (x < 25)
   {
-    snelheid_naar_rechts = -snelheid_naar_rechts;
+    hastighet_till_hoger = -hastighet_till_hoger;
   }
 }
 ```
 
-![Bal die schuin stuitert: opdracht 1](BalDieSchuinStuitert1.png)
+![Boll som studsar snett: kommando 1](bollen_som_studsar_diagonallt_1.png)
 
- * Type deze code over 
- * Maak een nieuwe variable aan met de naam `y`.
- * Teken de ovaal op coordinaat `(x, y)`.
- * Zorg dat de code hetzelfde blijft doen
+ * Skriv den här koden
+ * Skapa en ny variabel som heter `y`.
+ * Rita upp ovalen på koordinat `(x, y)`.
+ * Se till att koden fortsätter att göra samma sak
 
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
-`float y = 50;`|'Lieve computer, onthoud het getal `y` met een beginwaarde van vijftig.'
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:-----------------:|:-----------------------------:
+`float y = 50;` | 'Kära dator, kom ihåg talet `y` med ett startvärde av `50`.'
 
 \pagebreak
 
-## Bal die schuin stuitert: oplossing 1
+## Boll som studsar: lösning 1
 
 ```c++
 float x = 150;
 float y = 100;
-float snelheid_naar_rechts = 1;
+float hastighet_till_hoger = 1;
 
 void setup()
 {
@@ -58,36 +58,36 @@ void setup()
 void draw()
 {
   ellipse(x, y, 50, 50);
-  x = x + snelheid_naar_rechts;
+  x = x + hastighet_till_hoger;
   if (x > 275)
   {
-    snelheid_naar_rechts = -snelheid_naar_rechts;
+    hastighet_till_hoger = -hastighet_till_hoger;
   }
   if (x < 25)
   {
-    snelheid_naar_rechts = -snelheid_naar_rechts;
+    hastighet_till_hoger = -hastighet_till_hoger;
   }
 }
 ```
 
 \pagebreak
 
-## Bal die schuin stuitert: opdracht 2
+## Boll som studsar: uppgift 2
 
-![Bal die schuin stuitert: opdracht 2](BalDieSchuinStuitert2.png)
+![Boll som studsar snett: kommando 2](bollen_som_studsar_diagonallt_2.png)
 
-Maak een nieuwe variable aan met de naam `snelheid_omlaag`. 
-Geef deze de beginwaarde van `1`. De bal hoeft nog niet te bewegen.
+Skapa en ny variabel som heter `hastighet_till_nere`.
+Ge det initialvärdet för `1`. Bollen behöver inte röra sig än.
 
 \pagebreak
 
-## Bal die schuin stuitert: oplossing 2
+## Boll som studsar: lösning 2
 
 ```c++
 float x = 150;
 float y = 100;
-float snelheid_naar_rechts = 1;
-float snelheid_omlaag = 1;
+float hastighet_till_hoger = 1;
+float hastighet_till_nere = 1;
 
 void setup()
 {
@@ -97,35 +97,35 @@ void setup()
 void draw()
 {
   ellipse(x, y, 50, 50);
-  x = x + snelheid_naar_rechts;
+  x = x + hastighet_till_hoger;
   if (x > 275)
   {
-    snelheid_naar_rechts = -snelheid_naar_rechts;
+    hastighet_till_hoger = -hastighet_till_hoger;
   }
   if (x < 25)
   {
-    snelheid_naar_rechts = -snelheid_naar_rechts;
+    hastighet_till_hoger = -hastighet_till_hoger;
   }
 }
 ```
 
 \pagebreak
 
-## Bal die schuin stuitert: opdracht 3
+## Boll som studsar: uppgift 3
 
-![Bal die schuin stuitert: opdracht 3](BalDieSchuinStuitert3.png)
+![Boll som studsar snett: kommando 3](bollen_som_studsar_diagonallt_3.png)
 
-Laat de bal nu ook naar onder bewegen. Hij hoeft nog niet te stuiteren.
+Låt nu bollen röra sig nedåt också. Han behöver inte studsa ännu.
 
 \pagebreak
 
-## Bal die schuin stuitert: oplossing 3
+## Boll som studsar: lösning 3
 
 ```c++
 float x = 150;
 float y = 100;
-float snelheid_naar_rechts = 1;
-float snelheid_omlaag = 1;
+float hastighet_till_hoger = 1;
+float hastighet_till_nere = 1;
 
 void setup()
 {
@@ -135,36 +135,36 @@ void setup()
 void draw()
 {
   ellipse(x, y, 50, 50);
-  x = x + snelheid_naar_rechts;
-  y = y + snelheid_omlaag;
+  x = x + hastighet_till_hoger;
+  y = y + hastighet_till_nere;
   if (x > 275)
   {
-    snelheid_naar_rechts = -snelheid_naar_rechts;
+    hastighet_till_hoger = -hastighet_till_hoger;
   }
   if (x < 25)
   {
-    snelheid_naar_rechts = -snelheid_naar_rechts;
+    hastighet_till_hoger = -hastighet_till_hoger;
   }
 }
 ```
 
 \pagebreak
 
-## Bal die schuin stuitert: opdracht 4
+## Boll som studsar: uppgift 4
 
-![Bal die schuin stuitert: opdracht 4](BalDieSchuinStuitert4.png)
+![Boll som studsar snett: kommando 4](bollen_som_studsar_diagonallt_4.png)
 
-Laat de bal nu omhoog stuiteren als de bal de onderkant van het scherm raakt.
+Låt nu bollen studsa upp när bollen träffar botten av skärmen.
 
 \pagebreak
 
-## Bal die schuin stuitert: oplossing 4
+## Boll som studsar: lösning 4
 
 ```c++
 float x = 150;
 float y = 100;
-float snelheid_naar_rechts = 1;
-float snelheid_omlaag = 1;
+float hastighet_till_hoger = 1;
+float hastighet_till_nere = 1;
 
 void setup()
 {
@@ -174,27 +174,27 @@ void setup()
 void draw()
 {
   ellipse(x, y, 50, 50);
-  x = x + snelheid_naar_rechts;
-  y = y + snelheid_omlaag;
+  x = x + hastighet_till_hoger;
+  y = y + hastighet_till_nere;
   if (x > 275)
   {
-    snelheid_naar_rechts = -snelheid_naar_rechts;
+    hastighet_till_hoger = -hastighet_till_hoger;
   }
   if (x < 25)
   {
-    snelheid_naar_rechts = -snelheid_naar_rechts;
+    hastighet_till_hoger = -hastighet_till_hoger;
   }
   if (y > 175)
   {
-    snelheid_omlaag = -snelheid_omlaag;
+    hastighet_till_nere = -hastighet_till_nere;
   }
 }
 ```
 
 \pagebreak
 
-## Bal die schuin stuitert: eindopdracht
+## Boll som studsar: slutuppgift
 
-![Bal die schuin stuitert: eindopdracht](BalDieSchuinStuitertEindopdracht.png)
+![Boll som studsar snett: Avsluta kommando](bollen_som_studsar_diagonallt_slutuppgift.png)
 
-Laat nu de bal ook stuiteren als deze de bovenkant raakt.
+Låt nu bollen studsa också när den träffar toppen.
