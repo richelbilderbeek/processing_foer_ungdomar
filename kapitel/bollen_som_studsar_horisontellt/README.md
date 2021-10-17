@@ -57,7 +57,7 @@ void draw()
 }
 ```
 
-![Bollen som studsar horisontellt: lösning 1](bollen_sum_studsar_horisontellt_1.png)
+![Bollen som studsar horisontellt: lösning 1](bollen_som_studsar_horisontellt_1.png)
 
 \pagebreak
 
@@ -91,7 +91,7 @@ void draw()
 }
 ```
 
-![Bollen som studsar horisontellt: lösning 2](bollen_sum_studsar_horisontellt_2.png)
+![Bollen som studsar horisontellt: lösning 2](bollen_som_studsar_horisontellt_2.png)
 
 \pagebreak
 
@@ -128,13 +128,13 @@ void draw()
 }
 ```
 
-![Bollen som studsar horisontellt: lösning 3](bollen_sum_studsar_horisontellt_3.png)
+![Bollen som studsar horisontellt: lösning 3](bollen_som_studsar_horisontellt_3.png)
 
 \pagebreak
 
 ## Bollen som studsar horisontellt: uppgift 4
 
-![Bollen som studsar horisontellt: command 4](bollen_sum_studsar_horisontellt_4.png)
+![Bollen som studsar horisontellt: command 4](bollen_som_studsar_horisontellt_4.png)
 
 Se till att om bollen går ut ur bilden till vänster, återkommer den till höger.
 Gör detta genom att göra ett andra `if`
@@ -188,14 +188,14 @@ Om den träffar vänster sida ska bollen få bollen att gå åt höger. Om den k
 
 ![Dator](EmojiComputer.png) | `if(...)` | `{}`
 :---:|:------:|:------:
-![Boll till vänster](bollen_sum_studsar_horisontellt_vaenster_smaa.png)| `x < 50`  |`hastighet =  1;`
-![Boll på höger sida](bollen_sum_studsar_horisontellt_hoeger_smaa.png) | `x > 550` |`hastighet = -1;`
+![Boll till vänster](bollen_som_studsar_horisontellt_vaenster_smaa.png)| `x < 50`  |`hastighet =  1;`
+![Boll på höger sida](bollen_som_studsar_horisontellt_hoeger_smaa.png) | `x > 550` |`hastighet = -1;`
 
 \pagebreak
 
 ## Bollen som studsar horisontellt: uppgift 6
 
-![Kommando 6](bollen_sum_studsar_horisontellt_6.png)
+![Kommando 6](bollen_som_studsar_horisontellt_6.png)
 
 Låt nu bollen studsa från vänster till höger
 
@@ -231,7 +231,7 @@ void draw()
 
 ## Bollen som studsar horisontellt: uppgift 7
 
-![Kommando 7](bollen_sum_studsar_horisontellt_7.png)
+![Kommando 7](bollen_som_studsar_horisontellt_7.png)
 
 Låt nu bollen röra sig med en hastighet av 2 pixlar åt gången.
 
@@ -284,7 +284,7 @@ från              | till
 
 ## Lökar summa studsar horisontellt: lösning 8
 
-![Kommando 8](bollen_sum_studsar_horisontellt_8.png)
+![Kommando 8](bollen_som_studsar_horisontellt_8.png)
 
 ```c++
 float x = 300;
@@ -314,7 +314,7 @@ void draw()
 
 ## Bollen sum studsar horisontellt: slutuppgift
 
-![bollen sum studsar horisontellt: slutuppgift](bollen_sum_studsar_horisontellt_slutuppgift.png)
+![bollen sum studsar horisontellt: slutuppgift](bollen_som_studsar_horisontellt_slutuppgift.png)
 
 Låt nu bollen studsa upp och ner.
 
