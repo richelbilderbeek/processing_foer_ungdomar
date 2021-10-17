@@ -155,7 +155,7 @@ void draw()
 
 ## `ellipse` och `background`: uppgift 5
 
-Lägg nu raden med `background` efter 'size' (inom `setup`).
+Lägg nu raden med `background` efter `size` (inom `setup`).
 
 \pagebreak
 
