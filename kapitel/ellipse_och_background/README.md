@@ -224,7 +224,7 @@ void draw()
 
 \pagebreak
 
-## `ellipse` och `background`: sista uppgiftt
+## `ellipse` och `background`: sista uppgift
 
 ![Avsluta uppdraget `ellips` och `background`](ellipse_och_background_slutuppgift.png)
 
