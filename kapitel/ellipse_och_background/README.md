@@ -39,13 +39,13 @@ void draw()
 
 ## `ellips` och` bakgrund`: lösning 1
 
-![Lösning 1](EllipseBackground1.png)
+![Lösning 1](ellipse_och_background_1.png)
 
 \pagebreak
 
 ## `ellips` och` bakgrund`: kommando 2
 
-![Kommando 2](EllipseBackground2.png)
+![Kommando 2](ellipse_och_background_2.png)
 
 Ändra det tredje och fjärde numret för ellipsen (100 -talet),
 så att ovalen blir dubbelt så hög.
@@ -80,7 +80,7 @@ void draw()
 
 ## `ellips` och` bakgrund`: kommando 3
 
-![Kommando 3](EllipseBackground3.png)
+![Kommando 3](ellipse_och_background_3.png)
 
 Lägg till som den första raden i 'draw':
 
@@ -119,7 +119,7 @@ void draw()
 
 ## `ellips` och` bakgrund`: kommando 4
 
-![Lösning 4](EllipseBackground4.png)
+![Lösning 4](ellipse_och_background_4.png)
 
 Gör nu bakgrunden magenta.
 Gör kanten på cirkeln svart
@@ -161,7 +161,7 @@ Lägg nu raden med 'bakgrund' efter 'storlek' (inom 'inställning').
 
 ## `ellips` och` bakgrund`: lösning 5
 
-![Lösning 5](EllipseBackground5.png)
+![Lösning 5](ellipse_och_background_5.png)
 
 ```c++
 float x = -50;
@@ -190,7 +190,7 @@ void draw()
 
 ## `ellips` och` bakgrund`: kommando 6
 
-![Kommando 6](EllipseBackground6.png)
+![Kommando 6](ellipse_och_background_6.png)
 
 Gör linjefärgen på ovalen valfri färg: den röda, gröna och
 blått värde måste alla vara slumpmässigt.
@@ -226,7 +226,7 @@ void draw()
 
 ## `ellips` och` bakgrund`: sista kommandot
 
-![Avsluta uppdraget `ellips 'och` bakgrund`](EllipseBackgroundEnd -uppgift.png)
+![Avsluta uppdraget `ellips 'och` bakgrund`](ellipse_och_background_End -uppgift.png)
 
 Gör den ovala rundan, samma höjd som skärmen, magenta och med en röd kant.
 Bakgrunden ska vara orange (orange är helröd, halvfull grön och ingen blå).
