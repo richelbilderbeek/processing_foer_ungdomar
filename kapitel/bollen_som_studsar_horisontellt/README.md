@@ -2,7 +2,7 @@
 
 ![Slutuppgift `Bollen som studsar horisontellt`](bollen_som_studsar_horisontellt_slutuppgift.png)
 
-I den här lektionen ska vi studsa en boll horisontellt.
+I den här lektionen ska vi studsa en boll horisontellt från sida till sida.
 
 \pagebreak
 
@@ -28,14 +28,14 @@ void draw()
 }
 ```
 
-Ange den här koden. Ställ in värdet på `hastighet` till `1`. Vad ser du?
+Skriv in den här koden. Sätt värdet på `hastighet` till `1`. Vad ser du?
 
 \pagebreak
 
 ## Bollen som studsar horisontellt: lösning 1
 
 Du kan se att bollen rör sig långsamt till höger. Om bollen
-går ut ur bilden till höger, den visas igen på skärmen från vänster.
+åker ut ur fönstret till höger, ska den dyka upp igen på fönstrets vänstra sida.
 
 ```c++
 float x = 300;
@@ -69,7 +69,7 @@ Ställ in värdet på `hastighet` till `0`. Vad ser du?
 
 ## Bollen som studsar horisontellt: lösning 2
 
-Bollen står nu stilla
+Bollen är nu stilla
 
 ```c++
 float x = 300;
@@ -97,7 +97,7 @@ void draw()
 
 ## Bollen som studsar horisontellt: uppgift 3
 
-Ställ in värdet på `hastighet` till `-1`. Vad ser du?
+Sätt värdet på `hastighet` till `-1`. Vad ser du?
 
 ![Sunglasses](EmojiSunglasses.png) | Talet `-1` uttalas som 'minus ett'. Det är nummer ett lägre än noll.
 :-----------------:|:-----------------------------:
@@ -106,7 +106,7 @@ Ställ in värdet på `hastighet` till `-1`. Vad ser du?
 
 ## Bollen som studsar horisontellt: lösning 3
 
-Bollen rör sig nu till vänster och syns inte längre.
+Bollen rör sig nu åt vänster och syns inte längre.
 
 ```c++
 float x = 300;
@@ -136,7 +136,7 @@ void draw()
 
 ![Bollen som studsar horisontellt: command 4](bollen_som_studsar_horisontellt_4.png)
 
-Se till att om bollen går ut ur bilden till vänster, återkommer den till höger.
+Se till att om bollen åker ut ur fönstret till vänster, så återkommer den till höger.
 Gör detta genom att göra ett andra `if`
 
 \pagebreak
@@ -171,7 +171,7 @@ void draw()
 
 ## Bollen som studsar horisontellt: uppgift 5
 
-Tänk: vad måste hända med `hastigheten` för att få bollen att studsa (vänster till höger)?
+Tänk: Vad måste göras med `hastighet` för att få bollen att studsa (från vänster till höger)?
 
 Om du vågar, prova detta utan att läsa mer!
 
@@ -179,7 +179,7 @@ Om du vågar, prova detta utan att läsa mer!
 
 ## Bollen som studsar horisontellt: lösning 5
 
-Om den träffar vänster sida ska bollen få bollen att gå åt höger. Om den kommer mot höger sida måste bollen gå bollen till vänster.
+Om den träffar vänster sida ska bollen få bollen att åka åt höger. Om den träffar höger sida måste bollen åka åt vänster.
 
 ![Smiley](EmojiSmiley.png) | Om bollen ... | då måste den ...
 :---:|:------:|:------:
@@ -197,7 +197,7 @@ Om den träffar vänster sida ska bollen få bollen att gå åt höger. Om den k
 
 ![Kommando 6](bollen_som_studsar_horisontellt_6.png)
 
-Låt nu bollen studsa från vänster till höger
+Låt nu bollen studsa från vänster till höger.
 
 \pagebreak
 
@@ -233,7 +233,7 @@ void draw()
 
 ![Kommando 7](bollen_som_studsar_horisontellt_7.png)
 
-Låt nu bollen röra sig med en hastighet av 2 pixlar åt gången.
+Låt nu bollen åka med en hastighet av 2 pixlar åt gången.
 
 \pagebreak
 
@@ -267,7 +267,7 @@ void draw()
 
 ## Bollen som studsar horisontellt: uppgift 8
 
-Ändring av koden:
+Ändra koden:
 
 från              | till
 ------------------|----------------------------
@@ -276,13 +276,13 @@ från              | till
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-----------------:|:-----------------------------:
-`hastighet = -hastighet;` | 'Kära dator, ändra (minus eller plus) tecken på hastighet'
+`hastighet = -hastighet;` | 'Kära dator, ändra minus- eller plustecknet på hastighet'
 
 ![Sunglasses](EmojiSunglasses.png) | Talet '-1' har ett minustecken 
 
 \pagebreak
 
-## Lökar summa studsar horisontellt: lösning 8
+## Bollen som studsar horisontellt: lösning 8
 
 ![Kommando 8](bollen_som_studsar_horisontellt_8.png)
 
@@ -312,9 +312,9 @@ void draw()
 
 \pagebreak
 
-## Bollen sum studsar horisontellt: slutuppgift
+## Bollen som studsar horisontellt: slutuppgift
 
-![bollen sum studsar horisontellt: slutuppgift](bollen_som_studsar_horisontellt_slutuppgift.png)
+![bollen som studsar horisontellt: slutuppgift](bollen_som_studsar_horisontellt_slutuppgift.png)
 
 Låt nu bollen studsa upp och ner.
 
