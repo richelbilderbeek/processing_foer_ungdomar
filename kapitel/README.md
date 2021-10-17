@@ -1,6 +1,6 @@
 # Kapitel
 
-Ditta är alla kapitel av Processing lektionen.
+Här är alla kapitel av Processingkursen.
 
 ## Processing
 
