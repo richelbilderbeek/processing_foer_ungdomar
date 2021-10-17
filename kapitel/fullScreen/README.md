@@ -66,7 +66,7 @@ Lägg nu rektangeln i mitten av skärmen.
 ![`fullScreen`: uppgift 3](fullscreen_3.png)
 
 ![Solglasögon](EmojiSunglasses.png) | Rektangeln ska gå 100 till vänster och 50 uppåt
-:-----------------:|:----------------------------- :
+:-----------------:|:-----------------------------:
 
 \pagebreak
 
