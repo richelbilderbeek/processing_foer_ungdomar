@@ -2,7 +2,7 @@
 
 Text används ofta, även i spel, till exempel för en poäng.
 
-Här kan du se 'Zork, det underjordiska imperiet', ett av de mest kända
+Här kan du se 'Zork, the underground empire', ett av de mest kända
 textäventyr någonsin:
 
 ![Zork](ZorkKleiner.png)
