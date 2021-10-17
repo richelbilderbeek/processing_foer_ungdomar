@@ -226,7 +226,7 @@ void draw()
 
 ## `ellipse` och `background`: sista uppgiftt
 
-![Avsluta uppdraget `ellips` och `background`](ellipse_och_background_uppgift.png)
+![Avsluta uppdraget `ellips` och `background`](ellipse_och_background_slutuppgift.png)
 
 Gör nu ovalen helt rund, med samma höjd som fönstret, magentafärgad och med en röd kant.
 Bakgrunden ska vara orange (orange är helt rött, halvt grönt och inget blått).
