@@ -1,4 +1,4 @@
-# `ellips` och` bakgrund`
+# `ellipse` och `background`
 
 I den här lektionen kommer vi att lära oss hur man ritar ovaler.
 
@@ -9,13 +9,13 @@ som fungerar mycket med cirklar:
 
 \pagebreak
 
-## `ellips` och` bakgrund`: kommando 1
+## `ellipse` och `background`: uppgift 1
 
 Kör den här koden
 
 ```c++
 float x = -50;
-float snelheid = 1;
+float hastighet = 1;
 
 void setup()
 {
@@ -27,7 +27,7 @@ void draw()
   stroke(x, x, x);
   fill(x, x, x);
   ellipse(x, height / 2, 50, 50);
-  x = x + snelheid;
+  x = x + hastighet;
   if (x > width + 50)
   {
     x = -50;
@@ -37,13 +37,13 @@ void draw()
 
 \pagebreak
 
-## `ellips` och` bakgrund`: lösning 1
+## `ellipse` och `background`: lösning 1
 
 ![Lösning 1](ellipse_och_background_1.png)
 
 \pagebreak
 
-## `ellips` och` bakgrund`: kommando 2
+## `ellipse` och `background`: uppgift 2
 
 ![Kommando 2](ellipse_och_background_2.png)
 
@@ -52,11 +52,11 @@ så att ovalen blir dubbelt så hög.
 
 \pagebreak
 
-## `ellips` och` bakgrund`: lösning 2
+## `ellipse` och `background`: lösning 2
 
 ```c++
 float x = -50;
-float snelheid = 1;
+float hastighet = 1;
 
 void setup()
 {
@@ -68,7 +68,7 @@ void draw()
   stroke(x, x, x);
   fill(x, x, x);
   ellipse(x, height / 2, 50, 100);
-  x = x + snelheid;
+  x = x + hastighet;
   if (x > width + 50)
   {
     x = -50;
@@ -78,11 +78,11 @@ void draw()
 
 \pagebreak
 
-## `ellips` och` bakgrund`: kommando 3
+## `ellipse` och `background`: uppgift 3
 
 ![Kommando 3](ellipse_och_background_3.png)
 
-Lägg till som den första raden i 'draw':
+Lägg till som den första raden i `draw`:
 
 ```c++
 background(255, 0, 0);
@@ -90,11 +90,11 @@ background(255, 0, 0);
 
 \pagebreak
 
-## `ellips` och` bakgrund`: lösning 3
+## `ellipse` och `background`: lösning 3
 
 ```c++
 float x = -50;
-float snelheid = 1;
+float hastighet = 1;
 
 void setup()
 {
@@ -107,7 +107,7 @@ void draw()
   stroke(x, x, x);
   fill(x, x, x);
   ellipse(x, height / 2, 50, 100);
-  x = x + snelheid;
+  x = x + hastighet;
   if (x > width + 50)
   {
     x = -50;
@@ -117,7 +117,7 @@ void draw()
 
 \pagebreak
 
-## `ellips` och` bakgrund`: kommando 4
+## `ellipse` och `background`: uppgift 4
 
 ![Lösning 4](ellipse_och_background_4.png)
 
@@ -126,11 +126,11 @@ Gör kanten på cirkeln svart
 
 \pagebreak
 
-## `ellips` och` bakgrund`: lösning 4
+## `ellipse` och `background`: lösning 4
 
 ```
 float x = -50;
-float snelheid = 1;
+float hastighet = 1;
 
 void setup()
 {
@@ -143,7 +143,7 @@ void draw()
   stroke(0, 0, 0);
   fill(x, x, x);
   ellipse(x, height / 2, 50, 100);
-  x = x + snelheid;
+  x = x + hastighet;
   if (x > width + 50)
   {
     x = -50;
@@ -153,19 +153,19 @@ void draw()
 
 \pagebreak
 
-## `ellips` och` bakgrund`: kommando 5
+## `ellipse` och `background`: uppgift 5
 
-Lägg nu raden med 'bakgrund' efter 'storlek' (inom 'inställning').
+Lägg nu raden med `background` efter 'size' (inom `setup`).
 
 \pagebreak
 
-## `ellips` och` bakgrund`: lösning 5
+## `ellipse` och `background`: lösning 5
 
 ![Lösning 5](ellipse_och_background_5.png)
 
 ```c++
 float x = -50;
-float snelheid = 1;
+float hastighet = 1;
 
 void setup()
 {
@@ -178,7 +178,7 @@ void draw()
   stroke(0, 0, 0);
   fill(x, x, x);
   ellipse(x, height / 2, 50, 100);
-  x = x + snelheid;
+  x = x + hastighet;
   if (x > width + 50)
   {
     x = -50;
@@ -188,7 +188,7 @@ void draw()
 
 \pagebreak
 
-## `ellips` och` bakgrund`: kommando 6
+## `ellipse` och `background`: uppgift 6
 
 ![Kommando 6](ellipse_och_background_6.png)
 
@@ -197,11 +197,11 @@ blått värde måste alla vara slumpmässigt.
 
 \pagebreak
 
-## `ellips` och` bakgrund`: lösning 6
+## `ellipse` och `background`: lösning 6
 
 ```c++
 float x = -50;
-float snelheid = 1;
+float hastighet = 1;
 
 void setup()
 {
@@ -214,7 +214,7 @@ void draw()
   stroke(random(256), random(256), random(256));
   fill(x, x, x);
   ellipse(x, height / 2, 50, 100);
-  x = x + snelheid;
+  x = x + hastighet;
   if (x > width + 50)
   {
     x = -50;
@@ -224,9 +224,9 @@ void draw()
 
 \pagebreak
 
-## `ellips` och` bakgrund`: sista kommandot
+## `ellipse` och `background`: sista uppgiftt
 
-![Avsluta uppdraget `ellips 'och` bakgrund`](ellipse_och_background_End -uppgift.png)
+![Avsluta uppdraget `ellips 'och `background`](ellipse_och_background_End -uppgift.png)
 
 Gör den ovala rundan, samma höjd som skärmen, magenta och med en röd kant.
 Bakgrunden ska vara orange (orange är helröd, halvfull grön och ingen blå).
