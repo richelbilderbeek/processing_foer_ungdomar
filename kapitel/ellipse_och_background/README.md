@@ -45,7 +45,7 @@ void draw()
 
 ## `ellipse` och `background`: uppgift 2
 
-![Kommando 2](ellipse_och_background_2.png)
+![Uppgift 2](ellipse_och_background_2.png)
 
 Ändra det fjärde talet för ellipsen (50-talet),
 så att ovalen blir dubbelt så hög.
@@ -80,7 +80,7 @@ void draw()
 
 ## `ellipse` och `background`: uppgift 3
 
-![Kommando 3](ellipse_och_background_3.png)
+![Uppgift 3](ellipse_och_background_3.png)
 
 Lägg till nedanstående rad som första rad i funktionen `draw`:
 
@@ -190,7 +190,7 @@ void draw()
 
 ## `ellipse` och `background`: uppgift 6
 
-![Kommando 6](ellipse_och_background_6.png)
+![Uppgift 6](ellipse_och_background_6.png)
 
 Gör så att linjefärgen på ovalen får slumpmässiga färger: alltså att värdet på det röda, gröna och
 blåa ändrar sig slumpmässigt.

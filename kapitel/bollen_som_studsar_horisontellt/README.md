@@ -195,7 +195,7 @@ Om den träffar vänster sida ska bollen åka åt höger. Om den träffar höger
 
 ## Bollen som studsar horisontellt: uppgift 6
 
-![Kommando 6](bollen_som_studsar_horisontellt_6.png)
+![Uppgift 6](bollen_som_studsar_horisontellt_6.png)
 
 Låt nu bollen studsa från vänster till höger.
 
@@ -231,7 +231,7 @@ void draw()
 
 ## Bollen som studsar horisontellt: uppgift 7
 
-![Kommando 7](bollen_som_studsar_horisontellt_7.png)
+![Uppgift 7](bollen_som_studsar_horisontellt_7.png)
 
 Låt nu bollen åka med en hastighet av 2 pixlar åt gången.
 
@@ -285,7 +285,7 @@ från              | till
 
 ## Bollen som studsar horisontellt: lösning 8
 
-![Kommando 8](bollen_som_studsar_horisontellt_8.png)
+![Uppgift 8](bollen_som_studsar_horisontellt_8.png)
 
 ```c++
 float x = 300;
