@@ -33,7 +33,7 @@ void draw()
 
 ![Arrays 2: solution 1](Arrays2_en_rokpartikel.png)
 
-Ha, en rökpartikel.
+Hah, en rökpartikel.
 
 \pagebreak
 
@@ -77,11 +77,11 @@ Använd nu en array, utan `for`-loop.
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-----------------:|:-----------------------------:
-`float[] xs`|'Bästa dator, kom ihåg många bråktal som heter `xs`'
+`float[] xs`|'Kära dator, kom ihåg många bråktal i en array som heter `xs`'
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-----------------:|:-----------------------------:
-`xs = new float[2]`|'Bästa dator, gör `xs` 2 lådor`'
+`xs = new float[2]`|'Kära dator, gör så att `xs` innehåller två lådor'
 
 ![Bowtie](EmojiBowtie.png) | Tips: använd `xs[0]` istället för `x1` och `xs[1]` istället för `x2`
 :-----------------:|:-----------------------------:
@@ -122,11 +122,11 @@ void draw()
 
 ![Arrays 2: uppgift 4](Arrays2_tre_rokpartikel.png)
 
-Använd nu `for`-loops. Gör både arrayen `xs` och `ys` tre lådor stora.
+Använd nu `for`-loopar. Gör så att både arrayen `xs` och `ys` innehåller tre lådor.
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-----------------:|:-----------------------------:
-`for (int i=0; i<3; ++i) {}`|'Bästa dator, gör vad som står mellan parenteser med värden på `i` från `0` till `3` i steg om `1` '
+`for (int i=0; i<3; i=i+1) {}`|'Kära dator, gör vad som står mellan måsvingarna. Låt `i` starta med värdet `0` och räkna upp så länge värdet är mindre `3`, med `1` steg i taget'
 
 \pagebreak
 
@@ -167,10 +167,10 @@ void draw()
 
 Varje rökpartikel får nu sin egen röda kantfärg:
 
- * Skapa en tredje array som heter `rs`, för rodnad av rökpartiklarna
+ * Skapa en tredje array som heter `rs`, för de röda nyanserna på rökpartiklarna
  * I `rs` måste siffrorna `0`, `64`, `128` och `196` finnas
- * Rodnaden ska också bli mer eller mindre
- * Kanten på den första rökpartikeln ska få den första rodnaden. Tips: använd `stroke`
+ * De röda nyanserna ska slumpmässigt öka eller minska i rödhet
+ * Kanten på den första rökpartikeln ska få den första röda nyansen. Tips: använd `stroke`
 
 ![Bowtie](EmojiBowtie.png) | Tips: använd `stroke` för kantfärgen
 :-----------------:|:-----------------------------:
@@ -182,7 +182,7 @@ Varje rökpartikel får nu sin egen röda kantfärg:
 ```c++
 float[] xs;
 float[] ys;
-float[] rs; //Rodvarder
+float[] rs; //Roda varden
 
 void setup() 
 {
@@ -222,7 +222,7 @@ Gör nu koden så att:
  * det finns 256 rökpartiklar.
  * varje rökpartikel har sitt eget *blå* värde
  * den första rökpartikeln har ett blått värde på noll. Den andra rökpartikeln har ett blått värde på ett. Den tredje rökpartikeln har ett blått värde på två. Och så vidare
- * inte kanten, men fyllningsfärgen är blå
+ * ifyllnadsfärgen ska vara blå den här gången, inte kanten
 
-![Bowtie](EmojiBowtie.png) | Tips: använd `fill` för fyllningsfärgen
+![Bowtie](EmojiBowtie.png) | Tips: använd `fill` för ifyllnadsfärgen
 :-----------------:|:-----------------------------:
