@@ -1,4 +1,4 @@
-# Tangentbord 4: Fallskärmsjägare
+# Tangentbord 4: Paratrooper
 
 I den här lektionen ska vi styra en kanon med pilarna.
 
@@ -8,7 +8,7 @@ I den här lektionen ska vi styra en kanon med pilarna.
 
 ## Tangentbord 4: intro
 
-![Intro](Keyboard4_Intro.png)
+![Intro](tangentbord_4_Intro.png)
 
 Detta är vår startkod. Skriv denna kod över:
 
@@ -42,17 +42,17 @@ void draw()
 Starta programmet och använd vänster- och högerpilarna för att styra kanonen
 
 ![Solglasögon](EmojiSunglasses.png) | Med `final` säger du att en variabel inte får ändras
-:-----------------:|:---------------------- ------- :
+:-----------------:|:-----------------------------:
 
 \pagebreak
 
-## Tangentbord 4: Kommando 1
+## Tangentbord 4: Uppgift 1
 
 Se till att pistolens vinkel inte är det
 0,7853981634 (en kvart pi) kommer.
 Kanonen måste då stanna på det hörnet.
 
-![Kommando 1](Keyboard4_1.png)
+![Uppgift 1](tangentbord_4_1.png)
 
 \pagebreak
 
@@ -90,10 +90,10 @@ void draw()
 
 \pagebreak
 
-## Tangentbord 4: Sista kommando
+## Tangentbord 4: Slutuppgift
 
 Se till att pistolens vinkel inte är över
 2,35619449019 (tre fjärdedels pi) kommer.
 Kanonen måste då stanna på det hörnet.
 
-![End Assignment](Keyboard4_End Assignment.png)
+![Tangentbord 4: Slutuppgift](tangentbord_4_slutuppgift.png)
