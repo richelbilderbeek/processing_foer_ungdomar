@@ -44,7 +44,7 @@ void draw()
 Starta programmet och tryck på ADSW för att ändra riktning.
 
 ![Solglasögon](EmojiSunglasses.png) | På engelska använder du en punkt i ett kommanummer
-:-----------------:|:---------------------- ------- :
+:-----------------:|:-----------------------------:
 
 \pagebreak
 
@@ -92,7 +92,7 @@ void draw()
 ```
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-----------------:|:---------------------- ------- :
+:-----------------:|:-----------------------------:
 `if (x > width) x = 0`|'Bästa dator, om `x` är större än `width`, ställ `x` till `0`.'
 
 \pagebreak
