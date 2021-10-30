@@ -36,10 +36,10 @@ Kpt|Beskrivning
 Kpt|Beskrivning
 ---|---------------------------------------------------------------
 .  | **Bok 5**
-17 |[Tangentbord 1: Qix](./Toetsenbord1/README.md)
-18 |[Tangentbord 2: Tron](./Toetsenbord2/README.md)
-19 |[Tangentbord 3: Terminator II](./Toetsenbord3/README.md)
-20 |[Tangentbord 4: Paratrooper](./Toetsenbord4/README.md)
+17 |[Tangentbord 1: Qix](./tangentbord_1/README.md)
+18 |[Tangentbord 2: Tron](./tangentbord_2/README.md)
+19 |[Tangentbord 3: Terminator II](./tangentbord_3/README.md)
+20 |[Tangentbord 4: Paratrooper](./tangentbord_4/README.md)
 .  | **Bok 6**
 21 |[3D 1: röra bol](./3D1/README.md)
 22 |[3D 2: köra bol](./3D2/README.md)
