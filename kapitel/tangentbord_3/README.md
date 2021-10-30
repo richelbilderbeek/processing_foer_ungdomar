@@ -4,40 +4,40 @@ I den här lektionen ska vi styra en prick med tangentbordet.
 
 ![Terminator 2 (arkadspel)](Terminator2.jpg)
 
-\sidbrytning
+\pagebreak
 
 ## Tangentbord 3: intro
 
-![Intro](Keyboard3_Intro.png)
+![Intro](tangentbord_3_intro.png)
 
 Detta är vår startkod. Skriv denna kod över:
 
 ```c++
 float x = 0;
-flytande y = 0;
+float y = 0;
 
-float dx = 0; // Hastighet till höger
-float dy = 0; // Sänk hastigheten
+float dx = 0; // Snelheid naar rechts
+float dy = 0; // Snelheid naar onder
 
 void setup()
 {
-  storlek (200 200);
-  x = bredd/2;
-  y = höjd / 2;
+  size(200,200);
+  x = width / 2;
+  y = height / 2;
 }
 
 void draw()
 {
-  om (knapptryckt)
+  if (keyPressed)
   {
-    if (nyckel == 'w') dy = dy - 0,01;
-    if (nyckel == 'd') dx = dx + 0,01;
-    if (nyckel == 's') dy = dy + 0,01;
-    if (nyckel == 'a') dx = dx - 0,01;
+    if (key == 'w') dy = dy - 0.01;
+    if (key == 'd') dx = dx + 0.01;
+    if (key == 's') dy = dy + 0.01;
+    if (key == 'a') dx = dx - 0.01;
   }
   x = x + dx;
   y = y + dy;
-  punkt(x,y);
+  point(x,y);
 }
 ```
 
@@ -46,103 +46,103 @@ Starta programmet och tryck på ADSW för att ändra riktning.
 ![Solglasögon](EmojiSunglasses.png) | På engelska använder du en punkt i ett kommanummer
 :-----------------:|:---------------------- ------- :
 
-\sidbrytning
+\pagebreak
 
-## Tangentbord 3: Kommando 1
+## Tangentbord 3: Uppgift 1
 
 När spelaren till höger går ut ur bilden, se till att
 den visas till höger.
 
-![Kommando 1](Keyboard3_1.png)
+![Uppgift 1](tangentbord_3_1.png)
 
-\sidbrytning
+\pagebreak
 
 ## Tangentbord 3: Lösning 1
 
-Du behöver en "om"-sats:
+Du behöver en `if`-sats:
 
 ```c++
 float x = 0;
-flytande y = 0;
+float y = 0;
 
-float dx = 0; // Hastighet till höger
-float dy = 0; // Sänk hastigheten
+float dx = 0; // Snelheid naar rechts
+float dy = 0; // Snelheid naar onder
 
 void setup()
 {
-  storlek (200 200);
-  x = bredd/2;
-  y = höjd / 2;
+  size(200,200);
+  x = width / 2;
+  y = height / 2;
 }
 
 void draw()
 {
-  om (knapptryckt)
+  if (keyPressed)
   {
-    if (nyckel == 'w') dy = dy - 0,01;
-    if (nyckel == 'd') dx = dx + 0,01;
-    if (nyckel == 's') dy = dy + 0,01;
-    if (nyckel == 'a') dx = dx - 0,01;
+    if (key == 'w') dy = dy - 0.01;
+    if (key == 'd') dx = dx + 0.01;
+    if (key == 's') dy = dy + 0.01;
+    if (key == 'a') dx = dx - 0.01;
   }
   x = x + dx;
   y = y + dy;
-  om (x > bredd) x = 0;
-  punkt(x,y);
+  if (x > width) x = 0;
+  point(x,y);
 }
 ```
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-----------------:|:---------------------- ------- :
-`if (x > width) x = 0`|'Bästa dator, om `x` är större än `width`, ställ `x` till noll.'
+`if (x > width) x = 0`|'Bästa dator, om `x` är större än `width`, ställ `x` till `0`.'
 
-\sidbrytning
+\pagebreak
 
-## Tangentbord 3: Kommando 2
+## Tangentbord 3: Uppgift 2
 
 Se till att *även* om spelaren längst upp på skärmen släcks, att
 det visas längst ner.
 
-![Kommando 2](Keyboard3_2.png)
+![Uppgift 2](tangentbord_3_2.png)
 
-\sidbrytning
+\pagebreak
 
 ## Tangentbord 3: Lösning 2
 
 ```c++
 float x = 0;
-flytande y = 0;
+float y = 0;
 
-float dx = 0; // Hastighet till höger
-float dy = 0; // Sänk hastigheten
+float dx = 0; // Snelheid naar rechts
+float dy = 0; // Snelheid naar onder
 
 void setup()
 {
-  storlek (200 200);
-  x = bredd/2;
-  y = höjd / 2;
+  size(200,200);
+  x = width / 2;
+  y = height / 2;
 }
 
 void draw()
 {
-  om (knapptryckt)
+  if (keyPressed)
   {
-    if (nyckel == 'w') dy = dy - 0,01;
-    if (nyckel == 'd') dx = dx + 0,01;
-    if (nyckel == 's') dy = dy + 0,01;
-    if (nyckel == 'a') dx = dx - 0,01;
+    if (key == 'w') dy = dy - 0.01;
+    if (key == 'd') dx = dx + 0.01;
+    if (key == 's') dy = dy + 0.01;
+    if (key == 'a') dx = dx - 0.01;
   }
   x = x + dx;
   y = y + dy;
-  om (x > bredd) x = 0;
-  om (y < 0) y = höjd;
-  punkt(x,y);
+  if (x > width) x = 0;
+  if (y < 0) y = height;
+  point(x,y);
 }
 ```
 
-\sidbrytning
+\pagebreak
 
-## Tangentbord 3: Sista kommando
+## Tangentbord 3: Slutuppgift
 
 Se till att spelaren alltid finns kvar i bilden.
 
-![End Assignment](Keyboard3_End Assignment.png)
+![End Assignment](tangentbord_3_slutuppgift.png)
