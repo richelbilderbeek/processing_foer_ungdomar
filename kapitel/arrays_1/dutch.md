@@ -5,7 +5,7 @@ koordinaterna för kulor, meteoriter, fiender.
 
 ![Galaga är ett känt spel med många fiender och kulor](Galaga.png)
 
-\sidbrytning
+\pagebreak
 
 ## Arrays 1: Kommando 1
 
@@ -16,21 +16,21 @@ float x = 0;
 
 void setup()
 {
-  storlek (600, 50);
+  size(600, 50);
 }
 
 void draw()
 {
-  ellips(x,25,50,50);
+  ellipse(x,25,50,50);
   x = x + 1;
-  om (x > 625)
+  if (x > 625)
   {
     x = -25;
   }
 }
 ```
 
-\sidbrytning
+\pagebreak
 
 ## Arrays 1: lösning 1
 
@@ -38,7 +38,7 @@ En boll som går åt höger för alltid!
 
 ![Arrays 1: solution 1](Arrays1_1.png)
 
-\sidbrytning
+\pagebreak
 
 ## Arrays 1: Kommando 2
 
@@ -52,7 +52,7 @@ Se till att lägga till en andra boll.
 ![Bowtie](EmojiBowtie.png) | Skapa sedan en ny variabel som heter `x2`
 :-----------------:|:---------------------- ------- :
 
-\sidbrytning
+\pagebreak
 
 ## Arrays 1: lösning 2
 
@@ -62,20 +62,20 @@ float x2 = 100;
 
 void setup()
 {
-  storlek (600, 50);
+  size(600, 50);
 }
 
 void draw()
 {
-  ellips(x1,25,50,50);
-  ellips(x2,25,50,50);
-  xl = xl + 1;
+  ellipse(x1,25,50,50);
+  ellipse(x2,25,50,50);
+  x1 = x1 + 1;
   x2 = x2 + 1;
-  if(x1 > 625)
+  if (x1 > 625)
   {
-    xl = -25;
+    x1 = -25;
   }
-  if(x2 > 625)
+  if (x2 > 625)
   {
     x2 = -25;
   }
@@ -85,7 +85,7 @@ void draw()
 ![Solglasögon](EmojiSunglasses.png) | Detta var sju rader extraarbete
 :-----------------:|:---------------------- ------- :
 
-\sidbrytning
+\pagebreak
 
 ## Arrayer 1: Kommando 3
 
@@ -93,7 +93,7 @@ Lägg till en tredje boll.
 
 ![Arrays 1: command 3](Arrays1_drie_ballen.png)
 
-\sidbrytning
+\pagebreak
 
 ## Arrays 1: lösning 3
 
@@ -104,26 +104,26 @@ float x3 = 200;
 
 void setup()
 {
-  storlek (600, 50);
+  size(600, 50);
 }
 
 void draw()
 {
-  ellips(x1,25,50,50);
-  ellips(x2,25,50,50);
-  ellips(x3,25,50,50);
-  xl = xl + 1;
+  ellipse(x1,25,50,50);
+  ellipse(x2,25,50,50);
+  ellipse(x3,25,50,50);
+  x1 = x1 + 1;
   x2 = x2 + 1;
   x3 = x3 + 1;
-  if(x1 > 625)
+  if (x1 > 625)
   {
-    xl = -25;
+    x1 = -25;
   }
-  if(x2 > 625)
+  if (x2 > 625)
   {
     x2 = -25;
   }
-  if(x3 > 625)
+  if (x3 > 625)
   {
     x3 = -25;
   }
@@ -136,7 +136,7 @@ void draw()
 ![Bowtie](EmojiBowtie.png) | Detta kan göras smartare, med arrayer!
 :-----------------:|:---------------------- ------- :
 
-\sidbrytning
+\pagebreak
 
 ## Arrays 1: vad är en array?
 
@@ -160,7 +160,7 @@ nummer fyrtiotvå.
 :-----------------:|:---------------------- ------- :
 `punkt i array med index noll`|'den första platsen i arrayen'
 
-\sidbrytning
+\pagebreak
 
 ## Arrays 1: arbeta med en array
 
@@ -170,7 +170,7 @@ Anta att vi vill skapa en array av bråktal (`float`s) som kallas `hemliga_tal`,
 då måste vi skriva följande ovanför `inställningen`:
 
 ```
-flyta[] hemliga_nummer;
+float[] geheime_getallen;
 ```
 
 Med denna rad skapar du en array som heter `hemliga_nummer`.
@@ -184,7 +184,7 @@ Det har ännu inte sagts *hur många* bråktal det är.
 Ofta används "setup"-funktionen för att säga hur många nummer som ska komma ihåg:
 
 ```
-hemliga_nummer = nytt flytande[1];
+geheime_getallen = new float[1];
 ```
 
 Detta gör arrayen `hemliga_nummer` 1 låda stor.
@@ -195,12 +195,12 @@ Detta gör arrayen `hemliga_nummer` 1 låda stor.
 `secret_numbers = new float[1]`|'Bästa dator, gör `secret_numbers` 1 låda stor`'
 
 
-\sidbrytning
+\pagebreak
 
 För att exakt replikera skåpet med lådorna kan du använda följande kod:
 
 ```
-hemliga_nummer[0] = 42;
+geheime_getallen[0] = 42;
 ```
 
 Detta sätter siffran 42 på första plats i arrayen.
@@ -212,7 +212,7 @@ Detta sätter siffran 42 på första plats i arrayen.
 Du kan också läsa värdet i lådorna:
 
 ```
-float x = hemliga_tal[0];
+float x = geheime_getallen[0];
 ```
 
 Med detta läser du den första platsen (lådan med index noll) och sätter den i `x`.
@@ -224,36 +224,36 @@ Med detta läser du den första platsen (lådan med index noll) och sätter den 
 Tillsammans får du detta program:
 
 ```c++
-flyta[] hemliga_nummer;
+float[] geheime_getallen;
 
 void setup()
 {
-  storlek (400, 400);
-  hemliga_nummer = nytt flytande[1];
-  hemliga_nummer[0] = 42;
+  size(400, 400);
+  geheime_getallen = new float[1];
+  geheime_getallen[0] = 42;
 }
 
-void draw()
+void draw() 
 {
-  float x = hemliga_tal[0];
-  ellips(x, 200, 300, 400);
+  float x = geheime_getallen[0];
+  ellipse(x, 200, 300, 400);
 }
 ```
 Det här programmet ser inte särskilt trevligt ut. Det är tänkt att visa dig hur du skapar, fyller i och läser arrayer.
 
-\sidbrytning
+\pagebreak
 
 ## Arrays 1: Kommando 4
 
 Kör koden nedan.
 
 ```c++
-flyta[] xs;
+float[] xs;
 
 void setup()
 {
-  storlek (600, 50);
-  xs = ny float[3];
+  size(600, 50);
+  xs = new float[3];
   xs[0] = 0;
   xs[1] = 100;
   xs[2] = 200;
@@ -261,9 +261,9 @@ void setup()
 
 void draw()
 {
-  ellips(xs[0],25,50,50);
-  ellips(xs[1],25,50,50);
-  ellips(xs[2],25,50,50);
+  ellipse(xs[0],25,50,50);
+  ellipse(xs[1],25,50,50);
+  ellipse(xs[2],25,50,50);
   xs[0] = xs[0] + 1;
   xs[1] = xs[1] + 1;
   xs[2] = xs[2] + 1;
@@ -282,7 +282,7 @@ void draw()
 }
 ```
 
-\sidbrytning
+\pagebreak
 
 ## Arrays 1: lösning 4
 
@@ -290,20 +290,20 @@ Hej, samma som förut!
 
 ![Arrays 1: solution 4](Arrays1_drie_ballen.png)
 
-\sidbrytning
+\pagebreak
 
 ## Arrayer 1: Kommando 5
 
 Kör den här koden:
 
 ```c++
-flyta[] xs;
+float[] xs;
 
 void setup()
 {
-  storlek (600, 50);
-  xs = ny float[3];
-  för (int i=0; i<3; ++i)
+  size(600, 50);
+  xs = new float[3];
+  for (int i=0; i<3; ++i)
   {
     xs[i] = i * 100;
   }
@@ -311,9 +311,9 @@ void setup()
 
 void draw()
 {
-  för (int i=0; i<3; ++i)
+  for (int i=0; i<3; ++i)
   {
-    ellips(xs[i],25,50,50);
+    ellipse(xs[i],25,50,50);
     xs[i] = xs[i] + 1;
     if (xs[i] > 625)
     {
@@ -326,7 +326,7 @@ void draw()
 ![Solglasögon](EmojiSunglasses.png) | Bra programmerare använder hellre 'för'-loopar än dumma klipp och klistra
 :-----------------:|:---------------------- ------- :
 
-\sidbrytning
+\pagebreak
 
 ## Arrays 1: lösning 5
 
@@ -349,7 +349,7 @@ Hej, samma som förut!
  | ` xs[i] = i * 100;`
  |`}`
 
-\sidbrytning
+\pagebreak
 
 ## Arrays 1: Kommando 6
 
@@ -360,19 +360,19 @@ Lägg nu till en fjärde boll.
 ![Bowtie](EmojiBowtie.png) | Tips: förvandla en "3" till en "4".
 :-----------------:|:---------------------- ------- :
 
-\sidbrytning
+\pagebreak
 
 ## Arrays 1: lösning 6
 
 
 ```c++
-flyta[] xs;
+float[] xs;
 
 void setup()
 {
-  storlek (600, 50);
-  xs = ny float[4];
-  för (int i=0; i<4; ++i)
+  size(600, 50);
+  xs = new float[4];
+  for (int i=0; i<4; ++i)
   {
     xs[i] = i * 100;
   }
@@ -380,9 +380,9 @@ void setup()
 
 void draw()
 {
-  för (int i=0; i<4; ++i)
+  for (int i=0; i<4; ++i)
   {
-    ellips(xs[i], 25, 50, 50);
+    ellipse(xs[i], 25, 50, 50);
     xs[i] = xs[i] + 1;
     if (xs[i] > 625)
     {
@@ -392,7 +392,7 @@ void draw()
 }
 ```
 
-\sidbrytning
+\pagebreak
 
 ## Arrays 1: Kommando 7
 
@@ -400,18 +400,18 @@ Gör nu programmet i helskärm. När bollarna lämnar skärmen till höger får 
 
 ![Arrays 1: command 7](Arrays1_7.png)
 
-\sidbrytning
+\pagebreak
 
 ## Arrays 1: lösning 7
 
 ```c++
-flyta[] xs;
+float[] xs;
 
 void setup()
 {
-  fullskärm();
-  xs = ny float[4];
-  för (int i=0; i<4; ++i)
+  fullScreen();
+  xs = new float[4];
+  for (int i=0; i<4; ++i)
   {
     xs[i] = i * 100;
   }
@@ -419,11 +419,11 @@ void setup()
 
 void draw()
 {
-  för (int i=0; i<4; ++i)
+  for (int i=0; i<4; ++i)
   {
-    ellips(xs[i], 25, 50, 50);
+    ellipse(xs[i], 25, 50, 50);
     xs[i] = xs[i] + 1;
-    if (xs[i] > bredd + 25)
+    if (xs[i] > width + 25)
     {
       xs[i] = -25;
     }
@@ -431,7 +431,7 @@ void draw()
 }
 ```
 
-\sidbrytning
+\pagebreak
 
 ## Arrays 1: sista kommandot
 

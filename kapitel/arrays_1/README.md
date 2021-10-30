@@ -1,15 +1,15 @@
-# Arrays 1
+# Arrayer 1
 
-Met arrays kun je de computer veel waardes laten onthouden:
-de coordinaten van kogels, meteorieten, vijanden.
+Med arrayer kan du få datorn att komma ihåg många värden:
+koordinaterna för kulor, meteoriter, fiender.
 
-![Galaga is een beroemde game met veel vijanden en kogels](Galaga.png)
+![Galaga är ett känt spel med många fiender och kulor](Galaga.png)
 
 \pagebreak
 
-## Arrays 1: opdracht 1
+## Arrays 1: Uppgift 1
 
-Run deze code. Wat doet het?
+Kör den här koden. Vad gör det?
 
 ```c++
 float x = 0;
@@ -32,29 +32,29 @@ void draw()
 
 \pagebreak
 
-## Arrays 1: oplossing 1
+## Arrays 1: lösning 1
 
-Een bal die eeuwig naar rechts gaat!
+En boll som går åt höger för alltid!
 
-![Arrays 1: oplossing 1](Arrays1_1.png)
-
-\pagebreak
-
-## Arrays 1: opdracht 2
-
-Zorg dat er een tweede bal bijkomt.
-
-![Twee ballen die eeuwig naar rechts gaan](Arrays1_twee_ballen.png)
-
-![Sunglasses](EmojiSunglasses.png) | Tip: verander de naam `x` naar `x1`
-:-------------:|:----------------------------------------: 
-
-![Bowtie](EmojiBowtie.png) | Maak dan een nieuwe variabele met de naam `x2`
-:-------------:|:----------------------------------------: 
+![Arrays 1: lösning 1](Arrays1_1.png)
 
 \pagebreak
 
-## Arrays 1: oplossing 2
+## Arrays 1: Uppgift 2
+
+Se till att lägga till en andra boll.
+
+![Två bollar går rätt för alltid](Arrays1_twee_balls.png)
+
+![Solglasögon](EmojiSunglasses.png) | Tips: ändra namnet "x" till "x1".
+:-----------------:|:---------------------- ------- :
+
+![Bowtie](EmojiBowtie.png) | Skapa sedan en ny variabel som heter `x2`
+:-----------------:|:---------------------- ------- :
+
+\pagebreak
+
+## Arrays 1: lösning 2
 
 ```c++
 float x1 = 0;
@@ -82,20 +82,20 @@ void draw()
 }
 ```
 
-![Sunglasses](EmojiSunglasses.png) | Dit was zeven regels extra werk
-:-------------:|:----------------------------------------: 
+![Solglasögon](EmojiSunglasses.png) | Detta var sju rader extraarbete
+:-----------------:|:---------------------- ------- :
 
 \pagebreak
 
-## Arrays 1: opdracht 3
+## Arrayer 1: Uppgift 3
 
-Zorg dat er een derde bal bijkomt.
+Lägg till en tredje boll.
 
-![Arrays 1: opdracht 3](Arrays1_drie_ballen.png)
+![Arrays 1: command 3](Arrays1_drie_ballen.png)
 
 \pagebreak
 
-## Arrays 1: oplossing 3
+## Arrays 1: lösning 3
 
 ```c++
 float x1 = 0;
@@ -130,99 +130,98 @@ void draw()
 }
 ```
 
-![Sunglasses](EmojiSunglasses.png) | Dit was weer zeven regels extra werk
-:-------------:|:----------------------------------------: 
+![Solglasögon](EmojiSunglasses.png) | Detta var ytterligare sju rader extraarbete
+:-----------------:|:---------------------- ------- :
 
-![Bowtie](EmojiBowtie.png) | Dit kan slimmer, met arrays!
-:-------------:|:----------------------------------------: 
-
-\pagebreak
-
-## Arrays 1: wat is een array?
-
-Een array is als een kast met laatjes.
-
-![Kast met laatje](KastMetLaatje.png)
-
-Elk laatje heeft een nummer en in elk laatje kan een getal.
-
-Hier zie je het nummer van het laatje, en het getal wat erin zit:
-
-![Kast met genummerde laatjes](KastMetGenummerdLaatjeEnGetal.png)
-
-![Sunglasses](EmojiSunglasses.png) | Het eerste laatje van een array heeft nummer nul
-:-------------:|:----------------------------------------: 
-
-Het laatje heeft nummer *nul* (links) en in het laatje zit het
-getal tweeenveertig.
-
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
-`plek in array met index nul`|'het eerste plekje in de array'
+![Bowtie](EmojiBowtie.png) | Detta kan göras smartare, med arrayer!
+:-----------------:|:---------------------- ------- :
 
 \pagebreak
 
-## Arrays 1: werken met een array
+## Arrays 1: vad är en array?
 
-![Array met naam 'geheime_getallen' en een laatje](Arrays1_kast_geheime_getallen.png)
+En array är som ett skåp med lådor.
 
-Stel we willen een array maken van gebroken getallen (`float`s) met de naam `geheime_getallen`, 
-dan moeten we boven de `setup` het volgende typen:
+![Skåp med låda](CupboardWithDrawer.png)
+
+Varje låda har ett nummer och varje låda kan rymma ett nummer.
+
+Här ser du lådans nummer och numret som finns i den:
+
+![Skåp med numrerade lådor](CaseWithNumbered DrawerEnGetal.png)
+
+![Solglasögon](EmojiSunglasses.png) | Den första lådan i en array har nummer noll
+:-----------------:|:---------------------- ------- :
+
+Lådan har nummer *noll* (vänster) och den ligger i lådan
+nummer fyrtiotvå.
+
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:-----------------:|:---------------------- ------- :
+`punkt i array med index noll`|'den första platsen i arrayen'
+
+\pagebreak
+
+## Arrays 1: arbeta med en array
+
+![Array med namnet 'secret_numbers' och en låda](Arrays1_case_secret_numbers.png)
+
+Anta att vi vill skapa en array av bråktal (`float`s) som kallas `hemliga_tal`,
+då måste vi skriva följande ovanför `inställningen`:
 
 ```
 float[] geheime_getallen;
 ```
 
-Met deze regel maak je array met de naam `geheime_getallen`.
+Med denna rad skapar du en array som heter `hemliga_nummer`.
 
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
-`float[] geheime_getallen`|'Lieve computer, onthoud keiveel gebroken getallen met de naam `geheime_getallen`'
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:-----------------:|:---------------------- ------- :
+`float[] secret_numbers`|'Bästa dator, kom ihåg många bråktal som kallas `hemliga_nummer`'
 
 
-Er is nog niet gezegd *hoeveel* gebroken getallen dat zijn.
-Vaak wordt de `setup` functie gebruikt om te zeggen hoeveel getallen er onthouden moeten worden:
+Det har ännu inte sagts *hur många* bråktal det är.
+Ofta används "setup"-funktionen för att säga hur många nummer som ska komma ihåg:
 
 ```
 geheime_getallen = new float[1];
 ```
 
-Hiermee maak je de array `geheime_getallen` 1 laatje groot.
+Detta gör arrayen `hemliga_nummer` 1 låda stor.
 
 
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
-`geheime_getallen = new float[1]`|'Lieve computer, maak `geheime_getallen` 1 laatje groot`'
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:-----------------:|:---------------------- ------- :
+`secret_numbers = new float[1]`|'Bästa dator, gör `secret_numbers` 1 låda stor`'
 
 
 \pagebreak
 
-Om de kast met de laatjes precies na te maken, kun je de volgende code gebruiken:
+För att exakt replikera skåpet med lådorna kan du använda följande kod:
 
 ```
 geheime_getallen[0] = 42;
 ```
 
-Hierdoor stop je het getal 42 op het eerste plekje in de array.
+Detta sätter siffran 42 på första plats i arrayen.
 
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
-`geheime_getallen[0] = 42`|'Lieve computer, stop het getal `42` in het eerste plekje van de array `geheime_getallen`'
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:-----------------:|:---------------------- ------- :
+`hemliga_nummer[0] = 42`|'Bästa dator, sätt siffran `42` på första platsen i arrayen `hemliga_nummer`'
 
-Je zou ook de waarde in de laatjes kunnen lezen:
+Du kan också läsa värdet i lådorna:
 
 ```
 float x = geheime_getallen[0];
 ```
 
-Hiermee lees je het eerste plekje (het laatje met index nul) en stop je dat in `x`.
+Med detta läser du den första platsen (lådan med index noll) och sätter den i `x`.
 
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
-`float x = geheime_getallen[0]`|'Lieve computer, kijk wat er in laatje met index nul zit en onthoud dat als `x`'
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:-----------------:|:---------------------- ------- :
+`float x = secret_numbers[0]`|'Bästa dator, se vad som finns i lådan med index noll och kom ihåg det som `x`'
 
-
-Alles bij elkaar krijg je dit programma:
+Tillsammans får du detta program:
 
 ```c++
 float[] geheime_getallen;
@@ -240,13 +239,13 @@ void draw()
   ellipse(x, 200, 300, 400);
 }
 ```
-Dit programma ziet er niet erg mooi uit. Het is bedoeld om je te laten hoe je arrays maakt, vult en leest.
+Det här programmet ser inte särskilt trevligt ut. Det är tänkt att visa dig hur du skapar, fyller i och läser arrayer.
 
 \pagebreak
 
-## Arrays 1: opdracht 4 
+## Arrays 1: Uppgift 4
 
-Run onderstaande code.
+Kör koden nedan.
 
 ```c++
 float[] xs;
@@ -285,17 +284,17 @@ void draw()
 
 \pagebreak
 
-## Arrays 1: oplossing 4
+## Arrays 1: lösning 4
 
-Hee, hetzelfde als net!
+Hej, samma som förut!
 
-![Arrays 1: oplossing 4](Arrays1_drie_ballen.png)
+![Arrays 1: lösning 4](Arrays1_drie_ballen.png)
 
 \pagebreak
 
-## Arrays 1: opdracht 5
+## Arrayer 1: Uppgift 5
 
-Run deze code:
+Kör den här koden:
 
 ```c++
 float[] xs;
@@ -324,46 +323,46 @@ void draw()
 }
 ```
 
-![Sunglasses](EmojiSunglasses.png) | Goede programmeur gebruiken liever `for` loops dan dom te knippen en plakken
-:-------------:|:----------------------------------------: 
+![Solglasögon](EmojiSunglasses.png) | Bra programmerare använder hellre 'för'-loopar än dumma klipp och klistra
+:-----------------:|:---------------------- ------- :
 
 \pagebreak
 
-## Arrays 1: oplossing 5
+## Arrays 1: lösning 5
 
-Hee, hetzelfde als net!
+Hej, samma som förut!
 
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
-`for (int i=0; i<3; ++i) {}`|'Lieve computer, doe wat tussen accolades staat met waarden van `i` van `0` tot `3` in stapjes van `1`'
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:-----------------:|:---------------------- ------- :
+`for (int i=0; i<3; ++i) {}`|'Bästa dator, gör vad som står mellan klammerparenteser med värden på `i` från `0` till `3` i steg om `1` '
 
-![Computer](EmojiComputer.png) | Ik ben een domme computer
-:-------------:|:----------------------------------------: 
- |`xs[0] =   0;`
+![Dator](EmojiComputer.png) | Jag är en dum dator
+:-----------------:|:---------------------- ------- :
+ |`xs[0] = 0;`
  |`xs[1] = 100;`
  |`xs[2] = 200;`
 
-![Computer](EmojiComputer.png) | Ik ben een slimme computer
-:--------------|:----------------------------------------- 
- |`for (int i=0; i<3; ++i)`
+![Dator](EmojiComputer.png) | Jag är en smart dator
+:-----------------|:-------------------------------------
+ |"för (int i=0; i<3; ++i)".
  |`{`
- |  `  xs[i] = i * 100;`
+ | ` xs[i] = i * 100;`
  |`}`
 
 \pagebreak
 
-## Arrays 1: opdracht 6
+## Arrays 1: Uppgift 6
 
-![Arrays 1: opdracht 6](Arrays1_vier_ballen.png)
+![Arrays 1: command 6](Arrays1_four_balls.png)
 
-Maak nu een vierde bal erbij.
+Lägg nu till en fjärde boll.
 
-![Bowtie](EmojiBowtie.png) | Tip: maak van een `3` een `4`
-:-------------:|:----------------------------------------: 
+![Bowtie](EmojiBowtie.png) | Tips: förvandla en "3" till en "4".
+:-----------------:|:---------------------- ------- :
 
 \pagebreak
 
-## Arrays 1: oplossing 6
+## Arrays 1: lösning 6
 
 
 ```c++
@@ -395,15 +394,15 @@ void draw()
 
 \pagebreak
 
-## Arrays 1: opdracht 7
+## Arrays 1: Uppgift 7
 
-Maak nu het programma full-screen. Laat de ballen als ze rechts het scherm uitgaan, weer links beginnen. Gebruik hiervoor `width`
+Gör nu programmet i helskärm. När bollarna lämnar skärmen till höger får du dem att börja igen till vänster. Använd `width` för detta
 
-![Arrays 1: opdracht 7](Arrays1_7.png)
+![Arrays 1: command 7](Arrays1_7.png)
 
 \pagebreak
 
-## Arrays 1: oplossing 7
+## Arrays 1: lösning 7
 
 ```c++
 float[] xs;
@@ -434,11 +433,12 @@ void draw()
 
 \pagebreak
 
-## Arrays 1: eindopdracht
+## Arrays 1: slutuppgift
 
-![Arrays 1: eindopdracht](Arrays1_eindopdracht.png)
+![Arrays 1: slutuppgift](Arrays1_slutuppgift.png)
 
-Maak de code nu zo dat:
+Gör nu koden så att:
 
- * Er zes ballen zijn
- * De ballen eeuwig naar links gaan
+ * Det finns sex bollar
+ * Bollarna går vänster för alltid
+
