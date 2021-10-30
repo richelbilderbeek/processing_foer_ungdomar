@@ -43,7 +43,7 @@ Ha, en rökpartikel.
 
 Gör en andra rökpartikel.
 
-\sidbrytning
+\pagebreak
 
 ## Arrays 2: lösning 2
 

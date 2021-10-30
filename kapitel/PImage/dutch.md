@@ -37,7 +37,7 @@ Du får ett fel!
 ![Solglasögon](EmojiSunglasses.png) | Datorn säger att den inte kan hitta bilden!
 :-----------------:|:---------------------- ------- :
 
-\sidbrytning
+\pagebreak
 
 ## `PImage`: kommando 2
 
