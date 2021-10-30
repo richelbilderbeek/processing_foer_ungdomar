@@ -8,7 +8,7 @@ Under den här lektionen ska vi jobba med bilder!
 
 ## `PImage`: Uppgift 1
 
-Spara den här koden. Kör den här koden. Vad ser du?
+Spara den här koden. Kör koden. Vad ser du?
    
 ```c++
 PImage bild;
@@ -39,7 +39,7 @@ Du får ett fel!
 
 \pagebreak
 
-## `PImage`: kommando 2
+## `PImage`: Uppgift 2
 
 Gå till [https://raw.githubusercontent.com/richelbilderbeek/processing_foer_tonaaringar/master/kapitel/PImage/mario.png](https://raw.githubusercontent.com/richelbilderbeek/processing_foer_tonaaringar/master/kapitel/PImage/mario.png)
 och ladda ner den här bilden av Mario.
@@ -61,4 +61,4 @@ Här är en bild som visar var filerna ska vara:
 
 ![`PImage`: slutuppgift](PImageEindopdracht.png)
 
-Gör programmet i helskärm, gör bakgrunden grön och lägg bilden i mitten.
+Gör så att programmet körs i helskärm. Gör bakgrunden grön och lägg bilden i mitten.
