@@ -164,7 +164,7 @@ nummer fyrtiotvå.
 
 ## Arrays 1: arbeta med en array
 
-![Array med namnet 'hemliga_nummer' och en låda](Arrays1_case_hemliga_nummer.png)
+![Array med namnet 'hemliga_nummer' och en låda](Arrays1_skap_hemliga_nummer.png)
 
 Anta att vi vill skapa en array av bråktal (`float`s) som kallas `hemliga_tal`,
 då måste vi skriva följande ovanför `inställningen`:
