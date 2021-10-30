@@ -8,7 +8,7 @@ I den här lektionen ska vi flytta en prick med tangentbordet.
 
 ## Tangentbord 1: intro
 
-![Intro](Intro.png)
+![Tangentbord 1: intro](tangentbord_1_intro.png)
 
 Detta är vår startkod. Skriv denna kod över:
 
@@ -39,22 +39,22 @@ void draw()
 Starta programmet och tryck på ADSW för att flytta.
 
 ![Solglasögon](EmojiSunglasses.png) | Kontrollerna är inte perfekta! Att göra detta perfekt är lite svårare
-:-----------------:|:---------------------- ------- :
+:-----------------:|:-----------------------------:
 
 \pagebreak
 
-## Tangentbord 1: Kommando 1
+## Tangentbord 1: Uppgift 1
 
 När spelaren till höger går ut ur bilden, se till att
 den visas till höger.
 
-![Tangentbord 1: Kommando 1](Keyboard1_1.png)
+![Tangentbord 1: Uppgift 1](tangentbord_1_1.png)
 
 \sidbrytning
 
 ## Tangentbord 1: Lösning 1
 
-Du behöver en "om"-sats:
+Du behöver en `if`-sats:
 
 ```c++
 float x = 0;
@@ -82,17 +82,17 @@ void draw()
 ```
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-----------------:|:---------------------- ------- :
+:-----------------:|:-----------------------------:
 `if (x > width) x = 0`|'Bästa dator, om `x` är större än `width`, ställ `x` till noll.'
 
 \pagebreak
 
-## Tangentbord 1: Kommando 2
+## Tangentbord 1: Uppgift 2
 
 Se till att *även* om spelaren längst upp på skärmen släcks, att
 det visas längst ner.
 
-![Tangentbord 1: Kommando 2](Keyboard1_2.png)
+![Tangentbord 1: Uppgift 2](tangentbord_1_2.png)
 
 \pagebreak
 
@@ -126,8 +126,8 @@ void draw()
 
 \pagebreak
 
-## Tangentbord 1: sista kommandot
+## Tangentbord 1: slutuppgiftt
 
 Se till att spelaren alltid finns kvar i bilden.
 
-![Keyboard 1: Final Assignment](Keyboard1_End Assignment.png)
+![Keyboard 1: Slutuppgiftt](tangentbord_1_slutuppgiftt.png)
