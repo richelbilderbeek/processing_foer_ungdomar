@@ -4,7 +4,7 @@ I den här lektionen ska vi flytta en prick med tangentbordet.
 
 ![Qix](Qix.png)
 
-\sidbrytning
+\pagebreak
 
 ## Tangentbord 1: intro
 
@@ -14,25 +14,25 @@ Detta är vår startkod. Skriv denna kod över:
 
 ```c++
 float x = 0;
-flytande y = 0;
+float y = 0;
 
 void setup()
 {
-  storlek(200 200);
-  x = bredd/2;
-  y = höjd / 2;
+  size(200,200);
+  x = width / 2;
+  y = height / 2;
 }
 
 void draw()
 {
-  om (knapptryckt)
+  if (keyPressed)
   {
-    om (nyckel == 'w') y = y - 1;
-    if (nyckel == 'd') x = x + 1;
-    om (nyckel == 's') y = y + 1;
-    om (nyckel == 'a') x = x - 1;
+    if (key == 'w') y = y - 1;
+    if (key == 'd') x = x + 1;
+    if (key == 's') y = y + 1;
+    if (key == 'a') x = x - 1;
   }
-  punkt(x,y);
+  point(x,y);
 }
 ```
 
@@ -41,7 +41,7 @@ Starta programmet och tryck på ADSW för att flytta.
 ![Solglasögon](EmojiSunglasses.png) | Kontrollerna är inte perfekta! Att göra detta perfekt är lite svårare
 :-----------------:|:---------------------- ------- :
 
-\sidbrytning
+\pagebreak
 
 ## Tangentbord 1: Kommando 1
 
@@ -58,26 +58,26 @@ Du behöver en "om"-sats:
 
 ```c++
 float x = 0;
-flytande y = 0;
+float y = 0;
 
 void setup()
 {
-  storlek(200 200);
-  x = bredd/2;
-  y = höjd / 2;
+  size(200,200);
+  x = width / 2;
+  y = height / 2;
 }
 
 void draw()
 {
-  om (knapptryckt)
+  if (keyPressed)
   {
-    om (nyckel == 'w') y = y - 1;
-    if (nyckel == 'd') x = x + 1;
-    om (nyckel == 's') y = y + 1;
-    om (nyckel == 'a') x = x - 1;
+    if (key == 'w') y = y - 1;
+    if (key == 'd') x = x + 1;
+    if (key == 's') y = y + 1;
+    if (key == 'a') x = x - 1;
   }
-  om (x > bredd) x = 0;
-  punkt(x,y);
+  if (x > width) x = 0;
+  point(x,y);
 }
 ```
 
@@ -85,7 +85,7 @@ void draw()
 :-----------------:|:---------------------- ------- :
 `if (x > width) x = 0`|'Bästa dator, om `x` är större än `width`, ställ `x` till noll.'
 
-\sidbrytning
+\pagebreak
 
 ## Tangentbord 1: Kommando 2
 
@@ -94,37 +94,37 @@ det visas längst ner.
 
 ![Tangentbord 1: Kommando 2](Keyboard1_2.png)
 
-\sidbrytning
+\pagebreak
 
 ## Tangentbord 1: Lösning 2
 
 ```c++
 float x = 0;
-flytande y = 0;
+float y = 0;
 
 void setup()
 {
-  storlek (200 200);
-  x = bredd/2;
-  y = höjd / 2;
+  size(200,200);
+  x = width / 2;
+  y = height / 2;
 }
 
 void draw()
 {
-  om (knapptryckt)
+  if (keyPressed)
   {
-    om (nyckel == 'w') y = y - 1;
-    if (nyckel == 'd') x = x + 1;
-    om (nyckel == 's') y = y + 1;
-    om (nyckel == 'a') x = x - 1;
+    if (key == 'w') y = y - 1;
+    if (key == 'd') x = x + 1;
+    if (key == 's') y = y + 1;
+    if (key == 'a') x = x - 1;
   }
-  om (x > bredd) x = 0;
-  om (y < 0) y = höjd;
-  punkt(x,y);
+  if (x > width) x = 0;
+  if (y < 0) y = height;
+  point(x,y);
 }
 ```
 
-\sidbrytning
+\pagebreak
 
 ## Tangentbord 1: sista kommandot
 
