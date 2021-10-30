@@ -145,70 +145,66 @@ En array är som ett skåp med lådor.
 
 Varje låda har ett nummer utanpå och varje låda kan innehålla ett nummer inuti.
 
-Här ser du lådans nummer och det nummer som finns inuti den:
-
 ![Skåp med låda](array_hemliga_nummer.jpg)
 
-![Solglasögon](EmojiSunglasses.png) | Den första lådan i en array har nummer `0`
+![Solglasögon](EmojiSunglasses.png) | Den första platsen (lådan) i en array har alltid numret `0`
 :-----------------:|:-----------------------------:
 
-Lådan har nummer `0` och den ligger i lådan
-nummer fyrtiotvå.
+Här ser du lådans nummer och det nummer som finns inuti den:
+Låda nummer `0` har nummer `42` inuti sig.
 
 ![Skåp med numrerade lådor](array_hemliga_nummer_0.jpg)
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-----------------:|:-----------------------------:
-`plats i array med index noll`|'den första platsen i arrayen'
+`Arrayen börjar med index 0`|'Den första platsen i arrayen har numret 0'
 
 \pagebreak
 
 ## Arrayer 1: arbeta med en array
 
-![Array med namnet 'hemliga_nummer' och en låda](Arrays1_skap_hemliga_nummer.png)
-
 Anta att vi vill skapa en array av bråktal (`float`s) som kallas `hemliga_nummer`,
-då måste vi skriva följande ovanför `inställningen`:
+då måste vi skriva följande ovanför `setup`:
 
 ```
 float[] hemliga_nummer;
 ```
 
-Med denna rad skapar du en array som heter `hemliga_nummer`.
+Med denna rad skapar du en array som heter `hemliga_nummer`. Hakparentesen bakom `float` betyder att det är en array.
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-----------------:|:-----------------------------:
-`float[] hemliga_nummer`|'Bästa dator, kom ihåg många bråktal som kallas `hemliga_nummer`'
+`float[] hemliga_nummer`|'Kära dator, kom ihåg många bråktal i en array som kallas `hemliga_nummer`'
 
 
-Det har ännu inte sagts *hur många* bråktal det är.
-Ofta används "setup"-funktionen för att säga hur många nummer som ska komma ihåg:
+Det har ännu inte bestämts *hur många* bråktal det är.
+Ofta används "setup"-funktionen för att bestämma hur många nummer som ska kommas ihåg:
 
 ```
 hemliga_nummer = new float[1];
 ```
 
-Detta gör arrayen `hemliga_nummer` 1 låda stor.
+Det här betyder att arrayen `hemliga_nummer` innehåller 1 plats.
 
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-----------------:|:-----------------------------:
-`hemliga_nummer = new float[1]`|'Bästa dator, gör `hemliga_nummer` 1 låda stor`'
+`hemliga_nummer = new float[1]`|'Kära dator, låt `hemliga_nummer` innehålla 1 låda`'
 
 
 \pagebreak
 
-För att exakt replikera skåpet med lådorna kan du använda följande kod:
+För att att göra en exakt kopia av skåpet med lådorna kan du använda följande kod:
 
 ```
 hemliga_nummer[0] = 42;
 ```
 
-Detta sätter siffran 42 på första plats i arrayen.
+Detta sparar siffran 42 på första plats i arrayen, dvs platsen med numret 0.
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-----------------:|:-----------------------------:
-`hemliga_nummer[0] = 42`|'Bästa dator, sätt siffran `42` på första platsen i arrayen `hemliga_nummer`'
+`hemliga_nummer[0] = 42`|'Kära dator, spara siffran `42` på första platsen i arrayen `hemliga_nummer`'
 
 Du kan också läsa värdet i lådorna:
 
@@ -216,11 +212,11 @@ Du kan också läsa värdet i lådorna:
 float x = hemliga_nummer[0];
 ```
 
-Med detta läser du den första platsen (lådan med index noll) och sätter den i `x`.
+Med detta läser du den första platsen (lådan med index noll) och sparar den i variabeln `x`.
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-----------------:|:-----------------------------:
-`float x = hemliga_nummer[0]`|'Bästa dator, se vad som finns i lådan med index noll och kom ihåg det som `x`'
+`float x = hemliga_nummer[0]`|'Kära dator, se vad som finns i lådan med index noll och kom ihåg det som `x`'
 
 Tillsammans får du detta program:
 
@@ -240,7 +236,7 @@ void draw()
   ellipse(x, 200, 300, 400);
 }
 ```
-Det här programmet ser inte särskilt trevligt ut. Det är tänkt att visa dig hur du skapar, fyller i och läser arrayer.
+Den här programmeringskoden ser inte särskilt trevlig ut med alla hakparenteser. Den är tänkt att visa dig hur du skapar, fyller i och läser arrayer.
 
 \pagebreak
 
@@ -324,7 +320,7 @@ void draw()
 }
 ```
 
-![Solglasögon](EmojiSunglasses.png) | Bra programmerare använder hellre `för`-loopar än dumma klipp och klistra
+![Solglasögon](EmojiSunglasses.png) | Bra programmerare använder hellre `for`-loopar än att kopiera och klistra in många gånger i onödan
 :-----------------:|:-----------------------------:
 
 \pagebreak
@@ -335,7 +331,7 @@ Hej, samma som förut!
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-----------------:|:-----------------------------:
-`for (int i=0; i<3; ++i) {}`|'Bästa dator, gör vad som står mellan klammerparenteser med värden på `i` från `0` till `3` i steg om `1`'
+`for (int i=0; i<3; ++i) {}`|'Kära dator, gör vad som står mellan måsvingarna med värden på `i` från `0` till mindre än `3` i steg om `1`'
 
 ![Dator](EmojiComputer.png) | Jag är en dum dator
 :-----------------:|:-----------------------------:
@@ -358,7 +354,7 @@ Hej, samma som förut!
 
 Lägg nu till en fjärde boll.
 
-![Bowtie](EmojiBowtie.png) | Tips: förvandla en `3` till en `4`.
+![Bowtie](EmojiBowtie.png) | Tips: ändra en `3` till en `4`.
 :-----------------:|:-----------------------------:
 
 \pagebreak
@@ -397,7 +393,7 @@ void draw()
 
 ## Arrayer 1: Uppgift 7
 
-Gör nu programmet i helskärm. När bollarna lämnar skärmen till höger får du dem att börja igen till vänster. Använd `width` för detta
+Gör nu programmet i helskärm. När bollarna lämnar skärmen i högerkanten får du dem att dyka upp igen i vänsterkanten. Använd `width` för detta.
 
 ![Arrays 1: command 7](Arrays1_7.png)
 
@@ -438,8 +434,8 @@ void draw()
 
 ![Arrays 1: slutuppgift](Arrays1_slutuppgift.png)
 
-Gör nu koden så att:
+Skriv nu koden så att:
 
  * Det finns sex bollar
- * Bollarna går vänster för alltid
+ * Bollarna åker åt vänster i all evighet
 
