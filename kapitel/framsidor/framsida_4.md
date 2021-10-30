@@ -1,6 +1,6 @@
 ![Bok 4](framsida_4.png)
 
-`#`|Omschrijving
+`#`|Beskriving
 ---|---
 12|`fullScreen`
 13|`PImage`

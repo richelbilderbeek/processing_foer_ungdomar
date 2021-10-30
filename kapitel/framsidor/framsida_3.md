@@ -1,6 +1,6 @@
 ![Bok 3](framsida_3.png)
 
-`#`|Omschrijving
+`#`|Beskriving
 ---|---
  8|Bollen som studsar horisontellt
  9|`ellipse` och `background`
