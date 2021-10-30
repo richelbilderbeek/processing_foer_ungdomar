@@ -130,4 +130,4 @@ void draw()
 
 Se till att spelaren alltid finns kvar i bilden.
 
-![Keyboard 1: Slutuppgiftt](tangentbord_1_slutuppgiftt.png)
+![Keyboard 1: Slutuppgiftt](tangentbord_1_slutuppgift.png)
