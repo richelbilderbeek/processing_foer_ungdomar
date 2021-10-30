@@ -1,20 +1,20 @@
 # Tyngdkraft
 
-I den här lektionen ska vi programmera gravitationen.
+Under den här lektionen ska vi programmera gravitationen.
 
-Vi kommer att använda två variabler och två "om"-satser i den här lektionen.
+Vi kommer att använda två variabler och två "if"-satser.
 
 \pagebreak
 
-## Tyngdkraft: uppgift 1
+## Tyngdkraft: Uppgift 1
 
 Vad gör den här koden?
 
 ```c++
 float x = 150;
 float y = 100;
-float hastighet_till_hoger = 1;
-float hastighet_till_nedat = 1;
+float hastighet_at_hoger = 1;
+float hastighet_nedat = 1;
 
 void setup()
 {
@@ -24,19 +24,19 @@ void setup()
 void draw()
 {
   ellipse(x, y, 50, 50);
-  x = x + hastighet_till_hoger;
-  y = y + hastighet_till_nedat;
+  x = x + hastighet_at_hoger;
+  y = y + hastighet_nedat;
   if (x > 275)
   {
-    hastighet_till_hoger = -hastighet_till_hoger;
+    hastighet_at_hoger = -hastighet_at_hoger;
   }
   if (x < 25)
   {
-    hastighet_till_hoger = -hastighet_till_hoger;
+    hastighet_at_hoger = -hastighet_at_hoger;
   }
   if (y > 175)
   {
-    hastighet_till_nedat = -hastighet_till_nedat;
+    hastighet_nedat = -hastighet_nedat;
   }
 }
 ```
@@ -49,9 +49,9 @@ void draw()
 
 \pagebreak
 
-## Tyngdkraft: uppgift 2
+## Tyngdkraft: Uppgift 2
 
-Se till att programmet är i helskärm
+Se till att programmet visas i helskärm.
 
 ![Tyngdkraft: uppgift 2](Tyngdkraft_2.png)
 
@@ -62,8 +62,8 @@ Se till att programmet är i helskärm
 ```c++
 float x = 150;
 float y = 100;
-float hastighet_till_hoger = 1;
-float hastighet_till_nedat = 1;
+float hastighet_at_hoger = 1;
+float hastighet_nedat = 1;
 
 void setup()
 {
@@ -73,30 +73,30 @@ void setup()
 void draw()
 {
   ellipse(x, y, 50, 50);
-  x = x + hastighet_till_hoger;
-  y = y + hastighet_till_nedat;
+  x = x + hastighet_at_hoger;
+  y = y + hastighet_nedat;
   if (x > 275)
   {
-    hastighet_till_hoger = -hastighet_till_hoger;
+    hastighet_at_hoger = -hastighet_at_hoger;
   }
   if (x < 25)
   {
-    hastighet_till_hoger = -hastighet_till_hoger;
+    hastighet_at_hoger = -hastighet_at_hoger;
   }
   if (y > 175)
   {
-    hastighet_till_nedat = -hastighet_till_nedat;
+    hastighet_nedat = -hastighet_nedat;
   }
 }
 ```
 
 \pagebreak
 
-## Tyngdkraft: uppgift 3
+## Tyngdkraft: Uppgift 3
 
 ![Tyngdkraft: uppgift 3](Tyngdkraft_3.png)
 
-Se till att bollen studsar bra i botten.
+Se till att bollen studsar bra mot botten.
 
 ![Solglasögon](EmojiSunglasses.png) | Tips: ersätt `175` med `höjd - 25`
 :-----------------:|:------------------------------:
@@ -108,8 +108,8 @@ Se till att bollen studsar bra i botten.
 ```c++
 float x = 150;
 float y = 100;
-float hastighet_till_hoger = 1;
-float hastighet_till_nedat = 1;
+float hastighet_at_hoger = 1;
+float hastighet_nedat = 1;
 
 void setup()
 {
@@ -119,28 +119,28 @@ void setup()
 void draw()
 {
   ellipse(x, y, 50, 50);
-  x = x + hastighet_till_hoger;
-  y = y + hastighet_till_nedat;
+  x = x + hastighet_at_hoger;
+  y = y + hastighet_nedat;
   if (x > 275)
   {
-    hastighet_till_hoger = -hastighet_till_hoger;
+    hastighet_at_hoger = -hastighet_at_hoger;
   }
   if (x < 25)
   {
-    hastighet_till_hoger = -hastighet_till_hoger;
+    hastighet_at_hoger = -hastighet_at_hoger;
   }
   if (y > height - 25)
   {
-    hastighet_till_nedat = -hastighet_till_nedat;
+    hastighet_nedat = -hastighet_nedat;
   }
 }
 ```
 
 \pagebreak
 
-## Tyngdkraft: uppgift 4
+## Tyngdkraft: Uppgift 4
 
-Se till att bollen studsar bra på höger sida.
+Se till att bollen studsar bra mot höger sida.
 
 ![Tyngdkraft: uppgift 4](Tyngdkraft_4.png)
 
@@ -151,8 +151,8 @@ Se till att bollen studsar bra på höger sida.
 ```c++
 float x = 150;
 float y = 100;
-float hastighet_till_hoger = 1;
-float hastighet_till_nedat = 1;
+float hastighet_at_hoger = 1;
+float hastighet_nedat = 1;
 
 void setup()
 {
@@ -162,41 +162,41 @@ void setup()
 void draw()
 {
   ellipse(x, y, 50, 50);
-  x = x + hastighet_till_hoger;
-  y = y + hastighet_till_nedat;
+  x = x + hastighet_at_hoger;
+  y = y + hastighet_nedat;
   if (x > width - 25)
   {
-    hastighet_till_hoger = -hastighet_till_hoger;
+    hastighet_at_hoger = -hastighet_at_hoger;
   }
   if (x < 25)
   {
-    hastighet_till_hoger = -hastighet_till_hoger;
+    hastighet_at_hoger = -hastighet_at_hoger;
   }
   if (y > height - 25)
   {
-    hastighet_till_nedat = -hastighet_till_nedat;
+    hastighet_nedat = -hastighet_nedat;
   }
 }
 ```
 
 \pagebreak
 
-## Tyngdkraft: Final Command
+## Tyngdkraft: Slutuppgift
 
-Lägg till "rita"-funktionen längst ned:
+Lägg till följande inuti "draw"-funktionen längst ned:
 
 ```c++
-hastighet_till_nedat += 0.1;
+hastighet_nedat += 0.1;
 ```
 
 Gör bollen dubbelt så stor.
 
 ![Tyngdkraft: slutuppgift](Tyngdkraft_slutuppgift_1.png)
 
-Om din program ser ut som bild nedåt, får du också
+Om ditt program ser ut som bilden här nedanför, får du också
 ett klistermärke.
 
-![Solglasögon](EmojiSunglasses.png) | Ibland händer oväntade saker i programmering!
+![Solglasögon](EmojiSunglasses.png) | Ibland händer det oväntade saker i programmering!
 :-----------------:|:-----------------------------:
 
 ![Tyngdkraft: slutuppgift också OK](Tyngdkraft_slutuppgift_2.png)
