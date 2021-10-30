@@ -41,7 +41,7 @@ Du får ett fel!
 
 ## `PImage`: kommando 2
 
-Gå till [https://raw.githubusercontent.com/richelbilderbeek/processing_foer_tonaaringar/master/kapitel/PImage/mario.png)
+Gå till [https://raw.githubusercontent.com/richelbilderbeek/processing_foer_tonaaringar/master/kapitel/PImage/mario.png](https://raw.githubusercontent.com/richelbilderbeek/processing_foer_tonaaringar/master/kapitel/PImage/mario.png)
 och ladda ner den här bilden av Mario.
 
 ![mario.png](mario.png)
@@ -59,6 +59,6 @@ Här är en bild som visar var filerna ska vara:
 
 ## `PImage`: slutuppgift
 
-![`PImage`: final command](PImageSlutupgift.png)
+![`PImage`: slutuppgift](PImageEindopdracht.png)
 
 Gör programmet i helskärm, gör bakgrunden grön och lägg bilden i mitten.
