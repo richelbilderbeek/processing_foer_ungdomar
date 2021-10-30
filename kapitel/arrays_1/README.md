@@ -142,23 +142,24 @@ void draw()
 
 En array är som ett skåp med lådor.
 
-![Skåp med låda](skap_med_lada.png)
 
 Varje låda har ett nummer och varje låda kan rymma ett nummer.
 
 Här ser du lådans nummer och numret som finns i den:
 
-![Skåp med numrerade lådor](skap_med_numerad_lada_och_siffar.png)
+![Skåp med låda](array_hemliga_nummer.jpg)
 
 ![Solglasögon](EmojiSunglasses.png) | Den första lådan i en array har nummer `0`
 :-----------------:|:-----------------------------:
 
-Lådan har nummer *noll* (vänster) och den ligger i lådan
+Lådan har nummer `0` och den ligger i lådan
 nummer fyrtiotvå.
+
+![Skåp med numrerade lådor](array_hemliga_nummer_0.jpg)
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-----------------:|:-----------------------------:
-`punkt i array med index noll`|'den första platsen i arrayen'
+`plats i array med index noll`|'den första platsen i arrayen'
 
 \pagebreak
 
@@ -166,7 +167,7 @@ nummer fyrtiotvå.
 
 ![Array med namnet 'hemliga_nummer' och en låda](Arrays1_skap_hemliga_nummer.png)
 
-Anta att vi vill skapa en array av bråktal (`float`s) som kallas `hemliga_tal`,
+Anta att vi vill skapa en array av bråktal (`float`s) som kallas `hemliga_nummer`,
 då måste vi skriva följande ovanför `inställningen`:
 
 ```
