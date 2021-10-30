@@ -8,7 +8,7 @@ I den här lektionen ska vi styra en prick med tangentbordet.
 
 ## Tangentbord 2: intro
 
-![Keyboard 2: intro](Keyboard2_Intro.png)
+![Tangentbord 2: intro](tangentbord_2_intro.png)
 
 Detta är vår startkod. Skriv denna kod över:
 
@@ -49,22 +49,22 @@ void draw()
 Starta programmet och tryck på ADSW för att ändra riktning.
 
 ![Solglasögon](EmojiSunglasses.png) | Kontrollerna är inte perfekta! Att göra detta perfekt är lite svårare
-:-----------------:|:---------------------- ------- :
+:-----------------:|:-----------------------------:
 
 \pagebreak
 
-## Tangentbord 2: Kommando 1
+## Tangentbord 2: Uppgift 1
 
 När spelaren till höger går ut ur bilden, se till att
 den visas till höger.
 
-![Tangentbord 2: Kommando 1](Keyboard2_1.png)
+![Tangentbord 2: Uppgift 1](tangentbord_2_1.png)
 
 \pagebreak
 
 ## Tangentbord 2: Lösning 1
 
-Du behöver en "om"-sats:
+Du behöver en `if`-sats:
 
 ```c++
 float x = 0;
@@ -102,17 +102,17 @@ void draw()
 ```
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-----------------:|:---------------------- ------- :
-`if (x > width) x = 0`|'Bästa dator, om `x` är större än `width`, ställ `x` till noll.'
+:-----------------:|:-----------------------------:
+`if (x > width) x = 0`|'Bästa dator, om `x` är större än `width`, ställ `x` till `0`.'
 
 \pagebreak
 
-## Tangentbord 2: Kommando 2
+## Tangentbord 2: Uppgift 2
 
 Se till att *även* om spelaren längst upp på skärmen släcks, att
 det visas längst ner.
 
-![Tangentbord 2: Kommando 2](Keyboard2_2.png)
+![Tangentbord 2: Uppgift 2](tangentbord_2_2.png)
 
 \pagebreak
 
@@ -156,8 +156,8 @@ void draw()
 
 \pagebreak
 
-## Tangentbord 2: Sista kommandot
+## Tangentbord 2: Slutuppgift
 
 Se till att spelaren alltid finns kvar i bilden.
 
-![Keyboard 2: Final Assignment](Keyboard2_End Assignment.png)
+![Tangentbord 2: Slutuppgift](tangentbord_2_slutuppgift.png)
