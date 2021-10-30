@@ -50,7 +50,7 @@ den visas till höger.
 
 ![Tangentbord 1: Uppgift 1](tangentbord_1_1.png)
 
-\sidbrytning
+\pagebreak
 
 ## Tangentbord 1: Lösning 1
 
