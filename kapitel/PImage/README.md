@@ -41,7 +41,7 @@ Du får ett fel!
 
 ## `PImage`: kommando 2
 
-Gå till [https://github.com/richebilderbeek/Dojo/blob/master/LessenProcessing/PImage/mario.png](https://github.com/richebilderbeek/Dojo/blob/master/LessenProcessing/PImage/mario. png)
+Gå till [https://raw.githubusercontent.com/richelbilderbeek/processing_foer_tonaaringar/master/kapitel/PImage/mario.png)
 och ladda ner den här bilden av Mario.
 
 ![mario.png](mario.png)
@@ -50,7 +50,7 @@ Lägg den här bilden i en undermapp där din kod finns.
 
 Här är en bild som visar var filerna ska vara:
 
-![Mappstruktur](PImageFolderStructure.png)
+![Mappstruktur](PImageFolderstructuur.png)
 
  * Skissen heter `PImage1.pde`. Därför finns den i mappen `PImage1`. Du hittar detta i Bearbetning under `Sketch` -> `Show Sketch Map`
  * Skissen har en mapp `data`. Den innehåller bilden "mario.png".
