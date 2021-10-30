@@ -6,7 +6,7 @@
 
 \pagebreak
 
-## Arrays 2: Uppgift 1
+## Arrayer 2: Uppgift 1
 
 Kör den här koden:
 
@@ -29,7 +29,7 @@ void draw()
 
 \pagebreak
 
-## Arrays 2: lösning 1
+## Arrayer 2: lösning 1
 
 ![Arrays 2: solution 1](Arrays2_en_rokpartikel.png)
 
@@ -37,7 +37,7 @@ Ha, en rökpartikel.
 
 \pagebreak
 
-## Arrays 2: Uppgift 2
+## Arrayer 2: Uppgift 2
 
 ![Arrays 2: assignment 2](Arrays2_tva_rokpartikel.png)
 
@@ -45,7 +45,7 @@ Gör en andra rökpartikel.
 
 \pagebreak
 
-## Arrays 2: lösning 2
+## Arrayer 2: lösning 2
 
 ```c++
 float x1 = 160;
@@ -71,7 +71,7 @@ void draw()
 
 \pagebreak
 
-## Arrays 2: Uppgift 3
+## Arrayer 2: Uppgift 3
 
 Använd nu en array, utan `for`-loop.
 
@@ -88,7 +88,7 @@ Använd nu en array, utan `for`-loop.
 
 \pagebreak
 
-## Arrays 2: lösning 3
+## Arrayer 2: lösning 3
 
 ```c++
 float[] xs;
@@ -118,7 +118,7 @@ void draw()
 
 \pagebreak
 
-## Arrays 2: Uppgift 4
+## Arrayer 2: Uppgift 4
 
 ![Arrays 2: uppgift 4](Arrays2_tre_rokpartikel.png)
 
@@ -130,7 +130,7 @@ Använd nu `for`-loops. Gör både arrayen `xs` och `ys` tre lådor stora.
 
 \pagebreak
 
-## Arrays 2: lösning 4
+## Arrayer 2: lösning 4
 
 ```c++
 float[] xs;
@@ -161,7 +161,7 @@ void draw()
 
 \pagebreak
 
-## Arrays 2: Uppgift 5
+## Arrayer 2: Uppgift 5
 
 ![Arrays 2: uppgift 5](Arrays2_fyra_rokpartikel.png)
 
@@ -177,7 +177,7 @@ Varje rökpartikel får nu sin egen röda kantfärg:
 
 \pagebreak
 
-## Arrays 2: lösning 5
+## Arrayer 2: lösning 5
 
 ```c++
 float[] xs;
@@ -213,7 +213,7 @@ void draw()
 
 \pagebreak
 
-## Arrays 2: Slutuppgift
+## Arrayer 2: Slutuppgift
 
 ![Arrays 2: final assignment](Arrays2_slutuppgift.png)
 
