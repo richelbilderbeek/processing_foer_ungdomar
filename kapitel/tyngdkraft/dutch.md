@@ -4,7 +4,7 @@ I den här lektionen ska vi programmera gravitationen.
 
 Vi kommer att använda två variabler och två "om"-satser i den här lektionen.
 
-\sidbrytning
+\pagebreak
 
 ## Gravity: Kommando 1
 
@@ -12,42 +12,42 @@ Vad gör den här koden?
 
 ```c++
 float x = 150;
-flytande y = 100;
-float speed_to_right = 1;
-float rate_down = 1;
+float y = 100;
+float snelheid_naar_rechts = 1;
+float snelheid_omlaag = 1;
 
 void setup()
 {
-  storlek(300, 200);
+  size(300, 200);
 }
 
 void draw()
 {
-  ellips (x, y, 50, 50);
-  x = x + hastighet_till_höger;
-  y = y + speed_down;
-  om (x > 275)
+  ellipse(x, y, 50, 50);
+  x = x + snelheid_naar_rechts;
+  y = y + snelheid_omlaag;
+  if (x > 275)
   {
-    speed_to_right = -speed_to_right;
+    snelheid_naar_rechts = -snelheid_naar_rechts;
   }
-  om (x < 25)
+  if (x < 25)
   {
-    speed_to_right = -speed_to_right;
+    snelheid_naar_rechts = -snelheid_naar_rechts;
   }
-  om (y > 175)
+  if (y > 175)
   {
-    speed_down = -speed_down;
+    snelheid_omlaag = -snelheid_omlaag;
   }
 }
 ```
 
-\sidbrytning
+\pagebreak
 
 ## Gravity: Lösning 1
 
 ![Gravity: Solution 1](Gravity1.png)
 
-\sidbrytning
+\pagebreak
 
 ## Gravity: Kommando 2
 
@@ -55,42 +55,42 @@ Se till att programmet är i helskärm
 
 ![Gravity: Kommando 2](Gravity2.png)
 
-\sidbrytning
+\pagebreak
 
 ## Gravity: Lösning 2
 
 ```c++
 float x = 150;
-flytande y = 100;
-float speed_to_right = 1;
-float rate_down = 1;
+float y = 100;
+float snelheid_naar_rechts = 1;
+float snelheid_omlaag = 1;
 
 void setup()
 {
-  fullskärm();
+  fullScreen();
 }
 
 void draw()
 {
-  ellips (x, y, 50, 50);
-  x = x + hastighet_till_höger;
-  y = y + speed_down;
-  om (x > 275)
+  ellipse(x, y, 50, 50);
+  x = x + snelheid_naar_rechts;
+  y = y + snelheid_omlaag;
+  if (x > 275)
   {
-    speed_to_right = -speed_to_right;
+    snelheid_naar_rechts = -snelheid_naar_rechts;
   }
-  om (x < 25)
+  if (x < 25)
   {
-    speed_to_right = -speed_to_right;
+    snelheid_naar_rechts = -snelheid_naar_rechts;
   }
-  om (y > 175)
+  if (y > 175)
   {
-    speed_down = -speed_down;
+    snelheid_omlaag = -snelheid_omlaag;
   }
 }
 ```
 
-\sidbrytning
+\pagebreak
 
 ## Gravity: Kommando 3
 
@@ -101,42 +101,42 @@ Se till att bollen studsar bra i botten.
 ![Solglasögon](EmojiSunglasses.png) | Tips: ersätt `175` med `höjd - 25`
 :-----------------:|:---------------------- ------- :
 
-\sidbrytning
+\pagebreak
 
 ## Gravity: Lösning 3
 
 ```c++
 float x = 150;
-flytande y = 100;
-float speed_to_right = 1;
-float rate_down = 1;
+float y = 100;
+float snelheid_naar_rechts = 1;
+float snelheid_omlaag = 1;
 
 void setup()
 {
-  fullskärm();
+  fullScreen();
 }
 
 void draw()
 {
-  ellips (x, y, 50, 50);
-  x = x + hastighet_till_höger;
-  y = y + speed_down;
-  om (x > 275)
+  ellipse(x, y, 50, 50);
+  x = x + snelheid_naar_rechts;
+  y = y + snelheid_omlaag;
+  if (x > 275)
   {
-    speed_to_right = -speed_to_right;
+    snelheid_naar_rechts = -snelheid_naar_rechts;
   }
-  om (x < 25)
+  if (x < 25)
   {
-    speed_to_right = -speed_to_right;
+    snelheid_naar_rechts = -snelheid_naar_rechts;
   }
-  if (y > höjd - 25)
+  if (y > height - 25)
   {
-    speed_down = -speed_down;
+    snelheid_omlaag = -snelheid_omlaag;
   }
 }
 ```
 
-\sidbrytning
+\pagebreak
 
 ## Gravity: Kommando 4
 
@@ -144,49 +144,49 @@ Se till att bollen studsar bra på höger sida.
 
 ![Gravity: Kommando 4](Gravity4.png)
 
-\sidbrytning
+\pagebreak
 
 ## Gravity: Lösning 4
 
 ```c++
 float x = 150;
-flytande y = 100;
-float speed_to_right = 1;
-float rate_down = 1;
+float y = 100;
+float snelheid_naar_rechts = 1;
+float snelheid_omlaag = 1;
 
 void setup()
 {
-  fullskärm();
+  fullScreen();
 }
 
 void draw()
 {
-  ellips (x, y, 50, 50);
-  x = x + hastighet_till_höger;
-  y = y + speed_down;
-  if (x > bredd - 25)
+  ellipse(x, y, 50, 50);
+  x = x + snelheid_naar_rechts;
+  y = y + snelheid_omlaag;
+  if (x > width - 25)
   {
-    speed_to_right = -speed_to_right;
+    snelheid_naar_rechts = -snelheid_naar_rechts;
   }
-  om (x < 25)
+  if (x < 25)
   {
-    speed_to_right = -speed_to_right;
+    snelheid_naar_rechts = -snelheid_naar_rechts;
   }
-  if (y > höjd - 25)
+  if (y > height - 25)
   {
-    speed_down = -speed_down;
+    snelheid_omlaag = -snelheid_omlaag;
   }
 }
 ```
 
-\sidbrytning
+\pagebreak
 
 ## Gravity: Final Command
 
 Lägg till "rita"-funktionen längst ned:
 
 ```c++
-speed_down += 0,1;
+snelheid_omlaag += 0.1;
 ```
 
 Gör bollen dubbelt så stor.

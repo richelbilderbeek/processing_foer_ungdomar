@@ -1,20 +1,20 @@
-# Zwaartekracht
+# Tyngdkraft
 
-In deze les gaan we zwaartekracht programmeren.
+I den här lektionen ska vi programmera gravitationen.
 
-We gaan in deze les twee variabelen en twee `if`-statements gebruiken. 
+Vi kommer att använda två variabler och två "om"-satser i den här lektionen.
 
 \pagebreak
 
-## Zwaartekracht: opdracht 1
+## Tyngdkraft: uppgift 1
 
-Wat doet deze code?
+Vad gör den här koden?
 
 ```c++
 float x = 150;
 float y = 100;
-float snelheid_naar_rechts = 1;
-float snelheid_omlaag = 1;
+float hastighet_till_hoger = 1;
+float hastighet_till_nedat = 1;
 
 void setup()
 {
@@ -24,46 +24,46 @@ void setup()
 void draw()
 {
   ellipse(x, y, 50, 50);
-  x = x + snelheid_naar_rechts;
-  y = y + snelheid_omlaag;
+  x = x + hastighet_till_hoger;
+  y = y + hastighet_till_nedat;
   if (x > 275)
   {
-    snelheid_naar_rechts = -snelheid_naar_rechts;
+    hastighet_till_hoger = -hastighet_till_hoger;
   }
   if (x < 25)
   {
-    snelheid_naar_rechts = -snelheid_naar_rechts;
+    hastighet_till_hoger = -hastighet_till_hoger;
   }
   if (y > 175)
   {
-    snelheid_omlaag = -snelheid_omlaag;
+    hastighet_till_nedat = -hastighet_till_nedat;
   }
 }
 ```
 
 \pagebreak
 
-## Zwaartekracht: oplossing 1
+## Tyngdkraft: Lösning 1
 
-![Zwaartekracht: oplossing 1](Zwaartekracht1.png)
-
-\pagebreak
-
-## Zwaartekracht: opdracht 2
-
-Zorg dat het programma full-screen wordt
-
-![Zwaartekracht: opdracht 2](Zwaartekracht2.png)
+![Tyngdkraft: Solution 1](Tyngdkraft1.png)
 
 \pagebreak
 
-## Zwaartekracht: oplossing 2
+## Tyngdkraft: uppgift 2
+
+Se till att programmet är i helskärm
+
+![Tyngdkraft: uppgift 2](Tyngdkraft2.png)
+
+\pagebreak
+
+## Tyngdkraft: Lösning 2
 
 ```c++
 float x = 150;
 float y = 100;
-float snelheid_naar_rechts = 1;
-float snelheid_omlaag = 1;
+float hastighet_till_hoger = 1;
+float hastighet_till_nedat = 1;
 
 void setup()
 {
@@ -73,43 +73,43 @@ void setup()
 void draw()
 {
   ellipse(x, y, 50, 50);
-  x = x + snelheid_naar_rechts;
-  y = y + snelheid_omlaag;
+  x = x + hastighet_till_hoger;
+  y = y + hastighet_till_nedat;
   if (x > 275)
   {
-    snelheid_naar_rechts = -snelheid_naar_rechts;
+    hastighet_till_hoger = -hastighet_till_hoger;
   }
   if (x < 25)
   {
-    snelheid_naar_rechts = -snelheid_naar_rechts;
+    hastighet_till_hoger = -hastighet_till_hoger;
   }
   if (y > 175)
   {
-    snelheid_omlaag = -snelheid_omlaag;
+    hastighet_till_nedat = -hastighet_till_nedat;
   }
 }
 ```
 
 \pagebreak
 
-## Zwaartekracht: opdracht 3
+## Tyngdkraft: uppgift 3
 
-![Zwaartekracht: opdracht 3](Zwaartekracht3.png)
+![Tyngdkraft: uppgift 3](Tyngdkraft3.png)
 
-Zorg dat de bal goed aan de onderkant stuitert. 
+Se till att bollen studsar bra i botten.
 
-![Sunglasses](EmojiSunglasses.png) | Tip: vervang `175` door `height - 25`
-:-------------:|:----------------------------------------: 
+![Solglasögon](EmojiSunglasses.png) | Tips: ersätt `175` med `höjd - 25`
+:-----------------:|:------------------------------:
 
 \pagebreak
 
-## Zwaartekracht: oplossing 3
+## Tyngdkraft: Lösning 3
 
 ```c++
 float x = 150;
 float y = 100;
-float snelheid_naar_rechts = 1;
-float snelheid_omlaag = 1;
+float hastighet_till_hoger = 1;
+float hastighet_till_nedat = 1;
 
 void setup()
 {
@@ -119,40 +119,40 @@ void setup()
 void draw()
 {
   ellipse(x, y, 50, 50);
-  x = x + snelheid_naar_rechts;
-  y = y + snelheid_omlaag;
+  x = x + hastighet_till_hoger;
+  y = y + hastighet_till_nedat;
   if (x > 275)
   {
-    snelheid_naar_rechts = -snelheid_naar_rechts;
+    hastighet_till_hoger = -hastighet_till_hoger;
   }
   if (x < 25)
   {
-    snelheid_naar_rechts = -snelheid_naar_rechts;
+    hastighet_till_hoger = -hastighet_till_hoger;
   }
   if (y > height - 25)
   {
-    snelheid_omlaag = -snelheid_omlaag;
+    hastighet_till_nedat = -hastighet_till_nedat;
   }
 }
 ```
 
 \pagebreak
 
-## Zwaartekracht: opdracht 4
+## Tyngdkraft: uppgift 4
 
-Zorg dat de bal goed aan de rechterkant stuitert.
+Se till att bollen studsar bra på höger sida.
 
-![Zwaartekracht: opdracht 4](Zwaartekracht4.png)
+![Tyngdkraft: uppgift 4](Tyngdkraft4.png)
 
 \pagebreak
 
-## Zwaartekracht: oplossing 4
+## Tyngdkraft: Lösning 4
 
 ```c++
 float x = 150;
 float y = 100;
-float snelheid_naar_rechts = 1;
-float snelheid_omlaag = 1;
+float hastighet_till_hoger = 1;
+float hastighet_till_nedat = 1;
 
 void setup()
 {
@@ -162,41 +162,41 @@ void setup()
 void draw()
 {
   ellipse(x, y, 50, 50);
-  x = x + snelheid_naar_rechts;
-  y = y + snelheid_omlaag;
+  x = x + hastighet_till_hoger;
+  y = y + hastighet_till_nedat;
   if (x > width - 25)
   {
-    snelheid_naar_rechts = -snelheid_naar_rechts;
+    hastighet_till_hoger = -hastighet_till_hoger;
   }
   if (x < 25)
   {
-    snelheid_naar_rechts = -snelheid_naar_rechts;
+    hastighet_till_hoger = -hastighet_till_hoger;
   }
   if (y > height - 25)
   {
-    snelheid_omlaag = -snelheid_omlaag;
+    hastighet_till_nedat = -hastighet_till_nedat;
   }
 }
 ```
 
 \pagebreak
 
-## Zwaartekracht: eindopdracht
+## Tyngdkraft: Final Command
 
-Voeg onderaan de `draw` functie toe:
+Lägg till "rita"-funktionen längst ned:
 
 ```c++
-snelheid_omlaag += 0.1;
+hastighet_till_nedat += 0.1;
 ```
 
-Maak de bal twee keer zo groot.
+Gör bollen dubbelt så stor.
 
-![Zwaartekracht: eindopdracht](ZwaartekrachtEindopdracht1.png)
+![Tyngdkraft: slutuppgift](Tyngdkraft_slutuppgift_1.png)
 
-Als je figuur `Zwaartekracht eindopdracht ook goed` krijgt, krijg je ook
-een sticker.
+Om din program ser ut som bild nedåt, får du också
+ett klistermärke.
 
-![Sunglasses](EmojiSunglasses.png) | Soms gebeuren er onverwachte dingen in programmeren!
-:-------------:|:----------------------------------------: 
+![Solglasögon](EmojiSunglasses.png) | Ibland händer oväntade saker i programmering!
+:-----------------:|:-----------------------------:
 
-![Zwaartekracht eindopdracht ook goed](ZwaartekrachtEindopdracht2.png)
+![Tyngdkraft: slutuppgift också OK](Tyngdkraft_slutuppgift_2.png)
