@@ -1,4 +1,4 @@
-# Arrayer 1
+# Array 1
 
 Med arrayer kan du få datorn att komma ihåg många värden:
 koordinaterna för kulor, meteoriter, fiender.
@@ -170,7 +170,7 @@ Anta att vi vill skapa en array av bråktal (`float`s) som kallas `hemliga_tal`,
 då måste vi skriva följande ovanför `inställningen`:
 
 ```
-float[] geheime_getallen;
+float[] hemliga_nummer;
 ```
 
 Med denna rad skapar du en array som heter `hemliga_nummer`.
@@ -184,7 +184,7 @@ Det har ännu inte sagts *hur många* bråktal det är.
 Ofta används "setup"-funktionen för att säga hur många nummer som ska komma ihåg:
 
 ```
-geheime_getallen = new float[1];
+hemliga_nummer = new float[1];
 ```
 
 Detta gör arrayen `hemliga_nummer` 1 låda stor.
@@ -200,7 +200,7 @@ Detta gör arrayen `hemliga_nummer` 1 låda stor.
 För att exakt replikera skåpet med lådorna kan du använda följande kod:
 
 ```
-geheime_getallen[0] = 42;
+hemliga_nummer[0] = 42;
 ```
 
 Detta sätter siffran 42 på första plats i arrayen.
@@ -212,7 +212,7 @@ Detta sätter siffran 42 på första plats i arrayen.
 Du kan också läsa värdet i lådorna:
 
 ```
-float x = geheime_getallen[0];
+float x = hemliga_nummer[0];
 ```
 
 Med detta läser du den första platsen (lådan med index noll) och sätter den i `x`.
@@ -224,18 +224,18 @@ Med detta läser du den första platsen (lådan med index noll) och sätter den 
 Tillsammans får du detta program:
 
 ```c++
-float[] geheime_getallen;
+float[] hemliga_nummer;
 
 void setup()
 {
   size(400, 400);
-  geheime_getallen = new float[1];
-  geheime_getallen[0] = 42;
+  hemliga_nummer = new float[1];
+  hemliga_nummer[0] = 42;
 }
 
 void draw() 
 {
-  float x = geheime_getallen[0];
+  float x = hemliga_nummer[0];
   ellipse(x, 200, 300, 400);
 }
 ```
