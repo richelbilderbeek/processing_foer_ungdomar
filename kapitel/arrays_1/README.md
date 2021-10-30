@@ -44,13 +44,13 @@ En boll som går åt höger för alltid!
 
 Se till att lägga till en andra boll.
 
-![Två bollar går rätt för alltid](Arrays1_twee_balls.png)
+![Två bollar går rätt för alltid](Arrays1_tva_bollar.png)
 
-![Solglasögon](EmojiSunglasses.png) | Tips: ändra namnet "x" till "x1".
-:-----------------:|:---------------------- ------- :
+![Solglasögon](EmojiSunglasses.png) | Tips: ändra namnet `x` till `x1`.
+:-----------------:|:-----------------------------:
 
 ![Bowtie](EmojiBowtie.png) | Skapa sedan en ny variabel som heter `x2`
-:-----------------:|:---------------------- ------- :
+:-----------------:|:-----------------------------:
 
 \pagebreak
 
@@ -83,7 +83,7 @@ void draw()
 ```
 
 ![Solglasögon](EmojiSunglasses.png) | Detta var sju rader extraarbete
-:-----------------:|:---------------------- ------- :
+:-----------------:|:-----------------------------:
 
 \pagebreak
 
@@ -131,10 +131,10 @@ void draw()
 ```
 
 ![Solglasögon](EmojiSunglasses.png) | Detta var ytterligare sju rader extraarbete
-:-----------------:|:---------------------- ------- :
+:-----------------:|:-----------------------------:
 
 ![Bowtie](EmojiBowtie.png) | Detta kan göras smartare, med arrayer!
-:-----------------:|:---------------------- ------- :
+:-----------------:|:-----------------------------:
 
 \pagebreak
 
@@ -151,20 +151,20 @@ Här ser du lådans nummer och numret som finns i den:
 ![Skåp med numrerade lådor](CaseWithNumbered DrawerEnGetal.png)
 
 ![Solglasögon](EmojiSunglasses.png) | Den första lådan i en array har nummer noll
-:-----------------:|:---------------------- ------- :
+:-----------------:|:-----------------------------:
 
 Lådan har nummer *noll* (vänster) och den ligger i lådan
 nummer fyrtiotvå.
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-----------------:|:---------------------- ------- :
+:-----------------:|:-----------------------------:
 `punkt i array med index noll`|'den första platsen i arrayen'
 
 \pagebreak
 
 ## Arrays 1: arbeta med en array
 
-![Array med namnet 'secret_numbers' och en låda](Arrays1_case_secret_numbers.png)
+![Array med namnet 'hemliga_nummer' och en låda](Arrays1_case_hemliga_nummer.png)
 
 Anta att vi vill skapa en array av bråktal (`float`s) som kallas `hemliga_tal`,
 då måste vi skriva följande ovanför `inställningen`:
@@ -176,8 +176,8 @@ float[] geheime_getallen;
 Med denna rad skapar du en array som heter `hemliga_nummer`.
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-----------------:|:---------------------- ------- :
-`float[] secret_numbers`|'Bästa dator, kom ihåg många bråktal som kallas `hemliga_nummer`'
+:-----------------:|:-----------------------------:
+`float[] hemliga_nummer`|'Bästa dator, kom ihåg många bråktal som kallas `hemliga_nummer`'
 
 
 Det har ännu inte sagts *hur många* bråktal det är.
@@ -191,8 +191,8 @@ Detta gör arrayen `hemliga_nummer` 1 låda stor.
 
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-----------------:|:---------------------- ------- :
-`secret_numbers = new float[1]`|'Bästa dator, gör `secret_numbers` 1 låda stor`'
+:-----------------:|:-----------------------------:
+`hemliga_nummer = new float[1]`|'Bästa dator, gör `hemliga_nummer` 1 låda stor`'
 
 
 \pagebreak
@@ -206,7 +206,7 @@ geheime_getallen[0] = 42;
 Detta sätter siffran 42 på första plats i arrayen.
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-----------------:|:---------------------- ------- :
+:-----------------:|:-----------------------------:
 `hemliga_nummer[0] = 42`|'Bästa dator, sätt siffran `42` på första platsen i arrayen `hemliga_nummer`'
 
 Du kan också läsa värdet i lådorna:
@@ -218,8 +218,8 @@ float x = geheime_getallen[0];
 Med detta läser du den första platsen (lådan med index noll) och sätter den i `x`.
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-----------------:|:---------------------- ------- :
-`float x = secret_numbers[0]`|'Bästa dator, se vad som finns i lådan med index noll och kom ihåg det som `x`'
+:-----------------:|:-----------------------------:
+`float x = hemliga_nummer[0]`|'Bästa dator, se vad som finns i lådan med index noll och kom ihåg det som `x`'
 
 Tillsammans får du detta program:
 
@@ -288,7 +288,7 @@ void draw()
 
 Hej, samma som förut!
 
-![Arrays 1: lösning 4](Arrays1_drie_ballen.png)
+![Arrays 1: lösning 4](Arrays1_tre_bollar.png)
 
 \pagebreak
 
@@ -323,8 +323,8 @@ void draw()
 }
 ```
 
-![Solglasögon](EmojiSunglasses.png) | Bra programmerare använder hellre 'för'-loopar än dumma klipp och klistra
-:-----------------:|:---------------------- ------- :
+![Solglasögon](EmojiSunglasses.png) | Bra programmerare använder hellre `för`-loopar än dumma klipp och klistra
+:-----------------:|:-----------------------------:
 
 \pagebreak
 
@@ -333,18 +333,18 @@ void draw()
 Hej, samma som förut!
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-----------------:|:---------------------- ------- :
-`for (int i=0; i<3; ++i) {}`|'Bästa dator, gör vad som står mellan klammerparenteser med värden på `i` från `0` till `3` i steg om `1` '
+:-----------------:|:-----------------------------:
+`for (int i=0; i<3; ++i) {}`|'Bästa dator, gör vad som står mellan klammerparenteser med värden på `i` från `0` till `3` i steg om `1`'
 
 ![Dator](EmojiComputer.png) | Jag är en dum dator
-:-----------------:|:---------------------- ------- :
+:-----------------:|:-----------------------------:
  |`xs[0] = 0;`
  |`xs[1] = 100;`
  |`xs[2] = 200;`
 
 ![Dator](EmojiComputer.png) | Jag är en smart dator
 :-----------------|:-------------------------------------
- |"för (int i=0; i<3; ++i)".
+ |`för (int i=0; i<3; ++i)`.
  |`{`
  | ` xs[i] = i * 100;`
  |`}`
@@ -353,12 +353,12 @@ Hej, samma som förut!
 
 ## Arrays 1: Uppgift 6
 
-![Arrays 1: command 6](Arrays1_four_balls.png)
+![Arrays 1: command 6](Arrays1_fyra_bollar.png)
 
 Lägg nu till en fjärde boll.
 
-![Bowtie](EmojiBowtie.png) | Tips: förvandla en "3" till en "4".
-:-----------------:|:---------------------- ------- :
+![Bowtie](EmojiBowtie.png) | Tips: förvandla en `3` till en `4`.
+:-----------------:|:-----------------------------:
 
 \pagebreak
 
