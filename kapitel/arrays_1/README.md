@@ -91,7 +91,7 @@ void draw()
 
 Lägg till en tredje boll.
 
-![Arrays 1: command 3](Arrays1_drie_ballen.png)
+![Arrays 1: command 3](Arrays1_tre_bollar.png)
 
 \pagebreak
 
@@ -142,15 +142,15 @@ void draw()
 
 En array är som ett skåp med lådor.
 
-![Skåp med låda](CupboardWithDrawer.png)
+![Skåp med låda](skap_med_lada.png)
 
 Varje låda har ett nummer och varje låda kan rymma ett nummer.
 
 Här ser du lådans nummer och numret som finns i den:
 
-![Skåp med numrerade lådor](CaseWithNumbered DrawerEnGetal.png)
+![Skåp med numrerade lådor](skap_med_numerad_lada_och_siffar.png)
 
-![Solglasögon](EmojiSunglasses.png) | Den första lådan i en array har nummer noll
+![Solglasögon](EmojiSunglasses.png) | Den första lådan i en array har nummer `0`
 :-----------------:|:-----------------------------:
 
 Lådan har nummer *noll* (vänster) och den ligger i lådan
