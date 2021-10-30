@@ -1,14 +1,14 @@
-# Arrays2
+	# Arrays2
 
-Nog meer arrays!
+Ännu fler arrayer!
 
 ![Robotron](Robotron.png)
 
 \pagebreak
 
-## Arrays 2: opdracht 1
+## Arrays 2: Uppgift 1
 
-Run deze code:
+Kör den här koden:
 
 ```c++
 float x1 = 160;
@@ -29,23 +29,23 @@ void draw()
 
 \pagebreak
 
-## Arrays 2: oplossing 1
+## Arrays 2: lösning 1
 
-![Arrays 2: oplossing 1](Arrays2_een_rookdeeltje.png)
+![Arrays 2: solution 1](Arrays2_en_rokpartikel.png)
 
-Ha, een rookdeeltje.
-
-\pagebreak
-
-## Arrays 2: opdracht 2
-
-![Arrays 2: opdracht 2](Arrays2_twee_rookdeeltjes.png)
-
-Maak een tweede rookdeeltje.
+Ha, en rökpartikel.
 
 \pagebreak
 
-## Arrays 2: oplossing 2
+## Arrays 2: Uppgift 2
+
+![Arrays 2: assignment 2](Arrays2_tva_rokpartikel.png)
+
+Gör en andra rökpartikel.
+
+\sidbrytning
+
+## Arrays 2: lösning 2
 
 ```c++
 float x1 = 160;
@@ -71,24 +71,24 @@ void draw()
 
 \pagebreak
 
-## Arrays 2: opdracht 3
+## Arrays 2: Uppgift 3
 
-Gebruik nu een array, zonder for loop.
+Använd nu en array, utan `for`-loop.
 
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
-`float[] xs`|'Lieve computer, onthoud keiveel gebroken getallen met de naam `xs`'
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:-----------------:|:-----------------------------:
+`float[] xs`|'Bästa dator, kom ihåg många bråktal som heter `xs`'
 
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
-`xs = new float[2]`|'Lieve computer, maak `xs` 2 laatjes groot`'
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:-----------------:|:-----------------------------:
+`xs = new float[2]`|'Bästa dator, gör `xs` 2 lådor`'
 
-![Bowtie](EmojiBowtie.png) | Tip: gebruik `xs[0]` inplaats van `x1` en `xs[1]` inplaats van `x2` 
-:-------------:|:----------------------------------------: 
+![Bowtie](EmojiBowtie.png) | Tips: använd "xs[0]" istället för "x1" och "xs[1]" istället för "x2"
+:-----------------:|:-----------------------------:
 
 \pagebreak
 
-## Arrays 2: oplossing 3
+## Arrays 2: lösning 3
 
 ```c++
 float[] xs;
@@ -118,19 +118,19 @@ void draw()
 
 \pagebreak
 
-## Arrays 2: opdracht 4
+## Arrays 2: Uppgift 4
 
-![Arrays 2: opdracht 4](Arrays2_drie_rookdeeltjes.png)
+![Arrays 2: uppgift 4](Arrays2_three_rokpartikel.png)
 
-Gebruik nu for loops. Maak zowel array `xs` en `ys` drie laatjes groot.
+Använd nu för slingor. Gör både arrayen "xs" och "ys" tre lådor stora.
 
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
-`for (int i=0; i<3; ++i) {}`|'Lieve computer, doe wat tussen accolades staat met waarden van `i` van `0` tot `3` in stapjes van `1`'
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:-----------------:|:-----------------------------:
+`for (int i=0; i<3; ++i) {}`|'Bästa dator, gör vad som står mellan parenteser med värden på `i` från `0` till `3` i steg om `1` '
 
 \pagebreak
 
-## Arrays 2: oplossing 4
+## Arrays 2: lösning 4
 
 ```c++
 float[] xs;
@@ -161,28 +161,28 @@ void draw()
 
 \pagebreak
 
-## Arrays 2: opdracht 5
+## Arrays 2: Uppgift 5
 
-![Arrays 2: opdracht 5](Arrays2_vier_rookdeeltjes.png)
+![Arrays 2: uppgift 5](Arrays2_vier_rokpartikel.png)
 
-Elk rookdeeltje krijgt nu een eigen rode randkleur:
+Varje rökpartikel får nu sin egen röda kantfärg:
 
- * Maak een derde array genaamd `rs`, voor de roodheid van de rookdeeltjes
- * In `rs` moeten de getallen `0`, `64`, `128` en `196` komen
- * De roodheid moet ook steeds een meer of minder worden
- * De rand van het eerste rookdeeltje, moet de eerste roodheid krijgen. Tip: gebruik `stroke`
+ * Skapa en tredje array som heter "rs", för rodnad av rökpartiklarna
+ * I "rs" måste siffrorna "0", "64", "128" och "196" finnas
+ * Rodnaden ska också bli mer eller mindre
+ * Kanten på den första rökpartikeln ska få den första rodnaden. Tips: använd `stroke`
 
-![Bowtie](EmojiBowtie.png) | Tip: gebruik `stroke` voor de randkleur
-:-------------:|:----------------------------------------: 
+![Bowtie](EmojiBowtie.png) | Tips: använd `stroke` för kantfärgen
+:-----------------:|:-----------------------------:
 
 \pagebreak
 
-## Arrays 2: oplossing 5
+## Arrays 2: lösning 5
 
 ```c++
 float[] xs;
 float[] ys;
-float[] rs; //Roodwaarden
+float[] rs; //Rodvarder
 
 void setup() 
 {
@@ -213,16 +213,16 @@ void draw()
 
 \pagebreak
 
-## Arrays 2: eindopdracht
+## Arrays 2: Slutuppgift
 
-![Arrays 2: eindopdracht](Arrays2_eindopdracht.png)
+![Arrays 2: final assignment](Arrays2_slutuppgift.png)
 
-Maak nu de code zo dat:
+Gör nu koden så att:
 
- * er 256 rookdeeltjes komen.
- * elk rookdeeltje heeft en eigen *blauw*waarde
- * het eerste rookdeeltje heeft een blauwwaarde van nul. Het tweede rookdeeltje heeft een blauwwaarde van een. Het derde rookdeeltje heeft een blauwwaarde van twee. Enzovoorts
- * niet de rand, maar de vulkleur is blauw
+ * det finns 256 rökpartiklar.
+ * varje rökpartikel har sitt eget *blå* värde
+ * den första rökpartikeln har ett blått värde på noll. Den andra rökpartikeln har ett blått värde på ett. Den tredje rökpartikeln har ett blått värde på två. Och så vidare
+ * inte kanten, men fyllningsfärgen är blå
 
-![Bowtie](EmojiBowtie.png) | Tip: gebruik `fill` voor de vulkleur
-:-------------:|:----------------------------------------: 
+![Bowtie](EmojiBowtie.png) | Tips: använd `fill` för fyllningsfärgen
+:-----------------:|:-----------------------------:

@@ -4,7 +4,7 @@
 
 ![Robotron](Robotron.png)
 
-\sidbrytning
+\pagebreak
 
 ## Arrays 2: Kommando 1
 
@@ -14,20 +14,20 @@ Kör den här koden:
 float x1 = 160;
 float y1 = 100;
 
-void setup()
+void setup() 
 {
-  storlek (320, 200);
+  size(320, 200);
 }
 
 void draw()
 {
-  xl += slumpmässigt(-1,1);
-  y1+= slumpmässigt(-1,1);
-  ellips(xl, yl, 10, 10);
+  x1 += random(-1,1);
+  y1 += random(-1,1);
+  ellipse(x1, y1, 10, 10);
 }
 ```
 
-\sidbrytning
+\pagebreak
 
 ## Arrays 2: lösning 1
 
@@ -35,7 +35,7 @@ void draw()
 
 Ha, en rökpartikel.
 
-\sidbrytning
+\pagebreak
 
 ## Arrays 2: Kommando 2
 
@@ -53,23 +53,23 @@ float y1 = 100;
 float x2 = 160;
 float y2 = 100;
 
-void setup()
+void setup() 
 {
-  storlek (320, 200);
+  size(320, 200);
 }
 
 void draw()
 {
-  xl += slumpmässigt(-1,1);
-  yl+= slumpmässigt(-1,1);
-  ellips(xl, yl, 10, 10);
-  x2 += slumpmässigt(-1,1);
-  y2+= slumpmässigt(-1,1);
-  ellips(x2, y2, 10, 10);
+  x1 += random(-1,1);
+  y1 += random(-1,1);
+  ellipse(x1, y1, 10, 10);
+  x2 += random(-1,1);
+  y2 += random(-1,1);
+  ellipse(x2, y2, 10, 10);
 }
 ```
 
-\sidbrytning
+\pagebreak
 
 ## Arrays 2: Kommando 3
 
@@ -86,19 +86,19 @@ Använd nu en array, utan for loop.
 ![Bowtie](EmojiBowtie.png) | Tips: använd "xs[0]" istället för "x1" och "xs[1]" istället för "x2"
 :-----------------:|:---------------------- ------- :
 
-\sidbrytning
+\pagebreak
 
 ## Arrays 2: lösning 3
 
 ```c++
-flyta[] xs;
-flyta[] ys;
+float[] xs;
+float[] ys;
 
-void setup()
+void setup() 
 {
-  storlek (320, 200);
-  xs = ny float[2];
-  ys = ny float[2];
+  size(320, 200);
+  xs = new float[2];
+  ys = new float[2];
   xs[0] = 160;
   xs[1] = 160;
   ys[0] = 100;
@@ -107,16 +107,16 @@ void setup()
 
 void draw()
 {
-  xs[0] += slumpmässigt(-1,1);
-  ys[0] += slumpmässigt(-1,1);
-  ellips(xs[0], ys[0], 10, 10);
-  xs[1] += slumpmässigt(-1,1);
-  ys[1] += slumpmässigt(-1,1);
-  ellips(xs[1], ys[1], 10, 10);
+  xs[0] += random(-1,1);
+  ys[0] += random(-1,1);
+  ellipse(xs[0], ys[0], 10, 10);
+  xs[1] += random(-1,1);
+  ys[1] += random(-1,1);
+  ellipse(xs[1], ys[1], 10, 10);
 }
 ```
 
-\sidbrytning
+\pagebreak
 
 ## Arrays 2: Kommando 4
 
@@ -128,20 +128,20 @@ Använd nu för slingor. Gör både arrayen "xs" och "ys" tre lådor stora.
 :-----------------:|:---------------------- ------- :
 `for (int i=0; i<3; ++i) {}`|'Bästa dator, gör vad som står mellan klammerparenteser med värden på `i` från `0` till `3` i steg om `1` '
 
-\sidbrytning
+\pagebreak
 
 ## Arrays 2: lösning 4
 
 ```c++
-flyta[] xs;
-flyta[] ys;
+float[] xs;
+float[] ys;
 
-void setup()
+void setup() 
 {
-  storlek (320, 200);
-  xs = ny float[3];
-  ys = ny flöte[3];
-  för (int i=0; i<3; ++i)
+  size(320, 200);
+  xs = new float[3];
+  ys = new float[3];
+  for (int i=0; i<3; ++i)
   {
     xs[i] = 160;
     ys[i] = 100;
@@ -150,16 +150,16 @@ void setup()
 
 void draw()
 {
-  för (int i=0; i<3; ++i)
+  for (int i=0; i<3; ++i)
   {
-    xs[i] += slumpmässigt(-1,1);
-    ys[i] += slumpmässigt(-1,1);
-    ellips(xs[i], ys[i], 10, 10);
+    xs[i] += random(-1,1);
+    ys[i] += random(-1,1);
+    ellipse(xs[i], ys[i], 10, 10);
   }
 }
 ```
 
-\sidbrytning
+\pagebreak
 
 ## Arrays 2: Kommando 5
 
@@ -175,22 +175,22 @@ Varje rökpartikel får nu sin egen röda kantfärg:
 ![Bowtie](EmojiBowtie.png) | Tips: använd `stroke` för kantfärgen
 :-----------------:|:---------------------- ------- :
 
-\sidbrytning
+\pagebreak
 
 ## Arrays 2: lösning 5
 
 ```c++
-flyta[] xs;
-flyta[] ys;
-flyta[] rs; //Röda värden
+float[] xs;
+float[] ys;
+float[] rs; //Roodwaarden
 
-void setup()
+void setup() 
 {
-  storlek (320, 200);
-  xs = ny float[4];
-  ys = ny float[4];
-  rs = ny flöte[4];
-  för (int i=0; i<4; ++i)
+  size(320, 200);
+  xs = new float[4];
+  ys = new float[4];
+  rs = new float[4];
+  for (int i=0; i<4; ++i)
   {
     xs[i] = 160;
     ys[i] = 100;
@@ -200,18 +200,18 @@ void setup()
 
 void draw()
 {
-  för (int i=0; i<4; ++i)
+  for (int i=0; i<4; ++i)
   {
-    xs[i] += slumpmässigt(-1,1);
-    ys[i] += slumpmässigt(-1,1);
-    rs[i] += slumpmässigt(-1,1);
+    xs[i] += random(-1,1);
+    ys[i] += random(-1,1);
+    rs[i] += random(-1,1);
     stroke(rs[i], 0, 0);
-    ellips(xs[i], ys[i], 10, 10);
+    ellipse(xs[i], ys[i], 10, 10);
   }
 }
 ```
 
-\sidbrytning
+\pagebreak
 
 ## Arrays 2: Final Command
 
