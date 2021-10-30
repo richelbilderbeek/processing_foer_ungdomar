@@ -4,29 +4,29 @@ I den här lektionen ska vi jobba med bilder!
 
 ![EmojiSunglasses.png](EmojiSunglasses.png)
 
-\sidbrytning
+\pagebreak
 
 ## `PImage`: kommando 1
 
 Spara den här koden. Kör den här koden. Vad ser du?
    
 ```c++
-Bild bild;
+PImage plaatje;
 
-void setup()
+void setup() 
 {
-  storlek (640, 360);
-  image = loadImage("mario.png");
+  size(640, 360);
+  plaatje = loadImage("mario.png");
 }
 
-void draw()
+void draw() 
 {
-  bakgrund(255, 255, 255);
-  image(bild, 100, 200);
+  background(255, 255, 255);
+  image(plaatje, 100, 200);
 }
 ```
 
-\sidbrytning
+\pagebreak
 
 ## `PImage`: lösning 1
 
@@ -55,7 +55,7 @@ Här är en bild som visar var filerna ska vara:
  * Skissen heter `PImage1.pde`. Därför finns den i mappen `PImage1`. Du hittar detta i Bearbetning under `Sketch` -> `Show Sketch Map`
  * Skissen har en mapp `data`. Den innehåller bilden "mario.png".
 
-\sidbrytning
+\pagebreak
 
 ## `PImage`: sista kommandot
 

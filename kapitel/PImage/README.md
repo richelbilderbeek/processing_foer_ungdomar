@@ -1,66 +1,64 @@
 # `PImage`
 
-In deze les gaan we met plaatjes werken!
+Under den här lektionen ska vi jobba med bilder!
 
 ![EmojiSunglasses.png](EmojiSunglasses.png)
 
 \pagebreak
 
-## `PImage`: opdracht 1
+## `PImage`: Uppgift 1
 
-Save deze code. Run deze code. Wat zie je?
+Spara den här koden. Kör den här koden. Vad ser du?
    
 ```c++
-PImage plaatje;
+PImage bild;
 
 void setup() 
 {
   size(640, 360);
-  plaatje = loadImage("mario.png");
+  bild = loadImage("mario.png");
 }
 
 void draw() 
 {
   background(255, 255, 255);
-  image(plaatje, 100, 200);
+  image(bild, 100, 200);
 }
 ```
 
 \pagebreak
 
-## `PImage`: oplossing 1
+## `PImage`: lösning 1
 
-Je krijgt een error!
+Du får ett fel!
 
-![Oplossing 1](PImage1.png)
+![Lösning 1](PImage1.png)
 
-![Sunglasses](EmojiSunglasses.png) | De computer zegt dat hij het plaatje niet kan vinden!
-:-------------:|:----------------------------------------: 
+![Solglasögon](EmojiSunglasses.png) | Datorn säger att den inte kan hitta bilden!
+:-----------------:|:------------------------------:
 
-\pagebreak
+\sidbrytning
 
-## `PImage`: opdracht 2
+## `PImage`: kommando 2
 
-Ga naar [https://github.com/richelbilderbeek/Dojo/blob/master/LessenProcessing/PImage/mario.png](https://github.com/richelbilderbeek/Dojo/blob/master/LessenProcessing/PImage/mario.png)
-en download dit plaatje van Mario. 
+Gå till [https://github.com/richebilderbeek/Dojo/blob/master/LessenProcessing/PImage/mario.png](https://github.com/richebilderbeek/Dojo/blob/master/LessenProcessing/PImage/mario. png)
+och ladda ner den här bilden av Mario.
 
 ![mario.png](mario.png)
 
-Stop dit plaatje in een subfolder van waar je code staat.
+Lägg den här bilden i en undermapp där din kod finns.
 
-Hier zie je een plaatje waarop staat waar de bestanden moeten staan:
+Här är en bild som visar var filerna ska vara:
 
-![Folder structuur](PImageFolderstructuur.png)
+![Mappstruktur](PImageFolderStructure.png)
 
- * De sketch heet `PImage1.pde`. Daarom staat deze in de map `PImage1`. Deze kan je in Processing vinden onder `Schets` -> `Toon Schets Map`
- * De sketch heeft een folder `data`. Hierin staat het plaatje, `mario.png`
+ * Skissen heter `PImage1.pde`. Därför finns den i mappen `PImage1`. Du hittar detta i Bearbetning under `Sketch` -> `Show Sketch Map`
+ * Skissen har en mapp `data`. Den innehåller bilden "mario.png".
 
 \pagebreak
 
-## `PImage`: eindopdracht
+## `PImage`: slutuppgift
 
-![`PImage`: eindopdracht](PImageEindopdracht.png)
+![`PImage`: final command](PImageSlutupgift.png)
 
-Maak het programma full-screen, maak de achtergrond groen en zet het plaatje in het midden.
-
-
+Gör programmet i helskärm, gör bakgrunden grön och lägg bilden i mitten.
