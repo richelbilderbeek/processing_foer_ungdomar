@@ -4,7 +4,7 @@ I den här lektionen ska vi styra en kanon med pilarna.
 
 ![Paratrooper](Paratrooper.png)
 
-\sidbrytning
+\pagebreak
 
 ## Tangentbord 4: intro
 
@@ -13,28 +13,28 @@ I den här lektionen ska vi styra en kanon med pilarna.
 Detta är vår startkod. Skriv denna kod över:
 
 ```c++
-flytvinkel = 1,5707963268; // Hälften av pi
+float hoek = 1.5707963268; // De helft van pi
 
 void setup()
 {
-  storlek(300, 200);
+  size(300, 200);  
   strokeWeight(5);
 }
 
 void draw()
 {
-  bakgrund(255, 255, 255);
-  slutlig flottör x1 = bredd/2;
-  slutlig flottör y1 = höjd;
-  slutlig float x2 = x1 + (cos(vinkel) * 100);
-  slutlig flottör y2 = y1 - (sin(vinkel) * 100);
-  linje(xl, yl, x2, y2);
-  ellips(xl, yl, 100, 100);
+  background(255, 255, 255);
+  final float x1 = width / 2;
+  final float y1 = height;
+  final float x2 = x1 + (cos(hoek) * 100);
+  final float y2 = y1 - (sin(hoek) * 100);  
+  line(x1, y1, x2, y2);
+  ellipse(x1, y1, 100, 100);
   
-  om (knapptryckt)
+  if (keyPressed)
   {
-    if (nyckelkod == VÄNSTER) vinkel += 0,01;
-    om (nyckelkod == HÖGER) vinkel -= 0,01;
+    if (keyCode == LEFT) hoek += 0.01;
+    if (keyCode == RIGHT) hoek -= 0.01;
   }
 }
 ```
@@ -44,7 +44,7 @@ Starta programmet och använd vänster- och högerpilarna för att styra kanonen
 ![Solglasögon](EmojiSunglasses.png) | Med `final` säger du att en variabel inte får ändras
 :-----------------:|:---------------------- ------- :
 
-\sidbrytning
+\pagebreak
 
 ## Tangentbord 4: Kommando 1
 
@@ -54,41 +54,41 @@ Kanonen måste då stanna på det hörnet.
 
 ![Kommando 1](Keyboard4_1.png)
 
-\sidbrytning
+\pagebreak
 
 ## Tangentbord 4: Lösning 1
 
 Du behöver en "om"-sats:
 
 ```c++
-flytvinkel = 1,5707963268; // Hälften av pi
+float hoek = 1.5707963268; // De helft van pi
 
 void setup()
 {
-  storlek(300, 200);
+  size(300, 200);  
   strokeWeight(5);
 }
 
 void draw()
 {
-  bakgrund(255, 255, 255);
-  slutlig flottör x1 = bredd/2;
-  slutlig flottör y1 = höjd;
-  slutlig float x2 = x1 + (cos(vinkel) * 100);
-  slutlig flottör y2 = y1 - (sin(vinkel) * 100);
-  linje(xl, yl, x2, y2);
-  ellips(xl, yl, 100, 100);
+  background(255, 255, 255);
+  final float x1 = width / 2;
+  final float y1 = height;
+  final float x2 = x1 + (cos(hoek) * 100);
+  final float y2 = y1 - (sin(hoek) * 100);  
+  line(x1, y1, x2, y2);
+  ellipse(x1, y1, 100, 100);
   
-  om (knapptryckt)
+  if (keyPressed)
   {
-    if (nyckelkod == VÄNSTER) vinkel += 0,01;
-    om (nyckelkod == HÖGER) vinkel -= 0,01;
+    if (keyCode == LEFT) hoek += 0.01;
+    if (keyCode == RIGHT) hoek -= 0.01;
   }
-  om (vinkel < 0,7853981634) vinkel = 0,7853981634; //En kvart pi
+  if (hoek < 0.7853981634) hoek = 0.7853981634; //Een kwart pi
 }
 ```
 
-\sidbrytning
+\pagebreak
 
 ## Tangentbord 4: Sista kommando
 

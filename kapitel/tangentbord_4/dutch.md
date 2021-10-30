@@ -1,16 +1,16 @@
-# Toetsenbord 4: Paratrooper
+# Tangentbord 4: Fallskärmsjägare
 
-In deze les gaan we een kanon besturen met de pijltjes.
+I den här lektionen ska vi styra en kanon med pilarna.
 
 ![Paratrooper](Paratrooper.png)
 
 \pagebreak
 
-## Toetsenbord 4: intro
+## Tangentbord 4: intro
 
-![Intro](Toetsenbord4_Intro.png)
+![Intro](Keyboard4_Intro.png)
 
-Dit is onze begincode. Type deze code over:
+Detta är vår startkod. Skriv denna kod över:
 
 ```c++
 float hoek = 1.5707963268; // De helft van pi
@@ -39,26 +39,26 @@ void draw()
 }
 ```
 
-Start het programma en met de pijltjes naar links en rechts kun je het kanon besturen 
+Starta programmet och använd vänster- och högerpilarna för att styra kanonen
 
-![Sunglasses](EmojiSunglasses.png) | Met `final` zeg je dat een variabele niet mag veranderen
-:-------------:|:----------------------------------------: 
-
-\pagebreak
-
-## Toetsenbord 4: opdracht 1
-
-Zorg ervoor dat de hoek van het kanon niet onder 
-de 0,7853981634 (een kwart pi) komt. 
-Het kanon moet dan blijven op die hoek.
-
-![Opdracht 1](Toetsenbord4_1.png)
+![Solglasögon](EmojiSunglasses.png) | Med `final` säger du att en variabel inte får ändras
+:-----------------:|:---------------------- ------- :
 
 \pagebreak
 
-## Toetsenbord 4: oplossing 1
+## Tangentbord 4: Kommando 1
 
-Je hebt een `if`-statement nodig:
+Se till att pistolens vinkel inte är det
+0,7853981634 (en kvart pi) kommer.
+Kanonen måste då stanna på det hörnet.
+
+![Kommando 1](Keyboard4_1.png)
+
+\pagebreak
+
+## Tangentbord 4: Lösning 1
+
+Du behöver en "om"-sats:
 
 ```c++
 float hoek = 1.5707963268; // De helft van pi
@@ -90,10 +90,10 @@ void draw()
 
 \pagebreak
 
-## Toetsenbord 4: eindopdracht
+## Tangentbord 4: Sista kommando
 
-Zorg ervoor dat de hoek van het kanon niet boven 
-de 2,35619449019 (driekwart pi) komt. 
-Het kanon moet dan blijven op die hoek.
+Se till att pistolens vinkel inte är över
+2,35619449019 (tre fjärdedels pi) kommer.
+Kanonen måste då stanna på det hörnet.
 
-![Eindopdracht](Toetsenbord4_Eindopdracht.png)
+![End Assignment](Keyboard4_End Assignment.png)
