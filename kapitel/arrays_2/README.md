@@ -1,4 +1,4 @@
-	# Arrays2
+# Arrayer 2
 
 Ännu fler arrayer!
 
@@ -83,7 +83,7 @@ Använd nu en array, utan `for`-loop.
 :-----------------:|:-----------------------------:
 `xs = new float[2]`|'Bästa dator, gör `xs` 2 lådor`'
 
-![Bowtie](EmojiBowtie.png) | Tips: använd "xs[0]" istället för "x1" och "xs[1]" istället för "x2"
+![Bowtie](EmojiBowtie.png) | Tips: använd `xs[0]` istället för `x1` och `xs[1]` istället för `x2`
 :-----------------:|:-----------------------------:
 
 \pagebreak
@@ -122,7 +122,7 @@ void draw()
 
 ![Arrays 2: uppgift 4](Arrays2_three_rokpartikel.png)
 
-Använd nu för slingor. Gör både arrayen "xs" och "ys" tre lådor stora.
+Använd nu `for`-loops. Gör både arrayen `xs` och `ys` tre lådor stora.
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-----------------:|:-----------------------------:
@@ -163,12 +163,12 @@ void draw()
 
 ## Arrays 2: Uppgift 5
 
-![Arrays 2: uppgift 5](Arrays2_vier_rokpartikel.png)
+![Arrays 2: uppgift 5](Arrays2_fyra_rokpartikel.png)
 
 Varje rökpartikel får nu sin egen röda kantfärg:
 
- * Skapa en tredje array som heter "rs", för rodnad av rökpartiklarna
- * I "rs" måste siffrorna "0", "64", "128" och "196" finnas
+ * Skapa en tredje array som heter `rs`, för rodnad av rökpartiklarna
+ * I `rs` måste siffrorna `0`, `64`, `128` och `196` finnas
  * Rodnaden ska också bli mer eller mindre
  * Kanten på den första rökpartikeln ska få den första rodnaden. Tips: använd `stroke`
 
