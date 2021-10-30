@@ -45,7 +45,7 @@ void draw()
 
 ## Tyngdkraft: Lösning 1
 
-![Tyngdkraft: Solution 1](Tyngdkraft1.png)
+![Tyngdkraft: Lösning 1](Tyngdkraft_1.png)
 
 \pagebreak
 
@@ -53,7 +53,7 @@ void draw()
 
 Se till att programmet är i helskärm
 
-![Tyngdkraft: uppgift 2](Tyngdkraft2.png)
+![Tyngdkraft: uppgift 2](Tyngdkraft_2.png)
 
 \pagebreak
 
@@ -94,7 +94,7 @@ void draw()
 
 ## Tyngdkraft: uppgift 3
 
-![Tyngdkraft: uppgift 3](Tyngdkraft3.png)
+![Tyngdkraft: uppgift 3](Tyngdkraft_3.png)
 
 Se till att bollen studsar bra i botten.
 
@@ -142,7 +142,7 @@ void draw()
 
 Se till att bollen studsar bra på höger sida.
 
-![Tyngdkraft: uppgift 4](Tyngdkraft4.png)
+![Tyngdkraft: uppgift 4](Tyngdkraft_4.png)
 
 \pagebreak
 
