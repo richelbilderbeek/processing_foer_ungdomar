@@ -1,6 +1,6 @@
 # Tangentbord 3: Terminator II
 
-I den här lektionen ska vi styra en prick med tangentbordet.
+Under den här lektionen ska vi styra en prick med tangentbordet.
 
 ![Terminator 2 (arkadspel)](Terminator2.jpg)
 
