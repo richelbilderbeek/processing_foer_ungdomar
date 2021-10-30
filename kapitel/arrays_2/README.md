@@ -120,7 +120,7 @@ void draw()
 
 ## Arrays 2: Uppgift 4
 
-![Arrays 2: uppgift 4](Arrays2_three_rokpartikel.png)
+![Arrays 2: uppgift 4](Arrays2_tre_rokpartikel.png)
 
 Använd nu `for`-loops. Gör både arrayen `xs` och `ys` tre lådor stora.
 
