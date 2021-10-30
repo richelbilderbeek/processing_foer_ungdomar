@@ -1,6 +1,6 @@
 # `fullScreen`
 
-`fullScreen` är en funktion som låter dig göra fönstret i ditt program samma storlek som datorns skärm.
+`fullScreen` är en funktion som låter dig förstora fönstret för ditt program till samma storlek som datorns skärm.
 
 \pagebreak
 
@@ -22,9 +22,9 @@ void draw()
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :----------------------------:|:----------------------------------------:
-`rect (100, 200, 300, 400)` | 'Kära dator, rita en rektangel med' (100, 200) `som det övre vänstra hörnet, är 300 pixlar brett och 400 pixlar högt. '
-`width / 4` | 'Dear computer, ange här antalet pixlar skärmen är bred dividerat med fyra'
-`höjd / 4` | 'Kära dator, ange här antalet pixlar skärmen är hög, dividerat med fyra'
+`rect (100, 200, 300, 400)` | 'Kära dator, rita en rektangel där' (100, 200) 'är koordinaten för det övre vänstra hörnet och där bredden på rektangeln är 300 pixlar och höjden 400 pixlar. '
+`width / 4` | 'Kära dator, ange här fönstrets bredd, dividerat med fyra'
+`height / 4` | 'Kära dator, ange här fönstrets höjd, dividerat med fyra'
 
 \pagebreak
 
@@ -37,7 +37,7 @@ void draw()
 ## `fullScreen`: uppgift 2
 
 Skapa en rektangel med det övre vänstra hörnet i mitten,
-med en bredd på 200 och en höjd av 100 pixlar.
+med bredden 200 pixlar och höjden 100 pixlar.
 
 ![`fullScreen`: uppgift 2](fullscreen_2.png)
 
@@ -61,11 +61,11 @@ void draw()
 
 ## `fullScreen`: uppgift 3
 
-Lägg nu rektangeln i mitten av skärmen.
+Rita nu ut rektangeln i mitten på skärmen.
 
 ![`fullScreen`: uppgift 3](fullscreen_3.png)
 
-![Solglasögon](EmojiSunglasses.png) | Rektangeln ska gå 100 till vänster och 50 uppåt
+![Solglasögon](EmojiSunglasses.png) | Rektangeln ska flyttas 100 pixlar till vänster och 50 pixlar uppåt
 :-----------------:|:-----------------------------:
 
 \pagebreak
@@ -88,8 +88,8 @@ void draw()
 
 ## `fullScreen`: uppgift 4
 
-Sätt en rektangel i mitten av skärmen, med en bredd på 300 pixlar
-och en höjd av 400 pixlar.
+Rita ut en rektangel i mitten på skärmen, med en bredd på 300 pixlar
+och en höjd på 400 pixlar.
 
 ![`fullScreen`: uppgift 4](fullscreen_4.png)
 
@@ -113,8 +113,8 @@ void draw()
 
 ## `fullScreen`: uppgift 5
 
-Placera en rektangel i mitten av skärmen, hälften av skärmens bredd,
-och är 500 pixlar hög.
+Rita ut en rektangel i mitten på skärmen, med hälften av skärmens bredd,
+och höjden 500 pixlar.
 
 ![`fullScreen`: uppgift 5](fullscreen_5.png)
 
@@ -136,8 +136,8 @@ void draw()
 
 \pagebreak
 
-## `fullScreen`: slutuppgiftt
+## `fullScreen`: slutuppgift
 
 ![`fullScreen`: slutuppgiftt](fullscreen_6.png)
 
-Placera en rektangel i mitten av skärmen som är hälften av skärmens bredd och höjd.
+Rita ut en rektangel i mitten på skärmen som är hälften så bred och hälften så hög som skärmen.
