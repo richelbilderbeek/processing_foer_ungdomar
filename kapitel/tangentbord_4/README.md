@@ -8,7 +8,7 @@ I den här lektionen ska vi styra en kanon med pilarna.
 
 ## Tangentbord 4: intro
 
-![Intro](tangentbord_4_Intro.png)
+![Intro](tangentbord_4_intro.png)
 
 Detta är vår startkod. Skriv denna kod över:
 
