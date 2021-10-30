@@ -1,4 +1,4 @@
-# Array 1
+# Arrayer 1
 
 Med arrayer kan du få datorn att komma ihåg många värden:
 koordinaterna för kulor, meteoriter, fiender.
@@ -7,9 +7,9 @@ koordinaterna för kulor, meteoriter, fiender.
 
 \pagebreak
 
-## Arrays 1: Uppgift 1
+## Arrayer 1: Uppgift 1
 
-Kör den här koden. Vad gör det?
+Kör den här koden. Vad gör den?
 
 ```c++
 float x = 0;
@@ -32,15 +32,15 @@ void draw()
 
 \pagebreak
 
-## Arrays 1: lösning 1
+## Arrayer 1: lösning 1
 
-En boll som går åt höger för alltid!
+En boll som åker åt höger i all evighet!
 
 ![Arrays 1: lösning 1](Arrays1_1.png)
 
 \pagebreak
 
-## Arrays 1: Uppgift 2
+## Arrayer 1: Uppgift 2
 
 Se till att lägga till en andra boll.
 
@@ -49,12 +49,12 @@ Se till att lägga till en andra boll.
 ![Solglasögon](EmojiSunglasses.png) | Tips: ändra namnet `x` till `x1`.
 :-----------------:|:-----------------------------:
 
-![Bowtie](EmojiBowtie.png) | Skapa sedan en ny variabel som heter `x2`
+![Bowtie](EmojiBowtie.png) | Skapa sedan en ny variabel som heter `x2`.
 :-----------------:|:-----------------------------:
 
 \pagebreak
 
-## Arrays 1: lösning 2
+## Arrayer 1: lösning 2
 
 ```c++
 float x1 = 0;
@@ -95,7 +95,7 @@ Lägg till en tredje boll.
 
 \pagebreak
 
-## Arrays 1: lösning 3
+## Arrayer 1: lösning 3
 
 ```c++
 float x1 = 0;
@@ -133,19 +133,19 @@ void draw()
 ![Solglasögon](EmojiSunglasses.png) | Detta var ytterligare sju rader extraarbete
 :-----------------:|:-----------------------------:
 
-![Bowtie](EmojiBowtie.png) | Detta kan göras smartare, med arrayer!
+![Bowtie](EmojiBowtie.png) | Det här kan göras smartare, med arrayer!
 :-----------------:|:-----------------------------:
 
 \pagebreak
 
-## Arrays 1: vad är en array?
+## Arrayer 1: vad är en array?
 
 En array är som ett skåp med lådor.
 
 
-Varje låda har ett nummer och varje låda kan rymma ett nummer.
+Varje låda har ett nummer utanpå och varje låda kan innehålla ett nummer inuti.
 
-Här ser du lådans nummer och numret som finns i den:
+Här ser du lådans nummer och det nummer som finns inuti den:
 
 ![Skåp med låda](array_hemliga_nummer.jpg)
 
@@ -163,7 +163,7 @@ nummer fyrtiotvå.
 
 \pagebreak
 
-## Arrays 1: arbeta med en array
+## Arrayer 1: arbeta med en array
 
 ![Array med namnet 'hemliga_nummer' och en låda](Arrays1_skap_hemliga_nummer.png)
 
@@ -244,7 +244,7 @@ Det här programmet ser inte särskilt trevligt ut. Det är tänkt att visa dig 
 
 \pagebreak
 
-## Arrays 1: Uppgift 4
+## Arrayer 1: Uppgift 4
 
 Kör koden nedan.
 
@@ -285,7 +285,7 @@ void draw()
 
 \pagebreak
 
-## Arrays 1: lösning 4
+## Arrayer 1: lösning 4
 
 Hej, samma som förut!
 
@@ -329,7 +329,7 @@ void draw()
 
 \pagebreak
 
-## Arrays 1: lösning 5
+## Arrayer 1: lösning 5
 
 Hej, samma som förut!
 
@@ -352,7 +352,7 @@ Hej, samma som förut!
 
 \pagebreak
 
-## Arrays 1: Uppgift 6
+## Arrayer 1: Uppgift 6
 
 ![Arrays 1: command 6](Arrays1_fyra_bollar.png)
 
@@ -363,7 +363,7 @@ Lägg nu till en fjärde boll.
 
 \pagebreak
 
-## Arrays 1: lösning 6
+## Arrayer 1: lösning 6
 
 
 ```c++
@@ -395,7 +395,7 @@ void draw()
 
 \pagebreak
 
-## Arrays 1: Uppgift 7
+## Arrayer 1: Uppgift 7
 
 Gör nu programmet i helskärm. När bollarna lämnar skärmen till höger får du dem att börja igen till vänster. Använd `width` för detta
 
@@ -403,7 +403,7 @@ Gör nu programmet i helskärm. När bollarna lämnar skärmen till höger får 
 
 \pagebreak
 
-## Arrays 1: lösning 7
+## Arrayer 1: lösning 7
 
 ```c++
 float[] xs;
@@ -434,7 +434,7 @@ void draw()
 
 \pagebreak
 
-## Arrays 1: slutuppgift
+## Arrayer 1: slutuppgift
 
 ![Arrays 1: slutuppgift](Arrays1_slutuppgift.png)
 
