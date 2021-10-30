@@ -1,16 +1,16 @@
-# Toetsenbord 2: Tron
+# Tangentbord 2: Tron
 
-In deze les gaan we een puntje besturen met het toetsenbord.
+I den här lektionen ska vi styra en prick med tangentbordet.
 
 ![Tron](Tron.png)
 
 \pagebreak
 
-## Toetsenbord 2: intro
+## Tangentbord 2: intro
 
-![Toetsenbord 2: intro](Toetsenbord2_Intro.png)
+![Keyboard 2: intro](Keyboard2_Intro.png)
 
-Dit is onze begincode. Type deze code over:
+Detta är vår startkod. Skriv denna kod över:
 
 ```c++
 float x = 0;
@@ -46,25 +46,25 @@ void draw()
 }
 ```
 
-Start het programma en druk op ADSW om van richting te veranderen.
+Starta programmet och tryck på ADSW för att ändra riktning.
 
-![Sunglasses](EmojiSunglasses.png) | De besturing is niet perfect! Dit perfect maken is iets moeilijker
-:-------------:|:----------------------------------------: 
-
-\pagebreak
-
-## Toetsenbord 2: opdracht 1
-
-Zorg ervoor dat als de speler rechts het beeld uit gaat, dat
-'ie aan de rechterkant verschijnt.
-
-![Toetsenbord 2: opdracht 1](Toetsenbord2_1.png)
+![Solglasögon](EmojiSunglasses.png) | Kontrollerna är inte perfekta! Att göra detta perfekt är lite svårare
+:-----------------:|:---------------------- ------- :
 
 \pagebreak
 
-## Toetsenbord 2: oplossing 1
+## Tangentbord 2: Kommando 1
 
-Je hebt een `if`-statement nodig:
+När spelaren till höger går ut ur bilden, se till att
+den visas till höger.
+
+![Tangentbord 2: Kommando 1](Keyboard2_1.png)
+
+\pagebreak
+
+## Tangentbord 2: Lösning 1
+
+Du behöver en "om"-sats:
 
 ```c++
 float x = 0;
@@ -101,22 +101,22 @@ void draw()
 }
 ```
 
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
-`if (x > width) x = 0`|'Lieve computer, als `x` groter is dan `width`, zet `x` dan op nul.'
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:-----------------:|:---------------------- ------- :
+`if (x > width) x = 0`|'Bästa dator, om `x` är större än `width`, ställ `x` till noll.'
 
 \pagebreak
 
-## Toetsenbord 2: opdracht 2
+## Tangentbord 2: Kommando 2
 
-Zorg ervoor dat *ook* als de speler bovenaan het beeld uit gaat, dat
-'ie aan de onderkant verschijnt.
+Se till att *även* om spelaren längst upp på skärmen släcks, att
+det visas längst ner.
 
-![Toetsenbord 2: opdracht 2](Toetsenbord2_2.png)
+![Tangentbord 2: Kommando 2](Keyboard2_2.png)
 
 \pagebreak
 
-## Toetsenbord 2: oplossing 2
+## Tangentbord 2: Lösning 2
 
 ```c++
 float x = 0;
@@ -156,8 +156,8 @@ void draw()
 
 \pagebreak
 
-## Toetsenbord 2: eindopdracht
+## Tangentbord 2: Sista kommandot
 
-Zorg ervoor dat de speler altijd in het beeld blijft.
+Se till att spelaren alltid finns kvar i bilden.
 
-![Toetsenbord 2: eindopdracht](Toetsenbord2_Eindopdracht.png)
+![Keyboard 2: Final Assignment](Keyboard2_End Assignment.png)
