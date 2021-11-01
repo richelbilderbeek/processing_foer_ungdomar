@@ -5,7 +5,7 @@ fontsize: 14pt
 
 # Förord
 
-Detta är en bok om Processing för tonåringar.
+Detta är en bok om Processing för ungdomar.
 Processing är ett programmeringsspråk.
 Denna bok lär dig det programmeringsspråket.
 
@@ -19,7 +19,7 @@ Denna bok är licensierad av CC-BY-NC-SA.
 
 Med det här häftet kan du göra vad du vill, så länge du hänvisar till
 originalversionen på denna webbplats:
-[https://github.com/richelbilderbeek/processing_foer_tonaaringar](https://github.com/richelbilderbeek/processing_foer_tonaaringar).
+[https://github.com/richelbilderbeek/processing_foer_ungdomar](https://github.com/richelbilderbeek/processing_foer_ungdomar).
 Detta häfte kommer alltid att förbli gratis, fritt och öppet.
 
 Det är fortfarande en lite slarvig bok.

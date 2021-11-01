@@ -41,7 +41,7 @@ Du får ett fel!
 
 ## `PImage`: Uppgift 2
 
-Gå till [https://raw.githubusercontent.com/richelbilderbeek/processing_foer_tonaaringar/master/kapitel/PImage/mario.png](https://raw.githubusercontent.com/richelbilderbeek/processing_foer_tonaaringar/master/kapitel/PImage/mario.png)
+Gå till [https://raw.githubusercontent.com/richelbilderbeek/processing_foer_ungdomar/master/kapitel/PImage/mario.png](https://raw.githubusercontent.com/richelbilderbeek/processing_foer_ungdomar/master/kapitel/PImage/mario.png)
 och ladda ner den här bilden av Mario.
 
 ![mario.png](mario.png)
