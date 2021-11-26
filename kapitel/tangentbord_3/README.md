@@ -16,8 +16,8 @@ Detta är vår startkod. Skriv denna kod över:
 float x = 0;
 float y = 0;
 
-float dx = 0; // Snelheid naar rechts
-float dy = 0; // Snelheid naar onder
+float dx = 0; // Hastighet till hoger
+float dy = 0; // Hastighet till nedat
 
 void setup()
 {
@@ -65,8 +65,8 @@ Du behöver en `if`-sats:
 float x = 0;
 float y = 0;
 
-float dx = 0; // Snelheid naar rechts
-float dy = 0; // Snelheid naar onder
+float dx = 0; // Hastighet till hoger
+float dy = 0; // Hastighet till nedat
 
 void setup()
 {
@@ -112,8 +112,8 @@ det visas längst ner.
 float x = 0;
 float y = 0;
 
-float dx = 0; // Snelheid naar rechts
-float dy = 0; // Snelheid naar onder
+float dx = 0; // Hastighet till hoger
+float dy = 0; // Hastighet till nedat
 
 void setup()
 {

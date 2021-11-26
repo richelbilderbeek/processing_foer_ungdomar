@@ -1,6 +1,6 @@
 # Tangentbord 1: Qix
 
-I den här lektionen ska vi flytta en prick med tangentbordet.
+Under den här lektionen ska vi flytta en prick med tangentbordet.
 
 ![Qix](Qix.png)
 
@@ -45,8 +45,8 @@ Starta programmet och tryck på ADSW för att flytta.
 
 ## Tangentbord 1: Uppgift 1
 
-När spelaren till höger går ut ur bilden, se till att
-den visas till höger.
+När spelaren åker hela vägen till höger, 
+se till att den hoppar till vänster sida av fönstret.
 
 ![Tangentbord 1: Uppgift 1](tangentbord_1_1.png)
 
@@ -90,7 +90,7 @@ void draw()
 ## Tangentbord 1: Uppgift 2
 
 Se till att *även* om spelaren längst upp på skärmen släcks, att
-det visas längst ner.
+det hoppas till nedåt sida av fönstret.
 
 ![Tangentbord 1: Uppgift 2](tangentbord_1_2.png)
 

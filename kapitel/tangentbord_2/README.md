@@ -1,6 +1,6 @@
 # Tangentbord 2: Tron
 
-I den här lektionen ska vi styra en prick med tangentbordet.
+Under den här lektionen ska vi styra en prick med tangentbordet.
 
 ![Tron](Tron.png)
 
@@ -16,11 +16,11 @@ Detta är vår startkod. Skriv denna kod över:
 float x = 0;
 float y = 0;
 
-// 0: omhoog
-// 1: naar rechts
-// 2: omlaag
-// 3: naar links
-int richting = 1;
+// 0: till uppat
+// 1: till hoger
+// 2: till nedt
+// 3: till vanster
+int riktning = 1;
 
 void setup()
 {
@@ -33,15 +33,15 @@ void draw()
 {
   if (keyPressed)
   {
-    if (key == 'w') richting = 0;
-    if (key == 'd') richting = 1;
-    if (key == 's') richting = 2;
-    if (key == 'a') richting = 3;
+    if (key == 'w') riktning = 0;
+    if (key == 'd') riktning = 1;
+    if (key == 's') riktning = 2;
+    if (key == 'a') riktning = 3;
   }
-  if (richting == 0) y = y - 1;
-  if (richting == 1) x = x + 1;
-  if (richting == 2) y = y + 1;
-  if (richting == 3) x = x - 1;
+  if (riktning == 0) y = y - 1;
+  if (riktning == 1) x = x + 1;
+  if (riktning == 2) y = y + 1;
+  if (riktning == 3) x = x - 1;
   point(x,y);
 }
 ```
@@ -70,11 +70,11 @@ Du behöver en `if`-sats:
 float x = 0;
 float y = 0;
 
-// 0: omhoog
-// 1: naar rechts
-// 2: omlaag
-// 3: naar links
-int richting = 1;
+// 0: till uppat
+// 1: till hoger
+// 2: till nedt
+// 3: till vanster
+int riktning = 1;
 
 void setup()
 {
@@ -87,15 +87,15 @@ void draw()
 {
   if (keyPressed)
   {
-    if (key == 'w') richting = 0;
-    if (key == 'd') richting = 1;
-    if (key == 's') richting = 2;
-    if (key == 'a') richting = 3;
+    if (key == 'w') riktning = 0;
+    if (key == 'd') riktning = 1;
+    if (key == 's') riktning = 2;
+    if (key == 'a') riktning = 3;
   }
-  if (richting == 0) y = y - 1;
-  if (richting == 1) x = x + 1;
-  if (richting == 2) y = y + 1;
-  if (richting == 3) x = x - 1;
+  if (riktning == 0) y = y - 1;
+  if (riktning == 1) x = x + 1;
+  if (riktning == 2) y = y + 1;
+  if (riktning == 3) x = x - 1;
   if (x > width) x = 0;
   point(x,y);
 }
@@ -122,11 +122,11 @@ det visas längst ner.
 float x = 0;
 float y = 0;
 
-// 0: omhoog
-// 1: naar rechts
-// 2: omlaag
-// 3: naar links
-int richting = 1;
+// 0: till uppat
+// 1: till hoger
+// 2: till nedt
+// 3: till vanster
+int riktning = 1;
 
 void setup()
 {
@@ -139,15 +139,15 @@ void draw()
 {
   if (keyPressed)
   {
-    if (key == 'w') richting = 0;
-    if (key == 'd') richting = 1;
-    if (key == 's') richting = 2;
-    if (key == 'a') richting = 3;
+    if (key == 'w') riktning = 0;
+    if (key == 'd') riktning = 1;
+    if (key == 's') riktning = 2;
+    if (key == 'a') riktning = 3;
   }
-  if (richting == 0) y = y - 1;
-  if (richting == 1) x = x + 1;
-  if (richting == 2) y = y + 1;
-  if (richting == 3) x = x - 1;
+  if (riktning == 0) y = y - 1;
+  if (riktning == 1) x = x + 1;
+  if (riktning == 2) y = y + 1;
+  if (riktning == 3) x = x - 1;
   if (x > width) x = 0;
   if (y < 0) y = height;
   point(x,y);
