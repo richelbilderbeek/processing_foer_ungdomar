@@ -1,8 +1,8 @@
 #3D Lektion 2: Styr bollen
 
-I den här lektionen ska vi göra en 3D-bollrörelse.
+Under den här lektionen ska vi göra en 3D-bollrörelse.
 
-\sidbrytning
+\pagebreak
 
 ## 3D 2: uppgift 1
 
@@ -11,30 +11,30 @@ Skriv denna kod över:
 ```c++
 float x = 0;
 
-void setup()
+void setup() 
 {
-  storlek (300, 200, P3D);
+  size(300, 200, P3D);
   noStroke();
-  x = bredd / 2;
+  x = width / 2;
 }
 
-void draw()
+void draw() 
 {
-  bakgrund(255, 255, 255);
-  ljus();
-  translate(x, höjd / 2, 0);
-  sfär(20);
-  om (knapptryckt)
+  background(255, 255, 255);
+  lights();
+  translate(x, height / 2, 0);
+  sphere(20);
+  if (keyPressed) 
   {
-    om (nyckel == 'a') x = x - 1;
-    if (nyckel == 'd') x = x + 1;
+    if (key == 'a') x = x - 1;
+    if (key == 'd') x = x + 1;
   }
 }
 ```
 
 Vad ser du?
 
-\sidbrytning
+\pagebreak
 
 ## 3D 2: lösning 1
 
@@ -45,47 +45,47 @@ kan flytta åt vänster och höger.
 
 Om man tittar noga kan man se att den vitaste delen av bollen också byter plats.
 
-\sidbrytning
+\pagebreak
 
 ## 3D 2: uppgift 2
 
  * Se till att bollen nu också kan gå upp och ner, med tangenterna `w` och `s`
  * Skapa en ny variabel, t.ex. "y", med initialvärdet "höjd / 2".
 
-![3D 2: kommando 2](3D2_2.png)
+![3D 2: uppgift 2](3D2_2.png)
 
-\sidbrytning
+\pagebreak
 
 ## 3D 2: lösning 2
 
 ```c++
 float x = 0;
-flytande y = 0;
+float y = 0;
 
-void setup()
+void setup() 
 {
-  storlek (300, 200, P3D);
+  size(300, 200, P3D);
   noStroke();
 }
 
-void draw()
+void draw() 
 {
-  bakgrund(255, 255, 255);
-  ljus();
+  background(255, 255, 255);
+  lights();
   translate(x, y, 0);
-  sfär(20);
+  sphere(20);
   x = x + 1;
   y = y + 1;
 }
 ```
 
-\sidbrytning
+\pagebreak
 
-## 3D 2: Slutlig uppgift
+## 3D 2: Slutuppgift
 
  * Få bollen att gå fram och tillbaka med tangenterna `q` och `e`
  * Skapa en ny variabel, t.ex. "z", med initialt värde noll
 
 Det här kan se annorlunda ut än du förväntar dig!
 
-![3D 2: uppgift 3](3D2_End assignment.png)
+![3D 2: uppgift 3](3D2_slutuppgift.png)

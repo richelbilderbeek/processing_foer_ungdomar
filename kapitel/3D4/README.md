@@ -1,34 +1,34 @@
 #3D Lektion 4: Belysning
 
-I den här lektionen ska vi exponera en 3D-boll.
+Under den här lektionen ska vi exponera en 3D-boll.
 
-\sidbrytning
+\pagebreak
 
 ## 3D 4: uppgift 1
 
 Skriv denna kod över:
 
 ```c++
-float light_direction_x = 1;
+float ljus_rikting_x = 1;
 
-void setup()
+void setup() 
 {
-  storlek (300, 200, P3D);
+  size(300, 200, P3D);
   noStroke();
 }
 
-void draw()
+void draw() 
 {
-  bakgrund(255, 255, 255);
-  directionalLight(255, 255, 255, light_direction_x, 0, 0);
+  background(255, 255, 255);
+  directionalLight(255, 255, 255, ljus_rikting_x, 0, 0);
   translate(width / 2, height / 2, 0);
-  sfär(50);
+  sphere(50);
 }
 ```
 
 Vad ser du?
 
-\sidbrytning
+\pagebreak
 
 ## 3D 4: lösning 1
 
@@ -36,44 +36,44 @@ Vad ser du?
 
 Du kommer att se en boll med ett vitt ljus på.
 
-\sidbrytning
+\pagebreak
 
 ## 3D 4: uppgift 2
 
- * Se till att `light_direction_x` kan bli lägre och högre, med tangenterna `w` och `s`
+ * Se till att `ljus_riktning_x` kan bli lägre och högre, med tangenterna `w` och `s`
 
 Observera: endast tre positioner är möjliga!
 
-![3D 4: kommando 2](3D4_2.png)
+![3D 4: uppgift 2](3D4_2.png)
 
-\sidbrytning
+\pagebreak
 
 ## 3D 4: lösning 2
 
 ```c++
-float light_direction_x = 1;
+float ljus_rikting_x = 1;
 
-void setup()
+void setup() 
 {
-  storlek (300, 200, P3D);
+  size(300, 200, P3D);
   noStroke();
 }
 
-void draw()
+void draw() 
 {
-  bakgrund(255, 255, 255);
-  directionalLight(255, 255, 255, light_direction_x, 0, 0);
+  background(255, 255, 255);
+  directionalLight(255, 255, 255, ljus_rikting_x, 0, 0);
   translate(width / 2, height / 2, 0);
-  sfär(50);
-  om (knapptryckt)
+  sphere(50);
+  if (keyPressed)
   {
-    om (nyckel == 'a') light_direction_x = light_direction_x - 1;
-    if (nyckel == 'd') light_direction_x = light_direction_x + 1;
+    if (key == 'a') ljus_rikting_x = ljus_rikting_x - 1;  
+    if (key == 'd') ljus_rikting_x = ljus_rikting_x + 1;  
   }
 }
 ```
 
-\sidbrytning
+\pagebreak
 
 ## 3D 3: uppgift 3
 
@@ -82,44 +82,44 @@ void draw()
 
 Obs: endast fem positioner är möjliga!
 
-![3D 4: kommando 3](3D4_3.png)
+![3D 4: uppgift 3](3D4_3.png)
 
-\sidbrytning
+\pagebreak
 
 ## 3D 4: lösning 3
 
 ```c++
-float light_direction_x = 1;
+float ljus_rikting_x = 1;
 
-void setup()
+void setup() 
 {
-  storlek (300, 200, P3D);
+  size(300, 200, P3D);
   noStroke();
 }
 
-void draw()
+void draw() 
 {
-  bakgrund(255, 255, 255);
-  directionalLight(255, 0, 0, light_direction_x, 1, 0);
+  background(255, 255, 255);
+  directionalLight(255, 0, 0, ljus_rikting_x, 1, 0);
   translate(width / 2, height / 2, 0);
-  sfär(50);
-  om (knapptryckt)
+  sphere(50);
+  if (keyPressed)
   {
-    om (nyckel == 'a') light_direction_x = light_direction_x - 1;
-    if (nyckel == 'd') light_direction_x = light_direction_x + 1;
+    if (key == 'a') ljus_rikting_x = ljus_rikting_x - 1;  
+    if (key == 'd') ljus_rikting_x = ljus_rikting_x + 1;  
   }
 }
 ```
 
 
-\sidbrytning
+\pagebreak
 
-## 3D 4: Slutlig uppgift
+## 3D 4: Slutuppgift
 
- * Se till att `light_direction_y` kan bli lägre och högre, med tangenterna `w` och `s`
- * Skapa en ny variabel, t.ex. `light_direction_x`, med initialvärdet noll
+ * Se till att `ljus_riktning_y` kan bli lägre och högre, med tangenterna `w` och `s`
+ * Skapa en ny variabel, t.ex. `ljus_riktning_x`, med initialvärdet noll
  * Gör den ljusa färgen grön
 
 Nu kan ljusstrålen rotera fint.
 
-![3D 4: final assignment](3D4_End assignment.png)
+![3D 4: slutuppgift](3D4_slutuppgift.png)
