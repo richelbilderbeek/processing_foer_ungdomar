@@ -43,7 +43,7 @@ Vad ser du?
 ![3D 3: lösning 1](3D3_1.png)
 
 Du ser en kub och en boll som står stilla
-\sidbrytning
+\pagebreak
 
 ## 3D 3: uppgift 2
 

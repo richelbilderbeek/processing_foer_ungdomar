@@ -41,10 +41,10 @@ Kpt|Beskrivning
 19 |[Tangentbord 3: Terminator II](./tangentbord_3/README.md)
 20 |[Tangentbord 4: Paratrooper](./tangentbord_4/README.md)
 .  | **Bok 6**
-21 |[3D 1: klotet rör sig](./3D1/README.md)
-22 |[3D 2: styra klotet](./3D2/README.md)
-23 |[3D 3: klotet och kuben](./3D3/README.md)
-24 |[3D 4: ljussättning](./3D4/README.md)
+21 |[3D 1: klotet rör sig](./3D_1/README.md)
+22 |[3D 2: styra klotet](./3D_2/README.md)
+23 |[3D 3: klotet och kuben](./3D_3/README.md)
+24 |[3D 4: ljussättning](./3D_4/README.md)
 .  | **Bok 7**
 25 |[Sinus och cosinus 1: graf](./SinusEnCosinus1/README.md)
 26 |[Sinus och cosinus 2: ritar](./SinusEnCosinus2/README.md)

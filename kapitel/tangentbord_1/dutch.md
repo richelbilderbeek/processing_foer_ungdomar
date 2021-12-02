@@ -50,7 +50,7 @@ den visas till höger.
 
 ![Tangentbord 1: Kommando 1](Keyboard1_1.png)
 
-\sidbrytning
+\pagebreak
 
 ## Tangentbord 1: Lösning 1
 
