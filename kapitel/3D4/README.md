@@ -1,126 +1,125 @@
-# 3D les 4: belichting
+#3D Lektion 4: Belysning
 
-In deze les gaan we een 3D bal belichten.
+I den här lektionen ska vi exponera en 3D-boll.
 
-\pagebreak
+\sidbrytning
 
-## 3D 4: opdracht 1 
+## 3D 4: uppgift 1
 
-Type deze code over:
+Skriv denna kod över:
 
 ```c++
-float licht_richting_x = 1;
+float light_direction_x = 1;
 
-void setup() 
+void setup()
 {
-  size(300, 200, P3D);
+  storlek (300, 200, P3D);
   noStroke();
 }
 
-void draw() 
+void draw()
 {
-  background(255, 255, 255);
-  directionalLight(255, 255, 255, licht_richting_x, 0, 0);
+  bakgrund(255, 255, 255);
+  directionalLight(255, 255, 255, light_direction_x, 0, 0);
   translate(width / 2, height / 2, 0);
-  sphere(50);
+  sfär(50);
 }
 ```
 
-Wat zie je?
+Vad ser du?
 
-\pagebreak
+\sidbrytning
 
-## 3D 4: oplossing 1 
+## 3D 4: lösning 1
 
-![3D 4: oplossing 1](3D4_1.png)
+![3D 4: lösning 1](3D4_1.png)
 
-Je ziet een bal met een wit licht erop.
+Du kommer att se en boll med ett vitt ljus på.
 
-\pagebreak
+\sidbrytning
 
-## 3D 4: opdracht 2
+## 3D 4: uppgift 2
 
- * Zorg dat de `licht_richting_x` lager en hoger kan worden, met de toetsen `w` en `s`
+ * Se till att `light_direction_x` kan bli lägre och högre, med tangenterna `w` och `s`
 
-Let op: er zijn maar drie standen mogelijk!
+Observera: endast tre positioner är möjliga!
 
-![3D 4: opdracht 2](3D4_2.png)
+![3D 4: kommando 2](3D4_2.png)
 
-\pagebreak
+\sidbrytning
 
-## 3D 4: oplossing 2 
+## 3D 4: lösning 2
 
 ```c++
-float licht_richting_x = 1;
+float light_direction_x = 1;
 
-void setup() 
+void setup()
 {
-  size(300, 200, P3D);
+  storlek (300, 200, P3D);
   noStroke();
 }
 
-void draw() 
+void draw()
 {
-  background(255, 255, 255);
-  directionalLight(255, 255, 255, licht_richting_x, 0, 0);
+  bakgrund(255, 255, 255);
+  directionalLight(255, 255, 255, light_direction_x, 0, 0);
   translate(width / 2, height / 2, 0);
-  sphere(50);
-  if (keyPressed)
+  sfär(50);
+  om (knapptryckt)
   {
-    if (key == 'a') licht_richting_x = licht_richting_x - 1;  
-    if (key == 'd') licht_richting_x = licht_richting_x + 1;  
+    om (nyckel == 'a') light_direction_x = light_direction_x - 1;
+    if (nyckel == 'd') light_direction_x = light_direction_x + 1;
   }
 }
 ```
 
-\pagebreak
+\sidbrytning
 
-## 3D 3: opdracht 3
+## 3D 3: uppgift 3
 
- * Zet het licht y richting op een. 
- * Maak de kleur van het licht rood
+ * Ställ in ljusets y-riktning till ett.
+ * Gör färgen på ljusröd
 
-Let op: er zijn maar vijf standen mogelijk!
+Obs: endast fem positioner är möjliga!
 
-![3D 4: opdracht 3](3D4_3.png)
+![3D 4: kommando 3](3D4_3.png)
 
-\pagebreak
+\sidbrytning
 
-## 3D 4: oplossing 3 
+## 3D 4: lösning 3
 
 ```c++
-float licht_richting_x = 1;
+float light_direction_x = 1;
 
-void setup() 
+void setup()
 {
-  size(300, 200, P3D);
+  storlek (300, 200, P3D);
   noStroke();
 }
 
-void draw() 
+void draw()
 {
-  background(255, 255, 255);
-  directionalLight(255, 0, 0, licht_richting_x, 1, 0);
+  bakgrund(255, 255, 255);
+  directionalLight(255, 0, 0, light_direction_x, 1, 0);
   translate(width / 2, height / 2, 0);
-  sphere(50);
-  if (keyPressed)
+  sfär(50);
+  om (knapptryckt)
   {
-    if (key == 'a') licht_richting_x = licht_richting_x - 1;  
-    if (key == 'd') licht_richting_x = licht_richting_x + 1;  
+    om (nyckel == 'a') light_direction_x = light_direction_x - 1;
+    if (nyckel == 'd') light_direction_x = light_direction_x + 1;
   }
 }
 ```
 
 
-\pagebreak
+\sidbrytning
 
-## 3D 4: Eindopdracht
+## 3D 4: Slutlig uppgift
 
- * Zorg dat de `licht_richting_y` lager en hoger kan worden, met de toetsen `w` en `s`
- * Maak een nieuwe variabele, bijvoorbeeld `licht_richting_x`, met als beginwaarde nul
- * Maak de lichtkleur groen
+ * Se till att `light_direction_y` kan bli lägre och högre, med tangenterna `w` och `s`
+ * Skapa en ny variabel, t.ex. `light_direction_x`, med initialvärdet noll
+ * Gör den ljusa färgen grön
 
-Nu kan de lichtbundel mooi draaien.
+Nu kan ljusstrålen rotera fint.
 
-![3D 4: eindopdracht](3D4_Eindopdracht.png)
-
+![3D 4: final assignment](3D4_End assignment.png)

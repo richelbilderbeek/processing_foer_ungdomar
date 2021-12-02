@@ -1,92 +1,91 @@
-# 3D les 2: bal besturen
+#3D Lektion 2: Styr bollen
 
-In deze les gaan we een 3D bal laten bewegen.
+I den här lektionen ska vi göra en 3D-bollrörelse.
 
-\pagebreak
+\sidbrytning
 
-## 3D 2: opdracht 1 
+## 3D 2: uppgift 1
 
-Type deze code over:
+Skriv denna kod över:
 
 ```c++
 float x = 0;
 
-void setup() 
+void setup()
 {
-  size(300, 200, P3D);
+  storlek (300, 200, P3D);
   noStroke();
-  x = width / 2;
+  x = bredd / 2;
 }
 
-void draw() 
+void draw()
 {
-  background(255, 255, 255);
-  lights();
-  translate(x, height / 2, 0);
-  sphere(20);
-  if (keyPressed) 
+  bakgrund(255, 255, 255);
+  ljus();
+  translate(x, höjd / 2, 0);
+  sfär(20);
+  om (knapptryckt)
   {
-    if (key == 'a') x = x - 1;
-    if (key == 'd') x = x + 1;
+    om (nyckel == 'a') x = x - 1;
+    if (nyckel == 'd') x = x + 1;
   }
 }
 ```
 
-Wat zie je?
+Vad ser du?
 
-\pagebreak
+\sidbrytning
 
-## 3D 2: oplossing 1 
+## 3D 2: lösning 1
 
-![3D 2: oplossing 1](3D2_2.png)
+![3D 2: lösning 1](3D2_2.png)
 
-Je ziet een bal die je met `a` en `d` naar 
-links en rechts kunt bewegen.
+Du ser en boll som du kan gå till med `a` och `d`
+kan flytta åt vänster och höger.
 
-Als je goed kijkt zie je dat het witste gedeelte van de bal ook van plek verandert.
+Om man tittar noga kan man se att den vitaste delen av bollen också byter plats.
 
-\pagebreak
+\sidbrytning
 
-## 3D 2: opdracht 2
+## 3D 2: uppgift 2
 
- * Zorg dat de bal nu ook naar onder en boven kan gaan, met de toetsen `w` en `s`
- * Maak een nieuwe variabele, bijvoorbeeld `y`, met als beginwaarde `height / 2`
+ * Se till att bollen nu också kan gå upp och ner, med tangenterna `w` och `s`
+ * Skapa en ny variabel, t.ex. "y", med initialvärdet "höjd / 2".
 
-![3D 2: opdracht 2](3D2_2.png)
+![3D 2: kommando 2](3D2_2.png)
 
-\pagebreak
+\sidbrytning
 
-## 3D 2: oplossing 2 
+## 3D 2: lösning 2
 
 ```c++
 float x = 0;
-float y = 0;
+flytande y = 0;
 
-void setup() 
+void setup()
 {
-  size(300, 200, P3D);
+  storlek (300, 200, P3D);
   noStroke();
 }
 
-void draw() 
+void draw()
 {
-  background(255, 255, 255);
-  lights();
+  bakgrund(255, 255, 255);
+  ljus();
   translate(x, y, 0);
-  sphere(20);
+  sfär(20);
   x = x + 1;
   y = y + 1;
 }
 ```
 
-\pagebreak
+\sidbrytning
 
-## 3D 2: Eindopdracht
+## 3D 2: Slutlig uppgift
 
- * Laat de bal nu naar voren en achter gaan, met de toetsen `q` en `e`
- * Maak een nieuwe variabele, bijvoorbeeld `z`, met als beginwaarde nul
+ * Få bollen att gå fram och tillbaka med tangenterna `q` och `e`
+ * Skapa en ny variabel, t.ex. "z", med initialt värde noll
 
-Dit ziet er misschien anders uit dan je verwacht!
+Det här kan se annorlunda ut än du förväntar dig!
 
-![3D 2: opdracht 3](3D2_Eindopdracht.png)
-
+![3D 2: uppgift 3](3D2_End assignment.png)

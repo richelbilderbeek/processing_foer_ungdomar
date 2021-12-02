@@ -1,102 +1,101 @@
-# 3D les 3: bal en kubus bewegen
+#3D Lektion 3: Flytta boll och kub
 
-In deze les gaan we een 3D bal en kubus laten bewegen.
+I den här lektionen ska vi göra en 3D-kula och kub-rörelse.
 
-\pagebreak
+\sidbrytning
 
-## 3D 3: opdracht 1 
+## 3D 3: uppgift 1
 
-Type deze code over:
+Skriv denna kod över:
 
 ```c++
 float x1 = 0;
 float x2 = 0;
 
-void setup() 
+void setup()
 {
-  size(300, 200, P3D);
+  storlek (300, 200, P3D);
   noStroke();
-  x1 = width * 1 / 4;
-  x2 = width * 3 / 4;
+  x1 = bredd * 1/4;
+  x2 = bredd * 3/4;
 }
 
-void draw() 
+void draw()
 {
-  background(196, 196, 196);
-  lights();
-  translate( x1,  height / 2, 0);
-  box(20);
+  bakgrund (196, 196, 196);
+  ljus();
+  translate( x1, höjd / 2, 0);
+  låda (20);
   translate(-x1, -height / 2, 0);
 
-  translate( x2,  height / 2, 0);
-  sphere(20);
+  translate( x2, höjd / 2, 0);
+  sfär(20);
   translate(-x2, -height / 2, 0);
 }
 ```
 
-Wat zie je?
+Vad ser du?
 
-\pagebreak
+\sidbrytning
 
-## 3D 3: oplossing 1 
+## 3D 3: lösning 1
 
-![3D 3: oplossing 1](3D3_1.png)
+![3D 3: lösning 1](3D3_1.png)
 
-Je ziet een kubus en een bal die stilstaan
-\pagebreak
+Du ser en kub och en boll som står stilla
+\sidbrytning
 
-## 3D 3: opdracht 2
+## 3D 3: uppgift 2
 
- * Zorg dat de kubus nu ook naar onder en boven kan gaan, met de toetsen `w` en `s`
- * Maak een nieuwe variabele, bijvoorbeeld `y1`, met als beginwaarde `height / 2`
+ * Se till att kuben nu också kan gå upp och ner, med tangenterna `w` och `s`
+ * Skapa en ny variabel, t.ex. "y1", med initialvärdet "höjd / 2".
 
-![3D 3: opdracht 2](3D3_2.png)
+![3D 3: kommando 2](3D3_2.png)
 
-\pagebreak
+\sidbrytning
 
-## 3D 3: oplossing 2 
+## 3D 3: lösning 2
 
 ```c++
 float x1 = 0;
 float x2 = 0;
 float y1 = 0;
 
-void setup() 
+void setup()
 {
-  size(300, 200, P3D);
+  storlek (300, 200, P3D);
   noStroke();
-  x1 = width * 1 / 4;
-  x2 = width * 3 / 4;
-  y1 = height / 2;
+  x1 = bredd * 1/4;
+  x2 = bredd * 3/4;
+  y1 = höjd / 2;
 }
 
-void draw() 
+void draw()
 {
-  background(196, 196, 196);
-  lights();
-  translate( x1,  y1, 0);
-  box(20);
-  translate(-x1, -y1, 0);
+  bakgrund (196, 196, 196);
+  ljus();
+  translate( x1, y1, 0);
+  låda (20);
+  translate(-xl, -yl, 0);
 
-  translate( x2,  height / 2, 0);
-  sphere(20);
+  translate( x2, höjd / 2, 0);
+  sfär(20);
   translate(-x2, -height / 2, 0);
   
-  if (keyPressed)
+  om (knapptryckt)
   {
-    if (key == 'w') y1 = y1 - 1; 
-    if (key == 's') y1 = y1 + 1; 
+    om (nyckel == 'w') y1 = y1 - 1;
+    om (nyckel == 's') y1 = y1 + 1;
   }
 }
 ```
 
-\pagebreak
+\sidbrytning
 
-## 3D 3: Eindopdracht
+## 3D 3: Slutlig uppgift
 
- * Laat de bal nu ook naar voren en achter gaan, met de toetsen `i` en `k`
- * Maak een nieuwe variabele, bijvoorbeeld `y2`, met als beginwaarde `height / 2`
+ * Låt nu också bollen gå fram och tillbaka med tangenterna `i` och `k`
+ * Skapa en ny variabel, t.ex. "y2", med initialvärdet "höjd / 2".
 
 
-![3D 3: opdracht 3](3D3_Eindopdracht.png)
-
+![3D 3: uppgift 3](3D3_End assignment.png)

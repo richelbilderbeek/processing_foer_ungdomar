@@ -1,110 +1,110 @@
-# 3D les 1: bal naar rechts
+# 3D-lektion 1: bollen till höger
 
-In deze les gaan we 3D programmeren.
+I den här lektionen ska vi programmera 3D.
 
-\pagebreak
+\sidbrytning
 
-## 3D 1: opdracht 1 
+## 3D 1: uppgift 1
 
-Type deze code over:
+Skriv denna kod över:
 
 ```c++
 float x = 0;
 
-void setup() 
+void setup()
 {
-  size(300, 200, P3D);
+  storlek (300, 200, P3D);
   noStroke();
 }
 
-void draw() 
+void draw()
 {
-  background(255, 255, 255);
+  bakgrund(255, 255, 255);
   translate(x, 100, 0);
-  lights();
-  sphere(20);
+  ljus();
+  sfär(20);
   x = x + 1;
 }
 ```
 
-Wat zie je?
+Vad ser du?
 
-\pagebreak
+\sidbrytning
 
-## 3D 1: oplossing 1 
+## 3D 1: lösning 1
 
-![3D 1: oplossing 1](3D1_1.png)
+![3D 1: lösning 1](3D1_1.png)
 
-Je ziet een bal van links naar rechts bewegen.
+Du ser en boll som rör sig från vänster till höger.
 
-Als je goed kijkt zie je dat het witste gedeelte van de bal ook van plek verandert.
+Om man tittar noga kan man se att den vitaste delen av bollen också byter plats.
 
-\pagebreak
+\sidbrytning
 
-## 3D 1: opdracht 2
+## 3D 1: uppgift 2
 
- * Laat de bal nu naar rechtsonder gaan
- * Maak een nieuwe variabele, bijvoorbeeld `y`
+ * Låt nu bollen gå längst ner till höger
+ * Skapa en ny variabel, till exempel `y`
 
-![3D 1: opdracht 2](3D1_2.png)
+![3D 1: kommando 2](3D1_2.png)
 
-\pagebreak
+\sidbrytning
 
-## 3D 1: oplossing 2 
+## 3D 1: lösning 2
 
 ```c++
 float x = 0;
-float y = 0;
+flytande y = 0;
 
-void setup() 
+void setup()
 {
-  size(300, 200, P3D);
+  storlek (300, 200, P3D);
   noStroke();
 }
 
-void draw() 
+void draw()
 {
-  background(255, 255, 255);
+  bakgrund(255, 255, 255);
   translate(x, y, 0);
-  lights();
-  sphere(20);
+  ljus();
+  sfär(20);
   x = x + 1;
   y = y + 1;
 }
 ```
 
-\pagebreak
+\sidbrytning
 
-## 3D 1: opdracht 3
+## 3D 1: uppgift 3
 
- * Laat de bal nu naar voren gaan
- * Maak een nieuwe variabele, bijvoorbeeld `z`
+ * Låt nu bollen gå framåt
+ * Skapa en ny variabel, till exempel `z`
 
-Dit ziet er misschien anders uit dan je verwacht!
+Det här kan se annorlunda ut än du förväntar dig!
 
-![3D 1: opdracht 3](3D1_3.png)
+![3D 1: kommando 3](3D1_3.png)
 
-\pagebreak
+\sidbrytning
 
-## 3D 1: oplossing 3
+## 3D 1: lösning 3
 
 ```c++
 float x = 0;
-float y = 0;
+flytande y = 0;
 float z = 0;
 
-void setup() 
+void setup()
 {
-  size(300, 200, P3D);
+  storlek (300, 200, P3D);
   noStroke();
 }
 
-void draw() 
+void draw()
 {
-  background(255, 255, 255);
+  bakgrund(255, 255, 255);
   translate(x, y, z);
-  lights();
-  sphere(20);
+  ljus();
+  sfär(20);
   x = x + 1;
   y = y + 1;
   z = z + 1;
@@ -112,11 +112,12 @@ void draw()
 ```
 
 
-## 3D 1: Eindopdracht
+## 3D 1: Slutlig uppgift
 
- * Maak de grootte van de bol gelijk aan de `x`
- * Haal `noStroke` weg
+ * Gör storleken på sfären lika med "x".
+ * Ta bort 'noStroke'
 
-Dit ziet er misschien anders uit dan je verwacht!
+Det här kan se annorlunda ut än du förväntar dig!
 
-![3D 1: Eindopdracht](3D1_Eindopdracht.png)
+![3D 1: Final Assignment](3D1_End Assignment.png) 
+
