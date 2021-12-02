@@ -1,4 +1,4 @@
-#3D Lektion 4: Belysning
+#3D Lektion 4: ljussättning
 
 Under den här lektionen ska vi exponera en 3D-boll.
 

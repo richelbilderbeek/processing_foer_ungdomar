@@ -1,4 +1,4 @@
-# 3D-lektion 1: bollen till höger
+# 3D-lektion 1: klotet rör sig
 
 Under den här lektionen ska vi programmera 3D.
 

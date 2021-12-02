@@ -1,4 +1,4 @@
-#3D Lektion 3: Flytta boll och kub
+#3D Lektion 3: klotet och kuben
 
 Under den här lektionen ska vi göra en 3D-kula och kub-rörelse.
 
