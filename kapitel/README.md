@@ -67,11 +67,16 @@ Kpt|Beskrivning
 35 |[Functies les 2: Schaapkleur](./FunctiesSchaapkleur/README.md)
 36 |[Functies les 3: Poten](./FunctiesPoten/README.md)
 37 |Functies les 4
-.  | **Boek 9**
-29 |[Muis les 1: Positie](./MuisPositie/README.md)
-30 |[Muis les 2: Positie](./MuisPositie/README.md)
-31 |[Muis les 3: Knoppen](./MuisKnoppen/README.md)
-32 |[Muis les 4: Scrollen](./MuisScroll/README.md)
+.  | **Boek 10**
+29 |[Muspekare 1: Positie](./MuisPositie/README.md)
+30 |[Muspekare 2: Positie](./MuisPositie/README.md)
+31 |[Muspekare 3: Knoppen](./MuisKnoppen/README.md)
+32 |[Muspekare 4: Scrollen](./MuisScroll/README.md)
+.  | **Boek 11**
+33 |[Ljud 1: Positie](./ljud_1/README.md)
+34 |[Ljud 2: Positie](./ljud_2/README.md)
+35 |.
+36 |.
 
 ### Osorterade
 
