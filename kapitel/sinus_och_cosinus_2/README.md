@@ -42,14 +42,14 @@ Du kommer att se en kvartscirkel i det övre vänstra hörnet.
 
 ## Sinus och Cosinus 2: uppgift 2
 
- * Flytta cirkeln till mitten'
+ * Flytta cirkeln till mitten
  * Gör detta genom att lägga till halva höjden med `y`
- * Gör detta genom att lägga till halva bredden med "x".
+ * Gör detta genom att lägga till halva bredden med `x`.
 
-![Solglasögon](EmojiSunglasses.png) | Tips: det är smart att sätta parenteser runt `höjd / 2`
+![Solglasögon](EmojiSunglasses.png) | Tips: det är smart att sätta parenteser runt `height / 2`
 :-----------------:|:-----------------------------:
 
-![Sinus och cosinus 2: kommando 2](sinus_och_cosinus_2_2.png)
+![Sinus och cosinus 2: uppgift 2](sinus_och_cosinus_2_2.png)
 
 \sidbrytning
 
@@ -84,7 +84,7 @@ void draw()
 
  * Rita en cirkel istället för en punkt. Cirkeln ska vara 20 pixlar bred och 20 pixlar hög
 
-![Sinus och cosinus 2: kommando 3](sinus_och_cosinus_2_3.png)
+![Sinus och cosinus 2: uppgift 3](sinus_och_cosinus_2_3.png)
 
 \pagebreak
 
@@ -92,7 +92,7 @@ void draw()
 
 Du kommer nu att se ett mönster.
 
-![Sinus och cosinus 3: kommando 2](sinus_och_cosinus_2_3.png)
+![Sinus och cosinus 3: uppgift 2](sinus_och_cosinus_2_3.png)
 
 ```c++
 float vinkel = 0;
@@ -116,9 +116,9 @@ void draw()
  * Se till att bollen inte lämnar en linje längre
  * Använd en vit bakgrund för detta
 
-![Sinus och cosinus 2: kommando 4](sinus_och_cosinus_2_4.png)
+![Sinus och cosinus 2: uppgift 4](sinus_och_cosinus_2_4.png)
 
-![Solglasögon](EmojiSunglasses.png) | Tips: använd `bakgrund`
+![Solglasögon](EmojiSunglasses.png) | Tips: använd `background`
 :-----------------:|:-----------------------------:
 
 

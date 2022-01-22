@@ -45,9 +45,9 @@ Du ser en cirkel i mitten, med en kanon
 
 ## Sinus och cosinus 4: uppgift 2
 
- * Få kanonen att rotera genom att göra `angle_gun` mer och mer `0.1`
+ * Få kanonen att rotera genom att göra `vinkel_kanon` mer och mer `0.1`
 
-![Sinus och cosinus 4: kommando 2](sinus_och_cosinus_4_2.png)
+![Sinus och cosinus 4: uppgift 2](sinus_och_cosinus_4_2.png)
 
 \pagebreak
 
@@ -79,7 +79,7 @@ void draw()
 
 ## Sinus och cosinus 4: uppgift 3
 
- * Se till att `angle_gun` blir noll när du trycker på mellanslagstangenten
+ * Se till att `vinkel_kanon` blir noll när du trycker på mellanslagstangenten
 
 Dricks:
 
@@ -88,7 +88,7 @@ if (keyPressed)
 {
   if (key == ' ')
   {
-    //Zet vinkel_kanon op nul
+    //Sett vinkel_kanon pa nol
   }
 }
 ```
@@ -98,7 +98,7 @@ if (keyPressed)
 
 ## Sinus och cosinus 4: lösning 3
 
-![Sinus och cosinus 4: kommando 3](sinus_och_cosinus_4_3.png)
+![Sinus och cosinus 4: uppgift 3](sinus_och_cosinus_4_3.png)
 
 ```c++
 float vinkel_kanon = 0;
@@ -135,9 +135,9 @@ void draw()
 
  * Gör variablerna `x_ball` och `y_kogel` högst upp
  * Ställ in de initiala värdena för `x_kogel` och `y_kogel` till noll
- * Rita en kula med mitten `(x_bullet, y_bullet)` med en cirkel som är 5 pixlar bred och hög
+ * Rita en kula med mitten `(x_kogel, y_kogel)` med en cirkel som är 5 pixlar bred och hög
 
-![Sinus och cosinus 4: kommando 4](sinus_och_cosinus_4_4.png)
+![Sinus och cosinus 4: uppgift 4](sinus_och_cosinus_4_4.png)
 
 \pagebreak
 
@@ -169,7 +169,7 @@ void draw()
   {
     if (key == ' ')
     {
-      angle_gun = 0;
+      vinkel_kanon = 0;
     }
   }
 }
@@ -180,11 +180,11 @@ void draw()
 ## Sinus och cosinus 4: uppgift 5
 
  * Om du trycker på mellanslagstangenten så ...
-    * får `x_bullet` värdet av `x_gun`
-    * får `y_bullet` värdet för `y_gun`
+    * får `x_kogel` värdet av `x_kanon`
+    * får `y_kogel` värdet för `y_kanon`
     * kanonen bara fortsätter snurra
 
-![Sinus och cosinus 4: kommando 5](sinus_och_cosinus_4_5.png)
+![Sinus och cosinus 4: uppgift 5](sinus_och_cosinus_4_5.png)
 
 \pagebreak
 
@@ -227,12 +227,12 @@ void draw()
 
 ## Sinus och cosinus 4: uppgift 6
 
- * Skapa en ny variabel ovanför `setup-funktionen` med namnet `angle_ball`
+ * Skapa en ny variabel ovanför `setup-funktionen` med namnet `vinkel_ball`
  * Ge `corner_ball` startvärdet noll
- * Låt `x_ball` bli mer och mer med cosinus av `angle_ball`
- * Låt `y_ball` bli *mindre* med sinus för `angle_ball`
+ * Låt `x_ball` bli mer och mer med cosinus av `vinkel_ball`
+ * Låt `y_ball` bli *mindre* med sinus för `vinkel_ball`
 
-![Sinus och cosinus 4: kommando 6](sinus_och_cosinus_4_6.png)
+![Sinus och cosinus 4: uppgift 6](sinus_och_cosinus_4_6.png)
 
 \pagebreak
 
@@ -281,7 +281,7 @@ void draw()
 Nu avslutar vi spelet:
 
  * Se till att kulan inte är synlig i början (tips: ställ in `y_kogel` på minus hundra)
- * Om du trycker på blanksteg, ställ in `corner_bullet` lika med `corner_gun`
+ * Om du trycker på blanksteg, ställ in `corner_kogel` lika med `corner_kanon`
 
 ![Sinus och cosinus 4: Slutuppgift](sinus_och_cosinus_4_slutuppgift.png)
 
