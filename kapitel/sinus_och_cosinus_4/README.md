@@ -1,39 +1,39 @@
 # Sinus och cosinus 4: skjutning
 
-I den här lektionen ska vi använda en sinus och cosinus för att skjuta en kula
+Under den här lektionen ska vi använda en sinus och cosinus för att skjuta en kula
 
 ![Xybots](Xybots.jpg)
 
-\sidbrytning
+\pagebreak
 
 ## Sinus och cosinus 4: uppgift 1
 
 Skriv denna kod över:
 
 ```c++
-float angle_gun = 0;
+float vinkel_kanon = 0;
 
 void setup()
 {
-  storlek (300, 200);
+  size(300, 200);
   strokeWeight(5);
 }
 
 void draw()
 {
-  bakgrund(255, 255, 255);
-  final float x_center = width/2;
-  final float y_middle = höjd / 2;
-  final float x_gun = x_center + (cos(angle_gun) * 20);
-  final float y_gun = y_center - (sin(angle_gun) * 20);
-  line(x_center, y_center, x_gun, y_gun);
-  ellips(x_center, y_center, 20, 20);
+  background(255, 255, 255);
+  final float x_mitten = width / 2;
+  final float y_mitten = height / 2;
+  final float x_kanon = x_mitten + (cos(vinkel_kanon) * 20);
+  final float y_kanon = y_mitten - (sin(vinkel_kanon) * 20);  
+  line(x_mitten, y_mitten, x_kanon, y_kanon);
+  ellipse(x_mitten, y_mitten, 20, 20);
 }
 ```
 
 Vad ser du?
 
-\sidbrytning
+\pagebreak
 
 ## Sinus och cosinus 4: lösning 1
 
@@ -41,7 +41,7 @@ Vad ser du?
 
 Du ser en cirkel i mitten, med en kanon
 
-\sidbrytning
+\pagebreak
 
 ## Sinus och cosinus 4: uppgift 2
 
@@ -49,33 +49,33 @@ Du ser en cirkel i mitten, med en kanon
 
 ![Sinus och cosinus 4: kommando 2](SinusEnCosine4_2.png)
 
-\sidbrytning
+\pagebreak
 
 ## Sinus och cosinus 4: lösning 2
 
 ```c++
-float angle_gun = 0;
+float vinkel_kanon = 0;
 
 void setup()
 {
-  storlek (300, 200);
+  size(300, 200);
   strokeWeight(5);
 }
 
 void draw()
 {
-  bakgrund(255, 255, 255);
-  final float x_center = width/2;
-  final float y_middle = höjd / 2;
-  final float x_gun = x_center + (cos(angle_gun) * 20);
-  final float y_gun = y_center - (sin(angle_gun) * 20);
-  line(x_center, y_center, x_gun, y_gun);
-  ellips(x_center, y_center, 20, 20);
-  angle_gun += 0,1;
+  background(255, 255, 255);
+  final float x_mitten = width / 2;
+  final float y_mitten = height / 2;
+  final float x_kanon = x_mitten + (cos(vinkel_kanon) * 20);
+  final float y_kanon = y_mitten - (sin(vinkel_kanon) * 20);  
+  line(x_mitten, y_mitten, x_kanon, y_kanon);
+  ellipse(x_mitten, y_mitten, 20, 20);
+  vinkel_kanon += 0.1;
 }
 ```
 
-\sidbrytning
+\pagebreak
 
 ## Sinus och cosinus 4: uppgift 3
 
@@ -84,52 +84,52 @@ void draw()
 Dricks:
 
 ```c++
-om (knapptryckt)
+if (keyPressed)
 {
-  if (nyckel == ' ')
+  if (key == ' ')
   {
-    //Sätt angle_gun till noll
+    //Zet vinkel_kanon op nul
   }
 }
 ```
 
 
-\sidbrytning
+\pagebreak
 
 ## Sinus och cosinus 4: lösning 3
 
 ![Sinus och cosinus 4: kommando 3](SinusEnCosine4_3.png)
 
 ```c++
-float angle_gun = 0;
+float vinkel_kanon = 0;
 
 void setup()
 {
-  storlek (300, 200);
+  size(300, 200);
   strokeWeight(5);
 }
 
 void draw()
 {
-  bakgrund(255, 255, 255);
-  final float x_center = width/2;
-  final float y_middle = höjd / 2;
-  final float x_gun = x_center + (cos(angle_gun) * 20);
-  final float y_gun = y_center - (sin(angle_gun) * 20);
-  line(x_center, y_center, x_gun, y_gun);
-  ellips(x_center, y_center, 20, 20);
-  angle_gun += 0,1;
-  om (knapptryckt)
+  background(255, 255, 255);
+  final float x_mitten = width / 2;
+  final float y_mitten = height / 2;
+  final float x_kanon = x_mitten + (cos(vinkel_kanon) * 20);
+  final float y_kanon = y_mitten - (sin(vinkel_kanon) * 20);  
+  line(x_mitten, y_mitten, x_kanon, y_kanon);
+  ellipse(x_mitten, y_mitten, 20, 20);
+  vinkel_kanon += 0.1;
+  if (keyPressed)
   {
-    if (nyckel == ' ')
+    if (key == ' ')
     {
-      angle_gun = 0;
+      vinkel_kanon = 0;
     }
   }
 }
 ```
 
-\sidbrytning
+\pagebreak
 
 ## Sinus och cosinus 4: uppgift 4
 
@@ -139,35 +139,35 @@ void draw()
 
 ![Sinus och cosinus 4: kommando 4](SinusEnCosine4_4.png)
 
-\sidbrytning
+\pagebreak
 
 ## Sinus och cosinus 4: lösning 4
 
 ```c++
-float angle_gun = 0;
-float x_bullet = 0;
-flyta y_bullet = 0;
+float vinkel_kanon = 0;
+float x_kogel = 0;
+float y_kogel = 0;
 
 void setup()
 {
-  storlek (300, 200);
+  size(300, 200);
   strokeWeight(5);
 }
 
 void draw()
 {
-  bakgrund(255, 255, 255);
-  final float x_center = width/2;
-  final float y_middle = höjd / 2;
-  final float x_gun = x_center + (cos(angle_gun) * 20);
-  final float y_gun = y_center - (sin(angle_gun) * 20);
-  line(x_center, y_center, x_gun, y_gun);
-  ellips(x_center, y_center, 20, 20);
-  ellips(x_ball, y_ball, 5, 5);
-  angle_gun += 0,1;
-  om (knapptryckt)
+  background(255, 255, 255);
+  final float x_mitten = width / 2;
+  final float y_mitten = height / 2;
+  final float x_kanon = x_mitten + (cos(vinkel_kanon) * 20);
+  final float y_kanon = y_mitten - (sin(vinkel_kanon) * 20);  
+  line(x_mitten, y_mitten, x_kanon, y_kanon);
+  ellipse(x_mitten, y_mitten, 20, 20);
+  ellipse(x_kogel, y_kogel, 5, 5);
+  vinkel_kanon += 0.1;
+  if (keyPressed)
   {
-    if (nyckel == ' ')
+    if (key == ' ')
     {
       angle_gun = 0;
     }
@@ -175,7 +175,7 @@ void draw()
 }
 ```
 
-\sidbrytning
+\pagebreak
 
 ## Sinus och cosinus 4: uppgift 5
 
@@ -186,44 +186,44 @@ void draw()
 
 ![Sinus och cosinus 4: kommando 5](SinusEnCosine4_5.png)
 
-\sidbrytning
+\pagebreak
 
 ## Sinus och cosinus 4: lösning 5
 
 ```c++
-float angle_gun = 0;
-float x_bullet = 0;
-flyta y_bullet = 0;
+float vinkel_kanon = 0;
+float x_kogel = 0;
+float y_kogel = 0;
 
 void setup()
 {
-  storlek (300, 200);
+  size(300, 200);
   strokeWeight(5);
 }
 
 void draw()
 {
-  bakgrund(255, 255, 255);
-  final float x_center = width/2;
-  final float y_middle = höjd / 2;
-  final float x_gun = x_center + (cos(angle_gun) * 20);
-  final float y_gun = y_center - (sin(angle_gun) * 20);
-  line(x_center, y_center, x_gun, y_gun);
-  ellips(x_center, y_center, 20, 20);
-  ellips(x_ball, y_ball, 5, 5);
-  angle_gun += 0,1;
-  om (knapptryckt)
+  background(255, 255, 255);
+  final float x_mitten = width / 2;
+  final float y_mitten = height / 2;
+  final float x_kanon = x_mitten + (cos(vinkel_kanon) * 20);
+  final float y_kanon = y_mitten - (sin(vinkel_kanon) * 20);  
+  line(x_mitten, y_mitten, x_kanon, y_kanon);
+  ellipse(x_mitten, y_mitten, 20, 20);
+  ellipse(x_kogel, y_kogel, 5, 5);
+  vinkel_kanon += 0.1;
+  if (keyPressed)
   {
-    if (nyckel == ' ')
+    if (key == ' ')
     {
-      x_bullet = x_gun;
-      y_bullet = y_gun;
+      x_kogel = x_kanon;
+      y_kogel = y_kanon;
     }
   }
 }
 ```
 
-\sidbrytning
+\pagebreak
 
 ## Sinus och cosinus 4: uppgift 6
 
@@ -234,47 +234,47 @@ void draw()
 
 ![Sinus och cosinus 4: kommando 6](SinusEnCosine4_6.png)
 
-\sidbrytning
+\pagebreak
 
 ## Sinus och cosinus 4: lösning 6
 
 ```c++
-float angle_gun = 0;
-float x_bullet = 0;
-flyta y_bullet = 0;
-float angle_ball = 0;
+float vinkel_kanon = 0;
+float x_kogel = 0;
+float y_kogel = 0;
+float vinkel_kogel = 0;
 
 void setup()
 {
-  storlek (300, 200);
+  size(300, 200);
   strokeWeight(5);
 }
 
 void draw()
 {
-  bakgrund(255, 255, 255);
-  final float x_center = width/2;
-  final float y_middle = höjd / 2;
-  final float x_gun = x_center + (cos(angle_gun) * 20);
-  final float y_gun = y_center - (sin(angle_gun) * 20);
-  x_ball += cos(angle_ball);
-  y_ball -= sin(angle_ball);
-  line(x_center, y_center, x_gun, y_gun);
-  ellips(x_center, y_center, 20, 20);
-  ellips(x_ball, y_ball, 5, 5);
-  angle_gun += 0,1;
-  om (knapptryckt)
+  background(255, 255, 255);
+  final float x_mitten = width / 2;
+  final float y_mitten = height / 2;
+  final float x_kanon = x_mitten + (cos(vinkel_kanon) * 20);
+  final float y_kanon = y_mitten - (sin(vinkel_kanon) * 20);
+  x_kogel += cos(vinkel_kogel);
+  y_kogel -= sin(vinkel_kogel);
+  line(x_mitten, y_mitten, x_kanon, y_kanon);
+  ellipse(x_mitten, y_mitten, 20, 20);
+  ellipse(x_kogel, y_kogel, 5, 5);
+  vinkel_kanon += 0.1;
+  if (keyPressed)
   {
-    if (nyckel == ' ')
+    if (key == ' ')
     {
-      x_bullet = x_gun;
-      y_bullet = y_gun;
+      x_kogel = x_kanon;
+      y_kogel = y_kanon;
     }
   }
 }
 ```
 
-\sidbrytning
+\pagebreak
 
 ## Sinus och cosinus 4: Slutuppgift
 

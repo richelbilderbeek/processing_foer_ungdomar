@@ -4,30 +4,30 @@ I den här lektionen ska vi använda en sinus och cosinus för att skapa ett sol
 
 ![Chaos Engine](ChaosEngine.jpg)
 
-\sidbrytning
+\pagebreak
 
-## Sinus och Cosinus 3: Kommando 1
+## Sinus och Cosinus 3: uppgift 1
 
 Skriv denna kod över:
 
 ```c++
 void setup()
 {
-  storlek (300, 200);
+  size(300, 200);
 }
 
 void draw()
 {
-  bakgrund(255, 255, 255);
+  background(255, 255, 255);
   final float x_zon = width / 2;
-  final float y_zon = höjd / 2;
-  ellips(x_sun, y_sun, 20, 20);
+  final float y_zon = height / 2;
+  ellipse(x_zon, y_zon, 20, 20);
 }
 ```
 
 Vad ser du?
 
-\sidbrytning
+\pagebreak
 
 ## Sinus och cosinus 3: lösning 1
 
@@ -35,9 +35,9 @@ Vad ser du?
 
 Du ser en cirkel i mitten: solen!
 
-\sidbrytning
+\pagebreak
 
-## Sinus och Cosinus 3: Kommando 2
+## Sinus och Cosinus 3: uppgift 2
 
  * Skapa två nya variabler: `x_earth` och `y_earth` (inom `draw`-funktionen)
  * Värdet på "x_earth" är värdet på "x_sun" plus 50
@@ -47,31 +47,31 @@ Du ser en cirkel i mitten: solen!
 
 ![Sinus och cosinus 3: kommando 2](SinusEnCosine3_2.png)
 
-\sidbrytning
+\pagebreak
 
 ## Sinus och cosinus 3: lösning 2
 
 ```c++
 void setup()
 {
-  storlek (300, 200);
+  size(300, 200);
 }
 
 void draw()
 {
-  bakgrund(255, 255, 255);
+  background(255, 255, 255);
   final float x_zon = width / 2;
-  final float y_zon = höjd / 2;
-  ellips(x_sun, y_sun, 20, 20);
-  final float x_earth = x_sun + 50;
-  final float y_earth = y_sun + 50;
-  ellips(x_earth, y_earth, 10, 10);
+  final float y_zon = height / 2;
+  ellipse(x_zon, y_zon, 20, 20);
+  final float x_aarde = x_zon + 50;
+  final float y_aarde = y_zon + 50;
+  ellipse(x_aarde, y_aarde, 10, 10);
 }
 ```
 
-\sidbrytning
+\pagebreak
 
-## Sinus och Cosinus 3: Kommando 3
+## Sinus och Cosinus 3: uppgift 3
 
  * Skapa en ny variabel `angle_earth`, lägg den högst upp
  * Gör `angle_earth` mer i slutet av `draw`-funktionen. Använd ett värde som "0,01".
@@ -79,7 +79,7 @@ void draw()
 
 Vad ser du?
 
-\sidbrytning
+\pagebreak
 
 ## Sinus och cosinus 3: lösning 3
 
@@ -88,27 +88,27 @@ Du ser nu jorden gå fram och tillbaka
 ![Sinus och cosinus 3: kommando 2](SinusEnCosine3_3.png)
 
 ```c++
-float angle_ground = 0;
+float vinkel_aarde = 0;
 
 void setup()
 {
-  storlek (300, 200);
+  size(300, 200);
 }
 
 void draw()
 {
-  bakgrund(255, 255, 255);
+  background(255, 255, 255);
   final float x_zon = width / 2;
-  final float y_zon = höjd / 2;
-  ellips(x_sun, y_sun, 20, 20);
-  final float x_earth = x_sun + (50 * sin(angle_earth));
-  final float y_earth = y_sun + 50;
-  ellips(x_earth, y_earth, 10, 10);
-  angle_ground += 0,01;
+  final float y_zon = height / 2;
+  ellipse(x_zon, y_zon, 20, 20);
+  final float x_aarde = x_zon + (50 * sin(vinkel_aarde));
+  final float y_aarde = y_zon + 50;
+  ellipse(x_aarde, y_aarde, 10, 10);
+  vinkel_aarde += 0.01;
 }
 ```
 
-\sidbrytning
+\pagebreak
 
 ## Sinus och cosinus 3: uppgift 4
 
@@ -118,9 +118,9 @@ void draw()
 ![Sinus och cosinus 3: kommando 4](SinusEnCosine3_4.png)
 
 
-\sidbrytning
+\pagebreak
 
-## Sinus och Cosinus 3: Kommando 5
+## Sinus och Cosinus 3: uppgift 5
 
  * Skapa två nya variabler: `x_maan` och `y_maan` (inom `draw`-funktionen)
  * Värdet på "x_moon" är värdet på "x_earth" plus 10
@@ -129,7 +129,7 @@ void draw()
 
 ![Sinus och cosinus 3: kommando 5](SinusEnCosine3_5.png)
 
-\sidbrytning
+\pagebreak
 
 ## Sinus och cosinus 3: Slutuppgift
 
@@ -140,4 +140,4 @@ Låt månen kretsa runt jorden!
  * Gör "x_moon" nu "x_earth" plus tio gånger sinus för "angle_earth"
  * Samma för "y_moon".
 
-![Sinus och cosinus 3: Slutuppgift](SinusEnCosinus3_Endcommand.png)
+![Sinus och cosinus 3: Slutuppgift](SinusEnCosinus3_slutupgpgift.png)

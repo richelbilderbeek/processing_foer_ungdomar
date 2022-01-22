@@ -1,35 +1,36 @@
-# Sinus och cosinus 2: tecken.
+# Sinus och cosinus 2: rita
 
-I den här lektionen ska vi använda en sinus och cosinus för att få en måne att kretsa runt en planet.
+Under den här lektionen ska vi använda en sinus och cosinus 
+för att få en måne att kretsa runt en planet.
 
 ![Spacewar](Spacewar.png)
 
-\sidbrytning
+\pagebreak
 
 ## Sinus och cosinus 2: uppgift 1
 
 Skriv denna kod över:
 
 ```c++
-flytvinkel = 0;
+float vinkel = 0;
 
 void setup()
 {
-  storlek (300, 200);
+  size(300, 200);
 }
 
 void draw()
 {
-  slutlig float x = cos(vinkel) * 100;
+  final float x = cos(vinkel) * 100;
   final float y = sin(vinkel) * 100;
-  punkt (x, y);
-  vinkel = vinkel + 0,01;
+  point(x, y);
+  vinkel = vinkel + 0.01;  
 }
 ```
 
 Vad ser du?
 
-\sidbrytning
+\pagebreak
 
 ## Sinus och cosinus 2: lösning 1
 
@@ -37,16 +38,16 @@ Vad ser du?
 
 Du kommer att se en kvartscirkel i det övre vänstra hörnet.
 
-\sidbrytning
+\pagebreak
 
-## Sinus och Cosinus 2: Kommando 2
+## Sinus och Cosinus 2: uppgift 2
 
  * Flytta cirkeln till mitten'
  * Gör detta genom att lägga till halva höjden med `y`
  * Gör detta genom att lägga till halva bredden med "x".
 
 ![Solglasögon](EmojiSunglasses.png) | Tips: det är smart att sätta parenteser runt `höjd / 2`
-:-----------------:|:---------------------- ------- :
+:-----------------:|:-----------------------------:
 
 ![Sinus och cosinus 2: kommando 2](SinusEnCosinus2_2.png)
 
@@ -55,29 +56,29 @@ Du kommer att se en kvartscirkel i det övre vänstra hörnet.
 ## Sinus och cosinus 2: lösning 2
 
 ```c++
-flytvinkel = 0;
+float vinkel = 0;
 
 void setup()
 {
-  storlek (300, 200);
+  size(300, 200);
 }
 
 void draw()
 {
-  slutlig float x = cos(vinkel) * 100 + (bredd / 2);
-  final float y = sin(vinkel) * 100 + (höjd / 2);
-  punkt (x, y);
-  vinkel = vinkel + 0,01;
+  final float x = cos(vinkel) * 100 + (width / 2);
+  final float y = sin(vinkel) * 100 + (height / 2);
+  point(x, y);
+  vinkel = vinkel + 0.01;  
 }
 ```
 
 ![Solglasögon](EmojiSunglasses.png) | Fästena hjälper datorn att veta ordningen på en beräkning
-:-----------------:|:---------------------- ------- :
+:-----------------:|:-----------------------------:
 
 ![Solglasögon](EmojiSunglasses.png) | En sinus och cosinus tillsammans kan rita en cirkel
-:-----------------:|:---------------------- ------- :
+:-----------------:|:-----------------------------:
 
-\sidbrytning
+\pagebreak
 
 ## Sinus och cosinus 2: uppgift 3
 
@@ -85,7 +86,7 @@ void draw()
 
 ![Sinus och cosinus 2: kommando 3](SinusEnCosinus2_3.png)
 
-\sidbrytning
+\pagebreak
 
 ## Sinus och cosinus 2: lösning 3
 
@@ -94,19 +95,19 @@ Du kommer nu att se ett mönster.
 ![Sinus och cosinus 3: kommando 2](SinusEnCosine2_3.png)
 
 ```c++
-flytvinkel = 0;
+float vinkel = 0;
 
 void setup()
 {
-  storlek (300, 200);
+  size(300, 200);
 }
 
 void draw()
 {
-  slutlig float x = cos(vinkel) * 100 + (bredd / 2);
-  final float y = sin(vinkel) * 100 + (höjd / 2);
-  ellips(x, y, 20, 20);
-  vinkel = vinkel + 0,01;
+  final float x = cos(vinkel) * 100 + (width / 2);
+  final float y = sin(vinkel) * 100 + (height / 2);
+  ellipse(x, y, 20, 20);
+  vinkel = vinkel + 0.01;  
 }
 ```
 
@@ -118,10 +119,10 @@ void draw()
 ![Sinus och cosinus 2: kommando 4](SinusEnCosinus2_4.png)
 
 ![Solglasögon](EmojiSunglasses.png) | Tips: använd `bakgrund`
-:-----------------:|:---------------------- ------- :
+:-----------------:|:-----------------------------:
 
 
-\sidbrytning
+\pagebreak
 
 ## Sinus och cosinus 2: Slutuppgift
 

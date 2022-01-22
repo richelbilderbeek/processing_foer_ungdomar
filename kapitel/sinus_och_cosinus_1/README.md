@@ -1,12 +1,12 @@
-# Sinus och cosinus 1: tecken.
+# Sinus och cosinus 1: graf
 
-I den här lektionen ska vi rita en sinus och en cosinus.
+Under den här lektionen ska vi rita en sinus och en cosinus.
 
 ![Elite](Elite.jpg)
 
-\sidbrytning
+\pagebreak
 
-## Sinus och Cosinus 1: Kommando 1
+## Sinus och Cosinus 1: uppgift 1
 
 Skriv denna kod över:
 
@@ -15,23 +15,23 @@ float x = 0;
 
 void setup()
 {
-  storlek (314, 200);
+  size(314, 200);
 }
 
 void draw()
 {
   final float y = sin(x);
-  punkt (x, y);
-  x = x + 1;
+  point(x, y);
+  x = x + 1;  
 }
 ```
 
 Vad ser du?
 
 ![Solglasögon](EmojiSunglasses.png) | 314 är ungefär hundra gånger talet pi
-:-----------------:|:----------------------------- -------- -------:
+:-----------------:|:--------------------------------------------:
 
-\sidbrytning
+\pagebreak
 
 ## Sinus och cosinus 1: lösning 1
 
@@ -39,18 +39,18 @@ Vad ser du?
 
 Du kommer att se en sorts prickad linje längst upp.
 
-\sidbrytning
+\pagebreak
 
-## Sinus och Cosinus 1: Kommando 2
+## Sinus och Cosinus 1: uppgift 2
 
  * Flytta den prickade linjen nedåt. Gör detta genom att lägga till halva höjden med `y`
 
 ![Solglasögon](EmojiSunglasses.png) | Tips: det är smart att sätta parenteser runt `höjd / 2`
-:-----------------:|:----------------------------- -------- -------:
+:-----------------:|:--------------------------------------------:
 
 ![Sinus och cosinus 1: kommando 2](SinusEnCosine1_2.png)
 
-\sidbrytning
+\pagebreak
 
 ## Sinus och cosinus 1: lösning 2
 
@@ -59,24 +59,24 @@ float x = 0;
 
 void setup()
 {
-  storlek (314, 200);
+  size(314, 200);
 }
 
 void draw()
 {
-  slutlig float y = sin(x) + (höjd / 2);
-  punkt (x, y);
-  x = x + 1;
+  final float y = sin(x) + (height / 2);
+  point(x, y);
+  x = x + 1;  
 }
 ```
 
 ![Solglasögon](EmojiSunglasses.png) | Fästena hjälper datorn att veta ordningen på en beräkning
-:-----------------:|:---------------------- ------- :
+:-----------------:|:-----------------------------:
 
 ![Solglasögon](EmojiSunglasses.png) | En sinusvåg är formad som en våg som svänger mellan -1 och 1
-:-----------------:|:----------------------------- -------- -------:
+:-----------------:|:--------------------------------------------:
 
-\sidbrytning
+\pagebreak
 
 ## Sinus och cosinus 1: uppgift 3
 
@@ -85,9 +85,9 @@ void draw()
 ![Sinus och cosinus 1: kommando 3](SinusEnCosine1_3.png)
 
 ![Solglasögon](EmojiSunglasses.png) | Parentes är viktigt!
-:-----------------:|:----------------------------- -------- -------:
+:-----------------:|:--------------------------------------------:
 
-\sidbrytning
+\pagebreak
 
 ## Sinus och cosinus 1: lösning 3
 
@@ -100,22 +100,22 @@ float x = 0;
 
 void setup()
 {
-  storlek (314, 200);
+  size(314, 200);
 }
 
 void draw()
 {
-  slutlig float y = (sin(x) * 50) + (höjd / 2);
-  punkt (x, y);
-  x = x + 1;
+  final float y = (sin(x) * 50) + (height / 2);
+  point(x, y);
+  x = x + 1;  
 }
 ```
 
 ![Solglasögon](EmojiSunglasses.png) | Det är en röra, eftersom vi blandar ungefär 100 bihålor
-:-----------------:|:----------------------------- -------- -------:
+:-----------------:|:--------------------------------------------:
 
 ![Solglasögon](EmojiSunglasses.png) | `*50` gör att sinus förstoras femtio gånger
-:-----------------:|:----------------------------- -------- -------:
+:-----------------:|:--------------------------------------------:
 
 ## Sinus och cosinus 1: uppgift 4
 
@@ -124,7 +124,7 @@ void draw()
 ![Sinus och cosinus 1: kommando 4](SinusEnCosine1_4.png)
 
 
-\sidbrytning
+\pagebreak
 
 ## Sinus och cosinus 1: lösning 4
 
@@ -137,25 +137,25 @@ float x = 0;
 
 void setup()
 {
-  storlek (314, 200);
+  size(314, 200);
 }
 
 void draw()
 {
-  slutlig float y = (sin(x / 25) * 50) + (höjd / 2);
-  punkt (x, y);
-  x = x + 1;
+  final float y = (sin(x / 25) * 50) + (height / 2);
+  point(x, y);
+  x = x + 1;  
 }
 ```
 
-## Sinus och Cosinus 1: Kommando 5
+## Sinus och Cosinus 1: uppgift 5
 
  * Ersätt `sin(x)` med `cos(x)`
 
 ![Sinus och cosinus 1: kommando 5](SinusEnCosine1_5.png)
 
 
-\sidbrytning
+\pagebreak
 
 ## Sinus och cosinus 1: lösning 5
 
@@ -168,20 +168,20 @@ float x = 0;
 
 void setup()
 {
-  storlek (314, 200);
+  size(314, 200);
 }
 
 void draw()
 {
-  slutlig float y = (sin(x / 25) * 50) + (höjd / 2);
-  punkt (x, y);
-  x = x + 1;
+  final float y = (sin(x / 25) * 50) + (height / 2);
+  point(x, y);
+  x = x + 1;  
 }
 ```
 
 
 ![Solglasögon](EmojiSunglasses.png) | `x / 25` ser till att vi går 25x lugnare genom sinus
-:-----------------:|:---------------------- ------- :
+:-----------------:|:-----------------------------:
 
 \sidbrytning
 
