@@ -51,7 +51,7 @@ Du kommer att se en kvartscirkel i det övre vänstra hörnet.
 
 ![Sinus och cosinus 2: uppgift 2](sinus_och_cosinus_2_2.png)
 
-\sidbrytning
+\pagebreak
 
 ## Sinus och cosinus 2: lösning 2
 

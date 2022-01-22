@@ -182,7 +182,7 @@ void draw()
 ![Solglasögon](EmojiSunglasses.png) | `x / 25` ser till att vi går 25 gånger lugnare genom sinus
 :-----------------:|:-----------------------------:
 
-\sidbrytning
+\pagebreak
 
 ## Sinus och cosinus 1: Slutuppgift
 
