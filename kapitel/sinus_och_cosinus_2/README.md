@@ -34,7 +34,7 @@ Vad ser du?
 
 ## Sinus och cosinus 2: lösning 1
 
-![Sinus och cosinus 2: lösning 1](SinusEnCosine2_1.png)
+![Sinus och cosinus 2: lösning 1](sinus_och_cosinus_2_1.png)
 
 Du kommer att se en kvartscirkel i det övre vänstra hörnet.
 
@@ -92,7 +92,7 @@ void draw()
 
 Du kommer nu att se ett mönster.
 
-![Sinus och cosinus 3: kommando 2](SinusEnCosine2_3.png)
+![Sinus och cosinus 3: kommando 2](sinus_och_cosinus_2_3.png)
 
 ```c++
 float vinkel = 0;

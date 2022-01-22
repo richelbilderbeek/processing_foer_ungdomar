@@ -37,7 +37,7 @@ Vad ser du?
 
 ## Sinus och cosinus 4: lösning 1
 
-![Sinus och cosinus 4: lösning 1](SinusEnCosine4_1.png)
+![Sinus och cosinus 4: lösning 1](sinus_och_cosinus_4_1.png)
 
 Du ser en cirkel i mitten, med en kanon
 
@@ -47,7 +47,7 @@ Du ser en cirkel i mitten, med en kanon
 
  * Få kanonen att rotera genom att göra `angle_gun` mer och mer `0.1`
 
-![Sinus och cosinus 4: kommando 2](SinusEnCosine4_2.png)
+![Sinus och cosinus 4: kommando 2](sinus_och_cosinus_4_2.png)
 
 \pagebreak
 
@@ -98,7 +98,7 @@ if (keyPressed)
 
 ## Sinus och cosinus 4: lösning 3
 
-![Sinus och cosinus 4: kommando 3](SinusEnCosine4_3.png)
+![Sinus och cosinus 4: kommando 3](sinus_och_cosinus_4_3.png)
 
 ```c++
 float vinkel_kanon = 0;
@@ -137,7 +137,7 @@ void draw()
  * Ställ in de initiala värdena för `x_kogel` och `y_kogel` till noll
  * Rita en kula med mitten `(x_bullet, y_bullet)` med en cirkel som är 5 pixlar bred och hög
 
-![Sinus och cosinus 4: kommando 4](SinusEnCosine4_4.png)
+![Sinus och cosinus 4: kommando 4](sinus_och_cosinus_4_4.png)
 
 \pagebreak
 
@@ -184,7 +184,7 @@ void draw()
     * får `y_bullet` värdet för `y_gun`
     * kanonen bara fortsätter snurra
 
-![Sinus och cosinus 4: kommando 5](SinusEnCosine4_5.png)
+![Sinus och cosinus 4: kommando 5](sinus_och_cosinus_4_5.png)
 
 \pagebreak
 
@@ -232,7 +232,7 @@ void draw()
  * Låt `x_ball` bli mer och mer med cosinus av `angle_ball`
  * Låt `y_ball` bli *mindre* med sinus för `angle_ball`
 
-![Sinus och cosinus 4: kommando 6](SinusEnCosine4_6.png)
+![Sinus och cosinus 4: kommando 6](sinus_och_cosinus_4_6.png)
 
 \pagebreak
 

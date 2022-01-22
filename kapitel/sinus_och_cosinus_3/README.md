@@ -31,7 +31,7 @@ Vad ser du?
 
 ## Sinus och cosinus 3: lösning 1
 
-![Sinus och cosinus 3: lösning 1](SinusEnCosine3_1.png)
+![Sinus och cosinus 3: lösning 1](sinus_och_cosinus_3_1.png)
 
 Du ser en cirkel i mitten: solen!
 
@@ -45,7 +45,7 @@ Du ser en cirkel i mitten: solen!
  * Rita jorden som en cirkel med en bredd och höjd på 10 pixlar
 
 
-![Sinus och cosinus 3: kommando 2](SinusEnCosine3_2.png)
+![Sinus och cosinus 3: kommando 2](sinus_och_cosinus_3_2.png)
 
 \pagebreak
 
@@ -85,7 +85,7 @@ Vad ser du?
 
 Du ser nu jorden gå fram och tillbaka
 
-![Sinus och cosinus 3: kommando 2](SinusEnCosine3_3.png)
+![Sinus och cosinus 3: kommando 2](sinus_och_cosinus_3_3.png)
 
 ```c++
 float vinkel_aarde = 0;
@@ -115,7 +115,7 @@ void draw()
  * Se till att jorden går runt solen nu
  * Gör nu `y_earth` `y_sun` plus femtio gånger cosinus för `angle_earth`
 
-![Sinus och cosinus 3: kommando 4](SinusEnCosine3_4.png)
+![Sinus och cosinus 3: kommando 4](sinus_och_cosinus_3_4.png)
 
 
 \pagebreak
@@ -127,7 +127,7 @@ void draw()
  * Värdet på "y_moon" är värdet på "y_earth" plus 10
  * Rita månen som en cirkel med en bredd och höjd på 5 pixlar
 
-![Sinus och cosinus 3: kommando 5](SinusEnCosine3_5.png)
+![Sinus och cosinus 3: kommando 5](sinus_och_cosinus_3_5.png)
 
 \pagebreak
 
