@@ -46,10 +46,10 @@ Kpt|Beskrivning
 23 |[3D 3: klotet och kuben](./3D_3/README.md)
 24 |[3D 4: ljussättning](./3D_4/README.md)
 .  | **Bok 7**
-25 |[Sinus och cosinus 1: graf](./SinusEnCosinus1/README.md)
-26 |[Sinus och cosinus 2: ritar](./SinusEnCosinus2/README.md)
-27 |[Sinus och cosinus 3: planeter](./SinusEnCosinus3/README.md)
-28 |[Sinus och cosinus 4: skjuta](./SinusEnCosinus4/README.md)
+25 |[Sinus och cosinus 1: graf](./sinus_och_cosinus_1/README.md)
+26 |[Sinus och cosinus 2: ritar](./sinus_och_cosinus_2/README.md)
+27 |[Sinus och cosinus 3: planeter](./sinus_och_cosinus_3/README.md)
+28 |[Sinus och cosinus 4: skjuta](./sinus_och_cosinus_4/README.md)
 .  | **Bok 8**
 29 |[Muspekare i fyrkant](./MuisBinnenVierkant/README.md) 
 30 |[Muspekare i cirkel](./MuisBinnenCirkel/README.md) 
