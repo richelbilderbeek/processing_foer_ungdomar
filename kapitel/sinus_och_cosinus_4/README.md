@@ -283,5 +283,5 @@ Nu avslutar vi spelet:
  * Se till att kulan inte är synlig i början (tips: ställ in `y_kogel` på minus hundra)
  * Om du trycker på blanksteg, ställ in `corner_bullet` lika med `corner_gun`
 
-![Sinus och cosinus 4: Slutuppgift](sinus_och_cosinus_4_End assignment.png)
+![Sinus och cosinus 4: Slutuppgift](sinus_och_cosinus_4_slutuppgift.png)
 

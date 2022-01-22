@@ -131,4 +131,4 @@ void draw()
  * Se till att den rörliga cirkeln inte längre går halvvägs ut från skärmen. Gör det här,
    genom att göra avståndet från centrum mindre
 
-![Sinus och cosinus 2: Slutuppgift](sinus_och_cosinus_2_End assignment.png)
+![Sinus och cosinus 2: Slutuppgift](sinus_och_cosinus_2_slutuppgift.png)
