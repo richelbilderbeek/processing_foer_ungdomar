@@ -49,7 +49,7 @@ Du kommer att se en kvartscirkel i det övre vänstra hörnet.
 ![Solglasögon](EmojiSunglasses.png) | Tips: det är smart att sätta parenteser runt `höjd / 2`
 :-----------------:|:-----------------------------:
 
-![Sinus och cosinus 2: kommando 2](SinusEnCosinus2_2.png)
+![Sinus och cosinus 2: kommando 2](sinus_och_cosinus_2_2.png)
 
 \sidbrytning
 
@@ -84,7 +84,7 @@ void draw()
 
  * Rita en cirkel istället för en punkt. Cirkeln ska vara 20 pixlar bred och 20 pixlar hög
 
-![Sinus och cosinus 2: kommando 3](SinusEnCosinus2_3.png)
+![Sinus och cosinus 2: kommando 3](sinus_och_cosinus_2_3.png)
 
 \pagebreak
 
@@ -116,7 +116,7 @@ void draw()
  * Se till att bollen inte lämnar en linje längre
  * Använd en vit bakgrund för detta
 
-![Sinus och cosinus 2: kommando 4](SinusEnCosinus2_4.png)
+![Sinus och cosinus 2: kommando 4](sinus_och_cosinus_2_4.png)
 
 ![Solglasögon](EmojiSunglasses.png) | Tips: använd `bakgrund`
 :-----------------:|:-----------------------------:
@@ -131,4 +131,4 @@ void draw()
  * Se till att den rörliga cirkeln inte längre går halvvägs ut från skärmen. Gör det här,
    genom att göra avståndet från centrum mindre
 
-![Sinus och cosinus 2: Slutuppgift](SinusEnCosinus2_End assignment.png)
+![Sinus och cosinus 2: Slutuppgift](sinus_och_cosinus_2_End assignment.png)

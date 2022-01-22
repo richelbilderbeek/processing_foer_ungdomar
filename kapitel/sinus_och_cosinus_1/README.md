@@ -191,4 +191,4 @@ void draw()
  * Få varje våg att gå upp och ner en gång
  * Rita cosinus röd, sinus blå
 
-![Sinus och cosinus 1: Slutuppgift](SinusEnCosinus1_End assignment.png)
+![Sinus och cosinus 1: Slutuppgift](sinus_och_cosinus_1_End assignment.png)
