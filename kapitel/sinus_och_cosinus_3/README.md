@@ -140,4 +140,4 @@ Låt månen kretsa runt jorden!
  * Gör "x_moon" nu "x_earth" plus tio gånger sinus för "angle_earth"
  * Samma för "y_moon".
 
-![Sinus och cosinus 3: Slutuppgift](sinus_och_cosinus_3_slutupgpgift.png)
+![Sinus och cosinus 3: Slutuppgift](sinus_och_cosinus_3_slutuppgift.png)
