@@ -51,10 +51,10 @@ Kpt|Beskrivning
 27 |[Sinus och cosinus 3: planeter](./sinus_och_cosinus_3/README.md)
 28 |[Sinus och cosinus 4: skjuta](./sinus_och_cosinus_4/README.md)
 .  | **Bok 8**
-29 |[Muspekare i fyrkant](./MuisBinnenVierkant/README.md) 
-30 |[Muspekare i cirkel](./MuisBinnenCirkel/README.md) 
-31 |[Cirklar krockar](./CirkelsBotsen/README.md)
-32 |[Fyrkanter krockar](./VierkantenBotsen/README.md)
+29 |[Muspekare i fyrkant](./muspekare_i_fyrkant/README.md) 
+30 |[Muspekare i cirkel](./muspekare_i_cirkel/README.md) 
+31 |[Cirklar krockar](./cirklar_krockar/README.md)
+32 |[Fyrkanter krockar](./fyrkanter_krockar/README.md)
 
 ### Leskaart 3: Games 2
 
