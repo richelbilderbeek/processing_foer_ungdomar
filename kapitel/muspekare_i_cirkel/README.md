@@ -10,24 +10,24 @@ Skriv denna kod över:
 
 ```c++
 void setup()
-†
-  storlek (300, 200);
-†
+{
+  size(300, 200);
+}
 
 void draw()
-†
-  fyll(255, 255, 255);
-  if (avstånd(mouseX, mouseY, 150, 100) < 40)
-  †
-    fyll(255, 0, 0);
-  †
-  ellips (150, 100, 80, 80);
-†
-†
+{
+  fill(255, 255, 255);
+  if (dist(mouseX, mouseY, 150, 100) < 40)
+  {
+    fill(255, 0, 0);  
+  }
+  ellipse(150, 100, 80, 80);  
+}
+```
 
 Vad ser du? När blir cirkeln röd?
 
-\sidbrytning
+\pagebreak
 
 ## Mus inuti cirkeln: lösning 1
 
@@ -43,66 +43,66 @@ rör sig i cirkeln.
 Skapa en variabel (överst): `float circle_middle_x = 150;`.
 Ersätt de andra `150`erna i koden med `circle_center_x`.
 
-\sidbrytning
+\pagebreak
 
 ## Mus inuti cirkeln: lösning 2
 
 ```c++
-float circle_center_x = 150;
+float cirkel_midden_x = 150;
 
 void setup()
-†
-  storlek (300, 200);
-†
+{
+  size(300, 200);
+}
 
 void draw()
-†
-  fyll(255, 255, 255);
-  if (avstånd(mouseX, mouseY, circle_center_x, 100) < 40)
-  †
-    fyll(255, 0, 0);
-  †
-  ellips(cirkel_centrum_x, 100, 80, 80);
-†
-†
+{
+  fill(255, 255, 255);
+  if (dist(mouseX, mouseY, cirkel_midden_x, 100) < 40)
+  {
+    fill(255, 0, 0);  
+  }
+  ellipse(cirkel_midden_x, 100, 80, 80);  
+}
+```
 
-\sidbrytning
+\pagebreak
 
 ## Mus inuti cirkeln: kommando 3
 
 Lägg till följande rad i "setup"-funktionen:
 
 ```c++
-cirkel_centrum_x = random(width);
-†
+cirkel_midden_x = random(width);
+```
 
 Vad ser du? Kör programmet flera gånger!
 
-\sidbrytning
+\pagebreak
 
 ## Mus inuti cirkeln: lösning 3
 
 ```c++
-float circle_center_x = 150;
+float cirkel_midden_x = 150;
 
 void setup()
-†
-  storlek (300, 200);
-  cirkel_centrum_x = random(width);
-†
+{
+  size(300, 200);
+  cirkel_midden_x = random(width);
+}
 
 void draw()
-†
-  fyll(255, 255, 255);
-  if (avstånd(mouseX, mouseY, circle_center_x, 100) < 40)
-  †
-    fyll(255, 0, 0);
-  †
-  ellips(cirkel_centrum_x, 100, 80, 80);
-†
-†
+{
+  fill(255, 255, 255);
+  if (dist(mouseX, mouseY, cirkel_midden_x, 100) < 40)
+  {
+    fill(255, 0, 0);  
+  }
+  ellipse(cirkel_midden_x, 100, 80, 80);  
+}
+```
 
-\sidbrytning
+\pagebreak
 
 ## Mus inuti cirkeln: kommando 4
 
@@ -113,28 +113,28 @@ I `setup` får den ett slumpmässigt tal upp till `höjd`.
 ## Mus inuti cirkeln: lösning 4
 
 ```c++
-float circle_center_x = 150;
-float circle_center_y = 100;
+float cirkel_midden_x = 150;
+float cirkel_midden_y = 100;
 
 void setup()
-†
-  storlek (300, 200);
-  cirkel_centrum_x = random(width);
-  cirkel_centrum_y = random(höjd);
-†
+{
+  size(300, 200);
+  cirkel_midden_x = random(width);
+  cirkel_midden_y = random(height);
+}
 
 void draw()
-†
-  fyll(255, 255, 255);
-  if (avstånd(mouseX, mouseY, circle_center_x, circle_center_y) < 40)
-  †
-    fyll(255, 0, 0);
-  †
-  ellips(cirkel_centrum_x, cirkel_centrum_y, 80, 80);
-†
-†
+{
+  fill(255, 255, 255);
+  if (dist(mouseX, mouseY, cirkel_midden_x, cirkel_midden_y) < 40)
+  {
+    fill(255, 0, 0);  
+  }
+  ellipse(cirkel_midden_x, cirkel_midden_y, 80, 80);  
+}
+```
 
-\sidbrytning
+\pagebreak
 
 ## Mus inuti cirkeln: kommando 5
 
@@ -147,30 +147,30 @@ Vad är det som går fel?
 ## Mus inuti cirkeln: lösning 5
 
 ```c++
-float circle_center_x = 150;
-float circle_center_y = 100;
-float circle_section = 100;
+float cirkel_midden_x = 150;
+float cirkel_midden_y = 100;
+float cirkel_doorsnede = 100;
 
 void setup()
-†
-  storlek (300, 200);
-  cirkel_centrum_x = random(width);
-  cirkel_centrum_y = random(höjd);
-  cirkelsektion = random(150);
-†
+{
+  size(300, 200);
+  cirkel_midden_x = random(width);
+  cirkel_midden_y = random(height);
+  cirkel_doorsnede = random(150);
+}
 
 void draw()
-†
-  fyll(255, 255, 255);
-  if (avstånd(mouseX, mouseY, circle_center_x, circle_center_y) < 40)
-  †
-    fyll(255, 0, 0);
-  †
-  ellips(cirkel_centrum_x, cirkel_centrum_y, cirkelsektion, cirkelsektion);
-†
-†
+{
+  fill(255, 255, 255);
+  if (dist(mouseX, mouseY, cirkel_midden_x, cirkel_midden_y) < 40)
+  {
+    fill(255, 0, 0);  
+  }
+  ellipse(cirkel_midden_x, cirkel_midden_y, cirkel_doorsnede, cirkel_doorsnede);  
+}
+```
 
-\sidbrytning
+\pagebreak
 
 ## Mus inuti cirkeln: sista kommandot
 
