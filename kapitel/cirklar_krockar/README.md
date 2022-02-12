@@ -1,131 +1,131 @@
-# Cirkels botsen
+# Cirklar kolliderar
 
-In deze les gaan we leren hoe je kunt meten of twee cirkels botsen
+I den här lektionen ska vi lära oss hur man mäter om två cirklar kolliderar
 
-\pagebreak
+\sidbrytning
 
-## Cirkels botsen: opdracht 1
+## Circles Collide: Kommando 1
 
-Type deze code over:
+Skriv denna kod över:
 
 ```c++
 float x1 = 150;
 float y1 = 100;
-float d1 = 180;
-float r1 = d1 / 2;
+float dl = 180;
+flottör r1 = dl/2;
 
 void setup()
-{
-  size(300, 200);
-}
+†
+  storlek (300, 200);
+†
 
 void draw()
-{
-  fill(255, 255, 255);
-  if (dist(mouseX, mouseY, x1, y1) < r1)
-  {
-    fill(255, 0, 0);  
-  }
-  ellipse(x1, y1, d1, d1);  
-}
-```
+†
+  fyll(255, 255, 255);
+  if (avstånd(mouseX, mouseY, x1, y1) < r1)
+  †
+    fyll(255, 0, 0);
+  †
+  ellips(xl, yl, dl, dl);
+†
+†
 
-Wat zie je?
+Vad ser du?
 
-\pagebreak
+\sidbrytning
 
-## Cirkels botsen: oplossing 1
+## Cirklar kolliderar: lösning 1
 
-Een cirkel. Als je met je muiscursor erin gaat, dan wordt deze rood.
+En cirkel. När du flyttar muspekaren in i den blir den röd.
 
-![](CirkelsBotsen1.png)
+![](CirclesClash1.png)
 
-\pagebreak
+\sidbrytning
 
-## Cirkels botsen: opdracht 2
+## Circles Collide: Kommando 2
 
-Voeg een tweede cirkel toe. 
-Maak vier nieuwe variabelen:
+Lägg till en andra cirkel.
+Skapa fyra nya variabler:
 
-```
+†
 float x2 = 30;
 float y2 = 100;
 float d2 = 60;
-float r2 = d2 / 2;
-```
+flottör r2 = d2/2;
+†
 
-Teken een tweede cirkel met als middelpunt `(x2, y2)` en een breedte en
-hoogte van `d2`.
+Rita en andra cirkel centrerad på `(x2, y2)` och bredd en
+höjd "d2".
 
-\pagebreak
+\sidbrytning
 
-## Cirkels botsen: oplossing 2
+## Cirklar kolliderar: lösning 2
 
 ```c++
-// ...
+†
 float x2 = 30;
 float y2 = 100;
 float d2 = 60;
-float r2 = d2 / 2;
+flottör r2 = d2/2;
 
 void setup()
-{
-  size(300, 200);
-}
+†
+  storlek (300, 200);
+†
 
 void draw()
-{
-  // ...
-  ellipse(x2, y2, d2, d2);  
-}
-```
+†
+  †
+  ellips(x2, y2, d2, d2);
+†
+†
 
-Wat zie je?
+Vad ser du?
 
-\pagebreak
+\sidbrytning
 
-## Cirkels botsen: opdracht 3
+## Circles Collide: Kommando 3
 
-Voeg toe aan de `draw` functie:
+Lägg till i "rita"-funktionen:
 
 ```c++
-x2 = x2 + random(-1, 1);
-y2 = y2 + random(-1, 1);
-```
+x2 = x2 + slumpmässigt(-1, 1);
+y2 = y2 + slumpmässigt (-1, 1);
+†
 
-Wat zie je?
+Vad ser du?
 
-\pagebreak
+\sidbrytning
 
-## Cirkels botsen: oplossing 3
+## Cirklar kolliderar: lösning 3
 
-Je ziet de kleine cirkel bewegen.
+Du kommer att se den lilla cirkeln röra sig.
 
-![](CirkelsBotsen3.png)
+![](CirclesClash3.png)
 
-\pagebreak
+\sidbrytning
 
-## Cirkels botsen: opdracht 4
+## Circles Collide: Kommando 4
 
-Verander aan de `draw` functie het `if` statement naar:
+Ändra `if`-satsen till `draw`-funktionen till:
 
-```
-  if (dist(x1, y1, x2, y2) < r1 + r2)
-  {
-    fill(255, 0, 0);  
-  }
-```
+†
+  if (avstånd(x1, y1, x2, y2) < r1 + r2)
+  †
+    fyll(255, 0, 0);
+  †
+†
 
-Wat zie je?
+Vad ser du?
 
-## Cirkels botsen: oplossing 4
+## Cirklar kolliderar: lösning 4
 
-Je ziet de cirkels rood worden als ze botsen:
+Du kan se cirklarna bli röda när de kolliderar:
 
-![](CirkelsBotsen4.png)
+![](CirclesClash4.png)
 
-## Cirkels botsen: Eindopdracht
+## Cirklar kolliderar: Slutuppgift
 
-Laat ook de grote cirkel bewegen. Als ze botsen, moeten ze rood worden.
+Få också den stora cirkeln att röra sig. Krockar de ska de bli röda.
 
-![](CirkelsBotsenEindopdracht.png)
+![](CirclesClashFinal assignment.png)

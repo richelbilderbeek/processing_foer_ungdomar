@@ -1,179 +1,179 @@
-# Muis binnen cirkel
+# Mus inuti cirkeln
 
-In deze les gaan we leren hoe je kunt kijken of de muiscursor binnen een cirkel valt
+I den här lektionen ska vi lära oss hur man ser om muspekaren är inuti en cirkel
 
-\pagebreak
+\sidbrytning
 
-## Muis binnen cirkel: opdracht 1
+## Mus inuti cirkeln: kommando 1
 
-Type deze code over:
+Skriv denna kod över:
 
 ```c++
 void setup()
-{
-  size(300, 200);
-}
+†
+  storlek (300, 200);
+†
 
 void draw()
-{
-  fill(255, 255, 255);
-  if (dist(mouseX, mouseY, 150, 100) < 40)
-  {
-    fill(255, 0, 0);  
-  }
-  ellipse(150, 100, 80, 80);  
-}
-```
+†
+  fyll(255, 255, 255);
+  if (avstånd(mouseX, mouseY, 150, 100) < 40)
+  †
+    fyll(255, 0, 0);
+  †
+  ellips (150, 100, 80, 80);
+†
+†
 
-Wat zie je? Wanneer wordt de cirkel rood?
+Vad ser du? När blir cirkeln röd?
 
-\pagebreak
+\sidbrytning
 
-## Muis binnen cirkel: oplossing 1
+## Mus inuti cirkeln: lösning 1
 
-De cirkel wordt rood als je de muiscursor 
-in de cirkel beweegt.
+Cirkeln blir röd när du flyttar muspekaren
+rör sig i cirkeln.
 
-![](MuisBinnenCirkel1.png)
+![](MouseInsideCircle1.png)
 
-\pagebreak
+\sidbrytning
 
-## Muis binnen cirkel: opdracht 2
+## Mus inuti cirkeln: kommando 2
 
-Maak een variabele aan (bovenaan): `float cirkel_midden_x = 150;`.
-Vervang de andere `150`-en in de code door `cirkel_midden_x`.
+Skapa en variabel (överst): `float circle_middle_x = 150;`.
+Ersätt de andra `150`erna i koden med `circle_center_x`.
 
-\pagebreak
+\sidbrytning
 
-## Muis binnen cirkel: oplossing 2
+## Mus inuti cirkeln: lösning 2
 
 ```c++
-float cirkel_midden_x = 150;
+float circle_center_x = 150;
 
 void setup()
-{
-  size(300, 200);
-}
+†
+  storlek (300, 200);
+†
 
 void draw()
-{
-  fill(255, 255, 255);
-  if (dist(mouseX, mouseY, cirkel_midden_x, 100) < 40)
-  {
-    fill(255, 0, 0);  
-  }
-  ellipse(cirkel_midden_x, 100, 80, 80);  
-}
-```
+†
+  fyll(255, 255, 255);
+  if (avstånd(mouseX, mouseY, circle_center_x, 100) < 40)
+  †
+    fyll(255, 0, 0);
+  †
+  ellips(cirkel_centrum_x, 100, 80, 80);
+†
+†
 
-\pagebreak
+\sidbrytning
 
-## Muis binnen cirkel: opdracht 3
+## Mus inuti cirkeln: kommando 3
 
-Voeg de volgende regel toe aan de `setup` functie:
-
-```c++
-cirkel_midden_x = random(width);
-```
-
-Wat zie je? Start het programma meerdere keren!
-
-\pagebreak
-
-## Muis binnen cirkel: oplossing 3
+Lägg till följande rad i "setup"-funktionen:
 
 ```c++
-float cirkel_midden_x = 150;
+cirkel_centrum_x = random(width);
+†
+
+Vad ser du? Kör programmet flera gånger!
+
+\sidbrytning
+
+## Mus inuti cirkeln: lösning 3
+
+```c++
+float circle_center_x = 150;
 
 void setup()
-{
-  size(300, 200);
-  cirkel_midden_x = random(width);
-}
+†
+  storlek (300, 200);
+  cirkel_centrum_x = random(width);
+†
 
 void draw()
-{
-  fill(255, 255, 255);
-  if (dist(mouseX, mouseY, cirkel_midden_x, 100) < 40)
-  {
-    fill(255, 0, 0);  
-  }
-  ellipse(cirkel_midden_x, 100, 80, 80);  
-}
-```
+†
+  fyll(255, 255, 255);
+  if (avstånd(mouseX, mouseY, circle_center_x, 100) < 40)
+  †
+    fyll(255, 0, 0);
+  †
+  ellips(cirkel_centrum_x, 100, 80, 80);
+†
+†
 
-\pagebreak
+\sidbrytning
 
-## Muis binnen cirkel: opdracht 4
+## Mus inuti cirkeln: kommando 4
 
-Maak een nieuwe variabele aan: `cirkel_midden_y`. 
-In `setup` krijgt deze een willekeurig getal tot `height`.
-`cirkel_midden_y` vervangt de `100`s.
+Skapa en ny variabel: `circle_center_y`.
+I `setup` får den ett slumpmässigt tal upp till `höjd`.
+`circle_center_y` ersätter `100`s.
 
-## Muis binnen cirkel: oplossing 4
+## Mus inuti cirkeln: lösning 4
 
 ```c++
-float cirkel_midden_x = 150;
-float cirkel_midden_y = 100;
+float circle_center_x = 150;
+float circle_center_y = 100;
 
 void setup()
-{
-  size(300, 200);
-  cirkel_midden_x = random(width);
-  cirkel_midden_y = random(height);
-}
+†
+  storlek (300, 200);
+  cirkel_centrum_x = random(width);
+  cirkel_centrum_y = random(höjd);
+†
 
 void draw()
-{
-  fill(255, 255, 255);
-  if (dist(mouseX, mouseY, cirkel_midden_x, cirkel_midden_y) < 40)
-  {
-    fill(255, 0, 0);  
-  }
-  ellipse(cirkel_midden_x, cirkel_midden_y, 80, 80);  
-}
-```
+†
+  fyll(255, 255, 255);
+  if (avstånd(mouseX, mouseY, circle_center_x, circle_center_y) < 40)
+  †
+    fyll(255, 0, 0);
+  †
+  ellips(cirkel_centrum_x, cirkel_centrum_y, 80, 80);
+†
+†
 
-\pagebreak
+\sidbrytning
 
-## Muis binnen cirkel: opdracht 5
+## Mus inuti cirkeln: kommando 5
 
-Maak een nieuwe variabele aan: `cirkel_doorsnede`. 
-In `setup` krijgt deze een willekeurig getal tot `150`.
-`cirkel_doorsnede` vervangt de `80`s.
+Skapa en ny variabel: `circle_section`.
+I `setup` får den ett slumpmässigt tal upp till `150`.
+`cirkelsektion` ersätter `80-talet.
 
-Wat gaat er mis?
+Vad är det som går fel?
 
-## Muis binnen cirkel: oplossing 5
+## Mus inuti cirkeln: lösning 5
 
 ```c++
-float cirkel_midden_x = 150;
-float cirkel_midden_y = 100;
-float cirkel_doorsnede = 100;
+float circle_center_x = 150;
+float circle_center_y = 100;
+float circle_section = 100;
 
 void setup()
-{
-  size(300, 200);
-  cirkel_midden_x = random(width);
-  cirkel_midden_y = random(height);
-  cirkel_doorsnede = random(150);
-}
+†
+  storlek (300, 200);
+  cirkel_centrum_x = random(width);
+  cirkel_centrum_y = random(höjd);
+  cirkelsektion = random(150);
+†
 
 void draw()
-{
-  fill(255, 255, 255);
-  if (dist(mouseX, mouseY, cirkel_midden_x, cirkel_midden_y) < 40)
-  {
-    fill(255, 0, 0);  
-  }
-  ellipse(cirkel_midden_x, cirkel_midden_y, cirkel_doorsnede, cirkel_doorsnede);  
-}
-```
+†
+  fyll(255, 255, 255);
+  if (avstånd(mouseX, mouseY, circle_center_x, circle_center_y) < 40)
+  †
+    fyll(255, 0, 0);
+  †
+  ellips(cirkel_centrum_x, cirkel_centrum_y, cirkelsektion, cirkelsektion);
+†
+†
 
-\pagebreak
+\sidbrytning
 
-## Muis binnen cirkel: eindopdracht
+## Mus inuti cirkeln: sista kommandot
 
-Maak een nieuwe variabele aan: `cirkel_straal`. 
-In `setup` wordt deze `cirkel_doorsnede / 2`.
-`cirkel_straal` vervangt de `40`s.
+Skapa en ny variabel: `circle_radius`.
+I `setup` blir detta `circle_section / 2`.
+`circle_radius` ersätter `40`s.

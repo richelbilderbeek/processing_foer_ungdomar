@@ -1,139 +1,140 @@
-# Muis binnen vierkant
+# Mus inuti kvadraten
 
-In deze les gaan we leren hoe je kunt kijken of de muiscursor binnen een vierkant valt
+I den här lektionen ska vi lära oss hur man ser om muspekaren är inuti en fyrkant
 
-\pagebreak
+\sidbrytning
 
-## Muis binnen vierkant: opdracht 1
+## Mus inuti ruta: kommando 1
 
-Type deze code over:
+Skriv denna kod över:
 
 ```c++
 void setup()
-{
-  size(300, 200);
-}
+†
+  storlek (300, 200);
+†
 
 void draw()
-{
-  fill(255, 255, 255);
+†
+  fyll(255, 255, 255);
   if (mouseX > 25)
-  {
-    fill(255, 0, 0);  
-  }
-  rect(25, 50, 75, 100);  
-}
-```
+  †
+    fyll(255, 0, 0);
+  †
+  rect(25, 50, 75, 100);
+†
+†
 
-Wat zie je? Wanneer wordt het vierkant rood?
+Vad ser du? När blir fyrkanten röd?
 
-\pagebreak
+\sidbrytning
 
-## Muis binnen vierkant: oplossing 1
+## Mus inuti kvadraten: lösning 1
 
-Het vierkant wordt rood als je de muiscursor 
-meer dan 25 pixels naar rechts beweegt.
+Fyrkanten blir röd när du flyttar muspekaren
+flyttar mer än 25 pixlar åt höger.
 
-![](MuisBinnenVierkant1.png)
+![](MouseInsideSquare1.png)
 
-\pagebreak
+\sidbrytning
 
-## Muis binnen vierkant: opdracht 2
+## Mus inuti ruta: kommando 2
 
-Verander de code zo dat het vierkant rood wordt als je met de muis
-links bent van de rechterkant van het vierkant.
+Ändra koden så att fyrkanten blir röd när du flyttar musen
+är till vänster om den högra sidan av torget.
 
-![](MuisBinnenVierkant2.png)
+![](MouseInsideSquare2.png)
 
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
-`if (x < 200) { }`|'Lieve computer, als `x` kleiner is dan 200, doe dan wat tussen accolades staat.'
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+†
+`if (x < 200) { }`|'Bästa dator, om `x` är mindre än 200, gör vad som står mellan klammerparenteser.'
 
-\pagebreak
+\sidbrytning
 
-## Muis binnen vierkant: oplossing 2
+## Mus inuti kvadraten: lösning 2
 
 ```c++
 void setup()
-{
-  size(300, 200);
-}
+†
+  storlek (300, 200);
+†
 
 void draw()
-{
-  fill(255, 255, 255);
+†
+  fyll(255, 255, 255);
   if (mouseX < 100)
-  {
-    fill(255, 0, 0);  
-  }
-  rect(25, 50, 75, 100);  
-}
-```
+  †
+    fyll(255, 0, 0);
+  †
+  rect(25, 50, 75, 100);
+†
+†
 
-## Muis binnen vierkant: opdracht 3
+## Mus inuti ruta: kommando 3
 
-We gaan nu de `if` statements combineren!
+Vi kommer nu att kombinera `om`-satserna!
 
-Vervang de `if` die je nu hebt door dit:
+Ersätt "om" du har nu med detta:
 
 ```c++
   if (mouseX > 25 && mouseX < 100)
-  {
-    fill(255, 0, 0);  
-  }
-```
+  †
+    fyll(255, 0, 0);
+  †
+†
 
-![Sunglasses](EmojiSunglasses.png) | De `&&` lees je als 'en'
-:-------------:|:----------------------------------------: 
+![Solglasögon](EmojiSunglasses.png) | "&&" läses som "och"
+†
 
-\pagebreak
+\sidbrytning
 
-## Muis binnen vierkant: oplossing 3
+## Mus inuti kvadraten: lösning 3
 
 ```c++
 void setup()
-{
-  size(300, 200);
-}
+†
+  storlek (300, 200);
+†
 
 void draw()
-{
-  fill(255, 255, 255);
+†
+  fyll(255, 255, 255);
   if (mouseX > 25 && mouseX < 100)
-  {
-    fill(255, 0, 0);  
-  }
-  rect(25, 50, 75, 100);  
-}
-```
+  †
+    fyll(255, 0, 0);
+  †
+  rect(25, 50, 75, 100);
+†
+†
 
-## Muis binnen vierkant: opdracht 4
+## Mus inuti ruta: kommando 4
 
-Maak nu het vierkant rood als de muiscursor onder de bovenkant van het vierkant is.
+Gör nu fyrkanten röd när muspekaren är under toppen av kvadraten.
 
-![](MuisBinnenVierkant1.png)
+![](MouseInsideSquare1.png)
 
-\pagebreak
+\sidbrytning
 
-## Muis binnen vierkant: oplossing 4
+## Mus inuti kvadraten: lösning 4
 
 ```c++
 void setup()
-{
-  size(300, 200);
-}
+†
+  storlek (300, 200);
+†
 
 void draw()
-{
-  fill(255, 255, 255);
-  if (mouseY > 50)
-  {
-    fill(255, 0, 0);  
-  }
-  rect(25, 50, 75, 100);  
-}
-```
+†
+  fyll(255, 255, 255);
+  if (musY > 50)
+  †
+    fyll(255, 0, 0);
+  †
+  rect(25, 50, 75, 100);
+†
+†
 
-## Muis binnen vierkant: Eindopdracht
+## Mus inuti ruta: Slutuppgift
 
-Maak het vierkant rood als de muiscursor in het vierkant is.
+Gör rutan röd när muspekaren är i rutan. 
+
