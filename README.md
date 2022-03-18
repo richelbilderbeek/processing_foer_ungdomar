@@ -1,5 +1,8 @@
 # Processing för ungdomar
 
+![](pics/processing3_logo_50.png)
+![](pics/processing4_logo_50.png)
+
 Kurs 'Processing för ungdomar'.
 
  * [Installera Processing](kapitel/installera_processing/README.md)
