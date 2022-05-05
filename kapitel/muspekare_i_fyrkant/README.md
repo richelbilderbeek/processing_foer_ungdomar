@@ -1,10 +1,10 @@
-# Mus inuti kvadraten
+# 29. Muspekare i fyrkant
 
 Under den här lektionen ska vi lära oss hur man ser om muspekaren är inuti en fyrkant
 
 \pagebreak
 
-## Mus inuti ruta: kommando 1
+## 29.1. Muspekare i fyrkant: uppgift 1
 
 Skriv denna kod över:
 
@@ -29,21 +29,21 @@ Vad ser du? När blir fyrkanten röd?
 
 \pagebreak
 
-## Mus inuti kvadraten: lösning 1
+## 29.2. Muspekare i fyrkant: lösning 1
 
 Fyrkanten blir röd när du flyttar muspekaren
 flyttar mer än 25 pixlar åt höger.
 
-![](MuisBinnenVierkant1.png)
+![](muspekare_i_fyrkant_1.png)
 
 \pagebreak
 
-## Mus inuti ruta: kommando 2
+## 29.3. Muspekare i fyrkant: uppgift 2
 
 Ändra koden så att fyrkanten blir röd när du flyttar musen
 är till vänster om den högra sidan av torget.
 
-![](MuisBinnenVierkant2.png)
+![](muspekare_i_fyrkant_2.png)
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 †
@@ -51,7 +51,7 @@ flyttar mer än 25 pixlar åt höger.
 
 \pagebreak
 
-## Mus inuti kvadraten: lösning 2
+## 29.4. Muspekare i fyrkant: lösning 2
 
 ```c++
 void setup()
@@ -70,7 +70,7 @@ void draw()
 }
 ```
 
-## Mus inuti ruta: kommando 3
+## 29.5. Muspekare i fyrkant: uppgift 3
 
 Vi kommer nu att kombinera `om`-satserna!
 
@@ -84,11 +84,11 @@ Ersätt "om" du har nu med detta:
 ```
 
 ![Solglasögon](EmojiSunglasses.png) | "&&" läses som "och"
-†
+:-----:|:--------------------------------------------:
 
 \pagebreak
 
-## Mus inuti kvadraten: lösning 3
+## 29.6. Muspekare i fyrkant: lösning 3
 
 ```c++
 void setup()
@@ -107,15 +107,15 @@ void draw()
 }
 ```
 
-## Mus inuti ruta: kommando 4
+## 29.7. Muspekare i fyrkant: uppgift 4
 
 Gör nu fyrkanten röd när muspekaren är under toppen av kvadraten.
 
-![](MouseInsideSquare1.png)
+![](muspekare_i_fyrkant_4.png)
 
 \pagebreak
 
-## Mus inuti kvadraten: lösning 4
+## 29.8. Muspekare i fyrkant: lösning 4
 
 ```c++
 void setup()
@@ -134,7 +134,7 @@ void draw()
 }
 ```
 
-## Mus inuti ruta: Slutuppgift
+## 29.9. Muspekare i fyrkant: slutuppgift
 
 Gör rutan röd när muspekaren är i rutan. 
 

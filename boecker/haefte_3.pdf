@@ -23,7 +23,7 @@ endobj
 /XObject <<
 /Im1 45 0 R
 >>
-/ProcSet [ /ImageC /Text /PDF ]
+/ProcSet [ /PDF /ImageC /Text ]
 >>
 /MediaBox [ 0 0 842 595 ]
 /Contents 47 0 R
@@ -45,7 +45,7 @@ endobj
 /XObject <<
 /Im1 69 0 R
 >>
-/ProcSet [ /ImageC /Text /PDF ]
+/ProcSet [ /PDF /ImageC /Text ]
 >>
 /MediaBox [ 0 0 842 595 ]
 /Contents 71 0 R
@@ -67,7 +67,7 @@ endobj
 /Im36 78 0 R
 /Im2 80 0 R
 >>
-/ProcSet [ /ImageC /PDF /Text ]
+/ProcSet [ /PDF /ImageC /Text ]
 >>
 /MediaBox [ 0 0 842 595 ]
 /Contents 81 0 R
@@ -85,7 +85,7 @@ endobj
 /F32 53 0 R
 /F26 57 0 R
 >>
-/ProcSet [ /Text /PDF ]
+/ProcSet [ /PDF /Text ]
 >>
 /MediaBox [ 0 0 842 595 ]
 /Contents 82 0 R
@@ -107,7 +107,7 @@ endobj
 /Im35 83 0 R
 /Im3 85 0 R
 >>
-/ProcSet [ /ImageC /PDF /Text ]
+/ProcSet [ /PDF /ImageC /Text ]
 >>
 /MediaBox [ 0 0 842 595 ]
 /Contents 87 0 R
@@ -125,7 +125,7 @@ endobj
 /F62 65 0 R
 /F32 53 0 R
 >>
-/ProcSet [ /Text /PDF ]
+/ProcSet [ /PDF /Text ]
 >>
 /MediaBox [ 0 0 842 595 ]
 /Contents 88 0 R
@@ -147,7 +147,7 @@ endobj
 /Im34 89 0 R
 /Im2 80 0 R
 >>
-/ProcSet [ /ImageC /PDF /Text ]
+/ProcSet [ /PDF /ImageC /Text ]
 >>
 /MediaBox [ 0 0 842 595 ]
 /Contents 91 0 R
@@ -168,7 +168,7 @@ endobj
 /XObject <<
 /Im4 92 0 R
 >>
-/ProcSet [ /ImageC /PDF /Text /ImageI ]
+/ProcSet [ /PDF /ImageI /ImageC /Text ]
 >>
 /MediaBox [ 0 0 842 595 ]
 /Contents 94 0 R
@@ -190,7 +190,7 @@ endobj
 /Im33 95 0 R
 /Im5 97 0 R
 >>
-/ProcSet [ /ImageC /PDF /Text ]
+/ProcSet [ /PDF /ImageC /Text ]
 >>
 /MediaBox [ 0 0 842 595 ]
 /Contents 98 0 R
@@ -211,7 +211,7 @@ endobj
 /XObject <<
 /Im6 99 0 R
 >>
-/ProcSet [ /ImageC /PDF /Text ]
+/ProcSet [ /PDF /ImageC /Text ]
 >>
 /MediaBox [ 0 0 842 595 ]
 /Contents 101 0 R
@@ -232,7 +232,7 @@ endobj
 /XObject <<
 /Im32 102 0 R
 >>
-/ProcSet [ /ImageC /PDF /Text ]
+/ProcSet [ /PDF /ImageC /Text ]
 >>
 /MediaBox [ 0 0 842 595 ]
 /Contents 104 0 R
@@ -250,7 +250,7 @@ endobj
 /F62 65 0 R
 /F32 53 0 R
 >>
-/ProcSet [ /Text /PDF ]
+/ProcSet [ /PDF /Text ]
 >>
 /MediaBox [ 0 0 842 595 ]
 /Contents 105 0 R
@@ -275,7 +275,7 @@ endobj
 /Im9 112 0 R
 /Im10 114 0 R
 >>
-/ProcSet [ /ImageC /PDF /Text /ImageI ]
+/ProcSet [ /PDF /ImageI /ImageC /Text ]
 >>
 /MediaBox [ 0 0 842 595 ]
 /Contents 116 0 R
@@ -297,7 +297,7 @@ endobj
 /Im10 114 0 R
 /Im7 108 0 R
 >>
-/ProcSet [ /ImageC /PDF /Text /ImageI ]
+/ProcSet [ /PDF /ImageI /ImageC /Text ]
 >>
 /MediaBox [ 0 0 842 595 ]
 /Contents 118 0 R
@@ -318,7 +318,7 @@ endobj
 /XObject <<
 /Im30 119 0 R
 >>
-/ProcSet [ /ImageC /PDF /Text ]
+/ProcSet [ /PDF /ImageC /Text ]
 >>
 /MediaBox [ 0 0 842 595 ]
 /Contents 121 0 R
@@ -338,7 +338,7 @@ endobj
 /XObject <<
 /Im12 122 0 R
 >>
-/ProcSet [ /ImageC /PDF /Text ]
+/ProcSet [ /PDF /ImageC /Text ]
 >>
 /MediaBox [ 0 0 842 595 ]
 /Contents 123 0 R
@@ -359,7 +359,7 @@ endobj
 /XObject <<
 /Im29 124 0 R
 >>
-/ProcSet [ /ImageC /PDF /Text ]
+/ProcSet [ /PDF /ImageC /Text ]
 >>
 /MediaBox [ 0 0 842 595 ]
 /Contents 126 0 R
@@ -382,7 +382,7 @@ endobj
 /Im7 108 0 R
 /Im4 92 0 R
 >>
-/ProcSet [ /ImageC /PDF /Text /ImageI ]
+/ProcSet [ /PDF /ImageI /ImageC /Text ]
 >>
 /MediaBox [ 0 0 842 595 ]
 /Contents 127 0 R
@@ -404,7 +404,7 @@ endobj
 /Im28 128 0 R
 /Im13 130 0 R
 >>
-/ProcSet [ /ImageC /PDF /Text ]
+/ProcSet [ /PDF /ImageC /Text ]
 >>
 /MediaBox [ 0 0 842 595 ]
 /Contents 131 0 R
@@ -424,7 +424,7 @@ endobj
 /Im14 132 0 R
 /Im27 133 0 R
 >>
-/ProcSet [ /ImageC /PDF /Text ]
+/ProcSet [ /PDF /ImageC /Text ]
 >>
 /MediaBox [ 0 0 842 595 ]
 /Contents 134 0 R
@@ -445,7 +445,7 @@ endobj
 /XObject <<
 /Im15 135 0 R
 >>
-/ProcSet [ /ImageC /PDF /Text /ImageI ]
+/ProcSet [ /PDF /ImageI /ImageC /Text ]
 >>
 /MediaBox [ 0 0 842 595 ]
 /Contents 137 0 R
@@ -466,7 +466,7 @@ endobj
 /XObject <<
 /Im26 138 0 R
 >>
-/ProcSet [ /ImageC /PDF /Text ]
+/ProcSet [ /PDF /ImageC /Text ]
 >>
 /MediaBox [ 0 0 842 595 ]
 /Contents 139 0 R
@@ -487,7 +487,7 @@ endobj
 /XObject <<
 /Im16 140 0 R
 >>
-/ProcSet [ /ImageC /PDF /Text ]
+/ProcSet [ /PDF /ImageC /Text ]
 >>
 /MediaBox [ 0 0 842 595 ]
 /Contents 141 0 R
@@ -508,7 +508,7 @@ endobj
 /Im17 142 0 R
 /Im25 143 0 R
 >>
-/ProcSet [ /ImageC /PDF /Text ]
+/ProcSet [ /PDF /ImageC /Text ]
 >>
 /MediaBox [ 0 0 842 595 ]
 /Contents 144 0 R
@@ -526,7 +526,7 @@ endobj
 /F32 53 0 R
 /F26 57 0 R
 >>
-/ProcSet [ /Text /PDF ]
+/ProcSet [ /PDF /Text ]
 >>
 /MediaBox [ 0 0 842 595 ]
 /Contents 145 0 R
@@ -548,7 +548,7 @@ endobj
 /Im18 146 0 R
 /Im24 147 0 R
 >>
-/ProcSet [ /ImageC /PDF /Text ]
+/ProcSet [ /PDF /ImageC /Text ]
 >>
 /MediaBox [ 0 0 842 595 ]
 /Contents 148 0 R
@@ -566,7 +566,7 @@ endobj
 /F32 53 0 R
 /F26 57 0 R
 >>
-/ProcSet [ /Text /PDF ]
+/ProcSet [ /PDF /Text ]
 >>
 /MediaBox [ 0 0 842 595 ]
 /Contents 149 0 R
@@ -589,7 +589,7 @@ endobj
 /Im10 114 0 R
 /Im7 108 0 R
 >>
-/ProcSet [ /ImageC /PDF /Text /ImageI ]
+/ProcSet [ /PDF /ImageI /ImageC /Text ]
 >>
 /MediaBox [ 0 0 842 595 ]
 /Contents 151 0 R
@@ -611,7 +611,7 @@ endobj
 /XObject <<
 /Im23 155 0 R
 >>
-/ProcSet [ /ImageC /PDF /Text ]
+/ProcSet [ /PDF /ImageC /Text ]
 >>
 /MediaBox [ 0 0 842 595 ]
 /Contents 157 0 R
@@ -629,7 +629,7 @@ endobj
 /F26 57 0 R
 /F62 65 0 R
 >>
-/ProcSet [ /Text /PDF ]
+/ProcSet [ /PDF /Text ]
 >>
 /MediaBox [ 0 0 842 595 ]
 /Contents 158 0 R
@@ -651,7 +651,7 @@ endobj
 /Im22 159 0 R
 /Im20 160 0 R
 >>
-/ProcSet [ /ImageC /PDF /Text ]
+/ProcSet [ /PDF /ImageC /Text ]
 >>
 /MediaBox [ 0 0 842 595 ]
 /Contents 161 0 R
@@ -672,7 +672,7 @@ endobj
 /XObject <<
 /Im21 162 0 R
 >>
-/ProcSet [ /ImageC /PDF /Text ]
+/ProcSet [ /PDF /ImageC /Text ]
 >>
 /MediaBox [ 0 0 842 595 ]
 /Contents 163 0 R

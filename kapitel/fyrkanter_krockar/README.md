@@ -1,10 +1,10 @@
-# Kvadrater kolliderar
+# 32. Fyrkanter krockar
 
-I den här lektionen ska vi lära oss hur man mäter om två rutor kolliderar
+Under den här lektionen ska vi lära oss hur man mäter om två fyrkanter krockar.
 
 \pagebreak
 
-## Kolliderande kvadrater: Kommando 1
+## 32.1. Fyrkanten krockar: uppgift 1
 
 Skriv denna kod över:
 
@@ -41,32 +41,32 @@ Vad ser du?
 
 \pagebreak
 
-## Krockande rutor: lösning 1
+## 32.2. Fyrkanten krockar: lösning 1
 
 Två rutor. En fyrkant följer musen.
 Ibland när den rörliga fyrkanten vidrör den stationära blir den röd.
 
-![](SquaresClash1.png)
+![](fyrkanter_krockar_1.png)
 
 \pagebreak
 
-## Kolliderande kvadrater: Kommando 2
+## 32.3. Fyrkanten krockar: uppgift 2
 
 Ändra 'om' till:
 
 ```
 if (x2 + w2 > x1 && x2 + w2 < x1 + w1)
-†
+```
 
 Vad ser du?
 
 \pagebreak
 
-## Krockande rutor: lösning 2
+## 32.4. Fyrkanten krockar: lösning 2
 
-Rutorna kolliderar nu horisontellt.
+Rutorna krockar nu horisontellt.
 
-![](SquaresClash1.png)
+![](fyrkanter_krockar_2.png)
 
 ```c++
 // ...
@@ -90,7 +90,7 @@ void draw()
 
 \pagebreak
 
-## Kolliderande kvadrater: Kommando 3
+## 32.5. Fyrkanten krockar: uppgift 3
 
 Ändra 'om' till:
 
@@ -102,14 +102,14 @@ Vad ser du?
 
 \pagebreak
 
-## Krockande rutor: lösning 3
+## 32.6. Fyrkanten krockar: lösning 3
 
-Rutorna kolliderar just nu förutom på toppen.
+Rutorna krockar just nu förutom på toppen.
 
-![](SquaresClash1.png)
+![](fyrkanter_krockar_3.png)
 
-## Collidering Squares: Final Command
+## 32.7. Fyrkanten krockar: slutuppgift
 
-Gör 'om' ännu längre så att rutorna kolliderar.
+Gör 'om' ännu längre så att rutorna krockar.
 
-![](SquaresClashFinal assignment.png)
+![](fyrkanter_krockar_slutuppgift.png)

@@ -1,10 +1,10 @@
-# Cirklar kolliderar
+# 31. Cirklar krockar
 
-I den här lektionen ska vi lära oss hur man mäter om två cirklar kolliderar
+I den här lektionen ska vi lära oss hur man mäter om två cirklar krockar.
 
 \pagebreak
 
-## Circles Collide: Kommando 1
+## 31.1. Cirklar krockar: uppgift 1
 
 Skriv denna kod över:
 
@@ -34,15 +34,15 @@ Vad ser du?
 
 \pagebreak
 
-## Cirklar kolliderar: lösning 1
+## 31.2. Cirklar krockar: lösning 1
 
 En cirkel. När du flyttar muspekaren in i den blir den röd.
 
-![](CirclesClash1.png)
+![](cirklar_krockar_1.png)
 
-\sidbrytning
+\pagebreak
 
-## Circles Collide: Kommando 2
+## 31.3. Cirklar krockar: uppgift 2
 
 Lägg till en andra cirkel.
 Skapa fyra nya variabler:
@@ -55,11 +55,11 @@ float r2 = d2 / 2;
 ```
 
 Rita en andra cirkel centrerad på `(x2, y2)` och bredd en
-höjd "d2".
+höjd `d2`.
 
 \pagebreak
 
-## Cirklar kolliderar: lösning 2
+## 31.4. Cirklar krockar: lösning 2
 
 ```c++
 // ...
@@ -84,9 +84,9 @@ Vad ser du?
 
 \pagebreak
 
-## Circles Collide: Kommando 3
+## 31.5. Cirklar krockar: uppgift 3
 
-Lägg till i "rita"-funktionen:
+Lägg till i `draw`-funktionen:
 
 ```c++
 x2 = x2 + random(-1, 1);
@@ -97,15 +97,15 @@ Vad ser du?
 
 \pagebreak
 
-## Cirklar kolliderar: lösning 3
+## 31.6. Cirklar krockar: lösning 3
 
 Du kommer att se den lilla cirkeln röra sig.
 
-![](CirclesClash3.png)
+![](cirklar_krockar_3.png)
 
 \pagebreak
 
-## Circles Collide: Kommando 4
+## 31.7. Cirklar krockar: uppgift 4
 
 Ändra `if`-satsen till `draw`-funktionen till:
 
@@ -118,14 +118,14 @@ Du kommer att se den lilla cirkeln röra sig.
 
 Vad ser du?
 
-## Cirklar kolliderar: lösning 4
+## 31.8. Cirklar krockar: lösning 4
 
-Du kan se cirklarna bli röda när de kolliderar:
+Du kan se cirklarna bli röda när de krockar:
 
-![](CirclesClash4.png)
+![](cirklar_krockar_4.png)
 
-## Cirklar kolliderar: Slutuppgift
+## 31.9. Cirklar krockar: Slutuppgift
 
 Få också den stora cirkeln att röra sig. Krockar de ska de bli röda.
 
-![](CirclesClashFinal assignment.png)
+![](cirklar_krockar_slutuppgift.png)
