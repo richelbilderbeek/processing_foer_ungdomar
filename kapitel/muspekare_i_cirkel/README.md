@@ -166,7 +166,10 @@ void draw()
   {
     fill(255, 0, 0);  
   }
-  ellipse(cirkel_mitten_x, cirkel_mitten_y, cirkel_diameter, cirkel_diameter);  
+  ellipse(
+    cirkel_mitten_x, cirkel_mitten_y,
+    cirkel_diameter, cirkel_diameter
+  );  
 }
 ```
 
