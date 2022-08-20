@@ -10,7 +10,7 @@ Under den här lektionen ska vi använda en sinus och cosinus för att skjuta en
 
 Skriv denna kod över:
 
-```c++
+```processing
 float vinkel_kanon = 0;
 
 void setup()
@@ -53,7 +53,7 @@ Du ser en cirkel i mitten, med en kanon
 
 ## Sinus och cosinus 4: lösning 2
 
-```c++
+```processing
 float vinkel_kanon = 0;
 
 void setup()
@@ -83,7 +83,7 @@ void draw()
 
 Dricks:
 
-```c++
+```processing
 if (keyPressed)
 {
   if (key == ' ')
@@ -100,7 +100,7 @@ if (keyPressed)
 
 ![Sinus och cosinus 4: uppgift 3](sinus_och_cosinus_4_3.png)
 
-```c++
+```processing
 float vinkel_kanon = 0;
 
 void setup()
@@ -143,7 +143,7 @@ void draw()
 
 ## Sinus och cosinus 4: lösning 4
 
-```c++
+```processing
 float vinkel_kanon = 0;
 float x_kogel = 0;
 float y_kogel = 0;
@@ -190,7 +190,7 @@ void draw()
 
 ## Sinus och cosinus 4: lösning 5
 
-```c++
+```processing
 float vinkel_kanon = 0;
 float x_kogel = 0;
 float y_kogel = 0;
@@ -238,7 +238,7 @@ void draw()
 
 ## Sinus och cosinus 4: lösning 6
 
-```c++
+```processing
 float vinkel_kanon = 0;
 float x_kogel = 0;
 float y_kogel = 0;
