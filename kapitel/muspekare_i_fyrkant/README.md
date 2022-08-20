@@ -8,7 +8,7 @@ Under den här lektionen ska vi lära oss hur man ser om muspekaren är inuti en
 
 Skriv denna kod över:
 
-```c++
+```processing
 void setup()
 {
   size(300, 200);
@@ -53,7 +53,7 @@ flyttar mer än 25 pixlar åt höger.
 
 ## 29.4. Muspekare i fyrkant: lösning 2
 
-```c++
+```processing
 void setup()
 {
   size(300, 200);
@@ -76,7 +76,7 @@ Vi kommer nu att kombinera `om`-satserna!
 
 Ersätt "om" du har nu med detta:
 
-```c++
+```processing
   if (mouseX > 25 && mouseX < 100)
   {
     fill(255, 0, 0);  
@@ -90,7 +90,7 @@ Ersätt "om" du har nu med detta:
 
 ## 29.6. Muspekare i fyrkant: lösning 3
 
-```c++
+```processing
 void setup()
 {
   size(300, 200);
@@ -117,7 +117,7 @@ Gör nu fyrkanten röd när muspekaren är under toppen av kvadraten.
 
 ## 29.8. Muspekare i fyrkant: lösning 4
 
-```c++
+```processing
 void setup()
 {
   size(300, 200);
