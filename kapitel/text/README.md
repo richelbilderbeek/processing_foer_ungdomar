@@ -13,7 +13,7 @@ textäventyren någonsin:
 
 Kör den här koden:
 
-```c++
+```processing
 float x = 150;
 float y = 100;
 float hastighet_till_hoger = 1;
@@ -53,7 +53,7 @@ void draw()
 
 Efter `ellips` lägg till följande rad:
 
-```c++
+```processing
 text(x, 10, 20);
 ```
 
@@ -63,7 +63,7 @@ text(x, 10, 20);
 
 ![`text`: lösning 2](text_2.png)
 
-```c++
+```processing
 float x = 150;
 float y = 100;
 float hastighet_till_hoger = 1;
@@ -109,7 +109,7 @@ Programmet visar nu `x`-koordinaten i fönstret. Visa nu också `y`-koordinaten.
 
 ## `text`: lösning 3
 
-```c++
+```processing
 float x = 150;
 float y = 100;
 float hastighet_till_hoger = 1;
@@ -152,7 +152,7 @@ Med `fill` kan du bestämma färgen på din text.
 
 ## `text`: lösning 4
 
-```c++
+```processing
 float x = 150;
 float y = 100;
 float hastighet_till_hoger = 1;
@@ -197,7 +197,7 @@ Använd `width` för att bestämma vart mitten på texten ska hamna.
 
 ## `text`: lösning 5
 
-```c++
+```processing
 float x = 150;
 float y = 100;
 float hastighet_till_hoger = 1;
@@ -245,7 +245,7 @@ Skriv ut detta värde i fönstret med blå text.
 
 ## `text`: lösning 6
 
-```c++
+```processing
 float x = 150;
 float y = 100;
 float hastighet_till_hoger = 1;
@@ -293,7 +293,7 @@ void draw()
 
 ## `text`: lösning 7
 
-```c++
+```processing
 float x = 150;
 float y = 100;
 float hastighet_till_hoger = 1;

@@ -6,7 +6,7 @@ Under den här lektionen ska vi studsa en boll snett diagonalt.
 
 ## Boll som studsar: uppgift 1
 
-```c++
+```processing
 float x = 150;
 float hastighet_till_hoger = 1;
 
@@ -45,7 +45,7 @@ void draw()
 
 ## Boll som studsar: lösning 1
 
-```c++
+```processing
 float x = 150;
 float y = 100;
 float hastighet_till_hoger = 1;
@@ -83,7 +83,7 @@ Ge det initialvärdet för `1`. Bollen behöver inte röra sig än.
 
 ## Boll som studsar: lösning 2
 
-```c++
+```processing
 float x = 150;
 float y = 100;
 float hastighet_till_hoger = 1;
@@ -121,7 +121,7 @@ Låt nu bollen röra sig nedåt också. Den behöver inte studsa ännu.
 
 ## Boll som studsar: lösning 3
 
-```c++
+```processing
 float x = 150;
 float y = 100;
 float hastighet_till_hoger = 1;
@@ -160,7 +160,7 @@ Låt nu bollen studsa upp när den når till botten av fönstret.
 
 ## Boll som studsar: lösning 4
 
-```c++
+```processing
 float x = 150;
 float y = 100;
 float hastighet_till_hoger = 1;

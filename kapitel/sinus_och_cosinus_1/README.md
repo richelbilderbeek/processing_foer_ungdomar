@@ -10,7 +10,7 @@ Under den här lektionen ska vi rita en sinus och en cosinus.
 
 Skriv denna kod över:
 
-```c++
+```processing
 float x = 0;
 
 void setup()
@@ -54,7 +54,7 @@ Du kommer att se en sorts prickad linje längst upp.
 
 ## Sinus och cosinus 1: lösning 2
 
-```c++
+```processing
 float x = 0;
 
 void setup()
@@ -95,7 +95,7 @@ Du kommer nu att se ett mönster.
 
 ![Sinus och cosinus 3: uppgift 2](sinus_och_cosinus_1_3.png)
 
-```c++
+```processing
 float x = 0;
 
 void setup()
@@ -131,7 +131,7 @@ Du ser nu en våg: en sinus!.
 
 ![Sinus och cosinus 1: uppgift 4](sinus_och_cosinus_1_4.png)
 
-```c++
+```processing
 float x = 0;
 
 void setup()
@@ -162,7 +162,7 @@ Du ser nu en våg: en sinus!.
 
 ![Sinus och cosinus 1: uppgift 5](sinus_och_cosinus_1_5.png)
 
-```c++
+```processing
 float x = 0;
 
 void setup()

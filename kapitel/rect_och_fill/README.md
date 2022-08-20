@@ -14,7 +14,7 @@ men `rect` är lättare.
 
 Kör denna kod.
 
-```c++
+```processing
 float x = -50;
 
 void setup()
@@ -45,7 +45,7 @@ void draw()
 
 Lägg till följande text, efter `ellipse(x, height / 2, 100, 100);`:
 
-```c++
+```processing
   rect(x, height / 2, 100, 100);
 ```
 
@@ -59,7 +59,7 @@ Lägg till följande text, efter `ellipse(x, height / 2, 100, 100);`:
 
 ![lösning 2](RectFill2.png)
 
-```c++
+```processing
 float x = -50;
 
 void setup()
@@ -92,7 +92,7 @@ Gör det genom att minska `x` och `y`-koordinaterna med 50.
 
 ## `rect` och `fill`: lösning 3
 
-```c++
+```processing
 float x = -50;
 
 void setup()
@@ -128,7 +128,7 @@ Kolla på färgbollen nedanför:
 
 ## `rect` och `fill`: lösning 4
 
-```c++
+```processing
 float x = -50;
 
 void setup()
@@ -154,7 +154,7 @@ void draw()
 
 Lägg till följande text under `stroke(255, 255, 0);`:
 
-```c++
+```processing
 fill(x, 0, 255);
 ```
 
@@ -164,7 +164,7 @@ fill(x, 0, 255);
 
 ![Uppdrag 5](RectFill5.png)
 
-```c++
+```processing
 float x = -50;
 
 void setup()
@@ -202,7 +202,7 @@ Varje gång ökar `gron` med två.
 
 ### `rect` och `fill`: lösning 6
 
-```c++
+```processing
 float x = -50;
 float gron = 0;
 
@@ -238,7 +238,7 @@ om `gron` är mer än `255`, ska `gron` bli `0`.
 
 ## `rect` och `fill`: lösning 7
 
-```c++
+```processing
 float x = -50;
 float gron = 0;
 
@@ -278,7 +278,7 @@ som är ett slumpmässigt tal mellan `0` och `256`.
 
 ## `rect` och `fill`: lösning 8
 
-```c++
+```processing
 float x = -50;
 float gron = 0;
 

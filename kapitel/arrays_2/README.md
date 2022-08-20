@@ -10,7 +10,7 @@
 
 Kör den här koden:
 
-```c++
+```processing
 float x1 = 160;
 float y1 = 100;
 
@@ -47,7 +47,7 @@ Gör en andra rökpartikel.
 
 ## Arrayer 2: lösning 2
 
-```c++
+```processing
 float x1 = 160;
 float y1 = 100;
 float x2 = 160;
@@ -90,7 +90,7 @@ Använd nu en array, utan `for`-loop.
 
 ## Arrayer 2: lösning 3
 
-```c++
+```processing
 float[] xs;
 float[] ys;
 
@@ -132,7 +132,7 @@ Använd nu `for`-loopar. Gör så att både arrayen `xs` och `ys` innehåller tr
 
 ## Arrayer 2: lösning 4
 
-```c++
+```processing
 float[] xs;
 float[] ys;
 
@@ -179,7 +179,7 @@ Varje rökpartikel får nu sin egen röda kantfärg:
 
 ## Arrayer 2: lösning 5
 
-```c++
+```processing
 float[] xs;
 float[] ys;
 float[] rs; //Roda varden

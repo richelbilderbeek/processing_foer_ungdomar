@@ -8,7 +8,7 @@ Under den här lektionen ska vi programmera 3D.
 
 Skriv denna kod över:
 
-```c++
+```processing
 float x = 0;
 
 void setup() 
@@ -52,7 +52,7 @@ Om man tittar noga kan man se att den vitaste delen av bollen också byter plats
 
 ## 3D 1: lösning 2
 
-```c++
+```processing
 float x = 0;
 float y = 0;
 
@@ -88,7 +88,7 @@ Det här kan se annorlunda ut än du förväntar dig!
 
 ## 3D 1: lösning 3
 
-```c++
+```processing
 float x = 0;
 float y = 0;
 float z = 0;

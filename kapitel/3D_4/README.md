@@ -8,7 +8,7 @@ Under den här lektionen ska vi exponera en 3D-boll.
 
 Skriv denna kod över:
 
-```c++
+```processing
 float ljus_rikting_x = 1;
 
 void setup() 
@@ -50,7 +50,7 @@ Observera: endast tre positioner är möjliga!
 
 ## 3D 4: lösning 2
 
-```c++
+```processing
 float ljus_rikting_x = 1;
 
 void setup() 
@@ -88,7 +88,7 @@ Obs: endast fem positioner är möjliga!
 
 ## 3D 4: lösning 3
 
-```c++
+```processing
 float ljus_rikting_x = 1;
 
 void setup() 

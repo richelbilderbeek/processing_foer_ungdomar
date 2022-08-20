@@ -30,7 +30,7 @@ de har färre pirxlar vilket gör bilderna kantigare.
 
 Kör följande kod:
 
-```c++
+```processing
 void setup()
 {
   size(300, 200);
@@ -64,7 +64,7 @@ Rita ut en till punkt mellan den första punkten och ovansidan av fönstret.
 
 ## `point` och `random`: lösning 2
 
-```c++
+```processing
 void setup()
 {
   size(300, 200);
@@ -87,7 +87,7 @@ Med andra ord, på halva bredden och på halva höjden av fönstret.
 
 ## `point` och `random`: lösning 3
 
-```c++
+```processing
 void setup()
 {
   size(300, 200);
@@ -117,7 +117,7 @@ Den andra pixeln är utritad
 
 ## `point` och `random`: lösning 4
 
-```c++
+```processing
 void setup()
 {
   size(300, 200);
@@ -144,7 +144,7 @@ Rita ut en ny pixel i fönstrets övre vänstra hörn.
 
 ## `point` och `random`: lösning 5
 
-```c++
+```processing
 void setup()
 {
   size(300, 200);
@@ -175,7 +175,7 @@ Använd `width - 1` som det första talet inom parentesarna för `point`.
 
 ## `point` och `random`: lösning 6
 
-```c++
+```processing
 void setup()
 {
   size(300, 200);
@@ -201,7 +201,7 @@ Använd `width - 1` och `height - 1` på rätt ställen.
 
 ## `point` och `random`: lösning 7
 
-```c++
+```processing
 void setup()
 {
   size(300, 200);
@@ -222,7 +222,7 @@ void draw()
 
 Kör den här koden:
 
-```c++
+```processing
 void setup()
 {
   size(300, 200);

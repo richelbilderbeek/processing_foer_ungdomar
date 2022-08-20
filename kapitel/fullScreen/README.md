@@ -8,7 +8,7 @@
 
 Kör den här koden. Vad ser du?
 
-```c++
+```processing
 void setup() 
 {
   fullScreen();
@@ -45,7 +45,7 @@ med bredden 200 pixlar och höjden 100 pixlar.
 
 ## `fullScreen`: lösning 2
 
-```c++
+```processing
 void setup() 
 {
   fullScreen();
@@ -72,7 +72,7 @@ Rita nu ut rektangeln i mitten på skärmen.
 
 ## `fullScreen`: lösning 3
 
-```c++
+```processing
 void setup() 
 {
   fullScreen();
@@ -97,7 +97,7 @@ och en höjd på 400 pixlar.
 
 ## `fullScreen`: lösning 4
 
-```c++
+```processing
 void setup() 
 {
   fullScreen();
@@ -122,7 +122,7 @@ och höjden 500 pixlar.
 
 ## `fullScreen`: lösning 5
 
-```c++
+```processing
 void setup() 
 {
   fullScreen();

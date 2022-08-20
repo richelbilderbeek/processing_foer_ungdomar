@@ -15,7 +15,7 @@ Du kan (nästan) inte programmera utan `if`-satser.
 
 Detta är en boll som åker åt höger:
 
-```c++
+```processing
 float x = 50;
 
 void setup()
@@ -39,7 +39,7 @@ ska du teleportera bollen till vänster'. `if` är engelska för 'om'.
 
 Så det här kan bli:
 
-```c++
+```processing
 if (x > 200)
 {
   x = 100;
@@ -72,7 +72,7 @@ Skriv `if` i slutet av `draw`, före den avslutande måsvingen (`}`).
 
 Koden blir då:
 
-```c++
+```processing
 float x = 50;
 
 void setup()
@@ -106,7 +106,7 @@ Se till att bollen startar allra längst till vänster i fönstret
  * Ändra `float x = 50` till `float x = 0` eller `float x = -50`: båda är bra.
  * Ändra `x = 100` till `x = 0` eller `x = -50`: båda är bra.
 
-```c++
+```processing
 float x = 50;
 
 void setup()
@@ -140,7 +140,7 @@ innan den hoppar till vänster sida av fönstret
 
 Ändra `if (x > 200)` till `if (x > 650)`.
 
-```c++
+```processing
 float x = -50;
 
 void setup()
@@ -171,7 +171,7 @@ Vi ska nu programmera en boll som åker åt vänster i all evighet.
 
 Det du behöver titta på nu är `if`-uttalandet för att kunna avgöra när `x` är för litet:
 
-```c++
+```processing
 if (x < 100)
 {
   x = 500;
@@ -201,7 +201,7 @@ Gör en boll som åker åt vänster i all evighet:
 
 Detta är en evighetsboll som åker åt vänster:
 
-```c++
+```processing
 float x = 650;
 
 void setup()
@@ -247,7 +247,7 @@ Skriv ett program där en boll åker neråt i all evighet:
 
 ## Låt bollen åka åt höger i all evighet: lösning 5
 
-```c++
+```processing
 float y = -50;
 
 void setup()
@@ -287,7 +287,7 @@ När vi slår ihop kod gäller följande regler:
 
 ## Låt bollen åka åt höger i all evighet: lösning 6
 
-```c++
+```processing
 float x = -50;
 float y = -50;
 

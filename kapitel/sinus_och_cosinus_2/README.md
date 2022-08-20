@@ -11,7 +11,7 @@ för att få en måne att kretsa runt en planet.
 
 Skriv denna kod över:
 
-```c++
+```processing
 float vinkel = 0;
 
 void setup()
@@ -55,7 +55,7 @@ Du kommer att se en kvartscirkel i det övre vänstra hörnet.
 
 ## Sinus och cosinus 2: lösning 2
 
-```c++
+```processing
 float vinkel = 0;
 
 void setup()
@@ -94,7 +94,7 @@ Du kommer nu att se ett mönster.
 
 ![Sinus och cosinus 3: uppgift 2](sinus_och_cosinus_2_3.png)
 
-```c++
+```processing
 float vinkel = 0;
 
 void setup()

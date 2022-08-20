@@ -8,7 +8,7 @@ I den här lektionen ska vi lära oss hur man ser om muspekaren är inuti en cir
 
 Skriv denna kod över:
 
-```c++
+```processing
 void setup()
 {
   size(300, 200);
@@ -47,7 +47,7 @@ Ersätt de andra `150`erna i koden med `cirkel_mitten_x`.
 
 ## 30.4. Muspekare i cirkel: lösning 2
 
-```c++
+```processing
 float cirkel_mitten_x = 150;
 
 void setup()
@@ -72,7 +72,7 @@ void draw()
 
 Lägg till följande rad i `setup`-funktionen:
 
-```c++
+```processing
 cirkel_mitten_x = random(width);
 ```
 
@@ -82,7 +82,7 @@ Vad ser du? Kör programmet flera gånger!
 
 ## 30.6. Muspekare i cirkel: lösning 3
 
-```c++
+```processing
 float cirkel_mitten_x = 150;
 
 void setup()
@@ -112,7 +112,7 @@ I `setup` får den ett slumpmässigt tal upp till `höjd`.
 
 ## Muspekare i cirkel: lösning 4
 
-```c++
+```processing
 float cirkel_mitten_x = 150;
 float cirkel_mitten_y = 100;
 
@@ -146,7 +146,7 @@ Vad är det som går fel?
 
 ## Muspekare i cirkel: lösning 5
 
-```c++
+```processing
 float cirkel_mitten_x = 150;
 float cirkel_mitten_y = 100;
 float cirkel_diameter = 100;

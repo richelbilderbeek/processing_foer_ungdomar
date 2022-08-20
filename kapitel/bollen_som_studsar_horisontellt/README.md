@@ -8,7 +8,7 @@ I den här lektionen ska vi studsa en boll horisontellt från sida till sida.
 
 ## Bollen som studsar horisontellt: uppgift 1
 
-```c++
+```processing
 float x = 300;
 float hastighet = 2;
 
@@ -37,7 +37,7 @@ Skriv in den här koden. Sätt värdet på `hastighet` till `1`. Vad ser du?
 Du kan se att bollen rör sig långsamt åt höger. Om bollen
 åker ut ur fönstret till höger, ska den dyka upp igen på fönstrets vänstra sida.
 
-```c++
+```processing
 float x = 300;
 float hastighet = 1;
 
@@ -71,7 +71,7 @@ Sätt värdet på `hastighet` till `0`. Vad ser du?
 
 Bollen är nu stilla.
 
-```c++
+```processing
 float x = 300;
 float hastighet = 0;
 
@@ -108,7 +108,7 @@ Sätt värdet på `hastighet` till `-1`. Vad ser du?
 
 Bollen rör sig nu åt vänster och syns inte längre.
 
-```c++
+```processing
 float x = 300;
 float hastighet = -1;
 
@@ -143,7 +143,7 @@ Gör detta genom att göra en till `if`-sats.
 
 ## Bollen som studsar horisontellt: lösning 4
 
-```c++
+```processing
 float x = 300;
 float hastighet = -1;
 
@@ -203,7 +203,7 @@ Låt nu bollen studsa från vänster till höger.
 
 ## Bollen som studsar horisontellt: lösning 6
 
-```c++
+```processing
 float x = 300;
 float hastighet = 1;
 
@@ -239,7 +239,7 @@ Låt nu bollen åka med en hastighet av 2 pixlar åt gången.
 
 ## Bollen som studsar horisontellt: lösning 7
 
-```c++
+```processing
 float x = 300;
 float hastighet = 2;
 
@@ -287,7 +287,7 @@ från              | till
 
 ![Uppgift 8](bollen_som_studsar_horisontellt_8.png)
 
-```c++
+```processing
 float x = 300;
 float hastighet = 2;
 

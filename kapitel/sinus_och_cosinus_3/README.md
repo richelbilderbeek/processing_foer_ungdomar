@@ -10,7 +10,7 @@ I den här lektionen ska vi använda en sinus och cosinus för att skapa ett sol
 
 Skriv denna kod över:
 
-```c++
+```processing
 void setup()
 {
   size(300, 200);
@@ -51,7 +51,7 @@ Du ser en cirkel i mitten: solen!
 
 ## Sinus och cosinus 3: lösning 2
 
-```c++
+```processing
 void setup()
 {
   size(300, 200);
@@ -87,7 +87,7 @@ Du ser nu jorden gå fram och tillbaka
 
 ![Sinus och cosinus 3: uppgift 2](sinus_och_cosinus_3_3.png)
 
-```c++
+```processing
 float vinkel_jord = 0;
 
 void setup()
