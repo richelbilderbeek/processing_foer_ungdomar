@@ -6,9 +6,9 @@ Under den här lektionen lär du dig använda `width` och `height`.
 
 \pagebreak
 
-## `width` en `height`: intro
+## `width` och `height`: intro
 
-```c++
+```processing
 void setup() 
 {
   size(256, 256);
@@ -39,7 +39,7 @@ Gör nu fönstret `128` pixlar brett och `128` pixlar högt.
 
 ## `width` och `height`: lösning 1
 
-```c++
+```prcoessing
 void setup() 
 {
   size(128, 128);
@@ -126,7 +126,7 @@ Rita ut cirkelns mitt på platsen (koordinat) `(0, 0)` i fönstret.
 
 ## `width` och `height`: lösning 3
 
-```c++
+```prcoessing
 void setup() 
 {
   size(128, 128);
@@ -149,7 +149,7 @@ Använd `width` och/eller `height`.
 
 ## `width` och `height`: lösning 4
 
-```c++
+```processing
 void setup() 
 {
   size(128, 128);
@@ -173,7 +173,7 @@ Använd `width` och/eller `height`.
 
 ## `width` och `height`: lösning 5
 
-```c++
+```processing
 void setup() 
 {
   size(128, 128);
