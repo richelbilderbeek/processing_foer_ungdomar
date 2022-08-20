@@ -8,7 +8,7 @@ Under den här lektionen ska vi göra en 3D-kula och kub-rörelse.
 
 Skriv denna kod över:
 
-```c++
+```processing
 float x1 = 0;
 float x2 = 0;
 
@@ -56,7 +56,7 @@ Du ser en kub och en boll som står stilla
 
 ## 3D 3: lösning 2
 
-```c++
+```processing
 float x1 = 0;
 float x2 = 0;
 float y1 = 0;
