@@ -8,7 +8,7 @@ I den här lektionen ska vi lära oss hur man mäter om två cirklar krockar.
 
 Skriv denna kod över:
 
-```c++
+```processing
 float x1 = 150;
 float y1 = 100;
 float d1 = 180;
@@ -61,7 +61,7 @@ höjd `d2`.
 
 ## 31.4. Cirklar krockar: lösning 2
 
-```c++
+```processing
 // ...
 float x2 = 30;
 float y2 = 100;
@@ -88,7 +88,7 @@ Vad ser du?
 
 Lägg till i `draw`-funktionen:
 
-```c++
+```processing
 x2 = x2 + random(-1, 1);
 y2 = y2 + random(-1, 1);
 ```
@@ -109,7 +109,7 @@ Du kommer att se den lilla cirkeln röra sig.
 
 Ändra `if`-satsen till `draw`-funktionen till:
 
-```
+```processing
   if (dist(x1, y1, x2, y2) < r1 + r2)
   {
     fill(255, 0, 0);  
