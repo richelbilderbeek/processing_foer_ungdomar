@@ -13,7 +13,7 @@ som använder mycket ovaler:
 
 Kör den här koden
 
-```c++
+```processing
 float x = -50;
 float hastighet = 1;
 
@@ -54,7 +54,7 @@ så att ovalen blir dubbelt så hög.
 
 ## `ellipse` och `background`: lösning 2
 
-```c++
+```processing
 float x = -50;
 float hastighet = 1;
 
@@ -92,7 +92,7 @@ background(255, 0, 0);
 
 ## `ellipse` och `background`: lösning 3
 
-```c++
+```processing
 float x = -50;
 float hastighet = 1;
 
@@ -128,7 +128,7 @@ Gör kanten på cirkeln svart.
 
 ## `ellipse` och `background`: lösning 4
 
-```
+```processing
 float x = -50;
 float hastighet = 1;
 
@@ -163,7 +163,7 @@ Lägg nu raden med `background` efter `size` (inom `setup`).
 
 ![Lösning 5](ellipse_och_background_5.png)
 
-```c++
+```processing
 float x = -50;
 float hastighet = 1;
 
@@ -199,7 +199,7 @@ blåa ändrar sig slumpmässigt.
 
 ## `ellipse` och `background`: lösning 6
 
-```c++
+```processing
 float x = -50;
 float hastighet = 1;
 
