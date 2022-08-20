@@ -24,7 +24,7 @@ När du öppnar programmet ser du ett tomt program utan kod:
 
 Detta är programmeringskoden som vi kommer att använda:
 
-```c++
+```processing
 void setup()
 {
   size(256,256);  
