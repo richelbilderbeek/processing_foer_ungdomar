@@ -10,7 +10,7 @@ Under den här lektionen ska vi jobba med bilder!
 
 Spara den här koden. Kör koden. Vad ser du?
    
-```c++
+```processing
 PImage bild;
 
 void setup() 
