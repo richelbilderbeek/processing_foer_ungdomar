@@ -10,7 +10,7 @@ Under den här lektionen kommer vi att lära oss att rita färgade linjer.
 
 Kör den här koden:
 
-```c++
+```processing
 void setup()
 {
   size(300, 200);
@@ -48,7 +48,7 @@ istället för till den nedre högra hörnet.
 
 ## `line` och `stroke`: lösning 2
 
-```c++
+```processing
 void setup()
 {
   size(300, 200);
@@ -74,7 +74,7 @@ istället för i mitten på vänster sida.
 
 ## `line` och `stroke`: lösning 3
 
-```c++
+```processing
 void setup()
 {
   size(300, 200);
@@ -99,7 +99,7 @@ men använd nu `width` och `height` istället.
 
 ## `line` och `stroke`: lösning 4
 
-```c++
+```processing
 void setup()
 {
   size(300, 200);
@@ -124,7 +124,7 @@ Du gör detta med `random`.
 
 ## `line` och `stroke`: lösning 5
 
-```c++
+```processing
 void setup()
 {
   size(300, 200);
@@ -148,7 +148,7 @@ Låt linjen nu också sluta på en slumpmässig höjd i högra kanten.
 
 ## `line` och `stroke`: lösning 6
 
-```c++
+```processing
 void setup()
 {
   size(300, 200);
@@ -172,7 +172,7 @@ Precis ovanför meningen med `line`, skriv nu texten `stroke(255, 0, 0);`.
 
 ## `line` och `stroke`: lösning 7
 
-```c++
+```processing
 void setup()
 {
   size(300, 200);
@@ -204,7 +204,7 @@ Gör linjerna cyan (ljusblå) nu. Titta på figuren 'Färgcirkel' hur du gör de
 
 ## `line` och `stroke`: lösning 8
 
-```c++
+```processing
 void setup()
 {
   size(300, 200);
@@ -234,7 +234,7 @@ Sätt nu det röda värdet till ett slumpmässigt tal mellan 0 och 256.
 
 ## `line` och `stroke`: lösning 9
 
-```c++
+```processing
 void setup()
 {
   size(300, 200);
