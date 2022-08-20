@@ -8,7 +8,7 @@ Under den här lektionen ska vi göra en 3D-bollrörelse.
 
 Skriv denna kod över:
 
-```c++
+```processing
 float x = 0;
 
 void setup() 
@@ -58,7 +58,7 @@ Om man tittar noga kan man se att den vitaste delen av bollen också byter plats
 
 ## 3D 2: lösning 2
 
-```c++
+```processing
 float x = 0;
 float y = 0;
 
