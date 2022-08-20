@@ -10,7 +10,7 @@ Vi kommer att använda två variabler och två "if"-satser.
 
 Vad gör den här koden?
 
-```c++
+```processing
 float x = 150;
 float y = 100;
 float hastighet_at_hoger = 1;
@@ -59,7 +59,7 @@ Se till att programmet visas i helskärm.
 
 ## Tyngdkraft: Lösning 2
 
-```c++
+```processing
 float x = 150;
 float y = 100;
 float hastighet_at_hoger = 1;
@@ -105,7 +105,7 @@ Se till att bollen studsar bra mot botten.
 
 ## Tyngdkraft: Lösning 3
 
-```c++
+```processing
 float x = 150;
 float y = 100;
 float hastighet_at_hoger = 1;
@@ -148,7 +148,7 @@ Se till att bollen studsar bra mot höger sida.
 
 ## Tyngdkraft: Lösning 4
 
-```c++
+```processing
 float x = 150;
 float y = 100;
 float hastighet_at_hoger = 1;
@@ -185,7 +185,7 @@ void draw()
 
 Lägg till följande inuti "draw"-funktionen längst ned:
 
-```c++
+```processing
 hastighet_nedat += 0.1;
 ```
 
