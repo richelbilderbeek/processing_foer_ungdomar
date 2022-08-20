@@ -11,7 +11,7 @@ koordinaterna för kulor, meteoriter, fiender.
 
 Kör den här koden. Vad gör den?
 
-```c++
+```processing
 float x = 0;
 
 void setup()
@@ -56,7 +56,7 @@ Se till att lägga till en andra boll.
 
 ## Arrayer 1: lösning 2
 
-```c++
+```processing
 float x1 = 0;
 float x2 = 100;
 
@@ -97,7 +97,7 @@ Lägg till en tredje boll.
 
 ## Arrayer 1: lösning 3
 
-```c++
+```processing
 float x1 = 0;
 float x2 = 100;
 float x3 = 200;
@@ -166,7 +166,7 @@ Låda nummer `0` har nummer `42` inuti sig.
 Anta att vi vill skapa en array av bråktal (`float`s) som kallas `hemliga_nummer`,
 då måste vi skriva följande ovanför `setup`:
 
-```
+```processing
 float[] hemliga_nummer;
 ```
 
@@ -179,7 +179,7 @@ Med denna rad skapar du en array som heter `hemliga_nummer`. Hakparentesen bakom
 
 Det har ännu inte bestämts *hur många* bråktal det är.
 Ofta används "setup"-funktionen för att bestämma hur många nummer som ska kommas ihåg:
-
+processing
 ```
 hemliga_nummer = new float[1];
 ```
@@ -196,7 +196,7 @@ Det här betyder att arrayen `hemliga_nummer` innehåller 1 plats.
 
 För att att göra en exakt kopia av skåpet med lådorna kan du använda följande kod:
 
-```
+```processing
 hemliga_nummer[0] = 42;
 ```
 
@@ -208,7 +208,7 @@ Detta sparar siffran 42 på första plats i arrayen, dvs platsen med numret 0.
 
 Du kan också läsa värdet i lådorna:
 
-```
+```processing
 float x = hemliga_nummer[0];
 ```
 
@@ -220,7 +220,7 @@ Med detta läser du den första platsen (lådan med index noll) och sparar den i
 
 Tillsammans får du detta program:
 
-```c++
+```processing
 float[] hemliga_nummer;
 
 void setup()
@@ -244,7 +244,7 @@ Den här programmeringskoden ser inte särskilt trevlig ut med alla hakparentese
 
 Kör koden nedan.
 
-```c++
+```processing
 float[] xs;
 
 void setup()
@@ -293,7 +293,7 @@ Hej, samma som förut!
 
 Kör den här koden:
 
-```c++
+```processing
 float[] xs;
 
 void setup()
@@ -362,7 +362,7 @@ Lägg nu till en fjärde boll.
 ## Arrayer 1: lösning 6
 
 
-```c++
+```processing
 float[] xs;
 
 void setup()
@@ -401,7 +401,7 @@ Gör nu programmet i helskärm. När bollarna lämnar skärmen i högerkanten f�
 
 ## Arrayer 1: lösning 7
 
-```c++
+```processing
 float[] xs;
 
 void setup()
