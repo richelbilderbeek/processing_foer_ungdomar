@@ -13,7 +13,7 @@ Man kan knappt programmera utan variabler.
 
 Skriv följande kod:
 
-```c++
+```processing
 float x = 60;
 
 void setup()
@@ -57,7 +57,7 @@ Fönstret är nu `250` pixlar brett. Nu ska du göra det `300` pixlar brett.
 
 Det står `250` i koden på ett ställe. Bara ändra detta till `300`:
 
-```c++
+```processing
 float x = 60;
 
 void setup()
@@ -95,7 +95,7 @@ Nu ska du göra bollen rund: `40` pixlar bred och `40` pixlar hög.
 `40, 30` gör bollen äggformad.
 Att ändra koden till `40, 40` gör bollen rund.
 
-```c++
+```processing
 float x = 60;
 
 void setup()
@@ -130,7 +130,7 @@ Låt bollen röra sig till höger dubbelt så snabbt
 `x = x + 1;` flyttar bollen 1 pixel. Ändra detta till `x = x + 2;`. 
 Koden blir då:
 
-```c++
+```processing
 float x = 60;
 
 void setup()
@@ -169,7 +169,7 @@ Kan du få cirkeln att ritas ut `0` pixlar till höger?
 Ändra detta till `float x = 0;`. 
 Koden blir då:
 
-```c++
+```processing
 float x = 0;
 
 void setup()
@@ -208,7 +208,7 @@ För att få bollen att starta på höger sida måste du använda `float x = 500
 För att få bollen att åka åt vänster måste du använda `x = x - 1;`. 
 Koden blir då:
 
-```c++
+```processing
 float x = 200;
 
 void setup()
@@ -233,7 +233,7 @@ void draw()
 
 På den första raden använder vi en variabel:
 
-```c++
+```processing
 float x = 50;
 ```
 
@@ -260,7 +260,7 @@ Om någon frågar dig om din ålder vet du vilket nummer du ska svara.
 
 Tillbaka till den första raden i vår kod:
 
-```c++
+```processing
 float x = 50;
 ```
 
@@ -297,7 +297,7 @@ men vi kommer också att få en boll att åka nedåt!
 
 ## Låt bollen åka åt höger: lösning 6
 
-```c++
+```processing
 float y = 0;
 
 void setup()
@@ -328,7 +328,7 @@ Nu ska vi få bollen att röra sig snabbare och uppåt
 
 ## Låt bollen åka åt höger: lösning 7
 
-```c++
+```processing
 float y = 200;
 
 void setup()
