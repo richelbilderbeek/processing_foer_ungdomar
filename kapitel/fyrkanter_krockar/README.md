@@ -8,7 +8,7 @@ Under den här lektionen ska vi lära oss hur man mäter om två fyrkanter krock
 
 Skriv denna kod över:
 
-```c++
+```processing
 float x1 = 150;
 float y1 = 100;
 float w1 = 75;
@@ -54,7 +54,7 @@ Ibland när den rörliga fyrkanten vidrör den stationära blir den röd.
 
 Ändra 'om' till:
 
-```
+```processing
 if (x2 + w2 > x1 && x2 + w2 < x1 + w1)
 ```
 
@@ -68,7 +68,7 @@ Rutorna krockar nu horisontellt.
 
 ![](fyrkanter_krockar_2.png)
 
-```c++
+```processing
 // ...
 
 void setup()
@@ -94,7 +94,7 @@ void draw()
 
 Ändra 'om' till:
 
-```
+```processing
 if (x2 + w2 > x1 && x2 < x1 + w1 && y2 + h2 > y1)
 ```
 
