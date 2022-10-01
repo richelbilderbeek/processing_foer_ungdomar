@@ -116,8 +116,8 @@ void draw()
 
 ## 3D 4: Slutuppgift
 
+ * Skapa en ny variabel, t.ex. `ljus_riktning_y`, med initialvärdet noll
  * Se till att `ljus_riktning_y` kan bli lägre och högre, med tangenterna `w` och `s`
- * Skapa en ny variabel, t.ex. `ljus_riktning_x`, med initialvärdet noll
  * Gör den ljusa färgen grön
 
 Nu kan ljusstrålen rotera fint.
