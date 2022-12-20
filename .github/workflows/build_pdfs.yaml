@@ -15,8 +15,7 @@ jobs:
       - name: Set up Git repository
         uses: actions/checkout@v2
 
-      - name: Set up pandoc
-        uses: actions/pandoc/setup
+      - uses: nikeee/setup-pandoc@v1
 
       - name: Remove old PDFs
         run: |
