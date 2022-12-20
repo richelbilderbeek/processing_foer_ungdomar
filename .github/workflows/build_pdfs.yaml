@@ -28,6 +28,12 @@ jobs:
           sudo apt-get install texlive-fonts-extra
           sudo apt-get install texlive-latex-extra
 
+      - name: Install pdfunite
+        run: sudo apt-get install pdfunite
+
+      - name: Install bookletimposer
+        run: sudo apt-get install bookletimposer
+
       - name: Remove old PDFs
         run: |
           cd boecker
