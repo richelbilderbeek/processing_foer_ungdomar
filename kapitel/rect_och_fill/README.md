@@ -178,7 +178,7 @@ void draw()
   fill(x, 0, 255);
   rect(x - 50, height / 2 - 50, 100, 100);
   x = x + 1;
-  om (x> bredd + 50)
+  if (x > width + 50)
   {
     x = -50;
   }

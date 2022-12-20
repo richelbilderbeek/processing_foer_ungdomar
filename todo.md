@@ -7,5 +7,3 @@ https://github.com/richelbilderbeek/processing_foer_ungdomar/blob/master/kapitel
  * In "lösning 2", "float x = 50;" is not changed to "float x = 0;" or "float x = -50;" as suggested.
  * In "uppgift 3", the y position of the ball goes back to 50, as indicated both in the code and resulting image. The size of the ball stays at 100x100 however.
 https://github.com/richelbilderbeek/processing_foer_ungdomar/blob/master/kapitel/rect_och_fill/README.md:
-
- * In "lösning 5", there is a typo, "width" have been translated to "bredd".
