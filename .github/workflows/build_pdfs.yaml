@@ -21,6 +21,9 @@ jobs:
       - name: Setup TeX Live
         uses: teatimeguest/setup-texlive-action@v2
 
+      - name: Install pdflatex
+        run: sudo apt-get install pdflatex
+
       - name: Remove old PDFs
         run: |
           cd boecker
