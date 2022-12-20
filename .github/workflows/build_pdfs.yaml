@@ -46,6 +46,12 @@ jobs:
           ./goera_framsidor.sh
           cd ..
 
+      - name: Show front pages
+        run: |
+          cd boecker
+          ls *.pdf
+          cd ..
+
       - name: Create books
         run: |
           cd scripts
