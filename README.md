@@ -23,4 +23,5 @@ Kurs 'Processing för ungdomar'.
 
 ## Contributors
 
+ * Leonid Rutkowski
  * Sofia Bryntse
