@@ -49,7 +49,6 @@ jobs:
       - name: Create books
         run: |
           cd scripts
-          ./goera_test_bok.sh
           ./goera_bok_1.sh
           ./goera_bok_2.sh
           ./goera_bok_3.sh
@@ -58,12 +57,25 @@ jobs:
           ./goera_bok_6.sh
           ./goera_bok_7.sh
           ./goera_bok_8.sh
+          ./goera_test_bok.sh
           ./goera_bok_installera.sh
+          cd ..
+
+      - name: Show books
+        run: |
+          cd boecker
+          ls *.pdf
+          cd ..
+
+      - name: Zip books
+        run: |
+          cd boecker
+          zip processing_foer_undomar_boecker.zip *.pdf
           cd ..
 
       - name: Upload PDF to the workflow tab
         uses: actions/upload-artifact@v2
         with:
-          name: processing_foer_ungdomar_pdfs.pdf
-          path: boecker/*.pdf
+          name: processing_foer_ungdomar_boecker.zip
+          path: boecker/processing_foer_undomar_boecker.zip
 
