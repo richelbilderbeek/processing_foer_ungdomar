@@ -18,13 +18,13 @@ jobs:
         run: |
           cd boecker
           rm *.pdf
-          cd..
+          cd ..
 
       - name: Create front pages
         run: |
           cd scripts
           ./goera_framsidor.sh
-          cd..
+          cd ..
 
       - name: Upload PDF to the workflow tab
         uses: actions/upload-artifact@v2
