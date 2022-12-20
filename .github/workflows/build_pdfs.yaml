@@ -40,6 +40,21 @@ jobs:
           ./goera_framsidor.sh
           cd ..
 
+      - name: Create books
+        run: |
+          cd scripts
+          ./goera_test_bok.sh
+          ./goera_bok_1.sh
+          ./goera_bok_2.sh
+          ./goera_bok_3.sh
+          ./goera_bok_4.sh
+          ./goera_bok_5.sh
+          ./goera_bok_6.sh
+          ./goera_bok_7.sh
+          ./goera_bok_8.sh
+          ./goera_bok_installera.sh
+          cd ..
+
       - name: Upload PDF to the workflow tab
         uses: actions/upload-artifact@v2
         with:
