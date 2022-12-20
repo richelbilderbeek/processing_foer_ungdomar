@@ -1,0 +1,34 @@
+on:
+  push:
+  pull_request:
+
+name: Build PDF documents
+
+jobs:
+  build_pdf:
+
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@v2
+
+      - name: Remove old PDFs
+        run: \
+          cd boecker
+          rm *.pdf
+          cd..
+
+      - name: Create front pages
+        run: \
+          cd scripts
+          ./goera_framsidor.sh
+          cd..
+
+      - name: Upload PDF to the workflow tab
+        uses: actions/upload-artifact@v2
+        with:
+          name: processing_foer_ungdomar_pdfs.pdf
+          path: boecker/*.pdf
+
