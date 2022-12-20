@@ -15,7 +15,11 @@ jobs:
       - name: Set up Git repository
         uses: actions/checkout@v2
 
-      - uses: nikeee/setup-pandoc@v1
+      - name: Setup pandoc
+        uses: nikeee/setup-pandoc@v1
+
+      - name: Setup TeX Live
+        uses: teatimeguest/setup-texlive-action@v2
 
       - name: Remove old PDFs
         run: |
