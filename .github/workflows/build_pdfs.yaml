@@ -10,9 +10,13 @@ jobs:
     runs-on: ubuntu-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+
     steps:
       - name: Set up Git repository
         uses: actions/checkout@v2
+
+      - name: Set up pandoc
+        uses: pandoc/actions/setup
 
       - name: Remove old PDFs
         run: |
