@@ -21,18 +21,20 @@ cp ../kapitel/3D_3/*.* $build_folder; mv $build_folder/README.md $build_folder/R
 cp ../kapitel/3D_4/*.* $build_folder; mv $build_folder/README.md $build_folder/README_04.md
 
 
-cd $build_folder
+cd "${build_folder}" || exit 42
 
-cat README_00.md >> README.md; echo " " >> README.md; echo "\pagebreak" >> README.md; echo " " >> README.md
-cat README_01.md >> README.md; echo " " >> README.md; echo "\pagebreak" >> README.md; echo " " >> README.md
-cat README_02.md >> README.md; echo " " >> README.md; echo "\pagebreak" >> README.md; echo " " >> README.md
-cat README_03.md >> README.md; echo " " >> README.md; echo "\pagebreak" >> README.md; echo " " >> README.md
-cat README_04.md >> README.md; echo " " >> README.md; echo "\pagebreak" >> README.md; echo " " >> README.md
+{ \
+  cat README_00.md; echo " "; echo "\pagebreak"; echo " "; \
+  cat README_01.md; echo " "; echo "\pagebreak"; echo " "; \
+  cat README_02.md; echo " "; echo "\pagebreak"; echo " "; \
+  cat README_03.md; echo " "; echo "\pagebreak"; echo " "; \
+  cat README_04.md; echo " "; echo "\pagebreak"; echo " "; \
+} >> README.md
 
 pandoc README.md -o bok.pdf --toc --toc-depth=1 --highlight-style=tango -V geometry:margin=0.5in
 cp bok.pdf ../../boecker/bok_6_utan_framsida.pdf
 
-cd ../../boecker
+cd ../../boecker || exit 43
 pdfunite bok_framsida_6.pdf bok_6_utan_framsida.pdf bok_6.pdf
 
 # Make booklet

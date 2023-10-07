@@ -19,17 +19,19 @@ cp ../kapitel/line_och_stroke/*.* $build_folder                    ; mv $build_f
 cp ../kapitel/flytta_bollen_till_hoeger_i_evighet/*.* $build_folder; mv $build_folder/README.md $build_folder/README_02.md
 cp ../kapitel/rect_och_fill/*.* $build_folder                      ; mv $build_folder/README.md $build_folder/README_03.md
 
-cd $build_folder
+cd "${build_folder}" || exit 42
 
-cat README_00.md >> README.md; echo " " >> README.md; echo "\pagebreak" >> README.md; echo " " >> README.md
-cat README_01.md >> README.md; echo " " >> README.md; echo "\pagebreak" >> README.md; echo " " >> README.md
-cat README_02.md >> README.md; echo " " >> README.md; echo "\pagebreak" >> README.md; echo " " >> README.md
-cat README_03.md >> README.md; echo " " >> README.md; echo "\pagebreak" >> README.md; echo " " >> README.md
+{ \
+  cat README_00.md; echo " "; echo "\pagebreak"; echo " "; \
+  cat README_01.md; echo " "; echo "\pagebreak"; echo " "; \
+  cat README_02.md; echo " "; echo "\pagebreak"; echo " "; \
+  cat README_03.md; echo " "; echo "\pagebreak"; echo " "; \
+} >> README.md
 
 pandoc README.md -o bok.pdf --toc --toc-depth=1 --highlight-style=tango -V geometry:margin=0.5in
 cp bok.pdf ../../boecker/bok_2_utan_framsida.pdf
 
-cd ../../boecker
+cd ../../boecker || exit 43
 pdfunite bok_framsida_2.pdf bok_2_utan_framsida.pdf bok_2.pdf
 
 # Make booklet
