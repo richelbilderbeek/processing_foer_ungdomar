@@ -133,9 +133,9 @@ void draw()
 
 ## Sinus och cosinus 4: uppgift 4
 
- * Gör variablerna `x_ball` och `y_kogel` högst upp
- * Ställ in de initiala värdena för `x_kogel` och `y_kogel` till noll
- * Rita en kula med mitten `(x_kogel, y_kogel)` med en cirkel som är 5 pixlar bred och hög
+ * Gör variablerna `x_kula` och `y_kula` högst upp
+ * Ställ in de initiala värdena för `x_kula` och `y_kula` till noll
+ * Rita en kula med mitten `(x_kula, y_kula)` med en cirkel som är 5 pixlar bred och hög
 
 ![Sinus och cosinus 4: uppgift 4](sinus_och_cosinus_4_4.png)
 
@@ -145,8 +145,8 @@ void draw()
 
 ```processing
 float vinkel_kanon = 0;
-float x_kogel = 0;
-float y_kogel = 0;
+float x_kula = 0;
+float y_kula = 0;
 
 void setup()
 {
@@ -163,7 +163,7 @@ void draw()
   final float y_kanon = y_mitten - (sin(vinkel_kanon) * 20);  
   line(x_mitten, y_mitten, x_kanon, y_kanon);
   ellipse(x_mitten, y_mitten, 20, 20);
-  ellipse(x_kogel, y_kogel, 5, 5);
+  ellipse(x_kula, y_kula, 5, 5);
   vinkel_kanon += 0.1;
   if (keyPressed)
   {
@@ -180,8 +180,8 @@ void draw()
 ## Sinus och cosinus 4: uppgift 5
 
  * Om du trycker på mellanslagstangenten så ...
-    * får `x_kogel` värdet av `x_kanon`
-    * får `y_kogel` värdet för `y_kanon`
+    * får `x_kula` värdet av `x_kanon`
+    * får `y_kula` värdet för `y_kanon`
     * kanonen bara fortsätter snurra
 
 ![Sinus och cosinus 4: uppgift 5](sinus_och_cosinus_4_5.png)
@@ -192,8 +192,8 @@ void draw()
 
 ```processing
 float vinkel_kanon = 0;
-float x_kogel = 0;
-float y_kogel = 0;
+float x_kula = 0;
+float y_kula = 0;
 
 void setup()
 {
@@ -210,14 +210,14 @@ void draw()
   final float y_kanon = y_mitten - (sin(vinkel_kanon) * 20);  
   line(x_mitten, y_mitten, x_kanon, y_kanon);
   ellipse(x_mitten, y_mitten, 20, 20);
-  ellipse(x_kogel, y_kogel, 5, 5);
+  ellipse(x_kula, y_kula, 5, 5);
   vinkel_kanon += 0.1;
   if (keyPressed)
   {
     if (key == ' ')
     {
-      x_kogel = x_kanon;
-      y_kogel = y_kanon;
+      x_kula = x_kanon;
+      y_kula = y_kanon;
     }
   }
 }
@@ -227,10 +227,10 @@ void draw()
 
 ## Sinus och cosinus 4: uppgift 6
 
- * Skapa en ny variabel ovanför `setup-funktionen` med namnet `vinkel_ball`
- * Ge `corner_ball` startvärdet noll
- * Låt `x_ball` bli mer och mer med cosinus av `vinkel_ball`
- * Låt `y_ball` bli *mindre* med sinus för `vinkel_ball`
+ * Skapa en ny variabel ovanför `setup-funktionen` med namnet `vinkel_kula`
+ * Ge `vinkel_kula` startvärdet noll
+ * Låt `x_kula` bli mer och mer med cosinus av `vinkel_kula`
+ * Låt `y_kula` bli *mindre* med sinus för `vinkel_kula`
 
 ![Sinus och cosinus 4: uppgift 6](sinus_och_cosinus_4_6.png)
 
@@ -240,9 +240,9 @@ void draw()
 
 ```processing
 float vinkel_kanon = 0;
-float x_kogel = 0;
-float y_kogel = 0;
-float vinkel_kogel = 0;
+float x_kula = 0;
+float y_kula = 0;
+float vinkel_kula = 0;
 
 void setup()
 {
@@ -257,18 +257,18 @@ void draw()
   final float y_mitten = height / 2;
   final float x_kanon = x_mitten + (cos(vinkel_kanon) * 20);
   final float y_kanon = y_mitten - (sin(vinkel_kanon) * 20);
-  x_kogel += cos(vinkel_kogel);
-  y_kogel -= sin(vinkel_kogel);
+  x_kula += cos(vinkel_kula);
+  y_kula -= sin(vinkel_kula);
   line(x_mitten, y_mitten, x_kanon, y_kanon);
   ellipse(x_mitten, y_mitten, 20, 20);
-  ellipse(x_kogel, y_kogel, 5, 5);
+  ellipse(x_kula, y_kula, 5, 5);
   vinkel_kanon += 0.1;
   if (keyPressed)
   {
     if (key == ' ')
     {
-      x_kogel = x_kanon;
-      y_kogel = y_kanon;
+      x_kula = x_kanon;
+      y_kula = y_kanon;
     }
   }
 }
@@ -280,8 +280,8 @@ void draw()
 
 Nu avslutar vi spelet:
 
- * Se till att kulan inte är synlig i början (tips: ställ in `y_kogel` på minus hundra)
- * Om du trycker på blanksteg, ställ in `corner_kogel` lika med `corner_kanon`
+ * Se till att kulan inte är synlig i början (tips: ställ in `y_kula` på minus hundra)
+ * Om du trycker på blanksteg, ställ in `vinkel_kula` lika med `vinkel_kanon`
 
 ![Sinus och cosinus 4: Slutuppgift](sinus_och_cosinus_4_slutuppgift.png)
 
