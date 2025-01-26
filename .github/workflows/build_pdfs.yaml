@@ -80,7 +80,7 @@ jobs:
           cd ..
 
       - name: Upload PDF to the workflow tab
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: processing_foer_ungdomar_boecker.zip
           path: boecker/processing_foer_undomar_boecker.zip
