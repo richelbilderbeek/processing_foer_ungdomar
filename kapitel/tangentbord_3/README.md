@@ -50,8 +50,7 @@ Starta programmet och tryck på ADSW för att ändra riktning.
 
 ## Tangentbord 3: Uppgift 1
 
-När spelaren till höger går ut ur bilden, se till att
-den visas till höger.
+När spelaren går ut till höger, gör så att den kommer tillbaka till vänster.
 
 ![Uppgift 1](tangentbord_3_1.png)
 
