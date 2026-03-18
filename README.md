@@ -14,7 +14,7 @@ Kurs 'Processing för ungdomar'.
 
 ## Licens
 
-![CC-BY-NC-SA](pics/CC-BY-NC-SA.png)
+![CC-BY-SA](pics/CC-BY-SA.png)
 
 ```
 (C) Richèl Bilderbeek
