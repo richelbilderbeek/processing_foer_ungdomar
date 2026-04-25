@@ -1,4 +1,4 @@
-#3D Lektion 2: styra klotet
+# 3D Lektion 2: styra klotet
 
 Under den här lektionen ska vi göra en 3D-bollrörelse.
 
