@@ -7,7 +7,7 @@ nav:
   - Välkommen: README.md
   - Kapitel: chapters/README.md
   - Böcker: books/README.md
-  - Lektionkort: chapters/lesson_card/README.md
+  - Lektionkort: lesson_cards/README.md
   - Vanliga frågor: faq.md
   - Misc:
     - Bidragsgivarna: acknowledgements.md
