@@ -24,7 +24,7 @@ theme:
     text: Lato
     code: JetBrains Mono
   palette:
-    primary: blue
+    primary: darkblue
 
   # Keyboard shortcuts for navigation, from https://www.mkdocs.org/user-guide/choosing-your-theme/
   shortcuts:
