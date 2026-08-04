@@ -1,25 +1,23 @@
 # Processing för ungdomar
 
+
 [![Build PDF documents](https://github.com/richelbilderbeek/processing_foer_ungdomar/actions/workflows/build_pdfs.yaml/badge.svg?branch=master)](https://github.com/richelbilderbeek/processing_foer_ungdomar/actions/workflows/build_pdfs.yaml)
 [![check-links](https://github.com/richelbilderbeek/processing_foer_ungdomar/actions/workflows/check_links.yaml/badge.svg?branch=master)](https://github.com/richelbilderbeek/processing_foer_ungdomar/actions/workflows/check_links.yaml)
 
-![Processing 3 logo](docs/logos/processing3_logo_50.png)
-![Processing 4 logo](docs/logos/pics/processing4_logo_50.png)
+<!-- [![DOI](https://zenodo.org/badge/495032889.svg)](https://doi.org/10.5281/zenodo.14591xxx) -->
 
-Kurs 'Processing för ungdomar'.
+![Processing 4 logo](docs/logos/processing4_logo_50.png)
 
- * [Installera Processing](kapitel/installera_processing/README.md)
- * [Kapitel](kapitel/README.md): fristående kapitel
- * [Vanliga frågor](faq.md): vanliga frågor
+- [Go to the nicely rendered website](https://richelbilderbeek.github.io/processing_foer_ungdomar)
 
-## Licens
+## Files used by continuous integration scripts
 
-![CC-BY-SA](pics/CC-BY-SA.png)
+<!-- markdownlint-disable MD013 --><!-- Table rows must be put on one line, hence 80 chars is unavoidable -->
 
-```
-(C) Richèl Bilderbeek
-```
+Filename                                    |Descriptions
+--------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------
+[`mlc_config.json`](mlc_config.json)        |Configuration of the link checker, use `markdown-link-check --config mlc_config.json --quiet docs/**/*.md` to do link checking locally
+[`.markdownlint.jsonc`](.markdownlint.jsonc)|Configuration of the Markdown linter, use `markdownlint "**/*.md"` to do markdown linting locally. The name of this file is a default name.
+[`.markdownlintignore`](.markdownlintignore)|Files ignored by the Markdown linter, use `markdownlint "**/*.md"` to do markdown linting locally. The name of this file is a default name.
 
-## Länkar
-
- * [Samma kurs, men på nederländska](https://github.com/richelbilderbeek/processing_voor_jonge_tieners)
+<!-- markdownlint-enable MD013 -->
