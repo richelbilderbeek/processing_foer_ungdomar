@@ -40,4 +40,4 @@ pdfunite book_front_page_5.pdf book_5_without_front_page.pdf book_5.pdf
 # Make booklet
 bookletimposer -a book_5.pdf -o booklet_5.pdf
 
-rm bok_5_without_front_page.pdf
+rm book_5_without_front_page.pdf

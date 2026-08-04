@@ -36,4 +36,4 @@ pdfunite book_front_page_1.pdf book_installera_without_front_page.pdf book_insta
 # Make booklet
 bookletimposer -a book_installera.pdf -o booklet_installera.pdf
 
-rm bok_installera_without_front_page.pdf
+rm book_installera_without_front_page.pdf
