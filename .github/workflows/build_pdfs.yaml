@@ -36,52 +36,52 @@ jobs:
 
       - name: Remove old PDFs
         run: |
-          cd boecker
+          cd docs/books || exit 42
           rm *.pdf
-          cd ..
+          cd -
 
       - name: Create front pages
         run: |
-          cd scripts
-          ./goera_framsidor.sh
-          cd ..
+          cd docs/scripts || exit 42
+          ./create_front_pages.sh || exit 43
+          cd -
 
       - name: Show front pages
         run: |
-          cd boecker
+          cd docs/books || exit 42
           ls *.pdf
-          cd ..
+          cd -
 
       - name: Create books
         run: |
-          cd scripts
-          ./goera_bok_1.sh
-          ./goera_bok_2.sh
-          ./goera_bok_3.sh
-          ./goera_bok_4.sh
-          ./goera_bok_5.sh
-          ./goera_bok_6.sh
-          ./goera_bok_7.sh
-          ./goera_bok_8.sh
-          ./goera_test_bok.sh
-          ./goera_bok_installera.sh
-          cd ..
+          cd docs/scripts || exit 42
+          ./create_test_book.sh || exit 43
+          ./create_book_1.sh || exit 43
+          ./create_book_2.sh || exit 43
+          ./create_book_3.sh || exit 43
+          ./create_book_4.sh || exit 43
+          ./create_book_5.sh || exit 43
+          ./create_book_6.sh || exit 43
+          ./create_book_7.sh || exit 43
+          ./create_book_8.sh || exit 43
+          ./create_book_to_install.sh || exit 43
+          cd -
 
       - name: Show books
         run: |
-          cd boecker
+          cd docs/books || exit 42
           ls *.pdf
-          cd ..
+          cd -
 
       - name: Zip books
         run: |
-          cd boecker
-          zip processing_foer_undomar_boecker.zip *.pdf
-          cd ..
+          cd docs/books || exit 42
+          zip processing_foer_undomar_books.zip *.pdf
+          cd -
 
       - name: Upload PDF to the workflow tab
         uses: actions/upload-artifact@v4
         with:
-          name: processing_foer_ungdomar_boecker.zip
-          path: boecker/processing_foer_undomar_boecker.zip
+          name: processing_foer_undomar_books.zip
+          path: books/processing_foer_undomar_books.zip
 

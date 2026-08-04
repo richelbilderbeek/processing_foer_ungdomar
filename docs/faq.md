@@ -1,68 +1,88 @@
 # Vänliga frågor
 
-## Zijn er cursussen die deze boeken gebruiken?
+## Var kan jag hitta böckerna?
 
-Jazeker:
+I mappen '[books](books/README.md)'.
 
-* Appingedam, maandagavond (in de maak)
-* [Groningen, donderdagavond](https://github.com/richelbilderbeek/Dojo)
+## Finns det några kurser som använder dessa böcker?
 
-## Wat is de licensie op de boeken?
+Japp:
 
-# Voorwoord
+- [Lördagskurserna i Uppsala](https://uppsala-makerspace.github.io/loerdagskurser/)
 
-De boeken hebben allemaal een [CC-BY-SA](https://nl.wikipedia.org/wiki/Creative_Commons-licenties) licensie:
+## Vad är licensen på böckerna?
 
-![De licensie van dit boek](pics/CC-BY-SA.png)
+Böckerna har alla en [CC-BY-SA](https://sv.wikipedia.org/wiki/Creative_Commons#Licenser)-licens:
 
-Letters|Betekenis|Vertaling
----|---|---
-CC|Creative Commons|Het type license
-BY|By|Deze website moet genoemd worden als bron
-NC|Non-Commercial|Er mag geen winst worden gemaakt met dit materiaal
-SA|Share alike|Het materiaal moet met dezelfde licensie verspreidt worden
+![Licensen för den här boken](CC-BY-SA.png)
 
-Het copyright van deze boeken staat op:
+Bokstäver|Mening          |Översättning
+---------|----------------|-----------------------------------------------
+CC       |Creative Commons|Licenstypen
+BY       |Av              |Denna webbplats bör citeras som källa
+NC       |Icke-kommersiell|Ingen vinst får göras på detta material
+SA       |Dela lika       |Materialet måste distribueras med samma licens
 
+Upphovsrätten till dessa böcker finns på:
+
+```text
+(C) Richèl Bilderbeek och alla lärare och alla elever
 ```
-(C) Richèl Bilderbeek
-```
 
-Dit zijn veel mensen, waardoor dit boekje altijd gratis, vrij en open zal blijven.
+Det här är många människor, så det här häftet kommer alltid
+att förbli gratis, gratis och öppet.
 
-## Mag ik deze boeken verspreiden?
+## Vad är licensen på bilderna?
 
-Ja, graag zelfs!
+Nästan alla bilderna har en
+[CC-BY-SA](https://sv.wikipedia.org/wiki/Creative_Commons#Licenser)-licens:
 
-## Hoe geef ik een suggestie door?
+![Licensen för bilderna](CC-BY-SA.png)
 
-Fijn!
+Det finns några bilder som har en
+[CC-BY](https://sv.wikipedia.org/wiki/Creative_Commons#Licenser)-licens
+(eller annotlunda `BY` licenser).
+Sådana filer är märkta sådant in filnamnet (t.e.x `some_image_cc_by.png`)
+och i närmaste `README.md` har en referens till bildkällan.
 
-Er zijn meerdere mogelijkheden:
+## Får jag distribuera dessa böcker?
 
-* Stuur @richelbilderbeek een email, zoek op 'Richel Bilderbeek contact'
-* Maak een Issue aan
-* Maak een Pull Request aan
+Gjärna!
 
-## Mag ik deze boeken wijzigen?
+## Hur skickar jag in ett förslag?
 
-Ja, op voorwaarde dat deze website als bron wordt vermeld
-en dezelfde vrije licensie handhaaft.
+Trevlig! Ser [hur att bidra](CONTRIBUTING.md).
 
-## Mag ik deze boeken verkopen?
+## Kan jag ändra dessa böcker?
 
-Verkopen is hier niet het goede woord.
+Ja, förutsatt att den här webbplatsen anges som källa
+och upprätthåller samma fria licens.
 
-De boeken mogen vrij gedrukt worden.
-Hier zitten printkosten aan.
-Voor deze kosten mogen de boekjes verkocht worden.
-Op deze manier kun je de prijs van de boekjes als servicekosten zien.
-Er mag geen winst gemaakt worden op de boekjes.
+## Kan jag sälja dessa böcker?
 
-## Waarom staat het logo van De Jonge Onderzoekers Groningen op de kaft?
+- För en vinst-drivande företag: nej
+- För att täcka kostnader: ja
 
-Deze boekjes zijn voor het eerst zijn gebruikt bij
-Stichting De Jonge Onderzoekers Groningen. Omdat zij de boekjes printen,
-staat dit logo op de kaft.
+Böckerna får tryckas fritt.
+Detta ger tryckkostnader.
+Böckerna kan säljas för dessa kostnader.
+På så sätt kan du se priset på häften som servicekostnader.
+Ingen vinst får göras på bokföringen.
 
-Het is prima mogelijk om de kaften te veranderen, zonder of met een ander logo.
+## Varför finns Uppsala Makerspacets logotyp på omslaget?
+
+Dessa häften användes för första gången
+hos Uppsala Makerspace. Eftersom dem trycker häften,
+denna logotyp finns på omslaget.
+
+Det är fullt möjligt att byta omslag, utan eller med annan logotyp.
+
+## Vad är historien om kursen?
+
+Denna kurs började som en svensk översättning från en nederländskt kurs
+['Processing voor jonge tieners'](https://github.com/richelbilderbeek/processing_voor_jonge_tieners).
+Efter den första översättningen,
+var kursen förbättrat tack vore eleverna.
+
+'Arduino voor jonge tieners' var andvänd under kurser i Nederländerna
+för fler år.
