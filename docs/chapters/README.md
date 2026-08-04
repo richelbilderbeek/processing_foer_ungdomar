@@ -62,4 +62,21 @@ Kpt|Beskrivning
 ---|---------------------------------------------------------------
 .  | **Bok 9**
 33 |Funktioner 1
-
+34 |Funktioner 2
+35 |Funktioner 3
+36 |Funktioner 4
+.  | **Bok 10**
+37 |git 1
+38 |git 2
+39 |git 3
+40 |git 4
+.  | **Bok 11**
+41 |Klasser 1
+42 |Klasser 2
+43 |Klasser 3
+44 |Klasser 4
+.  | **Bok 12**
+45 |Att skapa en meny, med 'Start', 'About', 'Settings' och 'Quit'
+46 |Att lägga till en debug mode i en spel
+47 |Att skapa en spel i man kan vinna eller förlora
+48 |Att använder artwork
