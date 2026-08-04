@@ -13,6 +13,7 @@ nav:
     - Bidragsgivarna: acknowledgements.md
     - Code of conduct: CODE_OF_CONDUCT.md
     - Contributing: CONTRIBUTING.md
+    - Scripts: scripts/README.md
 
 not_in_nav: |
   scripts/build/*.md
@@ -32,7 +33,7 @@ theme:
     previous: 80 # p
     search: 83   # s
 
-  logo: logo/arduino_community_logo_white_background.png
+  logo: logos/processing4_logo.png
 
   features:
     - toc.integrate
