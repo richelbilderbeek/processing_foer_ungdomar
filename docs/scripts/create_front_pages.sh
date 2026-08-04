@@ -4,15 +4,15 @@
 
 build_folder=build
 
-rm -rf build
-mkdir build
+rm -rf "${build_folder}"
+mkdir "${build_folder}"
 
-if [ ! -d $build_folder ]; then 
+if [ ! -d "${build_folder}" ]; then 
   echo "Error: failed to create build folder"
   exit 1
 fi
 
-cp ../kapitel/front_page/*.* $build_folder
+cp ../chapters/front_page/*.* "${build_folder}"
 cd "${build_folder}" || exit 42
 
 pandoc front_page_1.md -o ../../books/book_front_page_1.pdf
