@@ -3,8 +3,8 @@
 [![Build PDF documents](https://github.com/richelbilderbeek/processing_foer_ungdomar/actions/workflows/build_pdfs.yaml/badge.svg?branch=master)](https://github.com/richelbilderbeek/processing_foer_ungdomar/actions/workflows/build_pdfs.yaml)
 [![check-links](https://github.com/richelbilderbeek/processing_foer_ungdomar/actions/workflows/check_links.yaml/badge.svg?branch=master)](https://github.com/richelbilderbeek/processing_foer_ungdomar/actions/workflows/check_links.yaml)
 
-![Processing 3 logo](docs/logos/processing3_logo_50.png)
-![Processing 4 logo](docs/logos/pics/processing4_logo_50.png)
+![](pics/processing3_logo_50.png)
+![](pics/processing4_logo_50.png)
 
 Kurs 'Processing för ungdomar'.
 
@@ -23,3 +23,8 @@ Kurs 'Processing för ungdomar'.
 ## Länkar
 
  * [Samma kurs, men på nederländska](https://github.com/richelbilderbeek/processing_voor_jonge_tieners)
+
+## Contributors
+
+ * Leonid Rutkowski
+ * Sofia Bryntse
