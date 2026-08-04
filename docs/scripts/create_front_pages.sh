@@ -12,7 +12,7 @@ if [ ! -d "${build_folder}" ]; then
   exit 1
 fi
 
-cp ../chapters/front_page/*.* "${build_folder}"
+cp ../chapters/front_pages/*.* "${build_folder}"
 cd "${build_folder}" || exit 42
 
 pandoc front_page_1.md -o ../../books/book_front_page_1.pdf
