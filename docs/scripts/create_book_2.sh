@@ -31,7 +31,7 @@ cd "${build_folder}" || exit 42
 pandoc README.md -o book.pdf --toc --toc-depth=1 --highlight-style=tango -V geometry:margin=0.5in
 cp book.pdf ../../books/book_2_without_front_page.pdf
 
-cd ../../boecker || exit 43
+cd ../../books || exit 43
 pdfunite book_front_page_2.pdf book_2_without_front_page.pdf book_2.pdf
 
 # Make booklet
