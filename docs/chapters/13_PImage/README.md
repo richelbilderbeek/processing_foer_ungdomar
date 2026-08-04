@@ -54,7 +54,7 @@ Här är en bild som visar var filerna ska vara:
 
 ![Mappstruktur](PImageFolderstructuur.png)
 
-- Skissen heter `PImage1.pde`. Därför finns den i mappen `PImage1`. 
+- Skissen heter `PImage1.pde`. Därför finns den i mappen `PImage1`.
   Du hittar detta i Bearbetning under `Sketch` -> `Show Sketch Map`
 - Skissen har en mapp `data`. Den innehåller bilden `mario.png`.
 

@@ -34,20 +34,20 @@ Vad ser du?
 
 \pagebreak
 
-## 31.2. Cirklar krockar: lösning 1
+### 31.1. Svar
 
-En cirkel. När du flyttar muspekaren in i den blir den röd.
+En cirkel. Om du flyttar muspekaren in i den blir den röd.
 
-![](cirklar_krockar_1.png)
+![n cirkel. Om du flyttar muspekaren in i den blir den röd](cirklar_krockar_1.png)
 
 \pagebreak
 
-## 31.3. Cirklar krockar: uppgift 2
+## 31.2. En andra cirkel
 
 Lägg till en andra cirkel.
 Skapa fyra nya variabler:
 
-```
+```processing
 float x2 = 30;
 float y2 = 100;
 float d2 = 60;
@@ -59,7 +59,7 @@ höjd `d2`.
 
 \pagebreak
 
-## 31.4. Cirklar krockar: lösning 2
+### 31.2. Svar
 
 ```processing
 // ...
@@ -84,7 +84,7 @@ Vad ser du?
 
 \pagebreak
 
-## 31.5. Cirklar krockar: uppgift 3
+## 31.3. Cirklar röra sig
 
 Lägg till i `draw`-funktionen:
 
@@ -97,15 +97,15 @@ Vad ser du?
 
 \pagebreak
 
-## 31.6. Cirklar krockar: lösning 3
+### 31.3. Svar
 
-Du kommer att se den lilla cirkeln röra sig.
+Du kommer att se att den lilla cirkeln rör sig.
 
-![](cirklar_krockar_3.png)
+![Den lilla cirkeln rör sig](cirklar_krockar_3.png)
 
 \pagebreak
 
-## 31.7. Cirklar krockar: uppgift 4
+## 31.4. Att krocka rätt
 
 Ändra `if`-satsen till `draw`-funktionen till:
 
@@ -118,14 +118,15 @@ Du kommer att se den lilla cirkeln röra sig.
 
 Vad ser du?
 
-## 31.8. Cirklar krockar: lösning 4
+### 31.4. Svar
 
-Du kan se cirklarna bli röda när de krockar:
+Du kan ser cirklarna bli röda när de krockar:
 
-![](cirklar_krockar_4.png)
+![Cirklarna bli röda när de krockar](cirklar_krockar_4.png)
 
-## 31.9. Cirklar krockar: Slutuppgift
+## 31.5. Slutuppgift
 
-Få också den stora cirkeln att röra sig. Krockar de ska de bli röda.
+Få också den stora cirkeln att röra sig.
+Krockar dem, så ska dem bli röda.
 
-![](cirklar_krockar_slutuppgift.png)
+![Båda cirklar rör sig](cirklar_krockar_slutuppgift.png)

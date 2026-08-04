@@ -4,7 +4,7 @@ Under den här lektionen ska vi lära oss hur man mäter om två fyrkanter krock
 
 \pagebreak
 
-## 32.1. Fyrkanten krockar: uppgift 1
+## 32.1. En krock som inte funkar helt ännu
 
 Skriv denna kod över:
 
@@ -41,18 +41,18 @@ Vad ser du?
 
 \pagebreak
 
-## 32.2. Fyrkanten krockar: lösning 1
+### 32.1. Svar
 
 Två rutor. En fyrkant följer musen.
 Ibland när den rörliga fyrkanten vidrör den stationära blir den röd.
 
-![](fyrkanter_krockar_1.png)
+![Ibland blir den stationära fyrkanten röd](fyrkanter_krockar_1.png)
 
 \pagebreak
 
-## 32.3. Fyrkanten krockar: uppgift 2
+## 32.2. En lite bättre krock
 
-Ändra 'om' till:
+Ändra `if` satsen till:
 
 ```processing
 if (x2 + w2 > x1 && x2 + w2 < x1 + w1)
@@ -62,11 +62,11 @@ Vad ser du?
 
 \pagebreak
 
-## 32.4. Fyrkanten krockar: lösning 2
+### 32.2. Svar
 
 Rutorna krockar nu horisontellt.
 
-![](fyrkanter_krockar_2.png)
+![Rutorna krockar nu horisontellt](fyrkanter_krockar_2.png)
 
 ```processing
 // ...
@@ -90,9 +90,9 @@ void draw()
 
 \pagebreak
 
-## 32.5. Fyrkanten krockar: uppgift 3
+## 32.3. En bättre krock
 
-Ändra 'om' till:
+Ändra nuvarande `if` satsen till:
 
 ```processing
 if (x2 + w2 > x1 && x2 < x1 + w1 && y2 + h2 > y1)
@@ -102,14 +102,14 @@ Vad ser du?
 
 \pagebreak
 
-## 32.6. Fyrkanten krockar: lösning 3
+### 32.3. Svar
 
 Rutorna krockar just nu förutom på toppen.
 
-![](fyrkanter_krockar_3.png)
+![Rutorna krockar förutom på toppen](fyrkanter_krockar_3.png)
 
-## 32.7. Fyrkanten krockar: slutuppgift
+## 32.4. Slutuppgift
 
-Gör 'om' ännu längre så att rutorna krockar.
+Gör `if` satsen ännu längre så att rutorna krockar.
 
-![](fyrkanter_krockar_slutuppgift.png)
+![Rutorna krockar](fyrkanter_krockar_slutuppgift.png)

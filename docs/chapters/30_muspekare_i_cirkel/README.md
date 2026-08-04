@@ -31,10 +31,9 @@ Vad ser du? När blir cirkeln röd?
 
 ## 30.2. Muspekare i cirkel: lösning 1
 
-Cirkeln blir röd när du flyttar muspekaren
-rör sig i cirkeln.
+Cirkeln blir röd när du flyttar muspekaren rör sig i cirkeln.
 
-![](muspekare_i_cirkel_1.png)
+![Cirkeln blir röd](muspekare_i_cirkel_1.png)
 
 \pagebreak
 

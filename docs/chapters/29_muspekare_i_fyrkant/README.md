@@ -41,10 +41,10 @@ mer än 25 pixlar åt höger.
 
 ## 29.2. Andra `if` sats
 
-Ändra koden så att fyrkanten blir röd när du flyttar musen
-är till vänster om den högra sidan av torget.
+Ändra koden så att fyrkanten blir röd när du flyttar muspekaren
+till vänster om den högra sidan av fyrkanten.
 
-![](muspekare_i_fyrkant_2.png)
+![Fyrkanten blir röd](muspekare_i_fyrkant_2.png)
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-----:|:--------------------------------------------:
