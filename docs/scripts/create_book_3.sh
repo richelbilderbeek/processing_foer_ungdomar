@@ -14,11 +14,11 @@ if [ ! -d $build_folder ]; then
 fi
 
 
-cp ../kapitel/foerord/*.* $build_folder                        ; mv $build_folder/README.md $build_folder/README_00.md
-cp ../kapitel/bollen_som_studsar_horisontellt/*.* $build_folder; mv $build_folder/README.md $build_folder/README_01.md
-cp ../kapitel/ellipse_och_background/*.* $build_folder         ; mv $build_folder/README.md $build_folder/README_02.md
-cp ../kapitel/bollen_som_studsar_snett/*.* $build_folder       ; mv $build_folder/README.md $build_folder/README_03.md
-cp ../kapitel/text/*.* $build_folder                           ; mv $build_folder/README.md $build_folder/README_04.md
+cp ../chapters/foerord/*.* $build_folder                        ; mv $build_folder/README.md $build_folder/README_00.md
+cp ../chapters/08_bollen_som_studsar_horisontellt/*.* $build_folder; mv $build_folder/README.md $build_folder/README_01.md
+cp ../chapters/09_ellipse_och_background/*.* $build_folder         ; mv $build_folder/README.md $build_folder/README_02.md
+cp ../chapters/10_bollen_som_studsar_snett/*.* $build_folder       ; mv $build_folder/README.md $build_folder/README_03.md
+cp ../chapters/11_text/*.* $build_folder                           ; mv $build_folder/README.md $build_folder/README_04.md
 
 cd "${build_folder}" || exit 42
 
@@ -30,13 +30,13 @@ cd "${build_folder}" || exit 42
   cat README_04.md; echo " "; echo "\pagebreak"; echo " "; \
 } >> README.md
 
-pandoc README.md -o bok.pdf --toc --toc-depth=1 --highlight-style=tango -V geometry:margin=0.5in
-cp bok.pdf ../../boecker/bok_3_utan_framsida.pdf
+pandoc README.md -o book.pdf --toc --toc-depth=1 --highlight-style=tango -V geometry:margin=0.5in
+cp book.pdf ../../books/book_3_without_front_page.pdf
 
 cd ../../boecker || exit 43
-pdfunite bok_framsida_3.pdf bok_3_utan_framsida.pdf bok_3.pdf
+pdfunite book_front_page_3.pdf book_3_without_front_page.pdf book_3.pdf
 
 # Make booklet
-bookletimposer -a bok_3.pdf -o haefte_3.pdf
+bookletimposer -a book_3.pdf -o booklet_3.pdf
 
-rm bok_3_utan_framsida.pdf
+rm bok_3_without_front_page.pdf

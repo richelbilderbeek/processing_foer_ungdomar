@@ -14,11 +14,11 @@ if [ ! -d $build_folder ]; then
 fi
 
 
-cp ../kapitel/foerord/*.* $build_folder             ; mv $build_folder/README.md $build_folder/README_00.md
-cp ../kapitel/installera_processing/*.* $build_folder ; mv $build_folder/README.md $build_folder/README_01.md
-# cp ../kapitel/flytta_bollen_till_hoeger/*.* $build_folder  ; mv $build_folder/README.md $build_folder/README_02.md
-# cp ../kapitel/width_och_height/*.* $build_folder    ; mv $build_folder/README.md $build_folder/README_03.md
-# cp ../kapitel/point_och_random/*.* $build_folder    ; mv $build_folder/README.md $build_folder/README_04.md
+cp ../chapters/foerord/*.* $build_folder             ; mv $build_folder/README.md $build_folder/README_00.md
+cp ../chapters/installera_processing/*.* $build_folder ; mv $build_folder/README.md $build_folder/README_01.md
+# cp ../chapters/flytta_bollen_till_hoeger/*.* $build_folder  ; mv $build_folder/README.md $build_folder/README_02.md
+# cp ../chapters/width_och_height/*.* $build_folder    ; mv $build_folder/README.md $build_folder/README_03.md
+# cp ../chapters/point_och_random/*.* $build_folder    ; mv $build_folder/README.md $build_folder/README_04.md
 
 cd "${build_folder}" || exit 42
 
@@ -27,13 +27,13 @@ cd "${build_folder}" || exit 42
   cat README_01.md; echo " "; echo "\pagebreak"; echo " "; \
 } >> README.md
 
-pandoc README.md -o bok.pdf --toc --toc-depth=1 --highlight-style=tango -V geometry:margin=0.5in
-cp bok.pdf ../../boecker/bok_installera_utan_framsida.pdf
+pandoc README.md -o book.pdf --toc --toc-depth=1 --highlight-style=tango -V geometry:margin=0.5in
+cp book.pdf ../../books/book_installera_without_front_page.pdf
 
 cd ../../boecker || exit 43
-pdfunite bok_framsida_1.pdf bok_installera_utan_framsida.pdf bok_installera.pdf
+pdfunite book_front_page_1.pdf book_installera_without_front_page.pdf book_installera.pdf
 
 # Make booklet
-bookletimposer -a bok_installera.pdf -o haefte_installera.pdf
+bookletimposer -a book_installera.pdf -o booklet_installera.pdf
 
-rm bok_installera_utan_framsida.pdf
+rm bok_installera_without_front_page.pdf

@@ -14,8 +14,8 @@ if [ ! -d $build_folder ]; then
 fi
 
 
-cp ../kapitel/foerord/*.* $build_folder             ; mv $build_folder/README.md $build_folder/README_00.md
-cp ../kapitel/skriva/*.* $build_folder              ; mv $build_folder/README.md $build_folder/README_01.md
+cp ../chapters/foreword/*.* $build_folder             ; mv $build_folder/README.md $build_folder/README_00.md
+cp ../chapters/skriva/*.* $build_folder              ; mv $build_folder/README.md $build_folder/README_01.md
 
 cd "${build_folder}" || exit 42
 
@@ -24,13 +24,13 @@ cd "${build_folder}" || exit 42
   cat README_01.md; echo " "; echo "\pagebreak"; echo " "; \
 } >> README.md
 
-pandoc README.md -o bok.pdf --toc --toc-depth=1 --highlight-style=tango -V geometry:margin=0.5in
-cp bok.pdf ../../boecker/test_bok_utan_framsida.pdf
+pandoc README.md -o book.pdf --toc --toc-depth=1 --highlight-style=tango -V geometry:margin=0.5in
+cp book.pdf ../../books/test_bok_without_front_page.pdf
 
 cd ../../boecker || exit 43
-pdfunite bok_framsida_1.pdf test_bok_utan_framsida.pdf test_bok.pdf
+pdfunite book_front_page_1.pdf test_bok_without_front_page.pdf test_book.pdf
 
 # Make booklet
-bookletimposer -a test_bok.pdf -o test_haefte.pdf
+bookletimposer -a test_book.pdf -o test_haefte.pdf
 
-rm test_bok_utan_framsida.pdf
+rm test_bok_without_front_page.pdf

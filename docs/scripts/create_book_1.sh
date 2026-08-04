@@ -14,11 +14,11 @@ if [ ! -d $build_folder ]; then
 fi
 
 
-cp ../kapitel/foerord/*.* $build_folder             ; mv $build_folder/README.md $build_folder/README_00.md
-cp ../kapitel/ett_vackert_program/*.* $build_folder ; mv $build_folder/README.md $build_folder/README_01.md
-cp ../kapitel/flytta_bollen_till_hoeger/*.* $build_folder  ; mv $build_folder/README.md $build_folder/README_02.md
-cp ../kapitel/width_och_height/*.* $build_folder    ; mv $build_folder/README.md $build_folder/README_03.md
-cp ../kapitel/point_och_random/*.* $build_folder    ; mv $build_folder/README.md $build_folder/README_04.md
+cp ../chapters/foerord/*.* $build_folder                      ; mv $build_folder/README.md $build_folder/README_00.md
+cp ../chapters/01_ett_vackert_program/*.* $build_folder       ; mv $build_folder/README.md $build_folder/README_01.md
+cp ../chapters/02_flytta_bollen_till_hoeger/*.* $build_folder ; mv $build_folder/README.md $build_folder/README_02.md
+cp ../chapters/03_width_och_height/*.* $build_folder          ; mv $build_folder/README.md $build_folder/README_03.md
+cp ../chapters/04_point_och_random/*.* $build_folder          ; mv $build_folder/README.md $build_folder/README_04.md
 
 cd "${build_folder}" || exit 42
 
@@ -30,13 +30,13 @@ cd "${build_folder}" || exit 42
   cat README_04.md; echo " "; echo "\pagebreak"; echo " "; \
 } >> README.md
 
-pandoc README.md -o bok.pdf --toc --toc-depth=1 --highlight-style=tango -V geometry:margin=0.5in
-cp bok.pdf ../../boecker/bok_1_utan_framsida.pdf
+pandoc README.md -o book.pdf --toc --toc-depth=1 --highlight-style=tango -V geometry:margin=0.5in
+cp book.pdf ../../books/book_1_without_front_page.pdf
 
 cd ../../boecker || exit 43
-pdfunite bok_framsida_1.pdf bok_1_utan_framsida.pdf bok_1.pdf
+pdfunite book_front_page_1.pdf book_1_without_front_page.pdf book_1.pdf
 
 # Make booklet
-bookletimposer -a bok_1.pdf -o haefte_1.pdf
+bookletimposer -a book_1.pdf -o booklet_1.pdf
 
-rm bok_1_utan_framsida.pdf
+rm bok_1_without_front_page.pdf

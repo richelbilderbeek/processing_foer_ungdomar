@@ -14,12 +14,12 @@ if [ ! -d $build_folder ]; then
 fi
 
 
-cp ../kapitel/foerord/*.* $build_folder   ; mv $build_folder/README.md $build_folder/README_00.md
-cp ../kapitel/fullScreen/*.* $build_folder; mv $build_folder/README.md $build_folder/README_01.md
-cp ../kapitel/PImage/*.* $build_folder    ; mv $build_folder/README.md $build_folder/README_02.md
-cp ../kapitel/tyngdkraft/*.* $build_folder; mv $build_folder/README.md $build_folder/README_03.md
-cp ../kapitel/arrays_1/*.* $build_folder  ; mv $build_folder/README.md $build_folder/README_04.md
-cp ../kapitel/arrays_2/*.* $build_folder  ; mv $build_folder/README.md $build_folder/README_05.md
+cp ../chapters/foerord/*.* $build_folder   ; mv $build_folder/README.md $build_folder/README_00.md
+cp ../chapters/12_fullScreen/*.* $build_folder; mv $build_folder/README.md $build_folder/README_01.md
+cp ../chapters/13_PImage/*.* $build_folder    ; mv $build_folder/README.md $build_folder/README_02.md
+cp ../chapters/14_tyngdkraft/*.* $build_folder; mv $build_folder/README.md $build_folder/README_03.md
+cp ../chapters/15_arrays_1/*.* $build_folder  ; mv $build_folder/README.md $build_folder/README_04.md
+cp ../chapters/16_arrays_2/*.* $build_folder  ; mv $build_folder/README.md $build_folder/README_05.md
 
 
 cd "${build_folder}" || exit 42
@@ -33,13 +33,13 @@ cd "${build_folder}" || exit 42
   cat README_05.md; echo " "; echo "\pagebreak"; echo " "; \
 } >> README.md
 
-pandoc README.md -o bok.pdf --toc --toc-depth=1 --highlight-style=tango -V geometry:margin=0.5in
-cp bok.pdf ../../boecker/bok_4_utan_framsida.pdf
+pandoc README.md -o book.pdf --toc --toc-depth=1 --highlight-style=tango -V geometry:margin=0.5in
+cp book.pdf ../../books/book_4_without_front_page.pdf
 
 cd ../../boecker || exit 43
-pdfunite bok_framsida_4.pdf bok_4_utan_framsida.pdf bok_4.pdf
+pdfunite book_front_page_4.pdf book_4_without_front_page.pdf book_4.pdf
 
 # Make booklet
-bookletimposer -a bok_4.pdf -o haefte_4.pdf
+bookletimposer -a book_4.pdf -o booklet_4.pdf
 
-rm bok_4_utan_framsida.pdf
+rm bok_4_without_front_page.pdf
