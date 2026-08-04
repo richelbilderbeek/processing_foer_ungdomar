@@ -7,7 +7,7 @@ nav:
   - Välkommen: README.md
   - Kapitel: chapters/README.md
   - Böcker: books/README.md
-  - Lektionkort: lesson_cards/README.md
+  - Lektionskort: lesson_cards/README.md
   - Vanliga frågor: faq.md
   - Misc:
     - Bidragsgivarna: acknowledgements.md
@@ -16,6 +16,51 @@ nav:
     - Scripts: scripts/README.md
 
 not_in_nav: |
+  chapters/01_ett_vackert_program/README.md
+  chapters/02_flytta_bollen_till_hoeger/README.md
+  chapters/03_width_och_height/README.md
+  chapters/04_point_och_random/README.md
+  chapters/05_line_och_stroke/README.md
+  chapters/06_flytta_bollen_till_hoeger_i_evighet/README.md
+  chapters/07_rect_och_fill/README.md
+  chapters/08_bollen_som_studsar_horisontellt/README.md
+  chapters/09_ellipse_och_background/README.md
+  chapters/10_bollen_som_studsar_snett/README.md
+  chapters/11_text/README.md
+  chapters/12_fullScreen/README.md
+  chapters/13_PImage/README.md
+  chapters/14_tyngdkraft/README.md
+  chapters/15_arrays_1/README.md
+  chapters/16_arrays_2/README.md
+  chapters/17_tangentbord_1/README.md
+  chapters/18_tangentbord_2/README.md
+  chapters/19_tangentbord_3/README.md
+  chapters/20_tangentbord_4/README.md
+  chapters/21_3D_1/README.md
+  chapters/22_3D_2/README.md
+  chapters/23_3D_3/README.md
+  chapters/24_3D_4/README.md
+  chapters/25_sinus_och_cosinus_1/README.md
+  chapters/26_sinus_och_cosinus_2/README.md
+  chapters/27_sinus_och_cosinus_3/README.md
+  chapters/28_sinus_och_cosinus_4/README.md
+  chapters/29_muspekare_i_fyrkant/README.md
+  chapters/30_muspekare_i_cirkel/README.md
+  chapters/31_cirklar_krockar/README.md
+  chapters/32_fyrkanter_krockar/README.md
+  chapters/foreword/README.md
+  chapters/front_pages/Voorpagina8.md
+  chapters/front_pages/VoorpaginaMinim.md
+  chapters/front_pages/front_page_1.md
+  chapters/front_pages/front_page_2.md
+  chapters/front_pages/front_page_3.md
+  chapters/front_pages/front_page_4.md
+  chapters/front_pages/front_page_5.md
+  chapters/front_pages/front_page_6.md
+  chapters/front_pages/front_page_7.md
+  chapters/front_pages/front_page_8.md
+  chapters/installera_processing/README.md
+  chapters/skriva/README.md
   scripts/build/*.md
 
 theme:
