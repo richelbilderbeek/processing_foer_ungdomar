@@ -65,10 +65,10 @@ Varje gång du väljer en ny fönsterstorlek måste du skriva in mycket kod igen
 
 Om vi vet fönstrets bredd och höjd vet vi också hur bred och hög vår oval måste bli:
 
-* ovalens x-koordinat (hur många pixlar till höger) är halva bredden
-* ovalens y-koordinat (hur många pixlar nedåt) är halva höjden
-* ovalens bredd är fönstrets bredd
-* ovalens höjd är fönstrets höjd
+- ovalens x-koordinat (hur många pixlar till höger) är halva bredden
+- ovalens y-koordinat (hur många pixlar nedåt) är halva höjden
+- ovalens bredd är fönstrets bredd
+- ovalens höjd är fönstrets höjd
 
 ![Vad du vill säga](width_och_height.png)
 

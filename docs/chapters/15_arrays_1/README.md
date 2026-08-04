@@ -181,7 +181,7 @@ Det har ännu inte bestämts *hur många* bråktal det är.
 Ofta används "setup"-funktionen för att bestämma hur många nummer som ska kommas ihåg:
 processing
 
-```
+```processing
 hemliga_nummer = new float[1];
 ```
 

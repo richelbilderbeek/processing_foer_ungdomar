@@ -1,17 +1,16 @@
-# boeken
+# Böckerna och häfterna
 
-Böcker av kursen 'Processing för ungdomar'.
+Böckerna och häfterna av kursen 'Processing för ungdomar'.
 
-Böckerna är i A4- och A5-format.
+Böckerna är i A4 format, häfterna i A5 format.
 
-# |PDFs
-
------|-------------------------------------------
-1    |[A4](bok_1.pdf) [A5](haefte_1.pdf)
-2    |[A4](bok_2.pdf) [A5](haefte_2.pdf)
-3    |[A4](bok_3.pdf) [A5](haefte_3.pdf)
-4    |[A4](bok_4.pdf) [A5](haefte_4.pdf)
-5    |[A4](bok_5.pdf) [A5](haefte_5.pdf)
-6    |[A4](bok_6.pdf) [A5](haefte_6.pdf)
-7    |[A4](bok_7.pdf) [A5](haefte_7.pdf)
-8    |[A4](bok_8.pdf) [A5](haefte_8.pdf)
+Bok  |Bok (A4)          |Häfte (A5)
+-----|------------------|------------------------
+1    |[Bok 1](bok_1.pdf)|[Häfte 1](haefte_1.pdf)
+2    |[Bok 2](bok_2.pdf)|[Häfte 2](haefte_2.pdf)
+3    |[Bok 3](bok_3.pdf)|[Häfte 3](haefte_3.pdf)
+4    |[Bok 4](bok_4.pdf)|[Häfte 4](haefte_4.pdf)
+5    |[Bok 5](bok_5.pdf)|[Häfte 5](haefte_5.pdf)
+6    |[Bok 6](bok_6.pdf)|[Häfte 6](haefte_6.pdf)
+7    |[Bok 7](bok_7.pdf)|[Häfte 7](haefte_7.pdf)
+8    |[Bok 8](bok_8.pdf)|[Häfte 8](haefte_8.pdf)
