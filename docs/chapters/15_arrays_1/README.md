@@ -1,4 +1,4 @@
-# Arrayer 1
+# 15. Arrayer 1
 
 Med arrayer kan du få datorn att komma ihåg många värden:
 koordinaterna för kulor, meteoriter, fiender.
@@ -337,16 +337,16 @@ Hej, samma som förut!
 
 ![Dator](EmojiComputer.png) | Jag är en dum dator
 :-----------------:|:-----------------------------:
- |`xs[0] = 0;`
- |`xs[1] = 100;`
- |`xs[2] = 200;`
+.|`xs[0] = 0;`
+.|`xs[1] = 100;`
+.|`xs[2] = 200;`
 
 ![Dator](EmojiComputer.png) | Jag är en smart dator
 :-----------------|:-------------------------------------
- |`för (int i=0; i<3; ++i)`.
- |`{`
- | `xs[i] = i * 100;`
- |`}`
+.|`för (int i=0; i<3; ++i)`.
+.|`{`
+.| `xs[i] = i * 100;`
+.|`}`
 
 \pagebreak
 
