@@ -55,7 +55,6 @@ jobs:
       - name: Create books
         run: |
           cd docs/scripts || exit 42
-          ./create_test_book.sh || exit 43
           ./create_book_1.sh || exit 43
           ./create_book_2.sh || exit 43
           ./create_book_3.sh || exit 43
