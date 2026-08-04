@@ -5,8 +5,8 @@ och är mycket lämpligt för att göra spel och vackra saker.
 
 Under den här lektionen lär vi oss
 
-* hur man kopierar kod till Processing
-* hur man startar programmet
+- hur man kopierar kod till Processing
+- hur man startar programmet
 
 Så här ser programmet ut:
 
@@ -48,8 +48,8 @@ Just nu räcker det att veta att den gör något vackert.
 
 ## Ett trevligt program: slutuppgift
 
-* Skriv av koden, precis som den ser ut, i programmet
-* Kör den här koden genom att klicka på knappen "Run"
+- Skriv av koden, precis som den ser ut, i programmet
+- Kör den här koden genom att klicka på knappen "Run"
 
 ![Run knappen](processing_run.png)
 

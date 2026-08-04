@@ -1,12 +1,14 @@
-# `PImage`
+# 13. `PImage`
 
 Under den här lektionen ska vi jobba med bilder!
 
-![EmojiSunglasses.png](EmojiSunglasses.png)
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:-----------------:|:-----------------------------:
+`PImage`  | 'Pi-imugh'
 
 \pagebreak
 
-## `PImage`: Uppgift 1
+## 13.1. Felmeldningen
 
 Spara den här koden. Kör koden. Vad ser du?
 
@@ -28,20 +30,20 @@ void draw()
 
 \pagebreak
 
-## `PImage`: lösning 1
+### 13.1. Svar
 
 Du får ett fel!
 
-![Lösning 1](PImage1.png)
+![Felmeldningen](PImage1.png)
 
 ![Solglasögon](EmojiSunglasses.png) | Datorn säger att den inte kan hitta bilden!
 :-----------------:|:------------------------------:
 
 \pagebreak
 
-## `PImage`: Uppgift 2
+## 13.2. Att använda en bild
 
-Gå till [https://raw.githubusercontent.com/richelbilderbeek/processing_foer_ungdomar/master/kapitel/PImage/mario.png](https://raw.githubusercontent.com/richelbilderbeek/processing_foer_ungdomar/master/kapitel/PImage/mario.png)
+Gå till [https://raw.githubusercontent.com/richelbilderbeek/processing_foer_ungdomar/main/docs/chapters/13_PImage/mario.png](https://raw.githubusercontent.com/richelbilderbeek/processing_foer_ungdomar/main/docs/chapters/13_PImage/mario.png)
 och ladda ner den här bilden av Mario.
 
 ![mario.png](mario.png)
@@ -52,12 +54,13 @@ Här är en bild som visar var filerna ska vara:
 
 ![Mappstruktur](PImageFolderstructuur.png)
 
-* Skissen heter `PImage1.pde`. Därför finns den i mappen `PImage1`. Du hittar detta i Bearbetning under `Sketch` -> `Show Sketch Map`
-* Skissen har en mapp `data`. Den innehåller bilden "mario.png".
+- Skissen heter `PImage1.pde`. Därför finns den i mappen `PImage1`. 
+  Du hittar detta i Bearbetning under `Sketch` -> `Show Sketch Map`
+- Skissen har en mapp `data`. Den innehåller bilden `mario.png`.
 
 \pagebreak
 
-## `PImage`: slutuppgift
+## 13.3. Slutuppgift
 
 ![`PImage`: slutuppgift](PImageEindopdracht.png)
 

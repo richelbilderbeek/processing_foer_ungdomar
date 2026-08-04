@@ -288,10 +288,10 @@ men vi kommer också att få en boll att åka nedåt!
 
 ![Låt bollen åka åt höger: uppgift 6](boll_till_hoeger_6.png)
 
-* Ändra namnet på variabeln `x` till `y`
-* Rita ut en boll högst upp på skärmen
-* Bollen måste vara `150` pixlar till höger
-* Bollen måste åka ner i en rak linje. Tips: bollen är nu 50 pixlar nere
+- Ändra namnet på variabeln `x` till `y`
+- Rita ut en boll högst upp på skärmen
+- Bollen måste vara `150` pixlar till höger
+- Bollen måste åka ner i en rak linje. Tips: bollen är nu 50 pixlar nere
 
 \pagebreak
 
@@ -320,9 +320,9 @@ void draw()
 
 Nu ska vi få bollen att röra sig snabbare och uppåt
 
-* Rita ut en boll längst ner på skärmen
-* Bollen måste åka uppåt i en rak linje
-* Bollen måste åka dubbelt så snabbt
+- Rita ut en boll längst ner på skärmen
+- Bollen måste åka uppåt i en rak linje
+- Bollen måste åka dubbelt så snabbt
 
 \pagebreak
 
@@ -349,7 +349,7 @@ void draw()
 
 ![Låt bollen åka åt höger: slutuppgift](boll_till_hoeger_slutuppgift.png)
 
-* bollen måste åka diagonalt åt höger och neråt samtidigt
-* bollen måste bli större, det vill säga öka i bredd och höjd
-* se även figur `slutuppgift 'Låt bollen åka åt höger'`
+- bollen måste åka diagonalt åt höger och neråt samtidigt
+- bollen måste bli större, det vill säga öka i bredd och höjd
+- se även figur `slutuppgift 'Låt bollen åka åt höger'`
 
