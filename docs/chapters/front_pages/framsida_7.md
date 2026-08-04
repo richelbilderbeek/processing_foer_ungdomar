@@ -1,5 +1,4 @@
 # Processing
-
 # Bok 7
 
 ![Bok 7: sinus en cosinus](framsida_7.png)

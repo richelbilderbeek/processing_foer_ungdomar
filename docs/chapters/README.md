@@ -11,10 +11,10 @@ Här är alla kapitel av Processingkursen.
 Kpt|Beskrivning
 ---|---------------------------------------------------------------
 .  |**Bok 1**
-1  |[Ett vackert program](./ett_vackert_program/README.md)
-2  |[Låt bollen åka åt höger](./flytta_bollen_till_hoeger/README.md)
-3  |[`width` och `height`](./width_och_height/README.md)
-4  |[`point` och `random`](./point_och_random/README.md)
+1  |[Ett vackert program](1_ett_vackert_program/README.md)
+2  |[Låt bollen åka åt höger](2_flytta_bollen_till_hoeger/README.md)
+3  |[`width` och `height`](3_width_och_height/README.md)
+4  |[`point` och `random`](4_point_och_random/README.md)
 .  |**Bok 2**
 5  |[`line` och `stroke`](./line_och_stroke/README.md)
 6  |[Låt bollen åka åt höger i all evighet](./flytta_bollen_till_hoeger_i_evighet/README.md)

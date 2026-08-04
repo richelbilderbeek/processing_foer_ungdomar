@@ -1,4 +1,4 @@
-# `width` och `height`
+# 3. `width` och `height`
 
 Under den här lektionen lär du dig använda `width` och `height`.
 
@@ -6,7 +6,7 @@ Under den här lektionen lär du dig använda `width` och `height`.
 
 \pagebreak
 
-## `width` och `height`: intro
+## 3.1. Intro
 
 ```processing
 void setup() 
@@ -29,15 +29,16 @@ Skriv in koden ovan och kör den.
 
 ![`width` och `height`: intro](width_och_height_intro.png)
 
-## `width` och `height`: uppgift 1
+## 3.2. Att ändra storleken av fönstret
+
+Gör nu fönstret `128` pixlar brett och `128` pixlar högt, så här:
 
 ![`width` och `height`: uppgift 1](width_och_height_1.png)
 
-Gör nu fönstret `128` pixlar brett och `128` pixlar högt.
 
 \pagebreak
 
-## `width` och `height`: lösning 1
+### 3.2. svar
 
 ```prcoessing
 void setup() 
@@ -51,8 +52,7 @@ void draw()
 }
 ```
 
-## `width` och `height`
-
+## 3.3. nyckelord
 
 `width` och `height` är inbyggda i Processing,
 `width` betyder fönsterbredd
@@ -85,16 +85,16 @@ storleken på ditt fönster.
 
 \pagebreak
 
-## `width` och `height`: uppgift 2
+## 3.4. Att rita med `width` och `height`
 
 ![`width` och `height`: uppgift 2](width_och_height_2.png)
 
 Skapa ett program som ritar en oval som fyller hela fönstret:
 
-* Ändra den första `64` till `width / 2`
-* Ändra den andra `64` till `height / 2`
-* Ändra den första `128` till `width`
-* Ändra den andra `128` till `height`
+- Ändra den första `64` till `width / 2`
+- Ändra den andra `64` till `height / 2`
+- Ändra den första `128` till `width`
+- Ändra den andra `128` till `height`
 
 ![Dator](EmojiComputer.png)| ![Smiley](EmojiSmiley.png)
 :-----------------:|:-----------------------------:
@@ -102,7 +102,7 @@ Skapa ett program som ritar en oval som fyller hela fönstret:
 
 \pagebreak
 
-## `width` och `height`: lösning 2
+### 3.4. Svar
 
 ```c++
 void setup() 
@@ -116,7 +116,7 @@ void draw()
 }
 ```
 
-## `width` och `height`: uppgift 3
+## 3.5. Rita den första cirkeln
 
 ![`width` och `height`: uppgift 3](width_och_height_3.png)
 
@@ -124,7 +124,7 @@ Rita ut cirkelns mitt på platsen (koordinat) `(0, 0)` i fönstret.
 
 \pagebreak
 
-## `width` och `height`: lösning 3
+### 3.5. Svar
 
 ```prcoessing
 void setup() 
@@ -138,7 +138,7 @@ void draw()
 }
 ```
 
-## `width` och `height`: uppgift 4
+## 3.6. Att rita en andra cirkel
 
 ![`width` och `height`: uppgift 4](width_och_height_4.png)
 
@@ -147,7 +147,7 @@ Använd `width` och/eller `height`.
 
 \pagebreak
 
-## `width` och `height`: lösning 4
+### 3.6. Svar
 
 ```processing
 void setup() 
@@ -162,7 +162,7 @@ void draw()
 }
 ```
 
-## `width` och `height`: uppgift 5
+## 3.7. Att rita en tredje cirkel
 
 ![`width` en `height`: uppgift 5](width_och_height_5.png)
 
@@ -171,7 +171,7 @@ Använd `width` och/eller `height`.
 
 \pagebreak
 
-## `width` och `height`: lösning 5
+### 3.7. Svar
 
 ```processing
 void setup() 
@@ -187,12 +187,12 @@ void draw()
 }
 ```
 
-## `width` och `height`: slutuppgift
+## 3.8. Slutuppgift
 
 ![`width` och `height`: slutuppgift](width_och_height_slutuppgift.png)
 
-* Gör fönstret 300 pixlar brett och 200 pixlar högt
-* Gör en fjärde cirkel vars mittpunkt ligger i nedre högra hörnet
-* Gör en femte cirkel vars mittpunkt ligger i mitten och är hälften så stor
-* Använd `width` och/eller `height` (ingen `100`, `150`,`200` eller `300`!)
+- Gör fönstret 300 pixlar brett och 200 pixlar högt
+- Gör en fjärde cirkel vars mittpunkt ligger i nedre högra hörnet
+- Gör en femte cirkel vars mittpunkt ligger i mitten och är hälften så stor
+- Använd `width` och/eller `height` (ingen `100`, `150`,`200` eller `300`!)
 
