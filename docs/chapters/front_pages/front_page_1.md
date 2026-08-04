@@ -1,7 +1,7 @@
 # Processing
 # Bok 1
 
-![Bok 1](framsida_1.png)
+![Bok 1](front_page_1.png)
 
 `#`|Beskriving
 ---|---

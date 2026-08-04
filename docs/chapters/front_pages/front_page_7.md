@@ -1,7 +1,7 @@
 # Processing
 # Bok 7
 
-![Bok 7: sinus en cosinus](framsida_7.png)
+![Bok 7: sinus en cosinus](front_page_7.png)
 
 `#`|Beskriving
 ---|-----------------------

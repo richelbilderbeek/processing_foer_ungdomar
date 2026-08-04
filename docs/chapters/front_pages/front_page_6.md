@@ -1,7 +1,7 @@
 # Processing
 # Bok 6
 
-![Bok 6: 3D](framsida_6.png)
+![Bok 6: 3D](front_page_6.png)
 
 `#`|Beskriving
 ---|-----------------------

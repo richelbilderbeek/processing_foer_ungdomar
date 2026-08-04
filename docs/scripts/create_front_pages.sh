@@ -12,15 +12,15 @@ if [ ! -d $build_folder ]; then
   exit 1
 fi
 
-cp ../kapitel/framsidor/*.* $build_folder
+cp ../kapitel/front_page/*.* $build_folder
 cd "${build_folder}" || exit 42
 
-pandoc framsida_1.md -o ../../boecker/bok_framsida_1.pdf
-pandoc framsida_2.md -o ../../boecker/bok_framsida_2.pdf
-pandoc framsida_3.md -o ../../boecker/bok_framsida_3.pdf
-pandoc framsida_4.md -o ../../boecker/bok_framsida_4.pdf
-pandoc framsida_5.md -o ../../boecker/bok_framsida_5.pdf
-pandoc framsida_6.md -o ../../boecker/bok_framsida_6.pdf
-pandoc framsida_7.md -o ../../boecker/bok_framsida_7.pdf
-pandoc framsida_8.md -o ../../boecker/bok_framsida_8.pdf
+pandoc front_page_1.md -o ../../books/book_front_page_1.pdf
+pandoc front_page_2.md -o ../../books/book_front_page_2.pdf
+pandoc front_page_3.md -o ../../books/book_front_page_3.pdf
+pandoc front_page_4.md -o ../../books/book_front_page_4.pdf
+pandoc front_page_5.md -o ../../books/book_front_page_5.pdf
+pandoc front_page_6.md -o ../../books/book_front_page_6.pdf
+pandoc front_page_7.md -o ../../books/book_front_page_7.pdf
+pandoc front_page_8.md -o ../../books/book_front_page_8.pdf
 

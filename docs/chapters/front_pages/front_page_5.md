@@ -1,7 +1,7 @@
 # Processing
 # Bok 5
 
-![Bok 5: tangentbord](framsida_5.png)
+![Bok 5: tangentbord](front_page_5.png)
 
 `#`|Beskriving
 ---|----------------------------
