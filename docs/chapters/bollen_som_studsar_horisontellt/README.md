@@ -278,7 +278,7 @@ från              | till
 :-----------------:|:-----------------------------:
 `hastighet = -hastighet;` | 'Kära dator, ändra minus- eller plustecknet på hastighet'
 
-![Sunglasses](EmojiSunglasses.png) | Talet '-1' har ett minustecken 
+![Sunglasses](EmojiSunglasses.png) | Talet '-1' har ett minustecken
 :-----------------:|:-----------------------------:
 
 \pagebreak

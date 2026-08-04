@@ -8,9 +8,9 @@
 
 Kurs 'Processing för ungdomar'.
 
- * [Installera Processing](kapitel/installera_processing/README.md)
- * [Kapitel](kapitel/README.md): fristående kapitel
- * [Vanliga frågor](faq.md): vanliga frågor
+* [Installera Processing](kapitel/installera_processing/README.md)
+* [Kapitel](kapitel/README.md): fristående kapitel
+* [Vanliga frågor](faq.md): vanliga frågor
 
 ## Licens
 
@@ -22,9 +22,9 @@ Kurs 'Processing för ungdomar'.
 
 ## Länkar
 
- * [Samma kurs, men på nederländska](https://github.com/richelbilderbeek/processing_voor_jonge_tieners)
+* [Samma kurs, men på nederländska](https://github.com/richelbilderbeek/processing_voor_jonge_tieners)
 
 ## Contributors
 
- * Leonid Rutkowski
- * Sofia Bryntse
+* Leonid Rutkowski
+* Sofia Bryntse

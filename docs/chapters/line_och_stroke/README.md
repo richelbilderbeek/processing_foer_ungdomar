@@ -90,7 +90,7 @@ void draw()
 
 ## `line` och `stroke`: uppgift 4
 
-Låt linjen gå från nedre vänster till överst till höger, 
+Låt linjen gå från nedre vänster till överst till höger,
 men använd nu `width` och `height` istället.
 
 ![Uppgift 4](line_och_stroke_4.png)
@@ -117,7 +117,7 @@ void draw()
 
 ![Uppgift 5](line_och_stroke_5.png)
 
-Låt nu linjen starta i vänstra kanten på en slumpmässig höjd. 
+Låt nu linjen starta i vänstra kanten på en slumpmässig höjd.
 Du gör detta med `random`.
 
 \pagebreak
@@ -253,6 +253,6 @@ void draw()
 
 ![Slutuppgift `line` och `stroke`](line_och_stroke_slutuppgift.png)
 
-Låt nu linjer börja och sluta på slumpmässiga platser. 
+Låt nu linjer börja och sluta på slumpmässiga platser.
 Linjefärgen måste också vara slumpmässig.
 

@@ -32,10 +32,10 @@ void draw()
 
 ![Boll som studsar snett: uppgift 1](bollen_som_studsar_snett_1.png)
 
- * Skriv den här koden
- * Skapa en ny variabel som heter `y`.
- * Rita ut ovalen på koordinaten `(x, y)`.
- * Se till att koden fortsätter att göra samma sak
+* Skriv den här koden
+* Skapa en ny variabel som heter `y`.
+* Rita ut ovalen på koordinaten `(x, y)`.
+* Se till att koden fortsätter att göra samma sak
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-----------------:|:-----------------------------:

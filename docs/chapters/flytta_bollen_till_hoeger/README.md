@@ -30,7 +30,7 @@ void draw()
 
 Tryck sedan på 'Run'.
 
-Om det finns röda bokstäver har du stavat fel någonstans. 
+Om det finns röda bokstäver har du stavat fel någonstans.
 Titta noga på koden och rätta dina stavfel.
 
 Om allt går bra ser du en boll som rör sig till höger (se figur `Låt bollen åka åt höger: intro`).
@@ -127,7 +127,7 @@ Låt bollen röra sig till höger dubbelt så snabbt
 
 ## Låt bollen åka åt höger: lösning 3
 
-`x = x + 1;` flyttar bollen 1 pixel. Ändra detta till `x = x + 2;`. 
+`x = x + 1;` flyttar bollen 1 pixel. Ändra detta till `x = x + 2;`.
 Koden blir då:
 
 ```processing
@@ -165,8 +165,8 @@ Kan du få cirkeln att ritas ut `0` pixlar till höger?
 
 ## Låt bollen åka åt höger: lösning 4
 
-`float x = 60;` bestämmer mitten på bollen. 
-Ändra detta till `float x = 0;`. 
+`float x = 60;` bestämmer mitten på bollen.
+Ändra detta till `float x = 0;`.
 Koden blir då:
 
 ```processing
@@ -192,7 +192,7 @@ void draw()
 
 ## Låt bollen åka åt höger: uppgift 5
 
-Haha, den här lektionen kallas 'Låt bollen åka åt höger', 
+Haha, den här lektionen kallas 'Låt bollen åka åt höger',
 men nu ska vi också göra en boll som åker åt vänster!
 
 ![Låt bollen åka åt höger: uppgift 5](boll_till_hoeger_5.png)
@@ -203,9 +203,9 @@ Låt nu bollen börja på höger sida av fönstret och åka åt vänster.
 
 ## Låt bollen åka åt höger: lösning 5
 
-För att få bollen att starta på höger sida måste du använda `float x = 500;` 
+För att få bollen att starta på höger sida måste du använda `float x = 500;`
 (eller något annat högt tal).
-För att få bollen att åka åt vänster måste du använda `x = x - 1;`. 
+För att få bollen att åka åt vänster måste du använda `x = x - 1;`.
 Koden blir då:
 
 ```processing
@@ -237,7 +237,7 @@ På den första raden använder vi en variabel:
 float x = 50;
 ```
 
-I klartext betyder det: "Kära dator, 
+I klartext betyder det: "Kära dator,
 kom ihåg talet `x` med ett startvärde på `50`.".
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
@@ -264,7 +264,7 @@ Tillbaka till den första raden i vår kod:
 float x = 50;
 ```
 
-Ordet `x` är namnet på en variabel. 
+Ordet `x` är namnet på en variabel.
 I det här fallet beskriver den hur långt till höger cirkeln är.
 Ordet `float` betyder att `x` är ett (decimal) tal.
 Symbolen `=` betyder 'ska nu vara'.
@@ -283,15 +283,15 @@ Semikolon (`;`) anger slutet på en mening (som punkten i en svensk text).
 
 ## Låt bollen åka åt höger: uppgift 6
 
-Haha, den här lektionen kallas "Låt bollen åka åt höger", 
+Haha, den här lektionen kallas "Låt bollen åka åt höger",
 men vi kommer också att få en boll att åka nedåt!
 
 ![Låt bollen åka åt höger: uppgift 6](boll_till_hoeger_6.png)
 
- * Ändra namnet på variabeln `x` till `y`
- * Rita ut en boll högst upp på skärmen
- * Bollen måste vara `150` pixlar till höger
- * Bollen måste åka ner i en rak linje. Tips: bollen är nu 50 pixlar nere
+* Ändra namnet på variabeln `x` till `y`
+* Rita ut en boll högst upp på skärmen
+* Bollen måste vara `150` pixlar till höger
+* Bollen måste åka ner i en rak linje. Tips: bollen är nu 50 pixlar nere
 
 \pagebreak
 
@@ -320,9 +320,9 @@ void draw()
 
 Nu ska vi få bollen att röra sig snabbare och uppåt
 
- * Rita ut en boll längst ner på skärmen
- * Bollen måste åka uppåt i en rak linje
- * Bollen måste åka dubbelt så snabbt
+* Rita ut en boll längst ner på skärmen
+* Bollen måste åka uppåt i en rak linje
+* Bollen måste åka dubbelt så snabbt
 
 \pagebreak
 
@@ -349,7 +349,7 @@ void draw()
 
 ![Låt bollen åka åt höger: slutuppgift](boll_till_hoeger_slutuppgift.png)
 
- * bollen måste åka diagonalt åt höger och neråt samtidigt
- * bollen måste bli större, det vill säga öka i bredd och höjd
- * se även figur `slutuppgift 'Låt bollen åka åt höger'`
+* bollen måste åka diagonalt åt höger och neråt samtidigt
+* bollen måste bli större, det vill säga öka i bredd och höjd
+* se även figur `slutuppgift 'Låt bollen åka åt höger'`
 

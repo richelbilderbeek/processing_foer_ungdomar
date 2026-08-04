@@ -136,5 +136,5 @@ void draw()
 
 ## 29.9. Muspekare i fyrkant: slutuppgift
 
-Gör rutan röd när muspekaren är i rutan. 
+Gör rutan röd när muspekaren är i rutan.
 

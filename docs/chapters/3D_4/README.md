@@ -40,7 +40,7 @@ Du kommer att se en boll med ett vitt ljus på.
 
 ## 3D 4: uppgift 2
 
- * Se till att `ljus_riktning_x` kan bli lägre och högre, med tangenterna `w` och `s`
+* Se till att `ljus_riktning_x` kan bli lägre och högre, med tangenterna `w` och `s`
 
 Observera: endast tre positioner är möjliga!
 
@@ -77,8 +77,8 @@ void draw()
 
 ## 3D 3: uppgift 3
 
- * Ställ in ljusets y-riktning till ett.
- * Gör färgen på ljusröd
+* Ställ in ljusets y-riktning till ett.
+* Gör färgen på ljusröd
 
 Obs: endast fem positioner är möjliga!
 
@@ -116,9 +116,9 @@ void draw()
 
 ## 3D 4: Slutuppgift
 
- * Skapa en ny variabel, t.ex. `ljus_riktning_y`, med initialvärdet noll
- * Se till att `ljus_riktning_y` kan bli lägre och högre, med tangenterna `w` och `s`
- * Gör den ljusa färgen grön
+* Skapa en ny variabel, t.ex. `ljus_riktning_y`, med initialvärdet noll
+* Se till att `ljus_riktning_y` kan bli lägre och högre, med tangenterna `w` och `s`
+* Gör den ljusa färgen grön
 
 Nu kan ljusstrålen rotera fint.
 

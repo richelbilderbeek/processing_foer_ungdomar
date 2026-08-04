@@ -65,10 +65,10 @@ Varje gång du väljer en ny fönsterstorlek måste du skriva in mycket kod igen
 
 Om vi vet fönstrets bredd och höjd vet vi också hur bred och hög vår oval måste bli:
 
- * ovalens x-koordinat (hur många pixlar till höger) är halva bredden
- * ovalens y-koordinat (hur många pixlar nedåt) är halva höjden
- * ovalens bredd är fönstrets bredd
- * ovalens höjd är fönstrets höjd
+* ovalens x-koordinat (hur många pixlar till höger) är halva bredden
+* ovalens y-koordinat (hur många pixlar nedåt) är halva höjden
+* ovalens bredd är fönstrets bredd
+* ovalens höjd är fönstrets höjd
 
 ![Vad du vill säga](width_och_height.png)
 
@@ -80,7 +80,7 @@ Fönstrets bredd kallas `width` och höjden kallas `height`
 `width` | 'Kära dator, ange här hur många pixlar brett fönstret är.'
 `height`| 'Kära dator, ange här hur många pixlar högt är fönstret.'
 
-Dessa ord använder du om du vill veta 
+Dessa ord använder du om du vill veta
 storleken på ditt fönster.
 
 \pagebreak
@@ -91,10 +91,10 @@ storleken på ditt fönster.
 
 Skapa ett program som ritar en oval som fyller hela fönstret:
 
- * Ändra den första `64` till `width / 2`
- * Ändra den andra `64` till `height / 2`
- * Ändra den första `128` till `width`
- * Ändra den andra `128` till `height`
+* Ändra den första `64` till `width / 2`
+* Ändra den andra `64` till `height / 2`
+* Ändra den första `128` till `width`
+* Ändra den andra `128` till `height`
 
 ![Dator](EmojiComputer.png)| ![Smiley](EmojiSmiley.png)
 :-----------------:|:-----------------------------:
@@ -191,8 +191,8 @@ void draw()
 
 ![`width` och `height`: slutuppgift](width_och_height_slutuppgift.png)
 
- * Gör fönstret 300 pixlar brett och 200 pixlar högt
- * Gör en fjärde cirkel vars mittpunkt ligger i nedre högra hörnet
- * Gör en femte cirkel vars mittpunkt ligger i mitten och är hälften så stor
- * Använd `width` och/eller `height` (ingen `100`, `150`,`200` eller `300`!)
+* Gör fönstret 300 pixlar brett och 200 pixlar högt
+* Gör en fjärde cirkel vars mittpunkt ligger i nedre högra hörnet
+* Gör en femte cirkel vars mittpunkt ligger i mitten och är hälften så stor
+* Använd `width` och/eller `height` (ingen `100`, `150`,`200` eller `300`!)
 

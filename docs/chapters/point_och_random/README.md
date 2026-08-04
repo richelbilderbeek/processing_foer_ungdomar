@@ -2,10 +2,10 @@
 
 Under den här lektionen lär vi oss
 
- * vad pixlar är
- * hur pixlarna sitter på en skärm
- * hur man ritar punkter
- * hur man gör slumpmässiga saker
+* vad pixlar är
+* hur pixlarna sitter på en skärm
+* hur man ritar punkter
+* hur man gör slumpmässiga saker
 
 ![Slutuppgift](point_och_random_slutuppgift.png)
 
@@ -19,7 +19,7 @@ Din skärm har många rutor som består av pixlar.
 \pagebreak
 
 Ju fler pixlar skärmen har desto skarpare blir bilderna.
-Du kan se det på gamla/retro datorspel: 
+Du kan se det på gamla/retro datorspel:
 de har färre pirxlar vilket gör bilderna kantigare.
 
 ![Super Mario Bros 1](NES_Super_Mario_Bros.png)
@@ -79,8 +79,8 @@ void draw()
 
 ## `point` och `random`: uppgift 3
 
-Den första punkten är exakt i mitten. 
-Med andra ord, på halva bredden och på halva höjden av fönstret. 
+Den första punkten är exakt i mitten.
+Med andra ord, på halva bredden och på halva höjden av fönstret.
 Ändra `point(150,100);` till något med `width` och `height`.
 
 \pagebreak
@@ -108,8 +108,8 @@ void draw()
 
 Den andra pixeln är utritad
 
- * på halva fönstrets bredd
- * på en fjärdedel av fönstrets höjd
+* på halva fönstrets bredd
+* på en fjärdedel av fönstrets höjd
 
 Ändra `point(150, 50);` till något med `width` och `height`.
 
@@ -188,13 +188,13 @@ void draw()
   point(0, 0);
   point(width - 1, 0);
 }
-``` 
+```
 
 ## `point` och `random`: uppgift 7
 
 ![`point` och `random`: uppgift 7](point_och_random_7.png)
 
-Rita två pixlar i de nedre två hörnen. 
+Rita två pixlar i de nedre två hörnen.
 Använd `width - 1` och `height - 1` på rätt ställen.
 
 \pagebreak

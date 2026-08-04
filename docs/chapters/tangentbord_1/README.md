@@ -45,7 +45,7 @@ Starta programmet och tryck på ADSW för att flytta.
 
 ## Tangentbord 1: Uppgift 1
 
-När spelaren åker hela vägen till höger, 
+När spelaren åker hela vägen till höger,
 se till att den hoppar till vänster sida av fönstret.
 
 ![Tangentbord 1: Uppgift 1](tangentbord_1_1.png)

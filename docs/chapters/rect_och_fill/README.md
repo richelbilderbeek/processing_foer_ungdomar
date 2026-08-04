@@ -224,7 +224,7 @@ void draw()
   }
 }
 ```
- 
+
 \pagebreak
 
 ## `rect` och `fill`: uppgift 7

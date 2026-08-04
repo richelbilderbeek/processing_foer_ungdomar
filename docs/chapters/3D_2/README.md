@@ -49,8 +49,8 @@ Om man tittar noga kan man se att den vitaste delen av bollen också byter plats
 
 ## 3D 2: uppgift 2
 
- * Se till att bollen nu också kan gå upp och ner, med tangenterna `w` och `s`
- * Skapa en ny variabel, t.ex. "y", med initialvärdet "höjd / 2".
+* Se till att bollen nu också kan gå upp och ner, med tangenterna `w` och `s`
+* Skapa en ny variabel, t.ex. "y", med initialvärdet "höjd / 2".
 
 ![3D 2: uppgift 2](3D2_2.png)
 
@@ -83,8 +83,8 @@ void draw()
 
 ## 3D 2: Slutuppgift
 
- * Få bollen att gå fram och tillbaka med tangenterna `q` och `e`
- * Skapa en ny variabel, t.ex. "z", med initialt värde noll
+* Få bollen att gå fram och tillbaka med tangenterna `q` och `e`
+* Skapa en ny variabel, t.ex. "z", med initialt värde noll
 
 Det här kan se annorlunda ut än du förväntar dig!
 

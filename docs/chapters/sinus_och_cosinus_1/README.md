@@ -43,7 +43,7 @@ Du kommer att se en sorts prickad linje längst upp.
 
 ## Sinus och Cosinus 1: uppgift 2
 
- * Flytta den prickade linjen nedåt. Gör detta genom att lägga till halva höjden med `y`
+* Flytta den prickade linjen nedåt. Gör detta genom att lägga till halva höjden med `y`
 
 ![Solglasögon](EmojiSunglasses.png) | Tips: det är smart att sätta parenteser runt `height / 2`
 :-----------------:|:--------------------------------------------:
@@ -80,7 +80,7 @@ void draw()
 
 ## Sinus och cosinus 1: uppgift 3
 
- * Ersätt `sin(x)` med `(sin(x) * 50)`
+* Ersätt `sin(x)` med `(sin(x) * 50)`
 
 ![Sinus och cosinus 1: uppgift 3](sinus_och_cosinus_1_3.png)
 
@@ -119,7 +119,7 @@ void draw()
 
 ## Sinus och cosinus 1: uppgift 4
 
- * Ersätt `sin(x)` med `sin(x / 100)`
+* Ersätt `sin(x)` med `sin(x / 100)`
 
 ![Sinus och cosinus 1: uppgift 4](sinus_och_cosinus_1_4.png)
 
@@ -149,7 +149,7 @@ void draw()
 
 ## Sinus och Cosinus 1: uppgift 5
 
- * Ersätt `sin(x)` med `cos(x)`
+* Ersätt `sin(x)` med `cos(x)`
 
 ![Sinus och cosinus 1: uppgift 5](sinus_och_cosinus_1_5.png)
 
@@ -186,8 +186,8 @@ void draw()
 
 ## Sinus och cosinus 1: Slutuppgift
 
- * Rita både sinus och cosinus
- * Få varje våg att gå upp och ner en gång
- * Rita cosinus röd, sinus blå
+* Rita både sinus och cosinus
+* Få varje våg att gå upp och ner en gång
+* Rita cosinus röd, sinus blå
 
 ![Sinus och cosinus 1: Slutuppgift](sinus_och_cosinus_1_slutuppgift.png)

@@ -43,8 +43,8 @@ Om man tittar noga kan man se att den vitaste delen av bollen också byter plats
 
 ## 3D 1: uppgift 2
 
- * Låt nu bollen gå längst ner till höger
- * Skapa en ny variabel, till exempel `y`
+* Låt nu bollen gå längst ner till höger
+* Skapa en ny variabel, till exempel `y`
 
 ![3D 1: uppgift 2](3D1_2.png)
 
@@ -77,8 +77,8 @@ void draw()
 
 ## 3D 1: uppgift 3
 
- * Låt nu bollen gå framåt
- * Skapa en ny variabel, till exempel `z`
+* Låt nu bollen gå framåt
+* Skapa en ny variabel, till exempel `z`
 
 Det här kan se annorlunda ut än du förväntar dig!
 
@@ -114,10 +114,10 @@ void draw()
 
 ## 3D 1: Slutuppgift
 
- * Gör storleken på sfären lika med `x`.
- * Ta bort `noStroke`
+* Gör storleken på sfären lika med `x`.
+* Ta bort `noStroke`
 
 Det här kan se annorlunda ut än du förväntar dig!
 
-![3D 1: Slutuppgift](3D1_slutuppgift.png) 
+![3D 1: Slutuppgift](3D1_slutuppgift.png)
 

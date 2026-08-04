@@ -47,8 +47,8 @@ Du ser en kub och en boll som står stilla
 
 ## 3D 3: uppgift 2
 
- * Se till att kuben nu också kan gå upp och ner, med tangenterna `w` och `s`
- * Skapa en ny variabel, t.ex. "y1", med initialvärdet "höjd / 2".
+* Se till att kuben nu också kan gå upp och ner, med tangenterna `w` och `s`
+* Skapa en ny variabel, t.ex. "y1", med initialvärdet "höjd / 2".
 
 ![3D 3: uppgift 2](3D3_2.png)
 
@@ -94,7 +94,7 @@ void draw()
 
 ## 3D 3: Slutuppgift
 
- * Låt nu också bollen gå fram och tillbaka med tangenterna `i` och `k`
- * Skapa en ny variabel, t.ex. "y2", med initialvärdet "höjd / 2".
+* Låt nu också bollen gå fram och tillbaka med tangenterna `i` och `k`
+* Skapa en ny variabel, t.ex. "y2", med initialvärdet "höjd / 2".
 
 ![3D 3: uppgift 3](3D3_slutuppgift.png)

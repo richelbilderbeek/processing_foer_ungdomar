@@ -45,7 +45,7 @@ Du ser en cirkel i mitten, med en kanon
 
 ## Sinus och cosinus 4: uppgift 2
 
- * Få kanonen att rotera genom att göra `vinkel_kanon` mer och mer `0.1`
+* Få kanonen att rotera genom att göra `vinkel_kanon` mer och mer `0.1`
 
 ![Sinus och cosinus 4: uppgift 2](sinus_och_cosinus_4_2.png)
 
@@ -79,7 +79,7 @@ void draw()
 
 ## Sinus och cosinus 4: uppgift 3
 
- * Se till att `vinkel_kanon` blir noll när du trycker på mellanslagstangenten
+* Se till att `vinkel_kanon` blir noll när du trycker på mellanslagstangenten
 
 Dricks:
 
@@ -133,9 +133,9 @@ void draw()
 
 ## Sinus och cosinus 4: uppgift 4
 
- * Gör variablerna `x_kula` och `y_kula` högst upp
- * Ställ in de initiala värdena för `x_kula` och `y_kula` till noll
- * Rita en kula med mitten `(x_kula, y_kula)` med en cirkel som är 5 pixlar bred och hög
+* Gör variablerna `x_kula` och `y_kula` högst upp
+* Ställ in de initiala värdena för `x_kula` och `y_kula` till noll
+* Rita en kula med mitten `(x_kula, y_kula)` med en cirkel som är 5 pixlar bred och hög
 
 ![Sinus och cosinus 4: uppgift 4](sinus_och_cosinus_4_4.png)
 
@@ -179,7 +179,7 @@ void draw()
 
 ## Sinus och cosinus 4: uppgift 5
 
- * Om du trycker på mellanslagstangenten så ...
+* Om du trycker på mellanslagstangenten så ...
     * får `x_kula` värdet av `x_kanon`
     * får `y_kula` värdet för `y_kanon`
     * kanonen bara fortsätter snurra
@@ -227,10 +227,10 @@ void draw()
 
 ## Sinus och cosinus 4: uppgift 6
 
- * Skapa en ny variabel ovanför `setup-funktionen` med namnet `vinkel_kula`
- * Ge `vinkel_kula` startvärdet noll
- * Låt `x_kula` bli mer och mer med cosinus av `vinkel_kula`
- * Låt `y_kula` bli *mindre* med sinus för `vinkel_kula`
+* Skapa en ny variabel ovanför `setup-funktionen` med namnet `vinkel_kula`
+* Ge `vinkel_kula` startvärdet noll
+* Låt `x_kula` bli mer och mer med cosinus av `vinkel_kula`
+* Låt `y_kula` bli *mindre* med sinus för `vinkel_kula`
 
 ![Sinus och cosinus 4: uppgift 6](sinus_och_cosinus_4_6.png)
 
@@ -280,8 +280,8 @@ void draw()
 
 Nu avslutar vi spelet:
 
- * Se till att kulan inte är synlig i början (tips: ställ in `y_kula` på minus hundra)
- * Om du trycker på blanksteg, ställ in `vinkel_kula` lika med `vinkel_kanon`
+* Se till att kulan inte är synlig i början (tips: ställ in `y_kula` på minus hundra)
+* Om du trycker på blanksteg, ställ in `vinkel_kula` lika med `vinkel_kanon`
 
 ![Sinus och cosinus 4: Slutuppgift](sinus_och_cosinus_4_slutuppgift.png)
 

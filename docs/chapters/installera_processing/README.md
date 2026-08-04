@@ -1,6 +1,6 @@
 # Installera Processing
 
- * Video: [YouTube](https://youtu.be/ypGIai7NOi8)
+* Video: [YouTube](https://youtu.be/ypGIai7NOi8)
 
 Här är stegen för att installera Processing:
 
@@ -22,7 +22,7 @@ Här under kan du läsa en mer detaljerad beskrivning av stegen ovan.
 
 ## 1. I webbläsare, sök på 'Download Processing'
 
-I din webbläsare, sök på 'Download Processing' 
+I din webbläsare, sök på 'Download Processing'
 (som är engelska för 'Ladda ner Processing').
 
 ![](installera_processing_1.png)
@@ -35,7 +35,7 @@ Bland sökresultaten hittar du rätt sida med ovanstående webbadress.
 
 ## 3. Klicka på 'Windows 64 bit'
 
-Välj ditt operativsystem. 
+Välj ditt operativsystem.
 Antagligen har du Windows.
 Har du Mac eller Linux, klicka på det istället.
 
@@ -70,9 +70,9 @@ Det är ofta en map namet 'Downloads'.
 
 ## 8. Packa upp filen
 
-Den nedladdade filen är en zip-fil. 
+Den nedladdade filen är en zip-fil.
 En zip-fil är en samling av flera filer.
-För att kunna använda Processing, måsta du packa upp filen (att starta 
+För att kunna använda Processing, måsta du packa upp filen (att starta
 Processing här funkar inte).
 Zip-filen har ett namn som börjar med 'processing-'.
 

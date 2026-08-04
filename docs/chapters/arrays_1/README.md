@@ -180,6 +180,7 @@ Med denna rad skapar du en array som heter `hemliga_nummer`. Hakparentesen bakom
 Det har ännu inte bestämts *hur många* bråktal det är.
 Ofta används "setup"-funktionen för att bestämma hur många nummer som ska kommas ihåg:
 processing
+
 ```
 hemliga_nummer = new float[1];
 ```
@@ -236,6 +237,7 @@ void draw()
   ellipse(x, 200, 300, 400);
 }
 ```
+
 Den här programmeringskoden ser inte särskilt trevlig ut med alla hakparenteser. Den är tänkt att visa dig hur du skapar, fyller i och läser arrayer.
 
 \pagebreak
@@ -343,7 +345,7 @@ Hej, samma som förut!
 :-----------------|:-------------------------------------
  |`för (int i=0; i<3; ++i)`.
  |`{`
- | ` xs[i] = i * 100;`
+ | `xs[i] = i * 100;`
  |`}`
 
 \pagebreak
@@ -436,6 +438,6 @@ void draw()
 
 Skriv nu koden så att:
 
- * Det finns sex bollar
- * Bollarna åker åt vänster i all evighet
+* Det finns sex bollar
+* Bollarna åker åt vänster i all evighet
 

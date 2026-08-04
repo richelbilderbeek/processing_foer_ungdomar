@@ -1,6 +1,6 @@
 # Sinus och cosinus 2: rita
 
-Under den här lektionen ska vi använda en sinus och cosinus 
+Under den här lektionen ska vi använda en sinus och cosinus
 för att få en måne att kretsa runt en planet.
 
 ![Spacewar](Spacewar.png)
@@ -42,9 +42,9 @@ Du kommer att se en kvartscirkel i det övre vänstra hörnet.
 
 ## Sinus och Cosinus 2: uppgift 2
 
- * Flytta cirkeln till mitten
- * Gör detta genom att lägga till halva höjden med `y`
- * Gör detta genom att lägga till halva bredden med `x`.
+* Flytta cirkeln till mitten
+* Gör detta genom att lägga till halva höjden med `y`
+* Gör detta genom att lägga till halva bredden med `x`.
 
 ![Solglasögon](EmojiSunglasses.png) | Tips: det är smart att sätta parenteser runt `height / 2`
 :-----------------:|:-----------------------------:
@@ -82,7 +82,7 @@ void draw()
 
 ## Sinus och cosinus 2: uppgift 3
 
- * Rita en cirkel istället för en punkt. Cirkeln ska vara 20 pixlar bred och 20 pixlar hög
+* Rita en cirkel istället för en punkt. Cirkeln ska vara 20 pixlar bred och 20 pixlar hög
 
 ![Sinus och cosinus 2: uppgift 3](sinus_och_cosinus_2_3.png)
 
@@ -113,8 +113,8 @@ void draw()
 
 ## Sinus och cosinus 2: uppgift 4
 
- * Se till att bollen inte lämnar en linje längre
- * Använd en vit bakgrund för detta
+* Se till att bollen inte lämnar en linje längre
+* Använd en vit bakgrund för detta
 
 ![Sinus och cosinus 2: uppgift 4](sinus_och_cosinus_2_4.png)
 
@@ -126,9 +126,9 @@ void draw()
 
 ## Sinus och cosinus 2: Slutuppgift
 
- * Rita också en cirkel i mitten, med en bredd och höjd på 50 pixlar
- * Gör den rörliga cirkeln moturs
- * Se till att den rörliga cirkeln inte längre går halvvägs ut från skärmen. Gör det här,
+* Rita också en cirkel i mitten, med en bredd och höjd på 50 pixlar
+* Gör den rörliga cirkeln moturs
+* Se till att den rörliga cirkeln inte längre går halvvägs ut från skärmen. Gör det här,
    genom att göra avståndet från centrum mindre
 
 ![Sinus och cosinus 2: Slutuppgift](sinus_och_cosinus_2_slutuppgift.png)

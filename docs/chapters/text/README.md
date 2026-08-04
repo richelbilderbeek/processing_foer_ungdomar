@@ -8,7 +8,7 @@ textäventyren någonsin:
 ![Zork](ZorkKleiner.png)
 
 \pagebreak
- 
+
 ## `text`: uppgift 1
 
 Kör den här koden:
@@ -239,7 +239,7 @@ void draw()
 Lägg till en variabel: `studsar`,
 som räknar hur många gånger bollen har studsat.
 `studsar` har ett startvärde på noll.
-Skriv ut detta värde i fönstret med blå text. 
+Skriv ut detta värde i fönstret med blå text.
 
 \pagebreak
 

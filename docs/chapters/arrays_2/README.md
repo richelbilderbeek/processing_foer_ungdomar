@@ -167,10 +167,10 @@ void draw()
 
 Varje rökpartikel får nu sin egen röda kantfärg:
 
- * Skapa en tredje array som heter `rs`, för de röda nyanserna på rökpartiklarna
- * I `rs` måste siffrorna `0`, `64`, `128` och `196` finnas
- * De röda nyanserna ska slumpmässigt öka eller minska i rödhet
- * Kanten på den första rökpartikeln ska få den första röda nyansen. Tips: använd `stroke`
+* Skapa en tredje array som heter `rs`, för de röda nyanserna på rökpartiklarna
+* I `rs` måste siffrorna `0`, `64`, `128` och `196` finnas
+* De röda nyanserna ska slumpmässigt öka eller minska i rödhet
+* Kanten på den första rökpartikeln ska få den första röda nyansen. Tips: använd `stroke`
 
 ![Bowtie](EmojiBowtie.png) | Tips: använd `stroke` för kantfärgen
 :-----------------:|:-----------------------------:
@@ -219,10 +219,10 @@ void draw()
 
 Gör nu koden så att:
 
- * det finns 256 rökpartiklar.
- * varje rökpartikel har sitt eget *blå* värde
- * den första rökpartikeln har ett blått värde på noll. Den andra rökpartikeln har ett blått värde på ett. Den tredje rökpartikeln har ett blått värde på två. Och så vidare
- * ifyllnadsfärgen ska vara blå den här gången, inte kanten
+* det finns 256 rökpartiklar.
+* varje rökpartikel har sitt eget *blå* värde
+* den första rökpartikeln har ett blått värde på noll. Den andra rökpartikeln har ett blått värde på ett. Den tredje rökpartikeln har ett blått värde på två. Och så vidare
+* ifyllnadsfärgen ska vara blå den här gången, inte kanten
 
 ![Bowtie](EmojiBowtie.png) | Tips: använd `fill` för ifyllnadsfärgen
 :-----------------:|:-----------------------------:
