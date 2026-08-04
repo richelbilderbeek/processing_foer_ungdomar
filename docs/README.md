@@ -5,7 +5,7 @@
 Kurs 'Processing för ungdomar'.
 
 - [Installera Processing](chapters/installera_processing/README.md)
-- [Kapitel](chaptersl/README.md): fristående kapitel
+- [Kapitel](chapters/README.md): fristående kapitel
 - [Vanliga frågor](faq.md): vanliga frågor
 
 ![CC-BY-SA](CC-BY-SA_25.png)
