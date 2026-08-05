@@ -8,4 +8,3 @@ av ['git for youngsters' kursen](https://richelbilderbeek.github.io/git_for_youn
 
 Det finns tidigare kapittel också, som kanske är nyttiga också.
 
-

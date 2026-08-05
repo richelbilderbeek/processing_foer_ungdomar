@@ -226,4 +226,3 @@ Varje procedyr måste göra precis vad den säger.
 Du får försvara dina val, men om en lärare är inte övertigad,
 räknas en procedyr inte.
 
-
