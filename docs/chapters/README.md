@@ -71,7 +71,7 @@ Kpt|Beskrivning
 39 |[git 3](39_git_3/README.md)
 40 |[git 4](30_git_4/README.md)
 .  | **Bok 11**
-41 |:construction: String och ArrayList
+41 |[ArrayList](41_arraylist/README.md)
 42 |:construction: Klasser 1
 43 |:construction: Klasser 2
 44 |:construction: Klasser 3
