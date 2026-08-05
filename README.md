@@ -3,8 +3,7 @@
 
 [![Build PDF documents](https://github.com/richelbilderbeek/processing_foer_ungdomar/actions/workflows/build_pdfs.yaml/badge.svg?branch=master)](https://github.com/richelbilderbeek/processing_foer_ungdomar/actions/workflows/build_pdfs.yaml)
 [![check-links](https://github.com/richelbilderbeek/processing_foer_ungdomar/actions/workflows/check_links.yaml/badge.svg?branch=master)](https://github.com/richelbilderbeek/processing_foer_ungdomar/actions/workflows/check_links.yaml)
-
-<!-- [![DOI](https://zenodo.org/badge/495032889.svg)](https://doi.org/10.5281/zenodo.14591xxx) -->
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21807366.svg)](https://doi.org/10.5281/zenodo.21807366)
 
 ![Processing 4 logo](docs/logos/processing4_logo_50.png)
 

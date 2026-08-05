@@ -10,5 +10,6 @@ Kurs 'Processing för ungdomar'.
 - [Lektionskort](lesson_cards/README.md): lektionskorterna
 - [Vanliga frågor](faq.md): vanliga frågor
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21807366.svg)](https://doi.org/10.5281/zenodo.21807366)
 ![CC-BY-SA](CC-BY-SA_25.png)
 
