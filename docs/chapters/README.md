@@ -66,10 +66,10 @@ Kpt|Beskrivning
 35 |:construction: Funktioner 3
 36 |:construction: Funktioner 4
 .  | **Bok 10**
-37 |git 1
-38 |git 2
-39 |git 3
-40 |git 4
+37 |[git 1](37_git_1/README.md)
+38 |[git 2](38_git_2/README.md)
+39 |[git 3](39_git_3/README.md)
+40 |[git 4](30_git_4/README.md)
 .  | **Bok 11**
 41 |:construction: String och ArrayList
 42 |:construction: Klasser 1
