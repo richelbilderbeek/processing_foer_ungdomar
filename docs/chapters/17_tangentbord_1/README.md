@@ -98,7 +98,7 @@ det hoppas till nedåt sida av fönstret.
 
 ## Tangentbord 1: Lösning 2
 
-```c++
+```processing
 float x = 0;
 float y = 0;
 

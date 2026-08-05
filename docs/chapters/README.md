@@ -61,22 +61,22 @@ Kpt|Beskrivning
 Kpt|Beskrivning
 ---|---------------------------------------------------------------
 .  | **Bok 9**
-33 |Funktioner 1
-34 |Funktioner 2
-35 |Funktioner 3
-36 |Funktioner 4
+33 |[Funktioner 1](33_funktioner_1/README.md)
+34 |:construction: Funktioner 2
+35 |:construction: Funktioner 3
+36 |:construction: Funktioner 4
 .  | **Bok 10**
 37 |git 1
 38 |git 2
 39 |git 3
 40 |git 4
 .  | **Bok 11**
-41 |Klasser 1
-42 |Klasser 2
-43 |Klasser 3
-44 |Klasser 4
+41 |:construction: String och ArrayList
+42 |:construction: Klasser 1
+43 |:construction: Klasser 2
+44 |:construction: Klasser 3
 .  | **Bok 12**
-45 |Att skapa en meny, med 'Start', 'About', 'Settings' och 'Quit'
-46 |Att lägga till en debug mode i en spel
-47 |Att skapa en spel i man kan vinna eller förlora
-48 |Att använder artwork
+45 |:construction: Att skapa en meny, med 'Start', 'About', 'Settings' och 'Quit'
+46 |:construction: Att lägga till en debug mode i en spel
+47 |:construction: Att skapa en spel i man kan vinna eller förlora
+48 |:construction: Att använder artwork
