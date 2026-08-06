@@ -72,11 +72,11 @@ Kpt|Beskrivning
 40 |[git 4](30_git_4/README.md)
 .  | **Bok 11**
 41 |[ArrayList](41_arraylist/README.md)
-42 |:construction: Klasser 1
+42 |:construction: [Klasser 1](42_klasser_1/README.md)
 43 |:construction: Klasser 2
 44 |:construction: Klasser 3
 .  | **Bok 12**
-45 |:construction: Att skapa en meny, med 'Start', 'About', 'Settings' och 'Quit'
+45 | :construction: [`enum` och spelstatus](42_enum/README.md); att skapa en meny, med 'Start', 'About', 'Settings' och 'Quit'
 46 |:construction: Att lägga till en debug mode i en spel
 47 |:construction: Att skapa en spel i man kan vinna eller förlora
 48 |:construction: Att använder artwork
