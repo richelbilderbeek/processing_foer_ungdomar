@@ -62,9 +62,9 @@ Kpt|Beskrivning
 ---|---------------------------------------------------------------
 .  | **Bok 9**
 33 |[Funktioner 1](33_funktioner_1/README.md)
-34 |:construction: Funktioner 2
-35 |:construction: Funktioner 3
-36 |:construction: Funktioner 4
+34 |[Uppräkningar](42_enum/README.md)
+35 |[Klasser 1](42_klasser_1/README.md)
+36 |[Klasser 2](43_klasser_2/README.md)
 .  | **Bok 10**
 37 |[git 1](37_git_1/README.md)
 38 |[git 2](38_git_2/README.md)
@@ -72,11 +72,11 @@ Kpt|Beskrivning
 40 |[git 4](30_git_4/README.md)
 .  | **Bok 11**
 41 |[ArrayList](41_arraylist/README.md)
-42 |:construction: [Klasser 1](42_klasser_1/README.md)
+42 |.
 43 |:construction: Klasser 2
 44 |:construction: Klasser 3
 .  | **Bok 12**
-45 | :construction: [`enum` och spelstatus](42_enum/README.md); att skapa en meny, med 'Start', 'About', 'Settings' och 'Quit'
+45 |.
 46 |:construction: Att lägga till en debug mode i en spel
 47 |:construction: Att skapa en spel i man kan vinna eller förlora
 48 |:construction: Att använder artwork

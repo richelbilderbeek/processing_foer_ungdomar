@@ -222,4 +222,4 @@ for (int i=0; i<xs.size(); ++i)
 Ändra koden så att den börjar med ingen eller en boll.
 Långsamt skull antalet av bollar ökar.
 Andvänder ditt eget förnuft för att göra ökningen långsamt nog.
- 
+
