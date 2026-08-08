@@ -74,7 +74,7 @@ En annat sätt är att använda en konstruktor:
 ```processing health.pde
 class Health
 {
-  float health;
+  float value;
   Health(float any_value)
   {
     value = any_value;
@@ -88,6 +88,68 @@ Health health = new Health(100);
 //...
 ```
 
+Vi använder den sätt med en konstruktor, för att den gör det lättare
+att söka del.
+
 Forfarande stoppar inget oss at har ett hälsovärde av 1234 procent.
 
-HIERO
+## 43.2. Felsökning
+
+Vi har redan använt den här funktionen:
+
+```processing
+void show_error(final String e)
+{
+  println("ERROR: " + e);
+  exit();
+}
+```
+
+Lägg till den här funktionen till din kod och använder den i
+kontruktorn av `Health`: när `health` blir sätt till mindre än
+noll, eller mer än ett hundra, måsta program avbrytas.
+
+### 43.2. Svar
+
+```processing health.pde
+class Health
+{
+  float value;
+  Health(float any_value)
+  {
+    if (any_value < 0) show_error("Health less than 0%");
+    if (any_value > 100) show_error("Health more than 100%");
+    value = any_value;
+  }
+};
+```
+
+```processing 43_classes.pde
+Health health = new Health(100);
+
+void show_error(final String e)
+{
+  println("ERROR: " + e);
+  exit();
+}
+
+void setup()
+{
+  size(320, 200);
+}
+void draw() 
+{
+  rect(0, 0, health.value, 10);
+}
+```
+
+Du kan placera `show_error` i båda fil: du får bestämma här!
+
+Nu kan du skriva säkra klasser, som kollar om sina värd är korrekta!
+
+## 43.3. Slutuppgift 
+
+Tar en spel av dig själva och har åtminstone en klass
+some checker sina ingångsargument. Om ingångsargumenter är felaktiga,
+programma måste avbrytas med en snäll felmeldning.
+

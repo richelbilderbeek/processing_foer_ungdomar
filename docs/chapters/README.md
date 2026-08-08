@@ -72,7 +72,7 @@ Kpt|Beskrivning
 40 |[git 4](30_git_4/README.md)
 .  | **Bok 11**
 41 |[ArrayList](41_arraylist/README.md)
-42 |[Klasser 2](43_klasser_2/README.md) <!-- limiting a value -->
+42 |[Klasser 2](43_klasser_2/README.md) <!-- checking input arguments -->
 43 |:construction: Klasser 2
 44 |:construction: Klasser 3
 .  | **Bok 12**

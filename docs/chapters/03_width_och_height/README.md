@@ -1,4 +1,4 @@
-# 3. `width` och `height`
+# Lektion 3: `width` och `height`
 
 Under den här lektionen lär du dig använda `width` och `height`.
 

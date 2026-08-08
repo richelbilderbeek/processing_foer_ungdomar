@@ -1,4 +1,4 @@
-# Ett vackert program
+# Lektion 1: Ett vackert program
 
 Processing är ett programmeringsspråk som har utvecklats för designers
 och är mycket lämpligt för att göra spel och vackra saker.
@@ -14,7 +14,7 @@ Så här ser programmet ut:
 
 \pagebreak
 
-## Ett trevligt program: intro
+## 1.1. Intro
 
 När du öppnar programmet ser du ett tomt program utan kod:
 
@@ -46,7 +46,7 @@ Just nu räcker det att veta att den gör något vackert.
 
 \pagebreak
 
-## Ett trevligt program: slutuppgift
+## 1.2. slutuppgift
 
 - Skriv av koden, precis som den ser ut, i programmet
 - Kör den här koden genom att klicka på knappen "Run"

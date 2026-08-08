@@ -1,4 +1,4 @@
-# Låt bollen åka åt höger i all evighet
+# Lektion 6: Låt bollen åka åt höger i all evighet
 
 Under den här lektionen ska vi få en boll att åka åt höger i all evighet.
 
@@ -9,7 +9,7 @@ Du kan (nästan) inte programmera utan `if`-satser.
 
 \pagebreak
 
-## Låt bollen åka åt höger i all evighet: intro
+## 6.1. Intro
 
 ![Låt bollen åka höger](flytta_bollen_till_hoeger_i_evigheten_intro.png)
 
@@ -59,7 +59,7 @@ sätt `x` till `100`. `if` är engelska för 'om'.
 
 \pagebreak
 
-## Låt bollen åka åt höger i all evighet: uppgift 1
+## 6.2. Uppgift 1
 
 ![Uppgift 1](flytta_bollen_till_hoeger_i_evigheten_1.png)
 
@@ -68,7 +68,7 @@ Skriv `if` i slutet av `draw`, före den avslutande måsvingen (`}`).
 
 \pagebreak
 
-## Låt bollen åka åt höger i all evighet: lösning 1
+### 6.2. Svar
 
 Koden blir då:
 
@@ -93,7 +93,7 @@ void draw()
 
 \pagebreak
 
-## Låt bollen åka åt höger i all evighet: uppgift 2
+## 6.3. Uppgift 2
 
 ![Uppgift 2](flytta_bollen_till_hoeger_i_evigheten_2.png)
 
@@ -101,10 +101,10 @@ Se till att bollen startar allra längst till vänster i fönstret
 
 \pagebreak
 
-## Låt bollen åka åt höger i all evighet: lösning 2
+### 6.3. Svar
 
-* Ändra `float x = 50` till `float x = 0` eller `float x = -50`: båda är bra.
-* Ändra `x = 100` till `x = 0` eller `x = -50`: båda är bra.
+- Ändra `float x = 50` till `float x = 0` eller `float x = -50`: båda är bra.
+- Ändra `x = 100` till `x = 0` eller `x = -50`: båda är bra.
 
 ```processing
 float x = 50;
@@ -127,7 +127,7 @@ void draw()
 
 \pagebreak
 
-## Låt bollen åka åt höger i all evighet: uppgift 3
+## 6.4. Uppgift 3
 
 ![Uppgift 3](flytta_bollen_till_hoeger_i_evigheten_3.png)
 
@@ -136,7 +136,7 @@ innan den hoppar till vänster sida av fönstret
 
 \pagebreak
 
-## Låt bollen åka åt höger i all evighet: lösning 3
+### 6.4. Svar
 
 Ändra `if (x > 200)` till `if (x > 650)`.
 
@@ -161,7 +161,7 @@ void draw()
 
 \pagebreak
 
-## Låt bollen åka åt höger i all evighet: uppgift 4
+## 6.5. Uppgift 4
 
 Lurad!
 Även om lektionen heter 'Låt bollen åka åt höger i all evighet',
@@ -191,13 +191,13 @@ sätt `x` till femhundra istället'.
 
 Gör en boll som åker åt vänster i all evighet:
 
-* Bollen startar utanför fönstret
-* Bollen åker helt utanför fönstret
-* Om bollen åker utanför fönstret ska den omedelbart börja om igen på andra sidan
+- Bollen startar utanför fönstret
+- Bollen åker helt utanför fönstret
+- Om bollen åker utanför fönstret ska den omedelbart börja om igen på andra sidan
 
 \pagebreak
 
-## Låt bollen åka åt höger i all evighet: lösning 4
+### 6.5. Svar
 
 Detta är en evighetsboll som åker åt vänster:
 
@@ -229,7 +229,7 @@ void draw()
 
 \pagebreak
 
-## Låt bollen åka åt höger i all evighet: uppgift 5
+## 6.6. Uppgift 5
 
 Vi fick en boll att åka åt höger och åt vänster när vi ändrade koordinaten `x`.
 Bollen kan också åka neråt och uppåt om vi ändrar y-koordinaten.
@@ -238,14 +238,14 @@ Bollen kan också åka neråt och uppåt om vi ändrar y-koordinaten.
 
 Skriv ett program där en boll åker neråt i all evighet:
 
-* gör skärmen 300 pixlar bred och 200 pixlar hög
-* använd en variabel som heter 'y'
-* ersätt koden `ellips (x, 50, 100, 100)` med `ellipse (50, y, 100, 100)`
-* om bollen åker neråt och utanför fönstret så måste bollen börja om uppifrån igen
+- gör skärmen 300 pixlar bred och 200 pixlar hög
+- använd en variabel som heter 'y'
+- ersätt koden `ellips (x, 50, 100, 100)` med `ellipse (50, y, 100, 100)`
+- om bollen åker neråt och utanför fönstret så måste bollen börja om uppifrån igen
 
 \pagebreak
 
-## Låt bollen åka åt höger i all evighet: lösning 5
+### 6.6. Svar
 
 ```processing
 float y = -50;
@@ -268,24 +268,24 @@ void draw()
 
 \pagebreak
 
-## Låt bollen åka åt höger i all evighet: uppgift 6
+## 6.7. Uppgift 6
 
 Oj, nu när vi har skapat en variabel `x` och en variabel `y`, låt oss använda båda samtidigt!
 
 När vi slår ihop kod gäller följande regler:
 
-* allt som finns ovanför `setup` -funktionen ska vara kvar där
-* allt som finns inuti `setup`-funktionen måste vara kvar inuti `setup`-funktionen
-* allt som finns inuti funktionen `draw` måste vara kvar inuti funktionen `draw`
+- allt som finns ovanför `setup` -funktionen ska vara kvar där
+- allt som finns inuti `setup`-funktionen måste vara kvar inuti `setup`-funktionen
+- allt som finns inuti funktionen `draw` måste vara kvar inuti funktionen `draw`
 
 ![Uppgift 6](flytta_bollen_till_hoeger_i_evigheten_6.png)
 
-* Slå ihop koden för "Låt bollen åka åt höger i all evighet" med "Låt bollen åka neråt i all evighet"
-* Ändra koden så att bollen också åker neråt
+- Slå ihop koden för "Låt bollen åka åt höger i all evighet" med "Låt bollen åka neråt i all evighet"
+- Ändra koden så att bollen också åker neråt
 
 \pagebreak
 
-## Låt bollen åka åt höger i all evighet: lösning 6
+### 6.7. Svar
 
 ```processing
 float x = -50;
@@ -314,7 +314,7 @@ void draw()
 
 \pagebreak
 
-## Låt bollen åka åt höger i all evighet: slutuppgift
+## 6.8. Slutuppgift
 
 ![slutuppgift 'Låt bollen åka åt höger i all evighet'](flytta_bollen_till_hoeger_i_evigheten_slutuppgift.png)
 

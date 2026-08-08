@@ -1,4 +1,4 @@
-# `rect` och `fill`
+# Lektion 7: `rect` och `fill`
 
 Här ser du ett av de mest berömda spel någonsin,
 som är gjort med enkla fyrkanter som är ifyllda med olika färger:
@@ -10,7 +10,7 @@ men `rect` är lättare.
 
 \pagebreak
 
-## `rect` och `fill`: uppgift 1
+## 7.1. Uppgift 1
 
 Kör denna kod.
 
@@ -35,13 +35,13 @@ void draw()
 
 \pagebreak
 
-## `rect` och `fill`: lösning 1
+### 7.1. Svar
 
 ![lösning 1](RectFill1.png)
 
 \pagebreak
 
-## `rect` och `fill`: uppgift 2
+## 7.2. Uppgift 2
 
 Lägg till följande text, efter `ellipse(x, height / 2, 100, 100);`:
 
@@ -55,7 +55,7 @@ Lägg till följande text, efter `ellipse(x, height / 2, 100, 100);`:
 
 \pagebreak
 
-## `rect` och `fill`: lösning 2
+### 7.2. Svar
 
 ![lösning 2](RectFill2.png)
 
@@ -81,7 +81,7 @@ void draw()
 
 \pagebreak
 
-## `rect` och `fill`: uppgift 3
+## 7.3. Uppgift 3
 
 ![Uppdrag 3](RectFill3.png)
 
@@ -90,7 +90,7 @@ Gör det genom att minska `x` och `y`-koordinaterna med 50.
 
 \pagebreak
 
-## `rect` och `fill`: lösning 3
+### 7.3. Svar
 
 ```processing
 float x = -50;
@@ -114,7 +114,7 @@ void draw()
 
 \pagebreak
 
-## `rect` och `fill`: uppgift 4
+## 7.4. Uppgift 4
 
 ![Uppdrag 4](RectFill4.png)
 
@@ -126,7 +126,7 @@ Kolla på färgbollen nedanför:
 
 \pagebreak
 
-## `rect` och `fill`: lösning 4
+### 7.4. Svar
 
 ```processing
 float x = -50;
@@ -150,7 +150,7 @@ void draw()
 
 \pagebreak
 
-## `rect` och `fill`: uppgift 5
+## 7.5. Uppgift 5
 
 Lägg till följande text under `stroke(255, 255, 0);`:
 
@@ -160,7 +160,7 @@ fill(x, 0, 255);
 
 \pagebreak
 
-## `rect` och `fill`: lösning 5
+### 7.5. Svar
 
 ![Uppdrag 5](RectFill5.png)
 
@@ -191,7 +191,7 @@ void draw()
 
 \pagebreak
 
-## `rect` och `fill`: uppgift 6
+## 7.6. Uppgift 6
 
 Gör en ny variabel som heter `gron` (datorn gillar inte ord med `ö`).
 `gron` ska ha startvärdet noll.
@@ -200,7 +200,7 @@ Varje gång ökar `gron` med två.
 
 \pagebreak
 
-### `rect` och `fill`: lösning 6
+### 7.6. Svar
 
 ```processing
 float x = -50;
@@ -227,7 +227,7 @@ void draw()
 
 \pagebreak
 
-## `rect` och `fill`: uppgift 7
+## 7.7. Uppgift 7
 
 ![Uppdrag 7](RectFill7.png)
 
@@ -236,7 +236,7 @@ om `gron` är mer än `255`, ska `gron` bli `0`.
 
 \pagebreak
 
-## `rect` och `fill`: lösning 7
+### 7.7. Svar
 
 ```processing
 float x = -50;
@@ -267,7 +267,7 @@ void draw()
 
 \pagebreak
 
-## `rect` och `fill`: uppgift 8
+## 7.8. Uppgift 8
 
 ![Uppdrag 8](RectFill8.png)
 
@@ -276,7 +276,7 @@ som är ett slumpmässigt tal mellan `0` och `256`.
 
 \pagebreak
 
-## `rect` och `fill`: lösning 8
+### 7.8. Svar
 
 ```processing
 float x = -50;
@@ -307,7 +307,7 @@ void draw()
 
 \pagebreak
 
-## `rect` och `fill`: slutuppgift
+## 7.9. Slutuppgift
 
 ![Slutuppgift `rect` och `fill`](RectFillEindopdracht.png)
 

@@ -1,4 +1,4 @@
-# Låt bollen åka åt höger
+# Lektion 2: Låt bollen åka åt höger
 
 Under den här lektionen ska vi låta en boll åka åt höger.
 
@@ -9,7 +9,7 @@ Man kan knappt programmera utan variabler.
 
 \pagebreak
   
-## Låt bollen åka åt höger: intro
+## 2.1. Intro
 
 Skriv följande kod:
 
@@ -39,11 +39,7 @@ Om allt går bra ser du en boll som rör sig till höger (se figur `Låt bollen 
 
 \pagebreak
 
-\pagebreak
-
-\pagebreak
-
-## Låt bollen åka åt höger: uppgift 1
+## 2.2. Uppgift 1
 
 ![Låt bollen åka åt höger: uppgift 1](boll_till_hoeger_1.png)
 
@@ -53,7 +49,7 @@ Fönstret är nu `250` pixlar brett. Nu ska du göra det `300` pixlar brett.
 
 \pagebreak
 
-## Låt bollen åka åt höger: lösning 1
+### 2.2. Svar
 
 Det står `250` i koden på ett ställe. Bara ändra detta till `300`:
 
@@ -80,7 +76,7 @@ void draw()
 
 \pagebreak
 
-## Låt bollen åka åt höger: uppgift 2
+## 2.3. Uppgift 2
 
 ![Låt bollen åka åt höger: uppgift 2](boll_till_hoeger_2.png)
 
@@ -89,7 +85,7 @@ Nu ska du göra bollen rund: `40` pixlar bred och `40` pixlar hög.
 
 \pagebreak
 
-## Låt bollen åka åt höger: lösning 2
+### 2.3. Svar
 
 `ellips (x, 50, 40, 30);` ritar ut bollen.
 `40, 30` gör bollen äggformad.
@@ -116,7 +112,7 @@ void draw()
 
 \pagebreak
 
-## Låt bollen åka åt höger: uppgift 3
+## 2.4. Uppgift 3
 
 ![Låt bollen åka åt höger: uppgift 3](boll_till_hoeger_3.png)
 
@@ -125,7 +121,7 @@ Låt bollen röra sig till höger dubbelt så snabbt
 
 \pagebreak
 
-## Låt bollen åka åt höger: lösning 3
+### 2.4. Svar
 
 `x = x + 1;` flyttar bollen 1 pixel. Ändra detta till `x = x + 2;`.
 Koden blir då:
@@ -154,7 +150,7 @@ void draw()
 
 \pagebreak
 
-## Låt bollen åka åt höger: uppgift 4
+## 2.5. Uppgift 4
 
 ![Låt bollen åka åt höger: uppgift 4](boll_till_hoeger_4.png)
 
@@ -163,7 +159,7 @@ Kan du få cirkeln att ritas ut `0` pixlar till höger?
 
 \pagebreak
 
-## Låt bollen åka åt höger: lösning 4
+### 2.5. Svar
 
 `float x = 60;` bestämmer mitten på bollen.
 Ändra detta till `float x = 0;`.
@@ -190,7 +186,7 @@ void draw()
 
 \pagebreak
 
-## Låt bollen åka åt höger: uppgift 5
+## 2.6. Uppgift 5
 
 Haha, den här lektionen kallas 'Låt bollen åka åt höger',
 men nu ska vi också göra en boll som åker åt vänster!
@@ -201,7 +197,7 @@ Låt nu bollen börja på höger sida av fönstret och åka åt vänster.
 
 \pagebreak
 
-## Låt bollen åka åt höger: lösning 5
+### 2.6. Svar
 
 För att få bollen att starta på höger sida måste du använda `float x = 500;`
 (eller något annat högt tal).
@@ -229,7 +225,7 @@ void draw()
 
 \pagebreak
 
-## Låt bollen åka åt höger: vad är en variabel?
+## 2.7. Variabler
 
 På den första raden använder vi en variabel:
 
@@ -281,7 +277,7 @@ Semikolon (`;`) anger slutet på en mening (som punkten i en svensk text).
 
 \pagebreak
 
-## Låt bollen åka åt höger: uppgift 6
+## 2.8. Uppgift 6
 
 Haha, den här lektionen kallas "Låt bollen åka åt höger",
 men vi kommer också att få en boll att åka nedåt!
@@ -295,7 +291,7 @@ men vi kommer också att få en boll att åka nedåt!
 
 \pagebreak
 
-## Låt bollen åka åt höger: lösning 6
+### 2.8. Svar
 
 ```processing
 float y = 0;
@@ -314,7 +310,7 @@ void draw()
 
 \pagebreak
 
-## Låt bollen åka åt höger: uppgift 7
+## 2.9. Uppgift 7
 
 ![Låt bollen åka åt höger: uppgift 7](boll_till_hoeger_7.png)
 
@@ -326,7 +322,7 @@ Nu ska vi få bollen att röra sig snabbare och uppåt
 
 \pagebreak
 
-## Låt bollen åka åt höger: lösning 7
+### 2.9. Svar
 
 ```processing
 float y = 200;
@@ -345,7 +341,7 @@ void draw()
 
 \pagebreak
 
-## Låt bollen åka åt höger: slutuppgift
+## 2.10. Slutuppgift
 
 ![Låt bollen åka åt höger: slutuppgift](boll_till_hoeger_slutuppgift.png)
 

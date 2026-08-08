@@ -1,4 +1,4 @@
-# `point` och `random`
+# Lektion 4: `point` och `random`
 
 Under den här lektionen lär vi oss
 
@@ -9,7 +9,7 @@ Under den här lektionen lär vi oss
 
 ![Slutuppgift](point_och_random_slutuppgift.png)
 
-## `point` och `random`: intro
+## 4.1. Intro
 
 Din skärm har många rutor som består av pixlar.
 
@@ -26,7 +26,7 @@ de har färre pirxlar vilket gör bilderna kantigare.
 
 \pagebreak
 
-## `point` och `random`: uppgift 1
+## 4.2. uppgift 1
 
 Kör följande kod:
 
@@ -49,12 +49,12 @@ void draw()
 
 \pagebreak
 
-## `point` och `random`: lösning 1
+### 4.2. Svar
 
 ![`point` och `random`: lösning 1](point_och_random_1.png)
 
 
-## `point` och `random`: uppgift 2
+## 4.3. Uppgift 2
 
 ![`point` och `random`: uppgift 2](point_och_random_2.png)
 
@@ -62,7 +62,7 @@ Rita ut en till punkt mellan den första punkten och ovansidan av fönstret.
 
 \pagebreak
 
-## `point` och `random`: lösning 2
+### 4.3. Svar
 
 ```processing
 void setup()
@@ -77,7 +77,7 @@ void draw()
 }
 ```
 
-## `point` och `random`: uppgift 3
+## 4.4. Uppgift 3
 
 Den första punkten är exakt i mitten.
 Med andra ord, på halva bredden och på halva höjden av fönstret.
@@ -85,7 +85,7 @@ Med andra ord, på halva bredden och på halva höjden av fönstret.
 
 \pagebreak
 
-## `point` och `random`: lösning 3
+### 4.4. Svar
 
 ```processing
 void setup()
@@ -104,18 +104,18 @@ void draw()
 :-----------------:|:-----------------------------:
 `width / 2` | 'Kära dator, ange här bredden på fönstret, delat med `2`'
 
-## `point` och `random`: uppgift 4
+## 4.5. Uppgift 4
 
 Den andra pixeln är utritad
 
-* på halva fönstrets bredd
-* på en fjärdedel av fönstrets höjd
+- på halva fönstrets bredd
+- på en fjärdedel av fönstrets höjd
 
 Ändra `point(150, 50);` till något med `width` och `height`.
 
 \pagebreak
 
-## `point` och `random`: lösning 4
+### 4.5. Svar
 
 ```processing
 void setup()
@@ -134,7 +134,7 @@ void draw()
 :-----------------:|:-----------------------------:
 `height / 4` | 'Kära dator, ange här fönstrets höjd, delat med `4`'
 
-## `point` och `random`: uppgift 5
+## 4.6. Uppgift 5
 
 ![`point` och `random`: uppgift 5](point_och_random_5.png)
 
@@ -142,7 +142,7 @@ Rita ut en ny pixel i fönstrets övre vänstra hörn.
 
 \pagebreak
 
-## `point` och `random`: lösning 5
+### 4.6. Svar
 
 ```processing
 void setup()
@@ -164,7 +164,7 @@ void draw()
 `point(0,0);` | 'Kära dator, rita ut en punkt på koordinat `(0, 0)`'
 
 
-## `point` och `random`: uppgift 6
+## 4.7. Uppgift 6
 
 ![`point` och `random`: uppgift 6](point_och_random_6.png)
 
@@ -173,7 +173,7 @@ Använd `width - 1` som det första talet inom parentesarna för `point`.
 
 \pagebreak
 
-## `point` och `random`: lösning 6
+### 4.7. Svar
 
 ```processing
 void setup()
@@ -190,7 +190,7 @@ void draw()
 }
 ```
 
-## `point` och `random`: uppgift 7
+## 4.8. Uppgift 7
 
 ![`point` och `random`: uppgift 7](point_och_random_7.png)
 
@@ -199,7 +199,7 @@ Använd `width - 1` och `height - 1` på rätt ställen.
 
 \pagebreak
 
-## `point` och `random`: lösning 7
+### 4.8. Svar
 
 ```processing
 void setup()
@@ -218,7 +218,7 @@ void draw()
 }
 ```
 
-## `point` och `random`: uppgift 8
+## 4.9. Uppgift 8
 
 Kör den här koden:
 
@@ -238,7 +238,7 @@ Vad ser du?
 
 \pagebreak
 
-## `point` och `random`: lösning 8
+### 4.9. Svar
 
 ![`point` och `random`: lösning 8](point_och_random_8.png)
 
@@ -248,7 +248,7 @@ Du ser att punkter ritas ut på slumpmässiga platser, men alltid på samma höj
 :-----------------:|:-----------------------------:
 `random(300)` | 'Kära dator, välj ett slumpmässigt tal från noll till `300`'
 
-## `point` och `random`: slutuppgift
+## 4.10. Slutuppgift
 
 ![Slutuppgift](point_och_random_slutuppgift.png)
 

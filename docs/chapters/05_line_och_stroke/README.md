@@ -1,4 +1,4 @@
-# `line` och `stroke`
+# Lektion 5: `line` och `stroke`
 
 ![Moria, ett av de allra första spelen med färg](line_och_stroke_moria.png)
 
@@ -6,7 +6,7 @@ Under den här lektionen kommer vi att lära oss att rita färgade linjer.
 
 \pagebreak
 
-## `line` och `stroke`: uppgift 1
+## 5.1. `line` och `stroke`: uppgift 1
 
 Kör den här koden:
 
@@ -31,13 +31,13 @@ void draw()
 
 \pagebreak
 
-## `line` och `stroke`: lösning 1
+### 5.1. Svar
 
 ![Lösning 1](line_och_stroke_1_extra.png)
 
 \pagebreak
 
-## `line` och `stroke`: uppgift 2
+## 5.2. Uppgift 2
 
 ![Uppgift 2](line_och_stroke_2.png)
 
@@ -46,7 +46,7 @@ istället för till den nedre högra hörnet.
 
 \pagebreak
 
-## `line` och `stroke`: lösning 2
+### 5.2. Svar
 
 ```processing
 void setup()
@@ -62,8 +62,7 @@ void draw()
 
 \pagebreak
 
-## `line` och `stroke`: uppgift 3
-
+## 5.4. Uppgift 3
 
 Ändra linjen så att den börjar längst ner till vänster
 istället för i mitten på vänster sida.
@@ -72,7 +71,7 @@ istället för i mitten på vänster sida.
 
 \pagebreak
 
-## `line` och `stroke`: lösning 3
+### 5.4. Svar
 
 ```processing
 void setup()
@@ -88,7 +87,7 @@ void draw()
 
 \pagebreak
 
-## `line` och `stroke`: uppgift 4
+## 5.5. Uppgift 4
 
 Låt linjen gå från nedre vänster till överst till höger,
 men använd nu `width` och `height` istället.
@@ -97,7 +96,7 @@ men använd nu `width` och `height` istället.
 
 \pagebreak
 
-## `line` och `stroke`: lösning 4
+### 5.5. Svar
 
 ```processing
 void setup()
@@ -113,7 +112,7 @@ void draw()
 
 \pagebreak
 
-## `line` och `stroke`: uppgift 5
+## 5.6. Uppgift 5
 
 ![Uppgift 5](line_och_stroke_5.png)
 
@@ -122,7 +121,7 @@ Du gör detta med `random`.
 
 \pagebreak
 
-## `line` och `stroke`: lösning 5
+### 5.6. Svar
 
 ```processing
 void setup()
@@ -138,7 +137,7 @@ void draw()
 
 \pagebreak
 
-## `line` och `stroke`: uppgift 6
+## 5.7. Uppgift 6
 
 ![Uppgift 6](line_och_stroke_6.png)
 
@@ -146,7 +145,7 @@ Låt linjen nu också sluta på en slumpmässig höjd i högra kanten.
 
 \pagebreak
 
-## `line` och `stroke`: lösning 6
+### 5.7. Svar
 
 ```processing
 void setup()
@@ -162,7 +161,7 @@ void draw()
 
 \pagebreak
 
-## `line` och `stroke`: uppgift 7
+## 5.8. Uppgift 7
 
 ![Uppgift 7](line_och_stroke_7.png)
 
@@ -170,7 +169,7 @@ Precis ovanför meningen med `line`, skriv nu texten `stroke(255, 0, 0);`.
 
 \pagebreak
 
-## `line` och `stroke`: lösning 7
+### 5.8. Svar
 
 ```processing
 void setup()
@@ -192,7 +191,7 @@ void draw()
 
 \pagebreak
 
-## `line` och `stroke`: uppgift 8
+## 5.9. Uppgift 8
 
 ![Uppgift 8](line_och_stroke_8.png)
 
@@ -202,7 +201,7 @@ Gör linjerna cyan (ljusblå) nu. Titta på figuren 'Färgcirkel' hur du gör de
 
 \pagebreak
 
-## `line` och `stroke`: lösning 8
+## 5.9. Svar
 
 ```processing
 void setup()
@@ -224,7 +223,7 @@ void draw()
 
 \pagebreak
 
-## `line` och `stroke`: uppgift 9
+## 5.10. Uppgift 9
 
 ![Uppgift 9](line_och_stroke_9.png)
 
@@ -232,7 +231,7 @@ Sätt nu det röda värdet till ett slumpmässigt tal mellan 0 och 256.
 
 \pagebreak
 
-## `line` och `stroke`: lösning 9
+## 5.10. Svar
 
 ```processing
 void setup()
@@ -249,7 +248,7 @@ void draw()
 
 \pagebreak
 
-## `line` och `stroke`: slutuppgift
+## 5.11. Slutuppgift
 
 ![Slutuppgift `line` och `stroke`](line_och_stroke_slutuppgift.png)
 
