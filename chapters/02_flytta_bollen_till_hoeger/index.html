@@ -1,0 +1,1101 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Lektion 2: Låt bollen åka åt höger - Processing för ungdomar</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i%7CJetBrains+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Lato";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="darkblue" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#lektion-2-lat-bollen-aka-at-hoger" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Processing för ungdomar" class="md-header__button md-logo" aria-label="Processing för ungdomar" data-md-component="logo">
+      
+  <img src="../../logos/processing4_logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Processing för ungdomar
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Lektion 2: Låt bollen åka åt höger
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/richelbilderbeek/processing_foer_ungdomar" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Välkommen
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Kapitel
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../books/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Böcker
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../lesson_cards/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Lektionskort
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../faq/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Vanliga frågor
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../acknowledgements/" class="md-tabs__link">
+          
+  
+  
+  Misc
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Processing för ungdomar" class="md-nav__button md-logo" aria-label="Processing för ungdomar" data-md-component="logo">
+      
+  <img src="../../logos/processing4_logo.png" alt="logo">
+
+    </a>
+    Processing för ungdomar
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/richelbilderbeek/processing_foer_ungdomar" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Välkommen
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kapitel
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../books/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Böcker
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lesson_cards/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lektionskort
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vanliga frågor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Misc
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Misc
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../acknowledgements/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bidragsgivarna
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CODE_OF_CONDUCT/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Code of conduct
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CONTRIBUTING/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../scripts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Scripts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/richelbilderbeek/processing_foer_ungdomar/blob/main/docs/chapters/02_flytta_bollen_till_hoeger/README.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+    
+      
+    
+    <a href="https://github.com/richelbilderbeek/processing_foer_ungdomar/raw/main/docs/chapters/02_flytta_bollen_till_hoeger/README.md" title="View source of this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.2 8.2 0 0 1-1.23-2"/></svg>
+    </a>
+  
+
+
+<h1 id="lektion-2-lat-bollen-aka-at-hoger">Lektion 2: Låt bollen åka åt höger<a class="headerlink" href="#lektion-2-lat-bollen-aka-at-hoger" title="Anchor link to this section for reference">&para;</a></h1>
+<p>Under den här lektionen ska vi låta en boll åka åt höger.</p>
+<p>Du kommer också att lära dig vad en variabel är.
+Man kan knappt programmera utan variabler.</p>
+<p><img alt="Marble Madness" src="MarbleMadness.png" /></p>
+<h2 id="21-intro">2.1. Intro<a class="headerlink" href="#21-intro" title="Anchor link to this section for reference">&para;</a></h2>
+<p>Skriv följande kod:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>float x = 60;
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>void setup()
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>{
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>  size(250, 200);
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>}
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>void draw()
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>{
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>  ellipse(x, 50, 40, 30);
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>  x = x + 1;
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>}
+</code></pre></div>
+<p>Tryck sedan på 'Run'.</p>
+<p>Om det finns röda bokstäver har du stavat fel någonstans.
+Titta noga på koden och rätta dina stavfel.</p>
+<p>Om allt går bra ser du en boll som rör sig till höger (se figur <code>Låt bollen åka åt höger: intro</code>).</p>
+<p><img alt="Låt bollen åka åt höger: intro" src="boll_till_hoeger_intro.png" /></p>
+<h2 id="22-uppgift-1">2.2. Uppgift 1<a class="headerlink" href="#22-uppgift-1" title="Anchor link to this section for reference">&para;</a></h2>
+<p><img alt="Låt bollen åka åt höger: uppgift 1" src="boll_till_hoeger_1.png" /></p>
+<p>Fönstret är nu <code>250</code> pixlar brett. Nu ska du göra det <code>300</code> pixlar brett.</p>
+<p>Ändra koden och tryck på "Run".</p>
+<h3 id="22-svar">2.2. Svar<a class="headerlink" href="#22-svar" title="Anchor link to this section for reference">&para;</a></h3>
+<p>Det står <code>250</code> i koden på ett ställe. Bara ändra detta till <code>300</code>:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>float x = 60;
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>void setup()
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>{
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>  size(300, 200);
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>}
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>void draw()
+<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>{
+<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a>  ellipse(x, 50, 40, 30);
+<a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a>  x = x + 1;
+<a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a>}
+</code></pre></div>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"><img alt="Dator" src="EmojiComputer.png" /></th>
+<th style="text-align: center;"><img alt="Smiley" src="EmojiSmiley.png" /></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><code>size(300, 200);</code></td>
+<td style="text-align: center;">'Kära dator, skapa ett fönster som är 300 pixlar brett och 200 pixlar högt.'</td>
+</tr>
+</tbody>
+</table>
+<h2 id="23-uppgift-2">2.3. Uppgift 2<a class="headerlink" href="#23-uppgift-2" title="Anchor link to this section for reference">&para;</a></h2>
+<p><img alt="Låt bollen åka åt höger: uppgift 2" src="boll_till_hoeger_2.png" /></p>
+<p>Bollen är nu äggformad: den är <code>40</code> pixlar bred och <code>30</code> pixlar hög.
+Nu ska du göra bollen rund: <code>40</code> pixlar bred och <code>40</code> pixlar hög.</p>
+<h3 id="23-svar">2.3. Svar<a class="headerlink" href="#23-svar" title="Anchor link to this section for reference">&para;</a></h3>
+<p><code>ellips (x, 50, 40, 30);</code> ritar ut bollen.
+<code>40, 30</code> gör bollen äggformad.
+Att ändra koden till <code>40, 40</code> gör bollen rund.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>float x = 60;
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>void setup()
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>{
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>  size(300, 200);
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>}
+<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>
+<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a>void draw()
+<a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a>{
+<a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a>  ellipse(x, 50, 40, 40);
+<a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a>  x = x + 1;
+<a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a>}
+</code></pre></div>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"><img alt="Dator" src="EmojiComputer.png" /></th>
+<th style="text-align: center;"><img alt="Smiley" src="EmojiSmiley.png" /></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><code>ellips (x, 50,40,30);</code></td>
+<td style="text-align: center;">'Kära dator, rita ut en oval som ligger <code>x</code> pixlar till höger och <code>50</code> pixlar nedåt, och är <code>40</code> pixlar bred och <code>30</code> pixlar hög.'</td>
+</tr>
+</tbody>
+</table>
+<h2 id="24-uppgift-3">2.4. Uppgift 3<a class="headerlink" href="#24-uppgift-3" title="Anchor link to this section for reference">&para;</a></h2>
+<p><img alt="Låt bollen åka åt höger: uppgift 3" src="boll_till_hoeger_3.png" /></p>
+<p>Bollen rör sig nu åt höger med en hastighet på <code>1</code> pixel i taget.
+Låt bollen röra sig till höger dubbelt så snabbt</p>
+<h3 id="24-svar">2.4. Svar<a class="headerlink" href="#24-svar" title="Anchor link to this section for reference">&para;</a></h3>
+<p><code>x = x + 1;</code> flyttar bollen 1 pixel. Ändra detta till <code>x = x + 2;</code>.
+Koden blir då:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>float x = 60;
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>void setup()
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>{
+<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>  size(300, 200);
+<a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>}
+<a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>
+<a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a>void draw()
+<a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a>{
+<a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a>  ellipse(x, 50, 40, 40);
+<a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a>  x = x + 2;
+<a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a>}
+</code></pre></div>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"><img alt="Dator" src="EmojiComputer.png" /></th>
+<th style="text-align: center;"><img alt="Smiley" src="EmojiSmiley.png" /></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><code>x = x + 1;</code></td>
+<td style="text-align: center;">'Kära dator, öka <code>x</code> med 1.'</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>x += 1;</code></td>
+<td style="text-align: center;">'Kära dator, öka <code>x</code> med 1.'</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>x++;</code></td>
+<td style="text-align: center;">'Kära dator, öka <code>x</code>.'</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>++x;</code></td>
+<td style="text-align: center;">'Kära dator, öka <code>x</code>.'</td>
+</tr>
+</tbody>
+</table>
+<h2 id="25-uppgift-4">2.5. Uppgift 4<a class="headerlink" href="#25-uppgift-4" title="Anchor link to this section for reference">&para;</a></h2>
+<p><img alt="Låt bollen åka åt höger: uppgift 4" src="boll_till_hoeger_4.png" /></p>
+<p>I början är bollens mitt <code>60</code> pixlar till höger.
+Kan du få cirkeln att ritas ut <code>0</code> pixlar till höger?</p>
+<h3 id="25-svar">2.5. Svar<a class="headerlink" href="#25-svar" title="Anchor link to this section for reference">&para;</a></h3>
+<p><code>float x = 60;</code> bestämmer mitten på bollen.
+Ändra detta till <code>float x = 0;</code>.
+Koden blir då:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>float x = 0;
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>void setup()
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>{
+<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>  size(300, 200);
+<a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>}
+<a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a>
+<a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a>void draw()
+<a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a>{
+<a id="__codelineno-4-10" name="__codelineno-4-10" href="#__codelineno-4-10"></a>  ellipse(x, 50, 40, 40);
+<a id="__codelineno-4-11" name="__codelineno-4-11" href="#__codelineno-4-11"></a>  x = x + 2;
+<a id="__codelineno-4-12" name="__codelineno-4-12" href="#__codelineno-4-12"></a>}
+</code></pre></div>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"><img alt="Dator" src="EmojiComputer.png" /></th>
+<th style="text-align: center;"><img alt="Smiley" src="EmojiSmiley.png" /></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><code>void setup() {}</code></td>
+<td style="text-align: center;">'Kära dator, gör vad som helst inom måsvingarna.'</td>
+</tr>
+</tbody>
+</table>
+<h2 id="26-uppgift-5">2.6. Uppgift 5<a class="headerlink" href="#26-uppgift-5" title="Anchor link to this section for reference">&para;</a></h2>
+<p>Haha, den här lektionen kallas 'Låt bollen åka åt höger',
+men nu ska vi också göra en boll som åker åt vänster!</p>
+<p><img alt="Låt bollen åka åt höger: uppgift 5" src="boll_till_hoeger_5.png" /></p>
+<p>Låt nu bollen börja på höger sida av fönstret och åka åt vänster.</p>
+<h3 id="26-svar">2.6. Svar<a class="headerlink" href="#26-svar" title="Anchor link to this section for reference">&para;</a></h3>
+<p>För att få bollen att starta på höger sida måste du använda <code>float x = 500;</code>
+(eller något annat högt tal).
+För att få bollen att åka åt vänster måste du använda <code>x = x - 1;</code>.
+Koden blir då:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>float x = 200;
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>void setup()
+<a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>{
+<a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a>  size(300, 200);
+<a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a>}
+<a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a>
+<a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a>void draw()
+<a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a>{
+<a id="__codelineno-5-10" name="__codelineno-5-10" href="#__codelineno-5-10"></a>  ellipse(x, 50, 40, 40);
+<a id="__codelineno-5-11" name="__codelineno-5-11" href="#__codelineno-5-11"></a>  x = x - 1;
+<a id="__codelineno-5-12" name="__codelineno-5-12" href="#__codelineno-5-12"></a>}
+</code></pre></div>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"><img alt="Dator" src="EmojiComputer.png" /></th>
+<th style="text-align: center;"><img alt="Smiley" src="EmojiSmiley.png" /></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><code>void draw() {}</code></td>
+<td style="text-align: center;">'Kära dator, gör vad som helst inom måsvingarna hela tiden.'</td>
+</tr>
+</tbody>
+</table>
+<h2 id="27-variabler">2.7. Variabler<a class="headerlink" href="#27-variabler" title="Anchor link to this section for reference">&para;</a></h2>
+<p>På den första raden använder vi en variabel:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>float x = 50;
+</code></pre></div>
+<p>I klartext betyder det: "Kära dator,
+kom ihåg talet <code>x</code> med ett startvärde på <code>50</code>.".</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"><img alt="Dator" src="EmojiComputer.png" /></th>
+<th style="text-align: center;"><img alt="Smiley" src="EmojiSmiley.png" /></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><code>float x = 50;</code></td>
+<td style="text-align: center;">'Kära dator, kom ihåg talet <code>x</code> med ett startvärde på <code>50</code>.'</td>
+</tr>
+</tbody>
+</table>
+<p>En variabel är en plats i datorminnet med ett namn.
+Datorn kan använda det namnet för att avgöra var i minnet den ska leta.</p>
+<p>Variabler som tillhör dig (och nästan varje människa) är: namn, ålder,
+födelsedatum, adress, telefonnummer, epostadress och mycket mer.
+Om någon frågar dig om din ålder vet du vilket nummer du ska svara.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"><img alt="Dator" src="EmojiComputer.png" /></th>
+<th style="text-align: center;"><img alt="Smiley" src="EmojiSmiley.png" /></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><code>pengar</code></td>
+<td style="text-align: center;">'Kära dator, berätta hur mycket pengar jag har på banken.'</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>1000000</code></td>
+<td style="text-align: center;">'Jättebra!'</td>
+</tr>
+</tbody>
+</table>
+<p>Tillbaka till den första raden i vår kod:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>float x = 50;
+</code></pre></div>
+<p>Ordet <code>x</code> är namnet på en variabel.
+I det här fallet beskriver den hur långt till höger cirkeln är.
+Ordet <code>float</code> betyder att <code>x</code> är ett (decimal) tal.
+Symbolen <code>=</code> betyder 'ska nu vara'.
+Talet <code>50</code> är det startvärdet.
+Semikolon (<code>;</code>) anger slutet på en mening (som punkten i en svensk text).</p>
+<p><img alt="Förklaring av float x = 50;" src="boll_till_hoeger_variabel.png" /></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"><img alt="Dator" src="EmojiComputer.png" /></th>
+<th style="text-align: center;"><img alt="Smiley" src="EmojiSmiley.png" /></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><code>float</code></td>
+<td style="text-align: center;">'ett tal'</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>=</code></td>
+<td style="text-align: center;">'ska nu vara'</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>;</code></td>
+<td style="text-align: center;">'slutet av meningen'</td>
+</tr>
+</tbody>
+</table>
+<h2 id="28-uppgift-6">2.8. Uppgift 6<a class="headerlink" href="#28-uppgift-6" title="Anchor link to this section for reference">&para;</a></h2>
+<p>Haha, den här lektionen kallas "Låt bollen åka åt höger",
+men vi kommer också att få en boll att åka nedåt!</p>
+<p><img alt="Låt bollen åka åt höger: uppgift 6" src="boll_till_hoeger_6.png" /></p>
+<ul>
+<li>Ändra namnet på variabeln <code>x</code> till <code>y</code></li>
+<li>Rita ut en boll högst upp på skärmen</li>
+<li>Bollen måste vara <code>150</code> pixlar till höger</li>
+<li>Bollen måste åka ner i en rak linje. Tips: bollen är nu 50 pixlar nere</li>
+</ul>
+<h3 id="28-svar">2.8. Svar<a class="headerlink" href="#28-svar" title="Anchor link to this section for reference">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>float y = 0;
+<a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a>
+<a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a>void setup()
+<a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a>{
+<a id="__codelineno-8-5" name="__codelineno-8-5" href="#__codelineno-8-5"></a>  size(300, 200);
+<a id="__codelineno-8-6" name="__codelineno-8-6" href="#__codelineno-8-6"></a>}
+<a id="__codelineno-8-7" name="__codelineno-8-7" href="#__codelineno-8-7"></a>
+<a id="__codelineno-8-8" name="__codelineno-8-8" href="#__codelineno-8-8"></a>void draw()
+<a id="__codelineno-8-9" name="__codelineno-8-9" href="#__codelineno-8-9"></a>{
+<a id="__codelineno-8-10" name="__codelineno-8-10" href="#__codelineno-8-10"></a>  ellipse(150, y, 40, 40);
+<a id="__codelineno-8-11" name="__codelineno-8-11" href="#__codelineno-8-11"></a>  y = y + 1;
+<a id="__codelineno-8-12" name="__codelineno-8-12" href="#__codelineno-8-12"></a>}
+</code></pre></div>
+<h2 id="29-uppgift-7">2.9. Uppgift 7<a class="headerlink" href="#29-uppgift-7" title="Anchor link to this section for reference">&para;</a></h2>
+<p><img alt="Låt bollen åka åt höger: uppgift 7" src="boll_till_hoeger_7.png" /></p>
+<p>Nu ska vi få bollen att röra sig snabbare och uppåt</p>
+<ul>
+<li>Rita ut en boll längst ner på skärmen</li>
+<li>Bollen måste åka uppåt i en rak linje</li>
+<li>Bollen måste åka dubbelt så snabbt</li>
+</ul>
+<h3 id="29-svar">2.9. Svar<a class="headerlink" href="#29-svar" title="Anchor link to this section for reference">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>float y = 200;
+<a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a>
+<a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a>void setup()
+<a id="__codelineno-9-4" name="__codelineno-9-4" href="#__codelineno-9-4"></a>{
+<a id="__codelineno-9-5" name="__codelineno-9-5" href="#__codelineno-9-5"></a>  size(300, 200);
+<a id="__codelineno-9-6" name="__codelineno-9-6" href="#__codelineno-9-6"></a>}
+<a id="__codelineno-9-7" name="__codelineno-9-7" href="#__codelineno-9-7"></a>
+<a id="__codelineno-9-8" name="__codelineno-9-8" href="#__codelineno-9-8"></a>void draw()
+<a id="__codelineno-9-9" name="__codelineno-9-9" href="#__codelineno-9-9"></a>{
+<a id="__codelineno-9-10" name="__codelineno-9-10" href="#__codelineno-9-10"></a>  ellipse(150, y, 40, 40);
+<a id="__codelineno-9-11" name="__codelineno-9-11" href="#__codelineno-9-11"></a>  y = y - 1;
+<a id="__codelineno-9-12" name="__codelineno-9-12" href="#__codelineno-9-12"></a>}
+</code></pre></div>
+<h2 id="210-slutuppgift">2.10. Slutuppgift<a class="headerlink" href="#210-slutuppgift" title="Anchor link to this section for reference">&para;</a></h2>
+<p><img alt="Låt bollen åka åt höger: slutuppgift" src="boll_till_hoeger_slutuppgift.png" /></p>
+<ul>
+<li>bollen måste åka diagonalt åt höger och neråt samtidigt</li>
+<li>bollen måste bli större, det vill säga öka i bredd och höjd</li>
+<li>se även figur <code>slutuppgift 'Låt bollen åka åt höger'</code></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["toc.integrate", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.path", "navigation.footer", "navigation.expand", "search.share", "search.suggest", "content.code.annotate", "content.code.copy", "content.tabs.link", "content.action.edit", "content.action.view"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
