@@ -62,9 +62,9 @@ Kpt|Beskrivning
 ---|---------------------------------------------------------------
 .  | **Bok 9**
 33 |[Funktioner 1](33_funktioner_1/README.md)
-34 |[Uppräkningar](42_enum/README.md)
-35 |[Klasser 1](42_klasser_1/README.md)
-36 |[Klasser 2](43_klasser_2/README.md)
+34 |[Uppräkningar](42_enum/README.md) <!-- using an enum for game state -->
+35 |[Klasser 1](42_klasser_1/README.md) <!-- a POD -->
+36 |[Funktioner 2](34_funktioner_2/README.md) <!--  using a String as a function argument for debugging -->
 .  | **Bok 10**
 37 |[git 1](37_git_1/README.md)
 38 |[git 2](38_git_2/README.md)
@@ -72,7 +72,7 @@ Kpt|Beskrivning
 40 |[git 4](30_git_4/README.md)
 .  | **Bok 11**
 41 |[ArrayList](41_arraylist/README.md)
-42 |.
+42 |[Klasser 2](43_klasser_2/README.md) <!-- limiting a value -->
 43 |:construction: Klasser 2
 44 |:construction: Klasser 3
 .  | **Bok 12**
