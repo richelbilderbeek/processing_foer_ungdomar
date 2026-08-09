@@ -73,8 +73,8 @@ Kpt|Beskrivning
 .  | **Bok 11**
 41 |[ArrayList](41_arraylist/README.md)
 42 |[Klasser 2](43_klasser_2/README.md) <!-- checking input arguments -->
-43 |:construction: Klasser 2
-44 |:construction: Klasser 3
+43 |[Funktioner 3](35_funktioner_3/README.md) <!-- return values -->
+44 |[Klasser 3](44_klasser_3/README.md) <!-- architecture -->
 .  | **Bok 12**
 45 |.
 46 |:construction: Att lägga till en debug mode i en spel
