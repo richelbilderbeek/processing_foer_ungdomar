@@ -62,18 +62,18 @@ Kpt|Beskrivning
 ---|---------------------------------------------------------------
 .  | **Bok 9**
 33 |[Funktioner 1](33_funktioner_1/README.md)
-34 |[Uppräkningar](42_enum/README.md) <!-- using an enum for game state -->
-35 |[Klasser 1](42_klasser_1/README.md) <!-- a POD -->
-36 |[Funktioner 2](34_funktioner_2/README.md) <!--  using a String as a function argument for debugging -->
+34 |[Uppräkningar](34_enum/README.md) <!-- using an enum for game state -->
+35 |[Klasser 1](35_klasser_1/README.md) <!-- a POD -->
+36 |[Funktioner 2](36_funktioner_2/README.md) <!--  using a String as a function argument for debugging -->
 .  | **Bok 10**
 37 |[git 1](37_git_1/README.md)
 38 |[git 2](38_git_2/README.md)
 39 |[git 3](39_git_3/README.md)
-40 |[git 4](30_git_4/README.md)
+40 |[git 4](40_git_4/README.md)
 .  | **Bok 11**
 41 |[ArrayList](41_arraylist/README.md)
-42 |[Klasser 2](43_klasser_2/README.md) <!-- checking input arguments -->
-43 |[Funktioner 3](35_funktioner_3/README.md) <!-- return values -->
+42 |[Klasser 2](42_klasser_2/README.md) <!-- checking input arguments -->
+43 |[Funktioner 3](43_funktioner_3/README.md) <!-- return values -->
 44 |[Klasser 3](44_klasser_3/README.md) <!-- architecture -->
 .  | **Bok 12**
 45 |[Att använder artwork](45_artwork/README.md)
