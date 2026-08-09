@@ -158,3 +158,45 @@ Nu ska vi göra färdigt vår simulation av en slantsingling:
 
 - Använder `flip_n_coins` bara en gång men kastar en miljon mynt
 - Visar hur ofta programmat fick krona och klave med `println` bara en gång
+
+
+## 35.6. Bonus
+
+Om du vill ser om myntet är ärligt, här är statistik koden:
+
+```processing
+boolean is_coin_fair(final int n_heads, final int n_tails) {
+  final int n = n_heads + n_tails;
+  final float p_hat = n_heads / (float) n;
+  final float se = sqrt(0.25 / n);
+  final float z = (p_hat - 0.5) / se;
+  
+  // Two-tailed p-value using normal approximation
+  final float p_value = 2
+    * (1 - get_chance_to_find_z_or_less(abs(z)));
+  final float alpha_value = 0.05; // Social convention
+  return p_value > alpha_value;
+}
+
+float get_chance_to_find_z_or_less(float z) {
+  return 0.5 * (1 + calculate_error(z / sqrt(2)));
+}
+
+float calculate_error(float normalized_z) {
+  final float a1 =  0.254829592;
+  final float a2 = -0.284496736;
+  final float a3 =  1.421413741;
+  final float a4 = -1.453152027;
+  final float a5 =  1.061405429;
+  final float p  =  0.3275911;
+  final int sign = (normalized_z < 0) ? -1 : 1;
+  final float x = abs(normalized_z);
+  final float t = 1.0 / (1.0 + p * x);
+  final float y = 1.0 - (((((a5 * t + a4) * t) + a3)
+    * t + a2) * t + a1) * t * exp(-x * x);
+  return sign * y;
+}
+```
+
+Gjärna copy-paste detta :-)
+
