@@ -108,8 +108,8 @@ void draw()
 
 Den andra pixeln är utritad
 
-- på halva fönstrets bredd
-- på en fjärdedel av fönstrets höjd
+* på halva fönstrets bredd
+* på en fjärdedel av fönstrets höjd
 
 Ändra `point(150, 50);` till något med `width` och `height`.
 

@@ -8,7 +8,7 @@ på ett ställe.
 
 Vi vill skriva den följande kod:
 
-```
+```processing
 int n_heads = 0;
 int n_tails = 0;
 
@@ -52,7 +52,7 @@ Det är en slantsingling-simulator!
 
 Här har vi koden som saknas:
 
-```
+```processing
 enum CoinSide { HEADS, TAILS };
 
 CoinSide flip_coin()
@@ -147,7 +147,7 @@ int flip_n_coins(final int n_coin_flips)
   `n_coin_flips` och har en `int` som returvärde, varav
   `n_coin_flips` är en heltal som kan inte blir ändrat i funktionen'.
 - `int n_heads = 0` är för att skapa en **lokal** variabel som heter
-  `n_heads`, är en heltal och har startvärde noll. 
+  `n_heads`, är en heltal och har startvärde noll.
 - Den `for (int i = 0; i != n_coin_flips; ++i)` är den mest
   standard `for` slinga som finns. Dem läsas som: 'Räknar upp `i` från noll
   till (och exclusive) `n_coin_flips`'. Den `!=` betyer 'är olika'.

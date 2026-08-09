@@ -79,7 +79,7 @@ funktionsargumenter har ett lokalt omfång (engelska: 'local scope'):
 dem bara är kända som detta inom funktionen.
 
 Skapa ett nutt funktion som heter `show_error`.
-Om du ger funktion en `String`, visar den `ERROR: ` och
+Om du ger funktion en `String`, visar den `ERROR:` och
 värdet av `String`en. Test funktion med att använda den i din kod.
 
 ### 34.2. Svar

@@ -30,7 +30,7 @@ ett hundra procent.
 
 Problemet är att ingen stoppar oss att skriva den här:
 
-```
+```processing
 health = 1234;
 health = -1234;
 ```
@@ -147,7 +147,7 @@ Du kan placera `show_error` i båda fil: du får bestämma här!
 
 Nu kan du skriva säkra klasser, som kollar om sina värd är korrekta!
 
-## 43.3. Slutuppgift 
+## 43.3. Slutuppgift
 
 Tar en spel av dig själva och har åtminstone en klass
 some checker sina ingångsargument. Om ingångsargumenter är felaktiga,

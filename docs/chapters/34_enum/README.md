@@ -74,7 +74,7 @@ Får koden att funkar med en uppräkning.
 
 ### 45.1. Svar
 
-```
+```processing
 enum GameState {
   MENU, GAME;
 }

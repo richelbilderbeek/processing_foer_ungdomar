@@ -124,7 +124,7 @@ Vilket felmeldning får du?
 
 Du får felmeldningen likadant:
 
-```
+```processing
 The constructor sketch_260806a.Position(int, int) is undefined
 ```
 
@@ -134,7 +134,7 @@ Processing frågar oss snäll (som vanligt) att skriva en konstruktor.
 
 Ändra koden av `Position` till den här:
 
-```
+```processing
 class Position
 {
   float x;

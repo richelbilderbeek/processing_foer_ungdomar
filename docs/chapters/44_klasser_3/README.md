@@ -78,7 +78,7 @@ svensk översättning), som betyder det är en småbörjan av arbetet på den h�
 koden, men är inte klart änna. Stubs är bra för att får kod att köra,
 även om den inte är färdigt än.
 
-Tror du att den här koden är bra? 
+Tror du att den här koden är bra?
 
 ### 44.2. Svar
 
@@ -129,7 +129,7 @@ Bullet create_random_bullet()
 
 - koden är i en flik kallad `bullet`, dvs. i en fil kallad `bullet.pde`
 - En kula har en x-koordinat kallad `x`, y-koordinat kallad `y`,
-  en hastighet åt vänster kallad `dx` (för delta/ändring i x koordinatet) 
+  en hastighet åt vänster kallad `dx` (för delta/ändring i x koordinatet)
   och en hastighet åt nere kallad `dy` (för delta/ändring i y koordinatet)
 - klassen `Bullet` har igen konstruktor
 - `create_random_bullet` är också i filen `bullet.pde`. Det är en naturligt
@@ -251,7 +251,7 @@ mindre.
 
 Här har vi koden igen:
 
-```
+```processing
 for (int i = 0; i != bullets.size(); ++i) // NO!!!
 {
   if (!is_on_screen(bullets.get(i)) bullets.erase(i); // NO!!!
