@@ -76,7 +76,7 @@ Kpt|Beskrivning
 43 |[Funktioner 3](35_funktioner_3/README.md) <!-- return values -->
 44 |[Klasser 3](44_klasser_3/README.md) <!-- architecture -->
 .  | **Bok 12**
-45 |.
-46 |:construction: Att lägga till en debug mode i en spel
-47 |:construction: Att skapa en spel i man kan vinna eller förlora
-48 |:construction: Att använder artwork
+45 |[Att använder artwork](45_artwork/README.md)
+46 |[Att skapa en meny](46_meny/README.md)
+47 |[Att lägga till en debug mode](47_debug_mode/README.md):construction: Att lägga till en debug mode i en spel
+48 |['Game Over' och 'Game Won'](48_game_over_och_game_won/README.md) Att skapa en spel i man kan vinna eller förlora
