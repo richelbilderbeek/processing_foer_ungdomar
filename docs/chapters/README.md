@@ -78,5 +78,5 @@ Kpt|Beskrivning
 .  | **Bok 12**
 45 |[Artwork](45_artwork/README.md)
 46 |[En meny](46_meny/README.md)
-47 |[Debug mode](47_debug_mode/README.md)´
-48 |['Game Over' och 'Game Won'](48_game_over_och_game_won/README.md)
+47 |[Debug mode](47_debug_mode/README.md)
+48 |['Game Over' och 'Game Won'](48_game_over_and_game_won/README.md)
