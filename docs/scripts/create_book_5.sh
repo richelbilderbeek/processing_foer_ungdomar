@@ -14,7 +14,7 @@ if [ ! -d $build_folder ]; then
 fi
 
 
-cp ../chapters/foerord/*.*      $build_folder; mv $build_folder/README.md $build_folder/README_00.md
+cp ../chapters/foreword/*.*      $build_folder; mv $build_folder/README.md $build_folder/README_00.md
 cp ../chapters/17_tangentbord_1/*.* $build_folder; mv $build_folder/README.md $build_folder/README_01.md
 cp ../chapters/18_tangentbord_2/*.* $build_folder; mv $build_folder/README.md $build_folder/README_02.md
 cp ../chapters/19_tangentbord_3/*.* $build_folder; mv $build_folder/README.md $build_folder/README_03.md

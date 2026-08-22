@@ -13,7 +13,7 @@ if [ ! -d $build_folder ]; then
   exit 1
 fi
 
-cp ../chapters/foerord/*.*      $build_folder; mv $build_folder/README.md $build_folder/README_00.md
+cp ../chapters/foreword/*.*      $build_folder; mv $build_folder/README.md $build_folder/README_00.md
 cp ../chapters/29_muspekare_i_fyrkant/*.* $build_folder; mv $build_folder/README.md $build_folder/README_01.md
 cp ../chapters/30_muspekare_i_cirkel/*.* $build_folder; mv $build_folder/README.md $build_folder/README_02.md
 cp ../chapters/31_cirklar_krockar/*.* $build_folder; mv $build_folder/README.md $build_folder/README_03.md
