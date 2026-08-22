@@ -7,6 +7,7 @@ istället av att skriva en massa rad med kod, kan man skriva, t.ex.
 ![Smiley with sunglasses](EmojiSunglasses.png) | Nu är det dags att vår kod blir skriven i engelska
 :-------------:|:----------------------------------------:
 
+
 ## 33.1. Funktionen måste göra vad dem säger
 
 Kolla på en minimalt Processing program:
@@ -25,6 +26,8 @@ också på tangenbordet, kankse spelar musik, kankse skriva en fil.
 
 ![Smiley with bowtie](EmojiBowtie.png) | En bra funktion gör exakt vad den säger
 :-------------:|:----------------------------------------:
+
+\pagebreak
 
 Här har vi ett mer komplett exempel:
 
@@ -58,6 +61,8 @@ void draw()
 
 Tror du att `setup` och `draw` funktionerna gör vad den säger? Varför ja eller nej?
 
+\pagebreak
+
 ### 33.1. Svar
 
 `setup`funktionen gör vad den säger: den gör saker för att förbera spelet.
@@ -83,7 +88,11 @@ void setup()
   x = width / 2;
   y = height / 2;
 }
+```
 
+\pagebreak
+
+```processing
 void draw()
 {
   // Respond to keyboard
@@ -109,6 +118,8 @@ void draw()
 ![Smiley with bowtie](EmojiBowtie.png) | En kommentar är inte läst av din dator
 :-------------:|:----------------------------------------:
 
+\pagebreak
+
 Kolla på den kod här nere:
 vilka kommentar kann du skriva här?
 Om du tror det är bättre, du får ändra radföljden!
@@ -133,6 +144,8 @@ void draw()
   ellipse(x_mid, y_mid, 20, 20);
 }
 ```
+
+\pagebreak
 
 ### 33.2. Svar
 
@@ -177,6 +190,8 @@ Att använda en procedyr i din kod är lätt också:
 name_of_procedure();
 ```
 
+\pagebreak
+
 Nu använder vi den sista exempel, och visar hur det ser ut:
 
 ```processing
@@ -203,6 +218,8 @@ void draw()
   draw_cannon();
 }
 ```
+
+\pagebreak
 
 Så har vi just skapad en `draw` funktion (som är en procedyr)
 som är väldigt lätt att läsa: den är precis engelska, utan konstigheter!

@@ -1,11 +1,11 @@
-# 45. `enum` och spelstatus
+# 34. `enum` och spelstatus
 
 Du har redan användt **datatypen** `float`.
 En datatyp är arten av data, till exempel, en kommavärde.
 Men ibland vill man säga något annat, till exampel,
 i vilken tillstånd en spel är. Med en **enum** kan du göra detta.
 
-## 45.1
+## 34.1
 
 Här har vi kod som visar vår problem:
 
@@ -34,6 +34,8 @@ void draw()
   if (game_state == 1) draw_game();
 }
 ```
+
+\pagebreak
 
 Problemet är att det är onaturligt att använda en noll eller ett
 för en speltillstånd. Istället ska vi envända en
@@ -72,7 +74,9 @@ och `1` till `GameState.GAME`.
 
 Får koden att funkar med en uppräkning.
 
-### 45.1. Svar
+\pagebreak
+
+### 34.1. Svar
 
 ```processing
 enum GameState {
@@ -104,7 +108,9 @@ void draw()
 }
 ```
 
-## 45.2. Slutuppgift
+\pagebreak
+
+## 34.2. Slutuppgift
 
 Lägg till en uppräkningsvärde: `GAME_WON` (man kan inte dö i ditt spel ännu).
 Använder ett nytt funktion kallad `draw_game_won` för att visar detta.

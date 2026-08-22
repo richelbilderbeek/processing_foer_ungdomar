@@ -1,10 +1,9 @@
-# 42. Klasser 1
+# 35. Klasser 1
 
 Klasser är ett sätt att bunta data.
 Under den här lektion skapar vi en sådant klass.
 
-
-## 42.1. Att använder en `Position` klass
+## 35.1. Att använder en `Position` klass
 
 Sedan du har programmerat en bol som studsar snett, har du skrivit följande:
 
@@ -25,6 +24,8 @@ void draw()
 Du har skapat två variabler, även om den här två variabler hör ihop:
 tillsammans är dem **positionen** av bollen.
 
+\pagebreak
+
 Så kan vi uttrycka att en position har ett x och ett y koordinat:
 
 ```processing
@@ -44,6 +45,8 @@ Man läser den här kod som: 'En `Position` **har** ett `x` och ett `y`'.
 Nyckelordet är 'har': en mening så här måste vara rimligt svenska/engelska.
 Till exempel, meningen 'en `Position` har en hastighet' är nonsens.
 Istället kan man säga 'en `Player` har en `Position` och en hastighet'.
+
+\pagebreak
 
 Nu kan vi skapar en variable som heter `ball_position` så här:
 
@@ -77,7 +80,9 @@ ellipse(ball_position.x, 100, 10, 10);
 
 Får den hela koden att funkar med en `Position` klass.
 
-### 42.1. Svar
+\pagebreak
+
+### 35.1. Svar
 
 ```processing
 class Position
@@ -102,7 +107,9 @@ void draw()
 }
 ```
 
-## 42.2. En kontructor som saknas
+\pagebreak
+
+## 35.2. En kontructor som saknas
 
 I koden finns något som är lite mycket skrivning:
 
@@ -120,7 +127,9 @@ ball_position = new Position(160, 100);
 
 Vilket felmeldning får du?
 
-### 42.2. Svar
+\pagebreak
+
+### 35.2. Svar
 
 Du får felmeldningen likadant:
 
@@ -130,7 +139,7 @@ The constructor sketch_260806a.Position(int, int) is undefined
 
 Processing frågar oss snäll (som vanligt) att skriva en konstruktor.
 
-## 42.3. Att skriva en konstruktor
+## 35.3. Att skriva en konstruktor
 
 Ändra koden av `Position` till den här:
 
@@ -146,6 +155,8 @@ class Position
 };
 ```
 
+\pagebreak
+
 Vi har just skapat en så-kallade 'constructor'. Detta är ett engelskt
 ord för svenskt 'konstruktor', som betyder 'detta som skapar'.
 Man säger 'med den konstruktor av `Position` kan du skapa en `Position`'
@@ -158,7 +169,9 @@ till värdet av `any_x`.
 
 Lägg till konstruktorn i din kod.
 
-### 42.3. Svar
+\pagebreak
+
+### 35.3. Svar
 
 ```processing
 class Position
@@ -185,13 +198,17 @@ void draw()
 }
 ```
 
-## 42.4. En egen fil för en klass
+## 35.4. En egen fil för en klass
 
 Det är vanligt att en klass har sin egen fil.
+
+\pagebreak
 
 Klicka på 'New tab'.
 
 ![Klicka på 'New tab'](click_new_tab.png)
+
+\pagebreak
 
 Ger ett namn för din nya fil, i den här fall `position` (med lite
 bokstav).
@@ -200,13 +217,19 @@ bokstav).
 
 Du har nu skapad en fil kallad `position.pde`.
 
+\pagebreak
+
 Du kann ser att `position.pde` är kallad sådant i en filutforskare:
 
 ![`position.pde` är kallad sådant](position_pde_in_file_explorer.png )
 
+\pagebreak
+
 Processing visar att `position.pde` är ännu tomt.
 
 ![Filen `position.pde` är ännu tomt](position_pde_created.png)
+
+\pagebreak
 
 Flytta koden av klassen `Position` hit.
 
@@ -216,7 +239,9 @@ Nu kan du köra koden som vanligt.
 
 Flytta koden av klassen `Position` till sin egen fil.
 
-### 42.4. Svar
+\pagebreak
+
+### 35.4. Svar
 
 Koden blir, i `position.pde`:
 
@@ -231,6 +256,8 @@ class Position
   } 
 };
 ```
+
+\pagebreak
 
 I den huvud tab stannar kvar den här kod:
 
@@ -249,7 +276,9 @@ void draw()
 }
 ```
 
-## 42.99 Slutuppgift
+\pagebreak
+
+## 35.5 Slutuppgift
 
 Här har vi koden av en boll som studsar horisontellt:
 
