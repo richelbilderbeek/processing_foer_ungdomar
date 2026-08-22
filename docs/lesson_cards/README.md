@@ -8,5 +8,6 @@ Dokument för att ändra                     |Dokument för att skriva ut
 -------------------------------------------|------------------------------------------
 [Lektionskort 1 (.odt)](lektionskort_1.odt)|[Lektionskort 1 (.pdf)](lektionskort_1.pdf)
 [Lektionskort 2 (.odt)](lektionskort_2.odt)|[Lektionskort 2 (.pdf)](lektionskort_2.pdf)
+[Lektionskort 3 (.odt)](lektionskort_3.odt)|[Lektionskort 3 (.pdf)](lektionskort_3.pdf)
 
 <!-- markdownlint-enable MD013 -->
