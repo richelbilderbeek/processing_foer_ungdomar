@@ -31,7 +31,9 @@ cd "${build_folder}" || exit 42
   cat README_04.md; echo " "; echo "\pagebreak"; echo " "; \
 } >> README.md
 
+# pandoc README.md -o book.pdf --toc --toc-depth=1 --highlight-style=tango -V geometry:margin=0.5in -V fontsize=20pt -V documentclass=extarticle
 pandoc README.md -o book.pdf --toc --toc-depth=1 --highlight-style=tango -V geometry:margin=0.5in
+
 cp book.pdf ../../books/book_${book_number}_without_front_page.pdf
 
 cd ../../books || exit 43
