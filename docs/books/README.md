@@ -4,17 +4,17 @@ Böckerna och häfterna av kursen 'Processing för ungdomar'.
 
 Böckerna är i A4 format, häfterna i A5 format.
 
-Bok  |Bok (A4)            |Häfte (A5)
------|--------------------|------------------------
-1    |[Bok 1](bok_1.pdf)  |[Häfte 1](haefte_1.pdf)
-2    |[Bok 2](bok_2.pdf)  |[Häfte 2](haefte_2.pdf)
-3    |[Bok 3](bok_3.pdf)  |[Häfte 3](haefte_3.pdf)
-4    |[Bok 4](bok_4.pdf)  |[Häfte 4](haefte_4.pdf)
-5    |[Bok 5](bok_5.pdf)  |[Häfte 5](haefte_5.pdf)
-6    |[Bok 6](bok_6.pdf)  |[Häfte 6](haefte_6.pdf)
-7    |[Bok 7](bok_7.pdf)  |[Häfte 7](haefte_7.pdf)
-8    |[Bok 8](bok_8.pdf)  |[Häfte 8](haefte_8.pdf)
-9    |[Bok 9](bok_9.pdf)  |[Häfte 9](haefte_9.pdf)
-10   |[Bok 10](bok_10.pdf)|[Häfte 10](haefte_10.pdf)
-11   |[Bok 11](bok_11.pdf)|[Häfte 11](haefte_11.pdf)
-12   |[Bok 12](bok_12.pdf)|[Häfte 12](haefte_12.pdf)
+Bok  |Bok (A4)             |Häfte (A5)
+-----|---------------------|------------------------
+1    |[Bok 1](book_1.pdf)  |[Häfte 1](booklet_1.pdf)
+2    |[Bok 2](book_2.pdf)  |[Häfte 2](booklet_2.pdf)
+3    |[Bok 3](book_3.pdf)  |[Häfte 3](booklet_3.pdf)
+4    |[Bok 4](book_4.pdf)  |[Häfte 4](booklet_4.pdf)
+5    |[Bok 5](book_5.pdf)  |[Häfte 5](booklet_5.pdf)
+6    |[Bok 6](book_6.pdf)  |[Häfte 6](booklet_6.pdf)
+7    |[Bok 7](book_7.pdf)  |[Häfte 7](booklet_7.pdf)
+8    |[Bok 8](book_8.pdf)  |[Häfte 8](booklet_8.pdf)
+9    |[Bok 9](book_9.pdf)  |[Häfte 9](booklet_9.pdf)
+10   |[Bok 10](book_10.pdf)|[Häfte 10](booklet_10.pdf)
+11   |[Bok 11](book_11.pdf)|[Häfte 11](booklet_11.pdf)
+12   |[Bok 12](book_12.pdf)|[Häfte 12](booklet_12.pdf)
