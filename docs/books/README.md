@@ -15,6 +15,6 @@ Bok  |Bok (A4)             |Häfte (A5)
 7    |[Bok 7](book_7.pdf)  |[Häfte 7](booklet_7.pdf)
 8    |[Bok 8](book_8.pdf)  |[Häfte 8](booklet_8.pdf)
 9    |[Bok 9](book_9.pdf)  |[Häfte 9](booklet_9.pdf)
-10   |[Bok 10](book_10.pdf)|[Häfte 10](booklet_10.pdf)
-11   |[Bok 11](book_11.pdf)|[Häfte 11](booklet_11.pdf)
-12   |[Bok 12](book_12.pdf)|[Häfte 12](booklet_12.pdf)
+10   |.                    |.
+11   |.                    |.
+12   |.                    |.
